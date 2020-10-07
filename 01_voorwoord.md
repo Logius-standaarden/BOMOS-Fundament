@@ -1,5 +1,5 @@
 # [kop 1 voorbeeld tekst]
-Dit is een voorbeeld tekst.
+Dit is een *voorbeeld* **tekst**.
 
 Als je iets nadruk wilt geven: *tekst met nadruk (schuingedrukt)*. Of: _zo kan het ook_.
 
