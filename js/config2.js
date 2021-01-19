@@ -28,14 +28,19 @@ var respecConfig = {
   doJsonLd: true,
   editors: [
     {
+      name: "Erwin Folmer",
+      company: "Kasaster",
+      companyURL: "http://www.kadaster.nl/",
+    },
+    {
       name: "Erwin Kaats.",
       company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
-    {
-      name: "Pieter Hering",
-      company: "Logius",
-      companyURL: "http://www.logius.nl/",
+        {
+      name: "Wouter van den Berg",
+      company: "TNO",
+      companyURL: "http://www.tno.nl/",
     },
   ],
   authors: [{
