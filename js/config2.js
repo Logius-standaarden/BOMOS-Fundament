@@ -49,9 +49,9 @@ var respecConfig = {
   }
 ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
-  shortName: "sbr-cp",
+  shortName: "bomos",
   // url van de github repository waar je in werkt
-  github: "https://github.com/centrumvoorstandaarden/SBR-Consistente_Presentatie",
+  github: "https://github.com/centrumvoorstandaarden/BOMOS",
   // url van de issue lijst in de github repository waar je in werkt
   //issueBase: "https://github.com/centrumvoorstandaarden/.../issues/",
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
