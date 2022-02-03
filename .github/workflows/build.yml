@@ -1,0 +1,7 @@
+name: Build and Check
+on:
+  workflow_dispatch:
+jobs:
+  main:
+    name: ReSpec
+    uses: Logius-standaarden/Automatisering/.github/workflows/respec.yml@main
