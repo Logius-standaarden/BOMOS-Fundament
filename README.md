@@ -1,3 +1,3 @@
 # Template-Standaard
 
-https://centrumvoorstandaarden.github.io/BOMOS/index.html
+https://Logius-standaarden.github.io/BOMOS/index.html
