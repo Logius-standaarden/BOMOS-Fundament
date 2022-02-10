@@ -29,7 +29,7 @@ var respecConfig = {
   editors: [
     {
       name: "Erwin Folmer",
-      company: "Kasaster",
+      company: "Kadaster",
       companyURL: "http://www.kadaster.nl/",
     },
     {
