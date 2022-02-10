@@ -1,9 +1,10 @@
 Dit tweede deel uit het BOMOS Fundament geeft een verdieping aan het BOMOS Activiteiten Model. Het bevat een collectie van best practices die gebruikers van BOMOS kunnen inspireren. De structuur is op basis van de genoemde activiteiten uit het model. 
 
 # Strategie
-## GOVERNANCE: De ontwikkel- en beheerorganisatie
+Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn.
 
-[TODO:Inleiding over de BOMOS activiteit zelf. (hergebruiken/linken naar deel 1?)]
+## GOVERNANCE: De ontwikkel- en beheerorganisatie
+Het beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal. 
 
 ### Organisatiestructuur
 
@@ -36,13 +37,15 @@ De besluitvorming binnen de werkgroep kan afhankelijk zijn van de mogelijke deel
 
 In het figuur is een eenvoudige basisstructuur geschetst van bestuur, uitvoeringsorganisatie en werkgroepen. Facultatief kan daar een adviesorgaan en/of leveranciersgroep aan toegevoegd worden. Naast deze geschetste mogelijkheden zijn er nog vele alternatieven, zowel eenvoudiger als complexer. Welke structuur ook gekozen wordt, bij voorkeur worden de verslagen van de verschillende gremia openbaar ter beschikking gesteld. 
 
-### Rollen en activiten. 
+### Rollen en activiteiten. 
 Eerder zijn de rollen voor het ontwikkel- en beheerproces gedefinieerd, en zijn ze gekoppeld aan de hoofdactiviteiten van BOMOS. Omgekeerd kijken we er nu in meer detail naar. Onderstaande tabel geeft vanuit de rollen aan in welke BOMOS activiteiten ze betrokken kunnen zijn; dat laat ook zien dat een 1-op-1 koppeling tussen rol en activiteit niet werkt. 
-HIER TABEL!
+
+![Rollen en Activiteiten](../media/nenactiviteiten2.png)
+
 
 KADER: 
 Het zorgdomein is een complexe situatie met stakeholders en partijen die een belang hebben in de standaardisatie ontwikkeling. Door het leggen van relaties tussen de rollen, en de invulling van de rollen met de namen van de stakeholders/partijen wordt een helder inzicht gecreerd in de wereld van deze zorg standaard. (bron voorbeeld: NEN 7522-2021)
-HIER TABEL
+![ Voorbeeld van toewijzing rollen aan stakeholders](../media/nenactiviteiten3.png)
 
 
 ### Beheertaken uitvoering 
@@ -110,7 +113,7 @@ Dit hoofdstuk beschrijft veelal relatief 'harde' invulling van de organisatie, d
 <p class="comment" style="color:red">
 
 KADER: Template voor beheerdocument van Geonovum
-Om opdrachtgevers meer inzicht te geven in de activiteiten in het beheerproces van standaarden, hebben wij een generiek beheerdocument opgesteld. Hierin staat  wat Geonovum doet in elk â€œblokjeâ€ van het BOMOS-model. Voor elke door Geonovum te beheren standaard stelt Geonovum daarnaast een specifiek beheerdocument op. In dit specifieke beheerdocument zijn de aanvullende afspraken vastgelegd voor een standaard. In wezen biedt het specifieke beheerdocument het overzicht van meer- en minderwerk uitgaand van het generieke beheerdocument.
+Om opdrachtgevers meer inzicht te geven in de activiteiten in het beheerproces van standaarden, hebben wij een generiek beheerdocument opgesteld. Hierin staat  wat Geonovum doet in elk activiteitengroep van het BOMOS-model. Voor elke door Geonovum te beheren standaard stelt Geonovum daarnaast een specifiek beheerdocument op. In dit specifieke beheerdocument zijn de aanvullende afspraken vastgelegd voor een standaard. In wezen biedt het specifieke beheerdocument het overzicht van meer- en minderwerk uitgaand van het generieke beheerdocument.
 
 Om de kosten van beheer optimaal inzichtelijk te maken, heeft Geonovum op basis van het generieke en het specifieke beheermodel, onlangs ook een BOMOS rekenmodel ontwikkeld. Op basis van een reeds bekende en beheerde standaard is de benodigde basis inzet berekend. Deze basis gebruiken we vervolgens om een gerichte inschatting te kunnen maken van meer- en minderwerk zoals beschreven in het specifieke beheerdocument. Hierdoor kunnen we beheerkosten realistisch en onderbouwd inschatten.
 
@@ -118,11 +121,18 @@ Dit is ook voor andere organisaties te gebruiken: om het rekenmodel te kunnen ge
  
 </p>
 ## VISIE
+Inhoudelijke visie ontwikkelen over de richting van de standaard in de context: De plek op de horizon op de lange termijn. Een compacte vertaling in bijvoorbeeld een factsheet van deze visie kan ook zeer nuttig zijn in de communicatie rond de standaard en het bevorderen van adoptie van de standaard. Ook moet er aandacht zijn voor innovatie; veel organisaties 
 
-Hier is erwin f.
+De verdere detailering van de in de visie benoemde innovatie onderwerpen zal veelal op tactisch niveau
+
+
+2.
+
+
 
 ## FINANCIËN: De kosten en de opbrengsten
 
+Een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte is het voornaamste doel van deze activiteit.
 Een standaard ontwikkelen en beheren kost structureel geld. De hoeveelheid is sterk afhankelijk van de context en dynamiek van de standaard en het is niet eenvoudig hier generieke uitspraken over te doen. De eerste ontwikkelingen starten vaak met projecten die beginnen met budgetten vanaf 30.000 euro tot vele malen groter. Een eerste project levert ook niet direct een standaard op, maar heeft in een werkgroep de mogelijkheden en scope van een standaard onderzocht. Na de initiÃ«le ontwikkeling moet de standaard structureel worden beheerd en doorontwikkeld. Er zijn cases bekend die het beheer met budgetten in de order van 250.000 tot 900.000 euro (per jaar) hebben georganiseerd. Tot op heden is hier weinig onderzoek naar gedaan, met uitzondering van de Ethernet standaard: deze technische standaard heeft $10 miljoen dollar gekost om te ontwikkelen. Andere informatie bekend uit literatuur is dat de opbrengsten van verkoop van ISO standaarden voor de helft voorziet in de kosten die ISO maakt in de ontwikkeling en beheer van de ISO standaarden.
 
 
@@ -147,7 +157,7 @@ Positieve netwerkeffecten (wordt waardevoller met meer gebruikers)
 
 
 *   Voorkomen van vendor lock-ins
-*   Toename variÃ«teit in producten en diensten
+*   Toename variëteit in producten en diensten
 *   Schaalvoordeel
 *   Verlagen transactiekosten
 
