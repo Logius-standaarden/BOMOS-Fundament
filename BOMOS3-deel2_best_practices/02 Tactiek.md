@@ -8,11 +8,7 @@ Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent 
 
 Ken Krechmer heeft een model ontwikkeld waarmee de openheid concreet gemaakt wordt en waarmee hij standaardisatieorganisaties kan vergelijken. In het model maakt hij onderscheid tussen de verschillende openheidaspecten (requirements) en de verschillende gezichtspunten op standaarden. Als gezichtspunten/rollen hanteert hij de ontwikkelaar van de standaard, de implementator van de standaard in een product, en de gebruiker van de standaard (product waarin de standaard is verwerkt). Niet elk openheidsaspect is voor elke rol even interessant, zoals het model ook laat zien:
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-28.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](../images/BOMOS-28.png "image_tooltip")
-
-[TODO: TOEVOEGEN FIGUUR 6]
+![Criteriamodel van Krechmer](images/image12.png "Criteriamodel van Krechmer")
 
 Deze 10 criteria voor open standaarden betekenen het volgende voor de beheerorganisatie:
 
