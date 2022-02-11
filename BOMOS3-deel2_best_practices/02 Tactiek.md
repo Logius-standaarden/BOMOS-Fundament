@@ -142,39 +142,7 @@ Belangrijk aandachtspunt daarbij is dat in een situatie van bijvoorbeeld een int
 
 ### Voorbeelden van gelaagdheid van standaarden
 
-
-#### Voorbeeld 1: Uitzendbranche
-
-[TODO: dit voorbeeld is welicht niet meer relevant ivm de adoptie van de NLCIUS standaard]
-
-[TODO: INVOEGEN TABEL 3]
-
-<p id="gdcalert15" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-214.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert16">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/BOMOS-214.png "image_tooltip")
-
-
-
-#### Voorbeeld 2: Onderwijs
-
-EduStandaard maakt en beheert toepassingsprofielen (door EduStandaard â€œafsprakenâ€ genoemd) voor het Nederlandse onderwijsveld. Men maakt hier gebruik van verschillende internationale standaarden waaronder de IMS familie, maar ook specifiek IEEE LOM (Learning Object Metadata) voor metadata. De EduStandaard afspraken maken vervolgens gebruik van vocabulaires.
-
-
-
-<p id="gdcalert16" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-215.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert17">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/BOMOS-215.png "image_tooltip")
-
-
-[TODO: INVOEGEN TABEL 4]
-
-IEEE LOM (is een standaard in het onderwijs om leermateriaal te metadateren). Echter aangezien landen verschillende onderwijssystemen kennen is een landelijk toepassingsprofiel nodig. Voor IEEE LOM zijn er velen, zoals UK LOM Core (Groot-Brittannie), CanCore (Canada), NORLOM (Noorwegen) en voor Nederland NL-LOM. Binnen dit toepassingsprofiel worden verschillende vocabulaires gebruikt, bijvoorbeeld â€œReferentiekader taal en rekenenâ€, die is bedoeld om de werkelijke basiskennis en vaardigheden van taal en rekenen in beeld te brengen. De vocabulaire is opgebouwd uit niveaus met een natuurlijke opbouw, onafhankelijk van leeftijd en onderwijsvorm, om de doorlopende leerlijnen op het gebied van taal en rekenen te bevorderen. Deze vocabulaire wordt gebruikt bij het metadateren van leermateriaal om aan te duiden welk niveau het leermateriaal nastreeft (classificatie).
-
-#### Andere voorbeelden
-
-XBRL is een voorbeeld van een internationale verticale standaard (in de financiÃ«le sector) waarvoor nationale taxonomieÃ«n zijn opgesteld, bijvoorbeeld de US GAAP of in Nederland door het SBR programma.
+XBRL is een voorbeeld van een internationale verticale standaard (in de financiële sector) waarvoor nationale taxonomiën zijn opgesteld, bijvoorbeeld de US GAAP of in Nederland door het SBR programma.
 
 In het kader van e-factureren heeft de Nederlandse overheid gekozen voor een internationale horizontale standaard (UBL), en heeft men vervolgens zelf een factuurmodel ontwikkeld om de vrijheidsgraden te beperken. Dus ook hier is er sprake van een nationaal toepassingsprofiel om uiteindelijk interoperabiliteit te kunnen bereiken, alleen is dit toepassingsprofiel nog niet echt gestandaardiseerd. Overigens voor e-factureren rond flexibele arbeid heeft de Nederlandse overheid gekozen voor het gestandaardiseerde factuurmodel van SETU, waarin de internationale horizontale standaard OAGIS wordt gebruikt.
 
