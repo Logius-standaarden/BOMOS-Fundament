@@ -62,30 +62,39 @@ Het model van Krechmer is een ideaal startpunt maar kan aangevuld worden om meer
 
 Het model op de volgende pagina is een invulling van de 10 criteria van Krechmer en is een hulpmiddel om de beheer-activiteiten op een open manier in te vullen.  
 
-
-
-<p id="gdcalert10" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-29.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert11">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/BOMOS-29.png "image_tooltip")
-
-
-<p id="gdcalert11" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-210.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert12">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/BOMOS-210.png "image_tooltip")
-
-
-<p id="gdcalert12" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-211.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert13">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/BOMOS-211.png "image_tooltip")
-
-<p id="gdcalert13" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-212.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert14">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/BOMOS-212.png "image_tooltip")
-
-[TODO: TOEVOEGEN TABEL 2]
+|       | Principe | Criteria |       | Variable | Toelichting | Score |
+| :---: |   :---   |   :---   | :---: |   :---   |    :---     | :---: |
+| 1 | Open meeting | Iedereen kan partiperen in het standaardisatieproces | 1 | Toegangsprijs | Is er een toegangsprijs voor standaardisatiebijeenkomsten? Is dat betaalbaar voor de verschillende deelnemers? Gratis (2 punten), Betaalbaar, laag of gediversifieerd tarief (1 punt) of kostbaar (0 punten) | 0/1/2 |
+|   |              |                                                      | 2 |  Bereikbare vergaderlocaties | Vergaderlocaties worden zodanig gekozen dat reiskosten voor iedereen geminimaliseerd zijn | 0/1/2 |
+|   |              |                                                      | 3 | Open voor iedereen | Elke organisatie of persoon kan in principe participeren in de ontwikkeling van de standaard | 0/1/2 |
+|   |              |                                                      | 4 | Open kalender | Is de vergaderagenda  online beschikbaar en actueel? Ruim van tevoren? | 0/1/2 |
+| 2 | Consensus | De basis van een standaard is consensus | 1 | Open proces | The proces van standaardisatie is openbaar zodat er voor iedereen duidelijk is hoe zken besloten zijn | 0/1/2 |
+|   |           |                                         | 2 | Procedure bij geen consensus | Er is een procedure voor het geval geen consensus bereikt kan worden | 0/1/2 |
+|   |           |                                         | 3 | Gelijke stem | Alle stakeholders hebben in de besluitvorming een even grote stem. Dit voorkomt de aanwezigheid van dominante stakeholders. | 0/1/2 |
+|   |           |                                         | 4 | Externe review | De resultaten van de standaardisatie-bijeenkomsten worden gepubliceerd waardoor externe organisaties en personen de mogelijkheid hebben om resultaten te reviewen. Dit ook omm kwaliteit te verhogen. | 0/1/2 |
+| 3 | Eerlijk standaardisatieproces | Vastgelegde procedures om gedurende het standaardisatieproces consensus te garanderen | 1 | Open agenda | Voor elke stakeholder is het mogelijk om agendapunten aan te leveren | 0/1/2 |
+|   |   |   | 2 | Procesmanagement          | Is er sprake van een reglement waarin de procedures en protocollen van het standaardisatieproces zijn vastgelegd (manier van stemmen, beroepsmogelijkheden etc.) | 0/1/2 |
+|   |   |   | 3 | Onafhankelijke voorzitter | Worden de standaardisatiebijeenkomsten door een onafhankelijk persoon voorgezeten zodat de belangen van alle stakeholders de juiste aandacht krijgen? | 0/1/2 |
+|   |   |   | 4 | Mogelijkheid tot beroep   | Wanneer men ontevreden is over de besluitvorming in een standaardisatiebijeenkomst is er de mogelijkheid om een klacht in te dienen bij een hoger orgaan? Dit orgaan bekijkt de situatie en heeft de bevoegdheid om in te grijpen | 0/1/2 |
+| 4 | Open IPR | Intellectuele eigendomsrechten m.b.t. standaard zijn zo open mogelijk | 1 | Rechten gepubliceerd | De manier waarop juridische zaken rondom de standaard zijn geregeld dient openbaar te zijn | 0/1/2 |
+|   |   |   | 2 | Juridische belemmeringen | Hoe minder juridische belemmeringenvoor het gebruik van de standaard, hoe opener de standaard is | 0/1/2 |
+|   |   |   | 3 | Wederzijdse licenties | Op aanpassingenvan de standaard rusten automatisch dezelfde licenties als op het origineel, zodat aangepaste standaarden niet voorzien kunnen worden van allerlei juridische belemmeringen | 0/1/2 |
+| 5 | One world | De standaard kan voor hetzelfde doel wereldwijd gebruikt worden | 1 | Harmonisatie | In hoeverre sluit de standaard aan op gerelateerde standaarden? | 0/1/2 |
+|   |   |   | 2 | Lokatie onafhankelijkheid | In hoeverre bevat de standaard elementen die uniek zijn voor een specifieke geografische lokatie? Een open standaard dient zo min mogelijk van dit soort elementen te bevatten zodat de toepasbaarheid groter wordt | 0/1/2 |
+| 6 | Open documenten | Documenten m.b.t. de standaard zijn openbaar | 1 | Open concepten | De concept-documenten met betrekking tot de standaard zijn openbaar | 0/1/2 |
+|   |   |   | 2 | Open specificaties | De specificaties van de standaard zijn openbaar. | 0/1/2 |
+|   |   |   | 3 | Open notulen       | De notulen van bijeenkomsten zijn openbaar. | 0/1/2 |
+|   |   |   | 4 | Open procedures    | De procedures (zoals Concensus en Eerlijk standaardisatieproces) zijn openbaar. | 0/1/2 |
+|   |   |   | 5 | Open distributie   | Het distribueren van de hierboven beschreven documenten staat iedereen vrij. | 0/1/2 |
+| 7 | Open interface | Compatibiliteit en conformiteit leiden tot interoperabiliteit. | 1 | Compatibiliteit | Verschillende versies van de standaard zijn – voor zover mogelijk - compatibel met elkaar, d.w.z. verschillende versies zijn op basaal niveau interoperabel. | 0/1/2 |
+|   |   |   | 2 |  Implementaties conform specificatie | De standaard beschrijft expliciet wat conformiteit aan de standaard betekent en aan welke criteria voldaan moeten worden. Zodat transparant kan worden welke implementaties conform de standaard zijn. Betekent twee implementaties conform de standaard ook interoperabiliteit?  | 0/1/2 |
+| 8 | Open access | Er zijn methodes om conformiteit te testen en te certificeren. | 1 | Validatie testen | Er kan getest worden of een standaard daadwerkelijk op een juiste manier is geïmplementeerd. Een laagdrempelige testmogelijkheid. | 0/1/2 |
+|   |   |   | 2 | Conformiteit valideren     | Een toets kan plaats vinden op conformiteit, waarbij validatie een onderdeel vormt. Het resultaat wordt vastgelegd in een document.  | 0/1/2 |
+|   |   |   | 3 | Conformiteit certificatie  | Een toets die plaats vindt op basis van conformiditeitsregels, waarbij het resultaat openbaar gepubliceerd wordt en kan leiden tot een certificaat.  | 0/1/2 |
+|   |   |   | 4 | Disability support         | De standaard houdt rekening met mensen die een handicap hebben, en voldoet aan richtlijnen hiervoor.  | 0/1/2 |
+| 9 | On-going support  | De standaard wordt ondersteund totdat er geen gebruikers meer zijn  | 1 | Ondersteuning gedurende de hele levenscyclus van de standaard. | Gedurende de levenscyclus van de standaard (van begin tot eind) is er ondersteuning voor gebruikers vanuit de standaardisatieorganisatie. Met name ook aan het einde van de cyclus wanneer er wellicht nog maar een klein aantal gebruikers is en de neiging om geen ondersteuning te bieden groot is. | 0/1/2 |
+| 10 | Open change | Wijzigingen in de standaard op basis van openheid | 1 | Uitbrengen nieuwe versie | Wie bepaalt wanneer aan een nieuwe versie van een standaard gewerkt gaat worden, en wanneer deze uitgebracht gaat worden? Ook hiervoor geldt consensus | 0/1/2 |
+|    |   |   | 2 | Inbrengen wijzigingsverzoeken | Wie kunnen er wijzigingsverzoeken indienen, en worden die eerlijk (op basis van een vastgestelde procedure) behandeld? Hiervoor zouden geen partijen uitgesloten moeten worden. | 0/1/2 |
 
 Het Forum Standaardisatie toetst standaarden op onder meer openheid voor opname op de pas-toe of leg-uit lijst. In deze bredere toets zijn de criteria van Krechmer ook verwerkt. Het model hier gepresenteerd is een verdieping, bedoeld als handreiking om openheid vorm te geven en kan niet gebruikt worden in het formele proces van opname voor de lijst van pas-toe of leg-uit. Meer informatie over de toetsingscriteria is te vinden via de website van het Forum.[^1]
 
