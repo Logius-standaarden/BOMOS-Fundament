@@ -1,6 +1,5 @@
-# Tactiek
 
-## COMMUNITY: De open invulling van een standaard
+## De open invulling van een standaard (Activiteit Community)
 
 Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent dat voor de beheerorganisatie?
 
@@ -334,7 +333,7 @@ Vanuit een standaardisatie-organisatie bekeken kan het organiseren van een plugf
 **adoptie:** leveranciers kunnen zich onderscheiden door te participeren aan een plugfest. Door publiek uit te nodigen kan de standaard ook onder aandacht van eindgebruikers gebracht worden.
 
 #### Een voorbeeld: plugfesten in de onderwijspraktijk
-NOiV heeft in samenwerking met Kennisnet tweemaal een plugfest georganiseerd rondom de Digitale leermaterialen standaarden van Kennisnet. Beide malen is het plugfest zowel door leveranciers als door eindgebruikers goed bezocht. Voorafgaand aan het plugfest is nauw contact met participerende leveranciers onderhouden en is hen gevraagd alvast leermaterialen aan te leveren. Deze materialen zijn door Kennisnet vooraf getoetst en op basis van de resultaten kregen leveranciers een tweede mogelijkheid een verbeterd pakket met leermateriaal aan te leveren. De scores van de tweede toets zijn tijdens het evenement bekend gemaakt. Tijdens het plugfest zijn leveranciers in staat gesteld te laten zien hoe goed zij leermaterialen die in de standaard zijn opgeslagen kunnen gebruiken in hun software. Tegelijkertijd was er de mogelijkheid voor gebruikers om te kijken of hun eigen materiaal in verschillende applicaties van verschillende leveranciers werkte. Bijna alle leveranciers die de eerste keer meededen hebben ook de tweede keer geparticipeerd. Er zijn zelfs leveranciers bijgekomen. De winnaars van het plugfest nemen de uitslag op in promotie-uitingen van hun bedrijf.
+In het onderwijsveld is een plugfest georganiseerd rondom de Digitale leermaterialen standaarden. Beide malen is het plugfest zowel door leveranciers als door eindgebruikers goed bezocht. Voorafgaand aan het plugfest is nauw contact met participerende leveranciers onderhouden en is hen gevraagd alvast leermaterialen aan te leveren. Deze materialen zijn door Kennisnet vooraf getoetst en op basis van de resultaten kregen leveranciers een tweede mogelijkheid een verbeterd pakket met leermateriaal aan te leveren. De scores van de tweede toets zijn tijdens het evenement bekend gemaakt. Tijdens het plugfest zijn leveranciers in staat gesteld te laten zien hoe goed zij leermaterialen die in de standaard zijn opgeslagen kunnen gebruiken in hun software. Tegelijkertijd was er de mogelijkheid voor gebruikers om te kijken of hun eigen materiaal in verschillende applicaties van verschillende leveranciers werkte. Bijna alle leveranciers die de eerste keer meededen hebben ook de tweede keer geparticipeerd. Er zijn zelfs leveranciers bijgekomen. De winnaars van het plugfest nemen de uitslag op in promotie-uitingen van hun bedrijf.
 
 #### Leerpunten, aandachtspunten, do's and don'ts
 **Kies**: Een plugfest gericht op interoperabiliteit is een compleet ander plugfest dan die gericht op adoptie/transparantie. Een plugfest gericht op interoperabiliteit kan bijvoorbeeld besloten zijn, gericht op ondersteuning richting leveranciers, en passend in de vroege levensfase van een standaard. Een plugfest gericht op adoptie is zeer open, met publiciteit, gericht op transparantie en passend in een volwassen levensfase van een standaard. Een keuze is dan ook noodzakelijk.
@@ -388,9 +387,9 @@ Een standaardisatie-organisatie heeft doorgaans vooral een netwerkperspectief op
 Voor een standaardisatie-organisatie zijn dit aangrijpingspunten om de adoptie binnen een specifieke partij te stimuleren. Daar zit ook de samenhang met de adoptiemiddelen die een standaardisatie-organisatie kan inzetten. Bijvoorbeeld:
 
 1. Door juridische middelen (pas toe of leg uit, opname in de wet) wordt een organisatie gedwongen om binnen het compliance managementproces te bepalen hoe een bepaalde standaard wordt ingebed.
-2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur. Een voorbeeld is de opname van StUF als onderdeel van de gemeentelijke model architectuur (GEMMA) in diverse gemeentelijke referentiemodellen.
+2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur. 
 3. Via financiële middelen kan de migratie naar een standaard meer prioriteit krijgen in het portfolio management proces.
-4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop. Ook de manifesten 'open leveranciers' van Nederland Open in Verbinding zijn een voorbeeld van het sturen aan de inkoopkant.
+4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop. 
 
 ## KWALITEITSBELEID EN BENCHMARKING
 
@@ -419,9 +418,7 @@ Een andere mogelijke reden is het gebrek aan standaardisatie-expertise, aangezie
 
 
 #### Een kwaliteitsinstrument
-[TODO: Herzien/linken/samenvoegen met BOMOS 2i, 2n en beschikbare BOMOS profielen]
-
-Hoe ziet zoâ€™n instrument waarmee we de kwaliteit van een standaard inzichtelijk kunnen maken eruit? Om een kwaliteitsinstrument te ontwikkelen is veel kennis nodig: wat is een kwalitatief goede standaard? Welke kwaliteitsaspecten zijn van invloed, en hoe zijn die te meten? Maar ook over het onderwerp zelf: wat is een semantische standaard? Uit welke componenten bestaat een semantische standaard? Want daar zal de kwaliteitsthermometer in gestoken moeten worden. Het is noodzakelijk te weten hoe de kwaliteitsthermometer eruit kan zien, maar ook waar we hem in kunnen steken. Dit is complexe materie wat nog in de kinderschoenen staat. Voorlopig is er een eerste versie van een kwaliteitsmodel beschikbaar.
+Hoe ziet zo’n instrument waarmee we de kwaliteit van een standaard inzichtelijk kunnen maken eruit? Om een kwaliteitsinstrument te ontwikkelen is veel kennis nodig: wat is een kwalitatief goede standaard? Welke kwaliteitsaspecten zijn van invloed, en hoe zijn die te meten? Maar ook over het onderwerp zelf: wat is een semantische standaard? Uit welke componenten bestaat een semantische standaard? Want daar zal de kwaliteitsthermometer in gestoken moeten worden. Het is noodzakelijk te weten hoe de kwaliteitsthermometer eruit kan zien, maar ook waar we hem in kunnen steken. Dit is complexe materie wat nog in de kinderschoenen staat. Voorlopig is er een eerste versie van een kwaliteitsmodel beschikbaar.
 
 Deze eerste versie is gebaseerd op voornamelijk het domein van softwareengineering, waar kwaliteit al jaren onder de aandacht is. Dat heeft geleid tot meerdere ISO-standaarden (met name ISO 9126) die de kwaliteit van software beschrijven. Op basis hiervan is het in figuur 19 weergegeven kwaliteitsmodel voor semantische standaarden gedestilleerd en getoetst met experts.
 
@@ -447,10 +444,10 @@ Het huidige kwaliteitsmodel is niet af maar is toch een startpunt om te gebruike
  De belangrijkste vraag is wat het gebruik van het kwaliteitsinstrument voor standaarden oplevert. Kort samengevat:
 
 * een model om naar de standaard te kijken: een frisse blik â€¢ inzicht in wat van invloed is op de kwaliteit van een standaard
-* ideeÃ«n voor verbetering van de standaard
-* ideeÃ«n voor aanpassingen in het standaardisatieproces
+* ideeën voor verbetering van de standaard
+* ideeën voor aanpassingen in het standaardisatieproces
 
-Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beÃ¯nvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeÃ«n ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
+Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beïnvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeÃ«n ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
 
 In ultieme vorm is het kwaliteitsinstrument een meetinstrument (zoals een thermometer) voor standaarden, dat wil zeggen een compleet gereedschap inclusief 'tool' en 'gebruikshandleiding'. Op dit moment ligt er een bruikbaar kwaliteitsmodel, met een stevig fundament, dat als 'bril' kan worden gebruikt om standaarden in de praktijk mee te toetsen.
 
@@ -532,14 +529,14 @@ Sommige certificaten vereisen dat er een aantal XML instanties (voorbeelden) wor
 #### Hulpmiddel voor keuzes rond certificaten
 In deze sectie is tot nu laten zien dat certificering complex is, en er meerdere keuzes gemaakt kunnen worden.
 
-De figuur laat vrij eenvoudig zien dat doelstellingen rond adoptie en financiÃ«n in enige mate te combineren zijn, maar dat met name een interoperabiliteit doelstelling een andere invulling van certificering nodig maakt in vergelijking met de andere doelstellingen.
+De figuur laat vrij eenvoudig zien dat doelstellingen rond adoptie en financiën in enige mate te combineren zijn, maar dat met name een interoperabiliteit doelstelling een andere invulling van certificering nodig maakt in vergelijking met de andere doelstellingen.
 
 #### Andere vormen van certificering
 
 Een nadeel van certificering is de impact die het heeft op de markt. Dit houdt in dat rekening gehouden moet worden met juridische zaken (bijvoorbeeld een leverancier die de beheerorganisatie gaat aanklagen omdat het ook een certificaat wil), maar ook dat beheerorganisatie zijn onafhankelijkheid en daardoor draagvlak verliest. Of als opmaat, of om geen risico's te nemen wordt er vaak gebruik gemaakt van een alternatief. Naast certificering is er validatie. In feite is certificering het geven van een stempel na succesvolle validatie. Echter als het certificeringdoel wegvalt kunnen er lagere eisen gesteld worden aan validatie. Ondanks het wegvallen van het 'stempel' kan validatie toch deels voor dezelfde doelstellingen gebruikt worden:
 
 **Interoperabiliteit:** In principe kan dezelfde test voor certificatie ook als validatie worden uitgevoerd, maar dan zonder stempel.  
-**FinanciÃ«n:** Ook voor een service gericht op validatie kan geld gevraagd worden. Echter dat zal nooit veel meer zijn dan de daadwerkelijke kosten van validatie, waarmee het geen cash cow zal worden.  
+**Financiën:** Ook voor een service gericht op validatie kan geld gevraagd worden. Echter dat zal nooit veel meer zijn dan de daadwerkelijke kosten van validatie, waarmee het geen cash cow zal worden.  
 **Adoptie:** Het beschikbaar hebben van een helpdesk waarin validatie vragen gesteld kunnen worden helpt de adoptie. Echter certificering zal een veel groter effect hebben op de adoptie.
 
 Vooral de interoperabiliteit doelstelling is prima te realiseren met validatie, en wordt door veel beheerorganisaties al ingezet. Tooling is hiervoor laagdrempelig beschikbaar (bijvoorbeeld de eValidator, of het zelf configureren van open source tools).
@@ -548,7 +545,7 @@ Met een plugfest wordt interoperabiliteit in de keten getoond door te laten zien
 
 Validatie kijkt ook naar individuele systemen maar dan zonder doel van transparantie van de markt maar als doel ondersteuning richting organisaties en projecten. Tot slot kunnen er pilot projects gestart worden om interoperabiliteit in de keten te testen.
 
-Overigens zou het dus goed mogelijk zijn om validatie te gebruiken voor de interoperabiliteit doelstelling, en daarnaast op een andere manier certificatie) in te richten voor adoptie of financiÃ«le doelstellingen. De volgende figuur laat zien waar de verschillende concepten voor gebruikt kunnen worden.
+Overigens zou het dus goed mogelijk zijn om validatie te gebruiken voor de interoperabiliteit doelstelling, en daarnaast op een andere manier certificatie) in te richten voor adoptie of financiële doelstellingen. De volgende figuur laat zien waar de verschillende concepten voor gebruikt kunnen worden.
 
 #### De praktijk
 Terwijl validatie zeer gebruikelijk is geldt dit zeker niet voor certificatie. Over het algemeen wordt dit als 'gevaarlijk' gezien, en zou alleen toegepast moeten worden als het zeer zorgvuldig is ingericht. Het betekent immers nogal wat: een leverancier die het certificaat niet krijgt kan daarmee nadelige gevolgen ondervinden in de markt. De leverancier kan overgaan tot rechtszaken om het certificaat te bemachtigen. Dat leidt tot kosten voor de beheerorganisatie en negatieve publiciteit. Daarnaast is de standaardisatieorganisatie in veel gevallen afhankelijk van de kennis van leveranciers in de werkgroepen voor de totstandkoming van de standaard. Mogelijkerwijs staakt de leverancier ook de medewerking aan de werkgroep. De standaardisatieorganisatie kan zijn neutraliteit verliezen, wat schadelijk is voor adoptie en verdere ontwikkeling van de standaard.
