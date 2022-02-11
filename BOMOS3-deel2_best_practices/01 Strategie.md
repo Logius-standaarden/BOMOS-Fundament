@@ -1,5 +1,5 @@
 
-## De ontwikkel- en beheerorganisatie (activiteit Governance)
+## De ontwikkel- en beheerorganisatie (Activiteit Governance)
 Het beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal. 
 
 ### Organisatiestructuur
