@@ -1,4 +1,5 @@
-# OPERATIONEEL: Proces voor de ontwikkeling en het beheer van een standaard
+
+## Proces voor de ontwikkeling en het beheer van een standaard (Hoofdactiviteit: Operationeel)
 Operationele proces voor de ontwikkeling en het beheer van een standaard
 
 De primaire standaardisatieactiviteit is het operationele proces: Op welke manier komt de uiteindelijke standaard nu tot stand?
@@ -29,10 +30,10 @@ Bij het opstellen van een nieuwe standaard kan een ‘pressure cooker’ proces 
 Niet ieder idee of wens leidt automatisch tot een veranderingsvoorstel voor de standaard. Grofweg zijn er de volgende mogelijkheden:
 
 *   Het idee is meer een vraag die specifiek is voor de implementatie bij een bepaalde partij. Bijvoorbeeld wanneer een organisatie nog weinig ervaring heeft met de standaard. In een dergelijk geval kan vanuit de community of vanuit de beheerorganisatie mogelijke ondersteuning worden geboden bij het oplossen van het probleem. Het is dan niet nodig de standaard te wijzigen.
-*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte. Bijvoorbeeld: het SoFi-nummer moet worden vervangen door het BurgerServiceNummer.
+*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte. 
 *   Het voorstel heeft betrekking tot fundamentele wijziging of uitbreiding van de standaard. Denk aan:
-    *   Functionele uitbreiding, bijvoorbeeld het voorstel Standaard Uitwisselings Formaat (StUF) niet alleen te gebruiken voor de uitwisseling van basisgegevens (StUF-BG), maar ook voor zaakinformatie (StUF-Zaken).
-    *   Naast semantische standaardisatie ook op transportniveau vastleggen hoe gegevens uitgewisseld moeten worden. Bijvoorbeeld: vastleggen dat bepaalde XML-berichten enkel via SOAP mogen worden uitgewisseld.
+    *   Functionele uitbreiding
+    *   Naast semantische standaardisatie ook op transportniveau vastleggen hoe gegevens uitgewisseld moeten worden. Bijvoorbeeld: vastleggen dat bepaalde XML/JSON-berichten enkel via REST-API mogen worden uitgewisseld.
     *   Toepassing van de standaard in nieuwe sectoren.
 
 Op een moment dat de indiener dit aangeeft dient de wens of eis opgenomen te worden als ‘request for change’ of ‘wijzigingsverzoek’.
@@ -95,5 +96,40 @@ Het is van belang dit in het wijzigingsproces te onderkennen. Drie aspecte zijn 
 *   Bij wijzigingen van de internationale/onderliggende standaard moet worden bepaald of dit impact heeft op eigen standaard.
 *   Er moet vastgelegd worden of en zo ja welke relatie er is tussen het releaseschema en versienummer van de eigen standaard en de onderliggende standaard.
 
-In hoofdstuk 9 wordt dieper ingegaan op de relatie met andere standaarden. [TODO: BLAUWE VLAKKEN NOG NIET MEEGENOMEN]
+In een ander deel wordt dieper ingegaan op de relatie met andere standaarden. 
 
+KADER
+Case: Pressure Cooker – een standaard in een week in de afvalbranche
+
+Een veel gehoorde opmerking is dat standaarden ontwikkelen een langzaam proces is dat jaren kan duren. Dat is er van oudsher ingeslopen, maar wie zegt dat men het oude traditionele proces van standaardisatie moet doorlopen?
+
+Het kan duidelijker sneller: In de afvalbranche is het concept van “Pressure cooker” gebruikt voor het ontwikkelen van een standaard. In een week tijd is gewerkt aan het standaarden van koppelvlakken tussen verschillende systemen in de afvalbranche. Denk daarbij aan het koppelvlak tussen de mini-container en de vuilniswagen, en het koppelvlak van de vuilniswagen met de back-office van de gemeentelijke afvalverwerker. 
+
+Na een werkgroepweek, met gemiddeld 15 deelnemers van zowel de afvalverwerkers en de leveranciers, waarin de standaarden stuk voor stuk zijn doorlopen, volgt twee weken van uitwerking door een externe begeleider, en vervolgens een twee weken review periode door de werkgroep voordat de standaard is opgeleverd aan de stuurgroep. Geteld vanaf de start van de werkgroep ligt er dan binnen 2 maanden een standaard. 
+
+Het gevaar bestaat dat dit ten koste gaat van de kwaliteit: een slechte standaard zou veel ellende voor de toekomst kunnen opleveren. De kwaliteit van de standaard is sterk gerelateerd aan de deelnemers in de pressure cooker. Een opmerkelijk verschijnsel is dat werkgroepleden ter plekke contacten gaan leggen binnen hun eigen organisatie om extra informatie te vergaren. Daaraan gerelateerd is ook direct de achilleshiel: indien een werkgroeplid zich niet voldoende heeft voorbereid en bijvoorbeeld de noodzakelijk informatie ter plekke mist, dan kan deze informatie niet meegenomen worden in de pressure cooker. De kwaliteit en voorbereiding van de werkgroepleden zijn daarmee van groot belang.
+
+Een belangrijke eerste graadmeter is het reviewproces; Mocht tijdens het reviewproces veel fundamentele keuzes opnieuw ter discussie worden gesteld en ook leiden tot wijzigingen in de beoogde standaard dan is dat geen positieve indicatie voor de kwaliteit. Overigens een eerste versie van een standaard is nooit perfect. Tijdens implementaties worden altijd nieuwe inzichten ontdekt en regelmatig fouten ongeacht het gebruik van een pressure cooker. Een perfecte standaard is ook niet het doel: een werkbare standaard die helpt het probleem op te lossen daarentegen wel. 
+
+De leerpunten:
+Belangrijke leerpunten zijn: 
+* Een pressure cooker is een prima middel om efficiënt een standaard te ontwikkelen. De kwaliteit moet zich nog bewijzen, maar de indruk is ontstaan dat de werkgroep bepalend is in de kwaliteit van de standaard. 
+* Duidelijke scope; wat in standaardisatie-kringen bekend staat als “scope-creep” (verschuivende scope)  ligt sterker op de loer in een pressure cooker.
+* Niet te lang en te veel willen: Meer ervaringen zijn nodig om het optimum aan lengte en inhoud te kunnen bepalen, maar er is zeker sprake dat er een optimum is; op een gegeven moment is de magie uitgewerkt.
+
+Het gebruik van de pressure cooker wordt in standaardisatie-land nog niet veel gebruikt, hoewel het idee wel afkomstig is van internationale standaardisatie-bijeenkomsten waarin de werkgroepleden zich ook soms ook een aantal dagen buigen over een standaard. Met een ‘pressure cooker’ kan hiermee de lengte van het standaardisatie-proces flink worden bekort. Daarnaast kan de ontwikkeling van standaarden hierdoor ook efficiënter – en dus: goedkoper - worden, en dat is natuurlijk mooi meegenomen.
+
+### Documentatie (en Publicatie) met Git en Respec
+De meest gebruikelijke manier om specificaties van standaarden te beheren is digitaal. Er is een breder keuze aan digitale applicaties die toepasbaar zijn voor standaarden beheer, al zijn ze hier niet altijd voor bedoeld. Smaenwerkingsapplicaties voor documentbeheer of softwareontwikkeling kunnen worden toegepast om betrokkenen toegang te geven tot documentatie of zelfs gebruikers de documentatie bij te laten werken. 
+
+Een voorbeeld is het gebruik van Git en Respec voor het operationeel beheer. Git is een applicatie voor wijzigngsbeheer bij softwareontwikkeling. Respec is een applicatie om van documenten om te zetten in documentatie die online gepubliceerd kan worden. Het beheer van specificaties verloopt steeds vaker via een automatisch proces. Waar het in het verleden nog gebruikelijk was om losse documenten te delen binnen werkgroepen, stappen steeds meer beheerorganisaties over naar een (git) repositories om teksten in te beheren. Hoewel deze omgevingen van oorsprong bedoeld zijn om programma code in te beheren, blijken deze ook goed bruikbaar te zijn voor het beheer van ‘leesbare’ tekst. Technische kennis is wel vereist, en standaarden beheerders moeten het ook vaak zonder ‘WYSISYG’ functionaliteit doen. Bij het opstellen van de tekst ziet deze er kaal uit, pas na het toevoegen van het template is deze voorzien van opmaak.
+
+Respec is een applicatie die bij het W3C consortium gebruikt wordt om documentatie op een uniforme manier te presenteren. Door gebruik van een responsive layout kan de documentatie onafhankelijk van schermgrootte leesbaar getoond worden. Respec maakt automatisch een inhoudsopgave waarmee een gebruiker snel door de documentatie kan browsen. Respec is specifiek bedoeld voor technische documentatie en het sluit goed aan bij applicaties voor softwareontwikkeling zoals Git.
+
+#### Git en Github
+
+Door gebruik te maken van dezelfde gereedschappen als voor het beheer van programmacode is dit proces eenvoudig te automatiseren. Daarbij is het ook een goed gebruik om een werkomgeving in te richten waarop beheerders van de standaard kunnen controleren of de tekst goed wordt weergegeven. Binnen Git heet een werkomgeving een _repository_. Een repository is meer dan een archief voor code. Binnen Github, een online omgeving voor Git repositories, kunnen issues ingediend worden door gebruikers, zijn projectmanagementtools beschikbaar en kunnen automatische acties op een repository gezet worden. Het is in Github mogelijk om controles uit te voeren, bijvoorbeeld op basis van toegankelijkheid of op ontbrekende verwijzingen.
+
+##### Issuebeheer
+
+In een Git omgeving zoals Github kunnen ook issues ingediend worden, die dan weer tot wijziging in de code kunnen leiden. Issues kunnen in principe door iedere gebruiker worden ingediend. Een issue wordt verwerkt door de beheerder van de repository. Een issue kan worden toegewezen aan een ontwikkelaar. 
