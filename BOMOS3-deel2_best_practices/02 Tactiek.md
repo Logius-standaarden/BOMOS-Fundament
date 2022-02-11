@@ -8,11 +8,7 @@ Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent 
 
 Ken Krechmer heeft een model ontwikkeld waarmee de openheid concreet gemaakt wordt en waarmee hij standaardisatieorganisaties kan vergelijken. In het model maakt hij onderscheid tussen de verschillende openheidaspecten (requirements) en de verschillende gezichtspunten op standaarden. Als gezichtspunten/rollen hanteert hij de ontwikkelaar van de standaard, de implementator van de standaard in een product, en de gebruiker van de standaard (product waarin de standaard is verwerkt). Niet elk openheidsaspect is voor elke rol even interessant, zoals het model ook laat zien:
 
-<p id="gdcalert9" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-28.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert10">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](../images/BOMOS-28.png "image_tooltip")
-
-[TODO: TOEVOEGEN FIGUUR 6]
+![Criteriamodel van Krechmer](images/image12.png "Criteriamodel van Krechmer")
 
 Deze 10 criteria voor open standaarden betekenen het volgende voor de beheerorganisatie:
 
@@ -27,7 +23,7 @@ Deze 10 criteria voor open standaarden betekenen het volgende voor de beheerorga
 9. **Open Access:** Eindgebruikers vertrouwen er vaak op dat hun leverancier(s) de standaarden correct hebben geïmplementeerd. Om 'Open Access' te  bereiken moet het mogelijk te zijn om de implementatie van de standaard te testen (conformiteit); dat kan door middel van conformiteittesten (testprotocollen) tot aan officiële certificatie. Een andere mogelijkheid zijn zogenoemde plugfesten waarbij de interoperabiliteit tussen verschillende implementaties van een standaard inzichtelijk wordt gemaakt. De valkuil is om hier van uitstel naar afstel te gaan. De standaarden moeten een bepaalde mate van volwassenheid hebben wil dit zinvol zijn. Daarom wordt het vaak uitgesteld. En van uitstel volgt afstel. Een open invulling betekent ook het inzichtelijk (open) maken van het gebruiken van de standaard in implementaties, bijvoorbeeld door het publiceren van implementatieoverzichten.
 10. **Ongoing Support** is het leveren van ondersteuning op de standaard gedurende de levenscyclus. De valkuil is het stoppen met het leveren van ondersteuning als de interesse van leveranciers afneemt. Een open invulling betekent op zijn minst dat de levenscyclus van een standaard beschreven is waarmee gebruikers garantie krijgen over de ondersteuning op de standaard. Idealiter dient de ondersteuning pas af te lopen als er geen interesse meer is in de standaard bij de eindgebruiker.
 
-Veel van de huidige discussies over openheid gaan over slechts twee aspecten van openheid te weten, Ã¢â‚¬ËœOne WorldÃ¢â‚¬â„¢ en vooral Ã¢â‚¬ËœOpen IPRÃ¢â‚¬â„¢, terwijl de andere aspecten daardoor onderbelicht raken. Alle punten helpen bij het inrichten van maximaal open standaardisatieorganisatie. Tot op heden is er geen organisatie bekend die op alle punten volledig open is. Volledig open op al deze punten is een utopie, maar deze punten zijn wel aandachtspunten, en kunnen het denkproces helpen om standaardisatie meer open te krijgen. Overigens is het goed te weten dat de formele standaardisatieorganisaties in veel gevallen niet (of slechts ten dele) voldoen aan de aspecten 6-10.
+Veel van de huidige discussies over openheid gaan over slechts twee aspecten van openheid te weten, 'One World' en vooral 'Open IPR', terwijl de andere aspecten daardoor onderbelicht raken. Alle punten helpen bij het inrichten van maximaal open standaardisatieorganisatie. Tot op heden is er geen organisatie bekend die op alle punten volledig open is. Volledig open op al deze punten is een utopie, maar deze punten zijn wel aandachtspunten, en kunnen het denkproces helpen om standaardisatie meer open te krijgen. Overigens is het goed te weten dat de formele standaardisatieorganisaties in veel gevallen niet (of slechts ten dele) voldoen aan de aspecten 6-10.
 
 ### Concrete tips voor openheid
 
@@ -44,12 +40,10 @@ Op basis van het voorgaande zijn er een aantal concrete tips op te stellen: Maak
 *   De rechten expliciet hebben vastgelegd; de intellectuele eigendomsrechten op de standaarden, copyrights op documenten, de bijdrage van personen in werkgroepen en in de totstandkoming van de standaarden. Versiebeheer vastleggen: hoe om te gaan met backward en forward compatabiliteit, en daarnaast de ondersteuning vastleggen op basis van de levenscyclus van een standaard.
 *   Het vastleggen in een document van de ontwikkelen beheeraspecten.
 
-
 ### Een praktijkvoorbeeld: de invulling bij Aquo
 <p class="comment" style="color:red"> Dit voorbeeld is oud. Vereist het herziening? Hieronder staatbijvoorbeeld dat de naam Informatiehuis Water is geworden. En is Krechmer nog relevant?
 </P>
-Zoals al eerder is aangegeven wordt bij toepassing van het model van Krechmer al snel duidelijk dat openheid niet zwart/wit is en dat er bij elke standaard wel een paar punten zijn die niet honderd procent open zijn. Mogelijk is daar een goede reden voor, mogelijk kan dat in de toekomst aangepast worden. Echter transparantie van de mate van openheid is al een sterk winstpunt 17 . Het voorbeeld van Aquo (voorheen IDsW, thans: Informatiehuis Water) laat dit ook perfect zien. Zelfs voor de Aquo standaard, die door een expertgroep als voldoende open werd bestempeld, waren er verbeterpunten.
-
+~~Zoals al eerder is aangegeven wordt bij toepassing van het model van Krechmer al snel duidelijk dat openheid niet zwart/wit is en dat er bij elke standaard wel een paar punten zijn die niet honderd procent open zijn. Mogelijk is daar een goede reden voor, mogelijk kan dat in de toekomst aangepast worden. Echter transparantie van de mate van openheid is al een sterk winstpunt 17 . Het voorbeeld van Aquo (voorheen IDsW, thans: Informatiehuis Water) laat dit ook perfect zien. Zelfs voor de Aquo standaard, die door een expertgroep als voldoende open werd bestempeld, waren er verbeterpunten.~~
 
 ### Het toetsbaar maken van het model
 
