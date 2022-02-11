@@ -201,9 +201,15 @@ Algemeen gesproken kunnen dan de volgende activiteiten ondernomen worden:
 
 ![alt_text](images/adoptiepaden_standaard.png "Adoptiepaden van een standaard")
 
-<p id="gdcalert18" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-217.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert19">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+De strategieën:
 
-![alt_text](images/BOMOS-217.png "image_tooltip")
+|  Strategie | Kenmerken |
+|     :---   |     :---  |
+| Local Re-Use  | We hergebruiken de internationale standaard, maar passen het aan naar de behoeftes en creeren een nieuwe standaard |
+| Local Profiling | Een profiel (dat niet voldoet aan de internationale standaard) bovenop de internationale standaard, waarin alle aanpassingen verwerkt zijn. |
+| Compliant & Temporary Local Profiling | Een profiel waarin in principe alleen toegestane uitbreidingen in worden opgenomen, maar daarnaast tijdelijke oplossingen bevat van zaken die internationaal zijn ingebracht, maar die een tijdelijke oplossing rechtvaardigen. Deze tijdelijke oplossingen voldoen niet aan de internationale standaard. |
+| Compliant Profiling | Alleen uitbreidingen in een profiel die voldoet aan internationale standaarden. |
+| Comply | 100% overname van internationale standaard zonder aanpassingen of uitbreidingen. |
 
 Met name om interoperabiliteit internationaal mogelijk te maken is het verstandig om zoveel mogelijk in lijn te blijven met de internationale standaarden en een strategie te kiezen aan de rechterkant van het figuur, waar mogelijk compliant profiling. Echter dat vergt afstemming met de internationale standaard, waaraan kosten verbonden zijn, ondermeer door het bezoeken van de internationale standaardisatie bijeenkomsten. Een noodzakelijkheid om interoperabiliteit in internationale context na te streven.
 
