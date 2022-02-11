@@ -30,7 +30,7 @@ Bij het opstellen van een nieuwe standaard kan een ‘pressure cooker’ proces 
 Niet ieder idee of wens leidt automatisch tot een veranderingsvoorstel voor de standaard. Grofweg zijn er de volgende mogelijkheden:
 
 *   Het idee is meer een vraag die specifiek is voor de implementatie bij een bepaalde partij. Bijvoorbeeld wanneer een organisatie nog weinig ervaring heeft met de standaard. In een dergelijk geval kan vanuit de community of vanuit de beheerorganisatie mogelijke ondersteuning worden geboden bij het oplossen van het probleem. Het is dan niet nodig de standaard te wijzigen.
-*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte. 
+*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte.
 *   Het voorstel heeft betrekking tot fundamentele wijziging of uitbreiding van de standaard. Denk aan:
     *   Functionele uitbreiding
     *   Naast semantische standaardisatie ook op transportniveau vastleggen hoe gegevens uitgewisseld moeten worden. Bijvoorbeeld: vastleggen dat bepaalde XML/JSON-berichten enkel via REST-API mogen worden uitgewisseld.
@@ -59,15 +59,26 @@ Bij de beoordeling en besluitvorming moet gekeken worden naar tal van aspecten:
 
 ### Werkgroepen en stakeholders
 Werkgroepen zijn een belangrijk instrument voor het verzamelen, voorbereiden en beoordelen van wijzigingsverzoeken. Ondanks openheid kan om praktische redenen de deelname aan werkgroepen gelimiteerd zijn. Daarbij wordt vaak onderscheid gemaakt in type stakeholder, mede omdat het verstandig is dat de werkgroep een goede afspiegeling bevat van de stakeholders. NEN gebruikt hiervoor een stakeholderanalyse waarin de stakeholders worden geïdentificeerd door gebruik te maken van een generieke waardeketen. Deze zijn de volgende:  
-[TODO:INVOEGEN FIGUUR 4 EN 5]
 
-<p id="gdcalert22" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-221.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert23">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/BOMOS-221.png "image_tooltip")
-
-<p id="gdcalert23" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/BOMOS-222.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert24">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-![alt_text](images/BOMOS-222.png "image_tooltip")
+|       | Stakeholders | Omschrijving |
+| :---: | :--- | :--- |
+| 1a | Directe gebruikers | Eindgebruiker van dienst, proces of product |
+| 1b | Brancheorganisaties directe gebruikers | Als groep, in de vorm van belangenorganisaties |
+| 2a | Voorwaarde scheppende organisaties / opdrachtgevers | Organisaties die de voorwaarden bepalen waaraan het product of dienst moet voldoen. Bijv. opdrachtgevers. Wetmatige voorwaarden worden door wetgevende instanties bepaald (zie onder 9). |
+| 2b | Brancheorganisaties van voorwaarde scheppende partijen |  |
+| 3a | Adviserende organisaties | Organisaties die andere belanghebbenden inhoudelijk kunnen adviseren (bijv. ingenieursbureaus, adviesbureaus, consultancy) |
+| 3b | Brancheorganisaties van adviserende partijen |  |
+| 4a | Uitvoerende / toepassende / dienstverlenende organisaties | Productnormalisatie: organisaties die het product gebruiken / toepassen in hun dienstverlening naar de eindgebruiker toe (bijv. aannemer, installateur). Dienstennormalisatie: organisaties die een proces of dienst verlenen aan de eindgebruiker (bijv. schuldhulpverlener). |
+| 4b | Brancheorganisaties van uitvoerende / dienstverlenende / toepassende partijen |  |
+| 5a | Producenten / leveranciers van hoofdproduct | Bij productnormalisatie is dit de hoofdproducent / hoofdleverancier. Bij dienstennormalisatie wordt deze categorie niet gebruikt. De rol van ‘producent / leverancier’ wordt vervuld door de uitvoerende, dienstverlenende organisatie. |
+| 5b | Brancheorganisaties van producenten / leveranciers van hoofdproduct |  |
+| 6a | Producenten / leveranciers van aanhangende producten en diensten | Bij productnormalisatie betreft dit producenten / leveranciers van producten die als grondstof, halffabrikaat of rest-/afvalstof in de productketen voorkomen. Bij dienstennormalisatie betreft het de aanbieders van aanvullende diensten. |
+| 6b | Brancheorganisaties van producenten / leveranciers van aanhangende producten en diensten |  |
+| 7 | Onderzoek- en kennisinstellingen | Instellingen die zonder direct commercieel belang kennisleverancier zijn of onderzoek verrichten. Bijv. onderwijsinstellingen, laboratoria, onderzoeksinstellingen.  |
+| 8 | Controlerende instanties | Bijv. inspectiediensten, certificeringinstellinge |
+| 9 | Wetgevende instanties | Overheden |
+| 10 | Bestaande/nieuwe initiatiefnemers | Partijen die alternatieve initiatieven ondernemen vergelijkbaar met NEN. (normen, certificatieschema’s, richtlijnen etc.) |
+| 11 | Contextbepalers groter geheel | Organisaties (bijv. stichtingen, platforms) die op generieke wijze betrokken zijn. |
 
 ### Overgang naar nieuwe versie
 Een standaard wordt (idealiter) gebruikt door een groot aantal organisaties. De wijziging van een standaard heeft potentieel dan ook veel impact. Het kan er toe leiden dat een groot aantal systemen en processen aangepast moet worden. Behalve een bewuste keuze per wijzigingsverzoek vereist dit dat de beheerorganisatie ook nadenkt over het algemene versiebeleid.
@@ -79,7 +90,7 @@ Binnen de standaard geeft dit ook eisen op het gebied van migratie en compatibil
 ### Vaste cyclus
 Om gebruikers niet voor verrassingen te plaatsen is het wenselijk om te werken met een vaste cyclus van releasemomenten. Deze principes moeten op strategisch en tactisch niveau worden vastgelegd: ze zijn immers van invloed op de werking van de beheerorganisatie.
 
-Veel organisaties kiezen er voor om maximaal één keer per jaar een grote release door te voeren, indien nodig aangevuld met een ‘minor’ release met slechts kleine wijzigingen. Denk daarbij aan correctie van kleine fouten in de specificatie, aanvulling met voorbeelden, etc. 
+Veel organisaties kiezen er voor om maximaal één keer per jaar een grote release door te voeren, indien nodig aangevuld met een ‘minor’ release met slechts kleine wijzigingen. Denk daarbij aan correctie van kleine fouten in de specificatie, aanvulling met voorbeelden, etc.
 
 Door deze keuze kan een duidelijke jaarplanning worden opgesteld voor het operationele proces. Bijvoorbeeld: in januari een aantal workshops beleggen, in april wijzigingsvoorstellen in de werkgroep en in juni de uiteindelijke wijzigingen vaststellen. Het tweede halfjaar kan worden benut voor het volgen van de ervaringen bij gebruikers en het helpen bij de overgang naar nieuwe versies. Eventuele correcties kunnen in een ‘minor’ release in december worden meegenomen.
 
@@ -96,31 +107,31 @@ Het is van belang dit in het wijzigingsproces te onderkennen. Drie aspecte zijn 
 *   Bij wijzigingen van de internationale/onderliggende standaard moet worden bepaald of dit impact heeft op eigen standaard.
 *   Er moet vastgelegd worden of en zo ja welke relatie er is tussen het releaseschema en versienummer van de eigen standaard en de onderliggende standaard.
 
-In een ander deel wordt dieper ingegaan op de relatie met andere standaarden. 
+In een ander deel wordt dieper ingegaan op de relatie met andere standaarden.
 
 KADER
 Case: Pressure Cooker – een standaard in een week in de afvalbranche
 
 Een veel gehoorde opmerking is dat standaarden ontwikkelen een langzaam proces is dat jaren kan duren. Dat is er van oudsher ingeslopen, maar wie zegt dat men het oude traditionele proces van standaardisatie moet doorlopen?
 
-Het kan duidelijker sneller: In de afvalbranche is het concept van “Pressure cooker” gebruikt voor het ontwikkelen van een standaard. In een week tijd is gewerkt aan het standaarden van koppelvlakken tussen verschillende systemen in de afvalbranche. Denk daarbij aan het koppelvlak tussen de mini-container en de vuilniswagen, en het koppelvlak van de vuilniswagen met de back-office van de gemeentelijke afvalverwerker. 
+Het kan duidelijker sneller: In de afvalbranche is het concept van “Pressure cooker” gebruikt voor het ontwikkelen van een standaard. In een week tijd is gewerkt aan het standaarden van koppelvlakken tussen verschillende systemen in de afvalbranche. Denk daarbij aan het koppelvlak tussen de mini-container en de vuilniswagen, en het koppelvlak van de vuilniswagen met de back-office van de gemeentelijke afvalverwerker.
 
-Na een werkgroepweek, met gemiddeld 15 deelnemers van zowel de afvalverwerkers en de leveranciers, waarin de standaarden stuk voor stuk zijn doorlopen, volgt twee weken van uitwerking door een externe begeleider, en vervolgens een twee weken review periode door de werkgroep voordat de standaard is opgeleverd aan de stuurgroep. Geteld vanaf de start van de werkgroep ligt er dan binnen 2 maanden een standaard. 
+Na een werkgroepweek, met gemiddeld 15 deelnemers van zowel de afvalverwerkers en de leveranciers, waarin de standaarden stuk voor stuk zijn doorlopen, volgt twee weken van uitwerking door een externe begeleider, en vervolgens een twee weken review periode door de werkgroep voordat de standaard is opgeleverd aan de stuurgroep. Geteld vanaf de start van de werkgroep ligt er dan binnen 2 maanden een standaard.
 
 Het gevaar bestaat dat dit ten koste gaat van de kwaliteit: een slechte standaard zou veel ellende voor de toekomst kunnen opleveren. De kwaliteit van de standaard is sterk gerelateerd aan de deelnemers in de pressure cooker. Een opmerkelijk verschijnsel is dat werkgroepleden ter plekke contacten gaan leggen binnen hun eigen organisatie om extra informatie te vergaren. Daaraan gerelateerd is ook direct de achilleshiel: indien een werkgroeplid zich niet voldoende heeft voorbereid en bijvoorbeeld de noodzakelijk informatie ter plekke mist, dan kan deze informatie niet meegenomen worden in de pressure cooker. De kwaliteit en voorbereiding van de werkgroepleden zijn daarmee van groot belang.
 
-Een belangrijke eerste graadmeter is het reviewproces; Mocht tijdens het reviewproces veel fundamentele keuzes opnieuw ter discussie worden gesteld en ook leiden tot wijzigingen in de beoogde standaard dan is dat geen positieve indicatie voor de kwaliteit. Overigens een eerste versie van een standaard is nooit perfect. Tijdens implementaties worden altijd nieuwe inzichten ontdekt en regelmatig fouten ongeacht het gebruik van een pressure cooker. Een perfecte standaard is ook niet het doel: een werkbare standaard die helpt het probleem op te lossen daarentegen wel. 
+Een belangrijke eerste graadmeter is het reviewproces; Mocht tijdens het reviewproces veel fundamentele keuzes opnieuw ter discussie worden gesteld en ook leiden tot wijzigingen in de beoogde standaard dan is dat geen positieve indicatie voor de kwaliteit. Overigens een eerste versie van een standaard is nooit perfect. Tijdens implementaties worden altijd nieuwe inzichten ontdekt en regelmatig fouten ongeacht het gebruik van een pressure cooker. Een perfecte standaard is ook niet het doel: een werkbare standaard die helpt het probleem op te lossen daarentegen wel.
 
 De leerpunten:
-Belangrijke leerpunten zijn: 
-* Een pressure cooker is een prima middel om efficiënt een standaard te ontwikkelen. De kwaliteit moet zich nog bewijzen, maar de indruk is ontstaan dat de werkgroep bepalend is in de kwaliteit van de standaard. 
+Belangrijke leerpunten zijn:
+* Een pressure cooker is een prima middel om efficiënt een standaard te ontwikkelen. De kwaliteit moet zich nog bewijzen, maar de indruk is ontstaan dat de werkgroep bepalend is in de kwaliteit van de standaard.
 * Duidelijke scope; wat in standaardisatie-kringen bekend staat als “scope-creep” (verschuivende scope)  ligt sterker op de loer in een pressure cooker.
 * Niet te lang en te veel willen: Meer ervaringen zijn nodig om het optimum aan lengte en inhoud te kunnen bepalen, maar er is zeker sprake dat er een optimum is; op een gegeven moment is de magie uitgewerkt.
 
 Het gebruik van de pressure cooker wordt in standaardisatie-land nog niet veel gebruikt, hoewel het idee wel afkomstig is van internationale standaardisatie-bijeenkomsten waarin de werkgroepleden zich ook soms ook een aantal dagen buigen over een standaard. Met een ‘pressure cooker’ kan hiermee de lengte van het standaardisatie-proces flink worden bekort. Daarnaast kan de ontwikkeling van standaarden hierdoor ook efficiënter – en dus: goedkoper - worden, en dat is natuurlijk mooi meegenomen.
 
 ### Documentatie (en Publicatie) met Git en Respec
-De meest gebruikelijke manier om specificaties van standaarden te beheren is digitaal. Er is een breder keuze aan digitale applicaties die toepasbaar zijn voor standaarden beheer, al zijn ze hier niet altijd voor bedoeld. Smaenwerkingsapplicaties voor documentbeheer of softwareontwikkeling kunnen worden toegepast om betrokkenen toegang te geven tot documentatie of zelfs gebruikers de documentatie bij te laten werken. 
+De meest gebruikelijke manier om specificaties van standaarden te beheren is digitaal. Er is een breder keuze aan digitale applicaties die toepasbaar zijn voor standaarden beheer, al zijn ze hier niet altijd voor bedoeld. Smaenwerkingsapplicaties voor documentbeheer of softwareontwikkeling kunnen worden toegepast om betrokkenen toegang te geven tot documentatie of zelfs gebruikers de documentatie bij te laten werken.
 
 Een voorbeeld is het gebruik van Git en Respec voor het operationeel beheer. Git is een applicatie voor wijzigngsbeheer bij softwareontwikkeling. Respec is een applicatie om van documenten om te zetten in documentatie die online gepubliceerd kan worden. Het beheer van specificaties verloopt steeds vaker via een automatisch proces. Waar het in het verleden nog gebruikelijk was om losse documenten te delen binnen werkgroepen, stappen steeds meer beheerorganisaties over naar een (git) repositories om teksten in te beheren. Hoewel deze omgevingen van oorsprong bedoeld zijn om programma code in te beheren, blijken deze ook goed bruikbaar te zijn voor het beheer van ‘leesbare’ tekst. Technische kennis is wel vereist, en standaarden beheerders moeten het ook vaak zonder ‘WYSISYG’ functionaliteit doen. Bij het opstellen van de tekst ziet deze er kaal uit, pas na het toevoegen van het template is deze voorzien van opmaak.
 
@@ -132,4 +143,4 @@ Door gebruik te maken van dezelfde gereedschappen als voor het beheer van progra
 
 ##### Issuebeheer
 
-In een Git omgeving zoals Github kunnen ook issues ingediend worden, die dan weer tot wijziging in de code kunnen leiden. Issues kunnen in principe door iedere gebruiker worden ingediend. Een issue wordt verwerkt door de beheerder van de repository. Een issue kan worden toegewezen aan een ontwikkelaar. 
+In een Git omgeving zoals Github kunnen ook issues ingediend worden, die dan weer tot wijziging in de code kunnen leiden. Issues kunnen in principe door iedere gebruiker worden ingediend. Een issue wordt verwerkt door de beheerder van de repository. Een issue kan worden toegewezen aan een ontwikkelaar.
