@@ -1,4 +1,5 @@
-# OPERATIONEEL: Proces voor de ontwikkeling en het beheer van een standaard
+
+## Proces voor de ontwikkeling en het beheer van een standaard (hoofdactiviteit: Operationeel)
 Operationele proces voor de ontwikkeling en het beheer van een standaard
 
 De primaire standaardisatieactiviteit is het operationele proces: Op welke manier komt de uiteindelijke standaard nu tot stand?
