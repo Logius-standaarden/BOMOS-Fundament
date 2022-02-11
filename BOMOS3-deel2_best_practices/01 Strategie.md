@@ -1,9 +1,10 @@
 Dit tweede deel uit het BOMOS Fundament geeft een verdieping aan het BOMOS Activiteiten Model. Het bevat een collectie van best practices die gebruikers van BOMOS kunnen inspireren. De structuur is op basis van de genoemde activiteiten uit het model. 
 
 # Strategie
-## GOVERNANCE: De ontwikkel- en beheerorganisatie
+Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn.
 
-[TODO:Inleiding over de BOMOS activiteit zelf. (hergebruiken/linken naar deel 1?)]
+## GOVERNANCE: De ontwikkel- en beheerorganisatie
+Het beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal. 
 
 ### Organisatiestructuur
 
@@ -14,7 +15,7 @@ Figuur 2 - Organisatiestructuur
 
 Het bestuur geeft opdracht aan een (not-for-profit) uitvoeringsorganisatie die verantwoordelijk is voor een groot deel van de beheertaken. Het bestuur verenigt de behoeften in dezen van zijn achterban en heeft het mandaat namens dezen te besluiten over zaken die de betreffende standaarden betreffen. Bestuur en uitvoeringsorganisatie werken bij voorkeur met wederzijdse eenhoofdige aanspreekpunten. Het bestuur is voornamelijk belast met de taak 'besluitvorming'. In de praktijk komt het bestuur een paar keer per jaar bij elkaar, wat geen belemmering mag zijn voor de gewenste besluitvorming. Het bestuur moet de uitvoeringsorganisatie voldoende mandaat geven. In de praktijk zien we dat sommige besluiten ook schriftelijk (e-mail) aan bestuursleden voorgelegd kunnen worden voor goedkeuring, of dat de verantwoordelijkheid van bepaalde activiteiten (bijv. communicatie) bij een enkel bestuurslid worden belegd. Dit maakt het eenvoudiger om bilateraal overleg tussen de uitvoeringsorganisatie en het verantwoordelijke bestuurslid te voeren en ook besluiten tussentijds te nemen (en kan als alternatief dienen voor de wederzijdse eenhoofdige aanspreekpunten).
 
-De kern is dat duidelijk moet zijn vastgelegd welke besluiten in de bestuursvergadering genomen dienen te worden; welke schriftelijk (e-mail) voorgelegd kunnen worden, welke door een specifiek bestuurslid genomen kunnen worden, en voor welke besluiten het mandaat bij  de uitvoeringsorganisatie ligt. In de praktijk worden vaak jaarplannen gebruikt voor de opdrachtformulering van het bestuur aan de uitvoeringsorganisatie. Op basis van rapportages over het jaarplan legt de uitvoeringsorganisatie dan verantwoording af aan het bestuur. Het jaarplan beschrijft welke taken uitgevoerd moeten worden; welke werkgroepen er zijn of opgestart moeten worden, wat de doelen voor de werkgroep zijn, etc. Het jaarplan wordt goedgekeurd door het bestuur en is daarmee de opdracht voor de uitvoeringsorganisatie. Het BOMOS activiteitel model kan als kapstok dienen om de taken in het jaarplan te benoemen. Het jaarplan maakt het ook goed mogelijk om afspraken te maken over uit te besteden taken. Feitelijke standaardontwikkeling vindt plaats in werkgroepen waarin de gebruikers van de standaarden participeren. De werkgroepen worden door de uitvoeringsorganisatie gecoÃ¶rdineerd. Veelal worden ook de daadwerkelijke uitwerkingen opgesteld door de uitvoeringsorganisatie op basis van discussies in de werkgroepen. De uitkomst van de werkgroep, een nieuwe versie van een standaard, kan door het bestuur vastgesteld worden en uitgebracht worden als nieuwe versie. De besluitvorming, wie (bestuur/werkgroep) bepaalt wat, moet helder geregeld zijn.
+De kern is dat duidelijk moet zijn vastgelegd welke besluiten in de bestuursvergadering genomen dienen te worden; welke schriftelijk (e-mail) voorgelegd kunnen worden, welke door een specifiek bestuurslid genomen kunnen worden, en voor welke besluiten het mandaat bij  de uitvoeringsorganisatie ligt. In de praktijk worden vaak jaarplannen gebruikt voor de opdrachtformulering van het bestuur aan de uitvoeringsorganisatie. Op basis van rapportages over het jaarplan legt de uitvoeringsorganisatie dan verantwoording af aan het bestuur. Het jaarplan beschrijft welke taken uitgevoerd moeten worden; welke werkgroepen er zijn of opgestart moeten worden, wat de doelen voor de werkgroep zijn, etc. Het jaarplan wordt goedgekeurd door het bestuur en is daarmee de opdracht voor de uitvoeringsorganisatie. Het BOMOS activiteitel model kan als kapstok dienen om de taken in het jaarplan te benoemen. Het jaarplan maakt het ook goed mogelijk om afspraken te maken over uit te besteden taken. Feitelijke standaardontwikkeling vindt plaats in werkgroepen waarin de gebruikers van de standaarden participeren. De werkgroepen worden door de uitvoeringsorganisatie gecoördineerd. Veelal worden ook de daadwerkelijke uitwerkingen opgesteld door de uitvoeringsorganisatie op basis van discussies in de werkgroepen. De uitkomst van de werkgroep, een nieuwe versie van een standaard, kan door het bestuur vastgesteld worden en uitgebracht worden als nieuwe versie. De besluitvorming, wie (bestuur/werkgroep) bepaalt wat, moet helder geregeld zijn.
 
 Bij voorkeur wordt onderscheid gemaakt tussen verschillende zwaartes van wijzigingen in standaarden, zodat de lichtste wijzigingen door de betreffende werkgroep of de uitvoeringsorganisatie zelf kunnen worden afgehandeld en alleen de meest fundamentele wijzigingen betrokkenheid van het bestuur vragen, tot aan een bestuursbesluit. Een werkgroep die continu overruled wordt door het bestuur is niet werkbaar.
 
@@ -36,13 +37,15 @@ De besluitvorming binnen de werkgroep kan afhankelijk zijn van de mogelijke deel
 
 In het figuur is een eenvoudige basisstructuur geschetst van bestuur, uitvoeringsorganisatie en werkgroepen. Facultatief kan daar een adviesorgaan en/of leveranciersgroep aan toegevoegd worden. Naast deze geschetste mogelijkheden zijn er nog vele alternatieven, zowel eenvoudiger als complexer. Welke structuur ook gekozen wordt, bij voorkeur worden de verslagen van de verschillende gremia openbaar ter beschikking gesteld. 
 
-### Rollen en activiten. 
+### Rollen en activiteiten. 
 Eerder zijn de rollen voor het ontwikkel- en beheerproces gedefinieerd, en zijn ze gekoppeld aan de hoofdactiviteiten van BOMOS. Omgekeerd kijken we er nu in meer detail naar. Onderstaande tabel geeft vanuit de rollen aan in welke BOMOS activiteiten ze betrokken kunnen zijn; dat laat ook zien dat een 1-op-1 koppeling tussen rol en activiteit niet werkt. 
-HIER TABEL!
+
+![Rollen en Activiteiten](../media/nenactiviteiten2.png)
+
 
 KADER: 
 Het zorgdomein is een complexe situatie met stakeholders en partijen die een belang hebben in de standaardisatie ontwikkeling. Door het leggen van relaties tussen de rollen, en de invulling van de rollen met de namen van de stakeholders/partijen wordt een helder inzicht gecreerd in de wereld van deze zorg standaard. (bron voorbeeld: NEN 7522-2021)
-HIER TABEL
+![ Voorbeeld van toewijzing rollen aan stakeholders](../media/nenactiviteiten3.png)
 
 
 ### Beheertaken uitvoering 
@@ -98,7 +101,7 @@ Kader input: voorbeelden van beheerorganisaties en hun organisatievorm
 
 **De overheidsorganisatie:** Er zijn verschillende vormen van overheidsorganisaties, waardoor een korte bespreking onmogelijk is. Het inzetten van een overheidsorganisatie zou op verschillende manieren kunnen: één overheidsorganisatie als beheerorganisatie voor alle aan de overheid gerelateerde standaarden, of per standaard één overheidsorganisatie. Daarnaast kan een enkele overheidsorganisatie de uitvoering van het beheer op zich nemen, maar kunnen meerdere overheden zich ook verenigen. Dit kan bijvoorbeeld in een vereniging. De keuze van de rechtsvorm dient weloverwogen te gebeuren, waarbij ook zaken als de eenvoud van het opzetten moet worden meegenomen. Bij een stichting speelt dat het mogelijk lastig is voor overheidspartijen om aan een stichting deel te nemen, en dat een stichting geen leden mag hebben. Bij een vereniging speelt de grote macht van de ALV. Met een stichting en vereniging is het wel eenvoudig om openheid aan te tonen. Bij zowel de stichting als de vereniging zijn de statuten belangrijk; deze regelen in feite het mandaat van de rollen in de organisatie.
 
-Ondanks het feit dat een stichting geen leden kan hebben spreekt men bij HL7 Nederland wel over leden, maar hanteert men strikt formeel de term _aangeslotenen_. SETU kent geen leden, maar wel participanten. HL7 Nederland beschrijft de invulling van de organisatie in het openbare document 'Nadere regeling democratisering HL7nl 2004', gepubliceerd op hun website. Een samenwerkingsverband zonder rechtsvorm kan in de praktijk goed werken voor het beheer maar kan in praktische zaken weer nadelig zijn doordat het samenwerkingsverband als zodanig geen bevoegdheden heeft tot het aangaan van overeenkomsten; hierbij zal altijd één van de partners deze overeenkomst moeten aangaan. Mogelijke nadelen die hieraan kleven zijn het verlies van identiteit; het gebonden zijn aan regels en beperkingen van de partner; minder slagvaardigheid etc. Het voordeel van een dergelijke organisatievorm is dat deze eenvoudig is in te richten en op te heffen zonder juridische consequenties. De organisatieinrichting kan in enige mate de vrijblijvendheid reduceren of op zijn minst expliciteren. De vrijblijvendheid van de deelnemers in standaarden is zeker een serieus aandachtspunt in het kader van een duurzaam toegepaste standaard.
+Ondanks het feit dat een stichting geen leden kan hebben spreekt men bij HL7 Nederland wel over leden, maar hanteert men strikt formeel de term _aangeslotenen_. SETU kent geen leden, maar wel participanten. Een samenwerkingsverband zonder rechtsvorm kan in de praktijk goed werken voor het beheer maar kan in praktische zaken weer nadelig zijn doordat het samenwerkingsverband als zodanig geen bevoegdheden heeft tot het aangaan van overeenkomsten; hierbij zal altijd één van de partners deze overeenkomst moeten aangaan. Mogelijke nadelen die hieraan kleven zijn het verlies van identiteit; het gebonden zijn aan regels en beperkingen van de partner; minder slagvaardigheid etc. Het voordeel van een dergelijke organisatievorm is dat deze eenvoudig is in te richten en op te heffen zonder juridische consequenties. De organisatieinrichting kan in enige mate de vrijblijvendheid reduceren of op zijn minst expliciteren. De vrijblijvendheid van de deelnemers in standaarden is zeker een serieus aandachtspunt in het kader van een duurzaam toegepaste standaard.
 
 <aside class="note">
 **Naast 'harde' invulling ook aandacht voor 'zachte' facetten**
@@ -110,7 +113,7 @@ Dit hoofdstuk beschrijft veelal relatief 'harde' invulling van de organisatie, d
 <p class="comment" style="color:red">
 
 KADER: Template voor beheerdocument van Geonovum
-Om opdrachtgevers meer inzicht te geven in de activiteiten in het beheerproces van standaarden, hebben wij een generiek beheerdocument opgesteld. Hierin staat  wat Geonovum doet in elk â€œblokjeâ€ van het BOMOS-model. Voor elke door Geonovum te beheren standaard stelt Geonovum daarnaast een specifiek beheerdocument op. In dit specifieke beheerdocument zijn de aanvullende afspraken vastgelegd voor een standaard. In wezen biedt het specifieke beheerdocument het overzicht van meer- en minderwerk uitgaand van het generieke beheerdocument.
+Om opdrachtgevers meer inzicht te geven in de activiteiten in het beheerproces van standaarden, hebben wij een generiek beheerdocument opgesteld. Hierin staat  wat Geonovum doet in elk activiteitengroep van het BOMOS-model. Voor elke door Geonovum te beheren standaard stelt Geonovum daarnaast een specifiek beheerdocument op. In dit specifieke beheerdocument zijn de aanvullende afspraken vastgelegd voor een standaard. In wezen biedt het specifieke beheerdocument het overzicht van meer- en minderwerk uitgaand van het generieke beheerdocument.
 
 Om de kosten van beheer optimaal inzichtelijk te maken, heeft Geonovum op basis van het generieke en het specifieke beheermodel, onlangs ook een BOMOS rekenmodel ontwikkeld. Op basis van een reeds bekende en beheerde standaard is de benodigde basis inzet berekend. Deze basis gebruiken we vervolgens om een gerichte inschatting te kunnen maken van meer- en minderwerk zoals beschreven in het specifieke beheerdocument. Hierdoor kunnen we beheerkosten realistisch en onderbouwd inschatten.
 
@@ -118,17 +121,23 @@ Dit is ook voor andere organisaties te gebruiken: om het rekenmodel te kunnen ge
  
 </p>
 ## VISIE
+Inhoudelijke visie ontwikkelen over de richting van de standaard in de context: De plek op de horizon op de lange termijn. Een compacte vertaling in bijvoorbeeld een factsheet van deze visie kan ook zeer nuttig zijn in de communicatie rond de standaard en het bevorderen van adoptie van de standaard. Ook moet er aandacht zijn voor innovatie; veel organisaties gebruiken daar hulpmiddelen voor als een radar, of specifiek een tech-radar; daarin worden innovatieve ontwikkeling geplot op een radar op basis van tijd en impact. Dit soort hulpmiddelen zijn ook hier van toepassing. De visie voor een standaard is op zich niet anders dan de visie rond een bedrijf/product, etc. Vandaar dat BOMOS hier geen specifieke invulling voor standaarden aan geeft. 
 
-Hier is erwin f.
+De verdere detailering van de in de visie benoemde innovatie onderwerpen zal veelal op tactisch niveau
+
+
+
+
 
 ## FINANCIËN: De kosten en de opbrengsten
 
+Een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte is het voornaamste doel van deze activiteit.
 Een standaard ontwikkelen en beheren kost structureel geld. De hoeveelheid is sterk afhankelijk van de context en dynamiek van de standaard en het is niet eenvoudig hier generieke uitspraken over te doen. De eerste ontwikkelingen starten vaak met projecten die beginnen met budgetten vanaf 30.000 euro tot vele malen groter. Een eerste project levert ook niet direct een standaard op, maar heeft in een werkgroep de mogelijkheden en scope van een standaard onderzocht. Na de initiÃ«le ontwikkeling moet de standaard structureel worden beheerd en doorontwikkeld. Er zijn cases bekend die het beheer met budgetten in de order van 250.000 tot 900.000 euro (per jaar) hebben georganiseerd. Tot op heden is hier weinig onderzoek naar gedaan, met uitzondering van de Ethernet standaard: deze technische standaard heeft $10 miljoen dollar gekost om te ontwikkelen. Andere informatie bekend uit literatuur is dat de opbrengsten van verkoop van ISO standaarden voor de helft voorziet in de kosten die ISO maakt in de ontwikkeling en beheer van de ISO standaarden.
 
 
 ### De baten van standaardisatie generiek
 
-Er mogen dan weinig cijfers beschikbaar zijn maar er is voldoende economisch onderzoek gedaan naar de vooren nadelen van standaardisatie. Bijgaande tabel 29 geeft een samenvatting:
+Er mogen dan weinig cijfers beschikbaar zijn maar er is voldoende economisch onderzoek gedaan naar de vooren nadelen van standaardisatie. Bijgaande tabel geeft een samenvatting:
 
 
 
@@ -147,7 +156,7 @@ Positieve netwerkeffecten (wordt waardevoller met meer gebruikers)
 
 
 *   Voorkomen van vendor lock-ins
-*   Toename variÃ«teit in producten en diensten
+*   Toename variëteit in producten en diensten
 *   Schaalvoordeel
 *   Verlagen transactiekosten
 
