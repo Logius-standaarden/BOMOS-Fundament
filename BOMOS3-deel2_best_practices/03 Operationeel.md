@@ -1,5 +1,5 @@
 
-## Proces voor de ontwikkeling en het beheer van een standaard (hoofdactiviteit: Operationeel)
+## Proces voor de ontwikkeling en het beheer van een standaard (Hoofdactiviteit: Operationeel)
 Operationele proces voor de ontwikkeling en het beheer van een standaard
 
 De primaire standaardisatieactiviteit is het operationele proces: Op welke manier komt de uiteindelijke standaard nu tot stand?
@@ -30,10 +30,10 @@ Bij het opstellen van een nieuwe standaard kan een ‘pressure cooker’ proces 
 Niet ieder idee of wens leidt automatisch tot een veranderingsvoorstel voor de standaard. Grofweg zijn er de volgende mogelijkheden:
 
 *   Het idee is meer een vraag die specifiek is voor de implementatie bij een bepaalde partij. Bijvoorbeeld wanneer een organisatie nog weinig ervaring heeft met de standaard. In een dergelijk geval kan vanuit de community of vanuit de beheerorganisatie mogelijke ondersteuning worden geboden bij het oplossen van het probleem. Het is dan niet nodig de standaard te wijzigen.
-*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte. Bijvoorbeeld: het SoFi-nummer moet worden vervangen door het BurgerServiceNummer.
+*   Een wens of idee heeft betrekking op aanpassing of uitbreiding van de bestaande standaard. Dit kan voortkomen uit veranderde wetgeving, veranderde processen of andere veranderde behoefte. 
 *   Het voorstel heeft betrekking tot fundamentele wijziging of uitbreiding van de standaard. Denk aan:
-    *   Functionele uitbreiding, bijvoorbeeld het voorstel Standaard Uitwisselings Formaat (StUF) niet alleen te gebruiken voor de uitwisseling van basisgegevens (StUF-BG), maar ook voor zaakinformatie (StUF-Zaken).
-    *   Naast semantische standaardisatie ook op transportniveau vastleggen hoe gegevens uitgewisseld moeten worden. Bijvoorbeeld: vastleggen dat bepaalde XML-berichten enkel via SOAP mogen worden uitgewisseld.
+    *   Functionele uitbreiding
+    *   Naast semantische standaardisatie ook op transportniveau vastleggen hoe gegevens uitgewisseld moeten worden. Bijvoorbeeld: vastleggen dat bepaalde XML/JSON-berichten enkel via REST-API mogen worden uitgewisseld.
     *   Toepassing van de standaard in nieuwe sectoren.
 
 Op een moment dat de indiener dit aangeeft dient de wens of eis opgenomen te worden als ‘request for change’ of ‘wijzigingsverzoek’.
@@ -96,5 +96,5 @@ Het is van belang dit in het wijzigingsproces te onderkennen. Drie aspecte zijn 
 *   Bij wijzigingen van de internationale/onderliggende standaard moet worden bepaald of dit impact heeft op eigen standaard.
 *   Er moet vastgelegd worden of en zo ja welke relatie er is tussen het releaseschema en versienummer van de eigen standaard en de onderliggende standaard.
 
-In hoofdstuk 9 wordt dieper ingegaan op de relatie met andere standaarden. [TODO: BLAUWE VLAKKEN NOG NIET MEEGENOMEN]
+In een ander deel wordt dieper ingegaan op de relatie met andere standaarden. [TODO: BLAUWE VLAKKEN NOG NIET MEEGENOMEN EDWIN???]
 
