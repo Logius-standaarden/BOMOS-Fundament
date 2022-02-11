@@ -1,4 +1,4 @@
-## Ondersteuning bieden aan implementaties (Activiteit Implementatie Ondersteuning)
+# Ondersteuning bieden aan implementaties (Activiteit Implementatie Ondersteuning)
 
 Het eerste begin van elke standaard is lastig. Mede door het bekende fenomeen van netwerk-effecten zullen velen de kat uit de boom kijken, en wachten met implementaties. Dit is lastig te doorbreken, maar implementatie-ondersteuning kan hierbij doorslaggevend zijn.  
 Daarnaast zijn de eerste implementaties vaak ook de eerste serieuze testcase voor de standaarden. Informatie over deze implementaties is dan ook weer waardevolle input in het beheerproces van een standaard. Dat is een reden te meer om implementatie-ondersteuning aan te bieden.  
