@@ -51,11 +51,6 @@ Op basis van het voorgaande zijn er een aantal concrete tips op te stellen: Maak
 *   De rechten expliciet hebben vastgelegd; de intellectuele eigendomsrechten op de standaarden, copyrights op documenten, de bijdrage van personen in werkgroepen en in de totstandkoming van de standaarden. Versiebeheer vastleggen: hoe om te gaan met backward en forward compatabiliteit, en daarnaast de ondersteuning vastleggen op basis van de levenscyclus van een standaard.
 *   Het vastleggen in een document van de ontwikkelen beheeraspecten.
 
-### Een praktijkvoorbeeld: de invulling bij Aquo
-<p class="comment" style="color:red"> Dit voorbeeld is oud. Vereist het herziening? Hieronder staatbijvoorbeeld dat de naam Informatiehuis Water is geworden. En is Krechmer nog relevant?
-</P>
-~~Zoals al eerder is aangegeven wordt bij toepassing van het model van Krechmer al snel duidelijk dat openheid niet zwart/wit is en dat er bij elke standaard wel een paar punten zijn die niet honderd procent open zijn. Mogelijk is daar een goede reden voor, mogelijk kan dat in de toekomst aangepast worden. Echter transparantie van de mate van openheid is al een sterk winstpunt 17 . Het voorbeeld van Aquo (voorheen IDsW, thans: Informatiehuis Water) laat dit ook perfect zien. Zelfs voor de Aquo standaard, die door een expertgroep als voldoende open werd bestempeld, waren er verbeterpunten.~~
-
 ### Het toetsbaar maken van het model
 
 Het model van Krechmer is een ideaal startpunt maar kan aangevuld worden om meer praktische handvatten te bieden. Daartoe hebben we de criteria verder uitgewerkt in variabelen per criteria. Deze variabelen zijn beter te relateren aan de praktijksituatie. Tot slot kunnen er scores toegekend worden per variabelen; dat maakt openheid tussen standaarden ook vergelijkbaar. Theoretisch gezien zou er dan bijvoorbeeld een minimale score kunnen worden gedefinieerd willen we spreken over een open standaard. Echter dat doet geen recht aan het feit dat bepaalde variabelen belangrijker zijn dan andere variabelen.
@@ -106,9 +101,9 @@ Verder is Open Source Software een prima alternatief voor gesloten source softwa
 
 Open Source Software dient zeker niet verward te worden met open standaarden. Dit zijn wezenlijk andere concepten, waarbij vanuit het oogpunt van interoperabiliteit alleen open standaarden essentieel zijn.
 
-
 ## ARCHITECTUUR: Samenhang met andere standaarden
 
+[TODO: verwijzing naar hoofdstuk aanpassen met een respec anchor]
 Zoals in hoofdstuk 2 geschetst is interoperabiliteit het doel en zijn standaarden het middel. Dit hoofdstuk gaat in op deze relatie tussen verschillende standaarden.
 
 ### De gelaagdheid van standaarden
