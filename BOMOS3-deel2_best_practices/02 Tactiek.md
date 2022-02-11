@@ -1,6 +1,5 @@
-# Tactiek
 
-## COMMUNITY: De open invulling van een standaard
+## De open invulling van een standaard (Activiteit Community)
 
 Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent dat voor de beheerorganisatie?
 
@@ -101,10 +100,9 @@ Verder is Open Source Software een prima alternatief voor gesloten source softwa
 
 Open Source Software dient zeker niet verward te worden met open standaarden. Dit zijn wezenlijk andere concepten, waarbij vanuit het oogpunt van interoperabiliteit alleen open standaarden essentieel zijn.
 
-## ARCHITECTUUR: Samenhang met andere standaarden
+## Samenhang met andere standaarden (Activiteit Architectuur)
 
-[TODO: verwijzing naar hoofdstuk aanpassen met een respec anchor]
-Zoals in hoofdstuk 2 geschetst is interoperabiliteit het doel en zijn standaarden het middel. Dit hoofdstuk gaat in op deze relatie tussen verschillende standaarden.
+Zoals eerder geschetst is interoperabiliteit het doel en zijn standaarden het middel. Dit deel gaat in op deze relatie tussen verschillende standaarden.
 
 ### De gelaagdheid van standaarden
 
@@ -114,7 +112,7 @@ Om interoperabiliteit (uitwisselbaarheid) te bewerkstelligen tussen organisaties
 
 Voor technische interoperabiliteit moeten er keuzes gemaakt worden, waarbij vaak gekozen wordt voor een technische filosofie waarbij een familie van standaarden hoort; Echt veel keuzes zijn er eigenlijk niet. Bijvoorbeeld als communicatiemechanisme is het Internet met als standaarden TCP/IP, HTTP, etc. voor de hand liggend. Op het gebied van messaging (transport) mechanisme is er misschien meer keuze, maar tegenwoordig is Web service als familie hier ook voor de hand liggend. De keuze voor Web services brengt een keuze voor de individuele standaarden (zoals SOAP, WSDL, etc.) met zich mee. Een voorbeeld van een alternatief is de familie van ebXML standaarden. Overigens is de keuze voor deze technische standaarden alleen niet voldoende. Om interoperabiliteit te bereiken zijn doorgaans nog profielen nodig bovenop deze standaarden waarin beschreven staat hoe de opties in de standaarden ingevuld moeten worden. Ook al is dit niet domeinspecifiek wordt dit nu vaak per domein ingevuld, vooral om gebruikers een complete interoperabiliteitsoplossing te kunnen bieden in combinatie met de semantische standaarden.
 
-Tot slot is de keuze voor de technische standaard XML tegenwoordig voor de hand liggend. In het verleden was EDI de aangewezen technologie. Deze wordt nog veel gebruikt in bestaande situaties, maar niet meer in nieuwe situaties.
+Tot slot is de keuze voor de technische standaard JSON tegenwoordig voor de hand liggend. In het verleden was XML, en daarvoor EDI de aangewezen technologie. Deze wordt nog veel gebruikt in bestaande situaties, maar niet meer in nieuwe situaties.
 
 De technische standaarden zijn randvoorwaardelijk, maar de echte uitdaging ligt bij de semantische standaarden waarin de betekenis van de informatieuitwisseling centraal staat. Verticale semantische standaarden zijn gericht op een specifieke sector, terwijl horizontale sectoroverstijgend zijn. In de praktijk zijn verticale standaarden noodzakelijk om goed aan te sluiten bij de context van de organisatie. Verticale standaarden kunnen een nadere invulling zijn van horizontale standaarden, zie hiervoor de volgende paragraaf.
 
@@ -146,19 +144,17 @@ XBRL is een voorbeeld van een internationale verticale standaard (in de financi�
 
 In het kader van e-factureren heeft de Nederlandse overheid gekozen voor een internationale horizontale standaard (UBL), en heeft men vervolgens zelf een factuurmodel ontwikkeld om de vrijheidsgraden te beperken. Dus ook hier is er sprake van een nationaal toepassingsprofiel om uiteindelijk interoperabiliteit te kunnen bereiken, alleen is dit toepassingsprofiel nog niet echt gestandaardiseerd. Overigens voor e-factureren rond flexibele arbeid heeft de Nederlandse overheid gekozen voor het gestandaardiseerde factuurmodel van SETU, waarin de internationale horizontale standaard OAGIS wordt gebruikt.
 
-Tot slot, ook binnen de standaarden zelf kan weer gelaagdheid ontstaan, op verschillende manieren. Onderstaand voorbeeld is afkomstig van de StUF-standaard waarin we binnen de StUF familie relaties zien tussen verticale-sectormodellen, en horizontale standaarden. Daarnaast illustreert dit voorbeeld ook dat binnen de semantische StUF standaard op de onderste laag (protocol bindingen) ook technische zaken worden afgesproken die normaal gesproken niet bij een semantische standaard horen. Deze â€˜transportlaagâ€™ wordt vaak toch meegenomen om een totaaloplossing voor het domein te kunnen bieden voor interoperabiliteit, ondanks dat dit transport onderwerp niet sector-
-specifiek is.
+Tot slot, ook binnen de standaarden zelf kan weer gelaagdheid ontstaan, op verschillende manieren. Tussen verticalen sector modellen en horizontale standaarden, en daarnaast worden ook andere (bv. technische) standaarden vaak samen toegevoegd om een totaal oplossing te bieden voor interoperabiliteit.
+
 
 ### Sector overstijgende interoperabiliteit: Verzuiling
 
-Door de sector-specifieke aanpak van de semantische standaarden ontstaat de angst voor verzuiling van sectoren. Interoperabiliteit over sectoren heen wordt niet opgelost, en wordt zelfs mogelijk steeds lastiger. Het potentiÃ«le probleem is alom bekend, en oplossingen worden daarvoor bedacht maar tot op heden stranden deze in zeer lage adoptie en gebrek aan draagvlak en ondersteuning. Dat kan twee oorzaken hebben;
+Door de sector-specifieke aanpak van de semantische standaarden ontstaat de angst voor verzuiling van sectoren. Interoperabiliteit over sectoren heen wordt niet opgelost, en wordt zelfs mogelijk steeds lastiger. Het potentiële probleem is alom bekend, en oplossingen worden daarvoor bedacht maar tot op heden stranden deze in zeer lage adoptie en gebrek aan draagvlak en ondersteuning. Dat kan twee oorzaken hebben;
 
 1. Het probleem van sectoroverstijgende interoperabiliteit wordt nog niet als nijpend beschouwd aangezien binnen de sector nog grotere uitdagingen liggen.
-2. De voorgestelde technische oplossingen zijn vaak uitermate complex. Bijvoorbeeld een technisch fraaie oplossing is de UN/CEFACT Core Components standaard. Deze standaard is grofweg tien jaar oud, maar kan op het gebied van adoptie nog wel een boost gebruiken.
+2. De voorgestelde technische oplossingen zijn vaak uitermate complex. Bijvoorbeeld een technisch fraaie oplossing is de UN/CEFACT Core Components standaard. Deze standaard is meer dan tien jaar oud, maar kan op het gebied van adoptie nog wel een boost gebruiken.
 
-<p class="comment" style="color:red">herzien: is UN/CEFACT core components 10 jaar oud? Zijn er andere delen van de tekst verouderd? </p>
-
-De kern van de oplossing zit hem waarschijnlijk niet in de techniek, maar in de beheerorganisaties actief in de verschillende domeinen. Deze zullen minder verkokerd moeten optreden en meer moeten samenwerken met de collega beheer-organisaties in aanverwante sectoren. Daar is de laatste jaren dan ook al verbetering in opgetreden. Mede ook op basis van het 'open' gedachtegoed, want in een 'open world' (zie paragraaf 8.1) zijn er geen concurrerende standaarden en sluiten standaarden perfect op elkaar aan.
+De kern van de oplossing zit hem waarschijnlijk niet in de techniek, maar in de beheerorganisaties actief in de verschillende domeinen. Deze zullen minder verkokerd moeten optreden en meer moeten samenwerken met de collega beheer-organisaties in aanverwante sectoren. Daar is de laatste jaren dan ook al verbetering in opgetreden. Mede ook op basis van het 'open' gedachtegoed, want in een 'open world' (zie deel over openheid) zijn er geen concurrerende standaarden en sluiten standaarden perfect op elkaar aan.
 
 ### De relatie met formele standaarden
 
@@ -214,7 +210,7 @@ De strategieën:
 
 Met name om interoperabiliteit internationaal mogelijk te maken is het verstandig om zoveel mogelijk in lijn te blijven met de internationale standaarden en een strategie te kiezen aan de rechterkant van het figuur, waar mogelijk compliant profiling. Echter dat vergt afstemming met de internationale standaard, waaraan kosten verbonden zijn, ondermeer door het bezoeken van de internationale standaardisatie bijeenkomsten. Een noodzakelijkheid om interoperabiliteit in internationale context na te streven.
 
-## ADOPTIE: stimuleren van het gebruik van standaarden
+## Stimuleren van het gebruik van standaarden (Activiteit Adoptie & Erkenning)
 Veel standaardisatieorganisaties zoeken naar mogelijkheden om het gebruik van hun standaard te stimuleren. Dit kan op verschillende manier gedaan worden. Een strategie daarvoor wordt een adoptiestrategie genoemd.
 
 ### Succesfactoren voor adoptie van een standaard
@@ -325,7 +321,7 @@ Een gemiddelde individuele adoptiekans leidt doorgaans tot een financieel middel
 ![alt_text](images/adoptiekeuzes.png "Adoptiekeuzes")
 
 ### Plugfest
-Een zogenoemd 'plugfest' of 'plugtest' (ook wel 'connectathon' genoemd) is een adoptiemiddel op het gebied van samenwerken & faciliteren. De kern van een plugfest is om leveranciers die de standaard geÃ¯mplementeerd hebben bij elkaar te laten komen, en interoperabiliteit tussen de leveranciers/systemen ter plekke gaan testen aan de hand van scenario's.
+Een zogenoemd 'plugfest' of 'plugtest' (ook wel 'connectathon' genoemd) is een adoptiemiddel op het gebied van samenwerken & faciliteren. De kern van een plugfest is om leveranciers die de standaard geïmplementeerd hebben bij elkaar te laten komen, en interoperabiliteit tussen de leveranciers/systemen ter plekke gaan testen aan de hand van scenario's.
 
 Tijdens een plugfest wordt in een bijeenkomst de implementatie van een standaard getoetst door te onderzoeken of de door de standaard beoogde informatie-uitwisseling tot stand komt. Om dit te toetsen kunnen scenario's gebruikt worden. In deze scenario's worden stappen doorlopen die tijdens normaal dagelijks gebruik van de standaard ook worden doorlopen. De scenario's richten zich op de uitwisseling van informatie tussen applicaties.
 
@@ -333,14 +329,14 @@ Indien een scenario niet succesvol wordt doorlopen dan kan worden onderzocht waa
 
 Vanuit een standaardisatie-organisatie bekeken kan het organiseren van een plugfest een positieve bijdrage leveren aan:
 
-**interoperabiliteit:** plugfests bieden leveranciers die de standaard hebben geÃ¯mplementeerd de mogelijkheid de implementatie van die standaard te toetsen tegen andere implementaties van andere leveranciers. Eventuele fouten kunnen direct of in later stadium gecorrigeerd worden en onderdelen van de standaard die nog onvoldoende helder gespecificeerd blijken, komen op deze manier boven tafel.
+**interoperabiliteit:** plugfests bieden leveranciers die de standaard hebben geïmplementeerd de mogelijkheid de implementatie van die standaard te toetsen tegen andere implementaties van andere leveranciers. Eventuele fouten kunnen direct of in later stadium gecorrigeerd worden en onderdelen van de standaard die nog onvoldoende helder gespecificeerd blijken, komen op deze manier boven tafel.
 
 **transparantie:** leveranciers weten na afloop van een plugfest met welke collegae zij kunnen samenwerken op basis van de standaard. Indien er publiek aanwezig is bij het plugfest dan krijgt dit een beeld van de wijze waarop verschillende leveranciers met de standaard omgaan en welke applicaties van leveranciers goed samenwerken.
 
 **adoptie:** leveranciers kunnen zich onderscheiden door te participeren aan een plugfest. Door publiek uit te nodigen kan de standaard ook onder aandacht van eindgebruikers gebracht worden.
 
 #### Een voorbeeld: plugfesten in de onderwijspraktijk
-NOiV heeft in samenwerking met Kennisnet tweemaal een plugfest georganiseerd rondom de Digitale leermaterialen standaarden van Kennisnet. Beide malen is het plugfest zowel door leveranciers als door eindgebruikers goed bezocht. Voorafgaand aan het plugfest is nauw contact met participerende leveranciers onderhouden en is hen gevraagd alvast leermaterialen aan te leveren. Deze materialen zijn door Kennisnet vooraf getoetst en op basis van de resultaten kregen leveranciers een tweede mogelijkheid een verbeterd pakket met leermateriaal aan te leveren. De scores van de tweede toets zijn tijdens het evenement bekend gemaakt. Tijdens het plugfest zijn leveranciers in staat gesteld te laten zien hoe goed zij leermaterialen die in de standaard zijn opgeslagen kunnen gebruiken in hun software. Tegelijkertijd was er de mogelijkheid voor gebruikers om te kijken of hun eigen materiaal in verschillende applicaties van verschillende leveranciers werkte. Bijna alle leveranciers die de eerste keer meededen hebben ook de tweede keer geparticipeerd. Er zijn zelfs leveranciers bijgekomen. De winnaars van het plugfest nemen de uitslag op in promotie-uitingen van hun bedrijf.
+In het onderwijsveld is een plugfest georganiseerd rondom de Digitale leermaterialen standaarden. Beide malen is het plugfest zowel door leveranciers als door eindgebruikers goed bezocht. Voorafgaand aan het plugfest is nauw contact met participerende leveranciers onderhouden en is hen gevraagd alvast leermaterialen aan te leveren. Deze materialen zijn door Kennisnet vooraf getoetst en op basis van de resultaten kregen leveranciers een tweede mogelijkheid een verbeterd pakket met leermateriaal aan te leveren. De scores van de tweede toets zijn tijdens het evenement bekend gemaakt. Tijdens het plugfest zijn leveranciers in staat gesteld te laten zien hoe goed zij leermaterialen die in de standaard zijn opgeslagen kunnen gebruiken in hun software. Tegelijkertijd was er de mogelijkheid voor gebruikers om te kijken of hun eigen materiaal in verschillende applicaties van verschillende leveranciers werkte. Bijna alle leveranciers die de eerste keer meededen hebben ook de tweede keer geparticipeerd. Er zijn zelfs leveranciers bijgekomen. De winnaars van het plugfest nemen de uitslag op in promotie-uitingen van hun bedrijf.
 
 #### Leerpunten, aandachtspunten, do's and don'ts
 **Kies**: Een plugfest gericht op interoperabiliteit is een compleet ander plugfest dan die gericht op adoptie/transparantie. Een plugfest gericht op interoperabiliteit kan bijvoorbeeld besloten zijn, gericht op ondersteuning richting leveranciers, en passend in de vroege levensfase van een standaard. Een plugfest gericht op adoptie is zeer open, met publiciteit, gericht op transparantie en passend in een volwassen levensfase van een standaard. Een keuze is dan ook noodzakelijk.
@@ -394,9 +390,9 @@ Een standaardisatie-organisatie heeft doorgaans vooral een netwerkperspectief op
 Voor een standaardisatie-organisatie zijn dit aangrijpingspunten om de adoptie binnen een specifieke partij te stimuleren. Daar zit ook de samenhang met de adoptiemiddelen die een standaardisatie-organisatie kan inzetten. Bijvoorbeeld:
 
 1. Door juridische middelen (pas toe of leg uit, opname in de wet) wordt een organisatie gedwongen om binnen het compliance managementproces te bepalen hoe een bepaalde standaard wordt ingebed.
-2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur. Een voorbeeld is de opname van StUF als onderdeel van de gemeentelijke model architectuur (GEMMA) in diverse gemeentelijke referentiemodellen.
+2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur. 
 3. Via financiële middelen kan de migratie naar een standaard meer prioriteit krijgen in het portfolio management proces.
-4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop. Ook de manifesten 'open leveranciers' van Nederland Open in Verbinding zijn een voorbeeld van het sturen aan de inkoopkant.
+4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop. 
 
 ## KWALITEITSBELEID EN BENCHMARKING
 
@@ -425,9 +421,7 @@ Een andere mogelijke reden is het gebrek aan standaardisatie-expertise, aangezie
 
 
 #### Een kwaliteitsinstrument
-[TODO: Herzien/linken/samenvoegen met BOMOS 2i, 2n en beschikbare BOMOS profielen]
-
-Hoe ziet zoâ€™n instrument waarmee we de kwaliteit van een standaard inzichtelijk kunnen maken eruit? Om een kwaliteitsinstrument te ontwikkelen is veel kennis nodig: wat is een kwalitatief goede standaard? Welke kwaliteitsaspecten zijn van invloed, en hoe zijn die te meten? Maar ook over het onderwerp zelf: wat is een semantische standaard? Uit welke componenten bestaat een semantische standaard? Want daar zal de kwaliteitsthermometer in gestoken moeten worden. Het is noodzakelijk te weten hoe de kwaliteitsthermometer eruit kan zien, maar ook waar we hem in kunnen steken. Dit is complexe materie wat nog in de kinderschoenen staat. Voorlopig is er een eerste versie van een kwaliteitsmodel beschikbaar.
+Hoe ziet zo’n instrument waarmee we de kwaliteit van een standaard inzichtelijk kunnen maken eruit? Om een kwaliteitsinstrument te ontwikkelen is veel kennis nodig: wat is een kwalitatief goede standaard? Welke kwaliteitsaspecten zijn van invloed, en hoe zijn die te meten? Maar ook over het onderwerp zelf: wat is een semantische standaard? Uit welke componenten bestaat een semantische standaard? Want daar zal de kwaliteitsthermometer in gestoken moeten worden. Het is noodzakelijk te weten hoe de kwaliteitsthermometer eruit kan zien, maar ook waar we hem in kunnen steken. Dit is complexe materie wat nog in de kinderschoenen staat. Voorlopig is er een eerste versie van een kwaliteitsmodel beschikbaar.
 
 Deze eerste versie is gebaseerd op voornamelijk het domein van softwareengineering, waar kwaliteit al jaren onder de aandacht is. Dat heeft geleid tot meerdere ISO-standaarden (met name ISO 9126) die de kwaliteit van software beschrijven. Op basis hiervan is het in figuur 19 weergegeven kwaliteitsmodel voor semantische standaarden gedestilleerd en getoetst met experts.
 
@@ -453,10 +447,10 @@ Het huidige kwaliteitsmodel is niet af maar is toch een startpunt om te gebruike
  De belangrijkste vraag is wat het gebruik van het kwaliteitsinstrument voor standaarden oplevert. Kort samengevat:
 
 * een model om naar de standaard te kijken: een frisse blik â€¢ inzicht in wat van invloed is op de kwaliteit van een standaard
-* ideën voor verbetering van de standaard
-* ideën voor aanpassingen in het standaardisatieproces
+* ideeën voor verbetering van de standaard
+* ideeën voor aanpassingen in het standaardisatieproces
 
-Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beÃ¯nvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeÃ«n ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
+Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beïnvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeÃ«n ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
 
 In ultieme vorm is het kwaliteitsinstrument een meetinstrument (zoals een thermometer) voor standaarden, dat wil zeggen een compleet gereedschap inclusief 'tool' en 'gebruikshandleiding'. Op dit moment ligt er een bruikbaar kwaliteitsmodel, met een stevig fundament, dat als 'bril' kan worden gebruikt om standaarden in de praktijk mee te toetsen.
 
