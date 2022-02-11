@@ -1,5 +1,5 @@
 
-## De open invulling van een standaard (Activiteit Community)
+# De open invulling van een standaard (Activiteit Community)
 
 Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent dat voor de beheerorganisatie?
 
