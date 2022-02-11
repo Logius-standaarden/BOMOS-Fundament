@@ -1,9 +1,5 @@
-Dit tweede deel uit het BOMOS Fundament geeft een verdieping aan het BOMOS Activiteiten Model. Het bevat een collectie van best practices die gebruikers van BOMOS kunnen inspireren. De structuur is zo veel mogelijk op basis van de activiteiten uit het model. Zo hanteren we voor de structuur de 5 hoofdactiviteiten, en waar best practices voor handen zijn ook de activiteiten uit het model. Het is echter geen 1 op 1 match; de beschreven best practices bevatten vaak inhoud die over meerdere activiteiten in het model betrekking heeft. Bijvoorbeeld best practices rond de adoptie van standaarden is geplaatst onder de hoofdactiviteit tactiek, passend bij de activiteit adoptie & erkenning, maar beschrijft ook hoe bv. opleidingen en pilots kunnen helpen bij adoptie. Dit zijn activiteiten onder de hoofdactiviteit implementatie ondersteuning. 
 
-# Strategie
-Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn.
-
-## GOVERNANCE: De ontwikkel- en beheerorganisatie
+## De ontwikkel- en beheerorganisatie (activiteit Governance)
 Het beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal. 
 
 ### Organisatiestructuur
@@ -120,16 +116,12 @@ Om de kosten van beheer optimaal inzichtelijk te maken, heeft Geonovum op basis 
 Dit is ook voor andere organisaties te gebruiken: om het rekenmodel te kunnen gebruiken, kunnen zij een eigen generiek beheerplan maken, en voor de door hen beheerde standaarden een specifiek beheerplan. Die twee documenten zijn dan input voor het bijbehorende rekenmodel.
  
 </p>
-## VISIE
-Inhoudelijke visie ontwikkelen over de richting van de standaard in de context: De plek op de horizon op de lange termijn. Een compacte vertaling in bijvoorbeeld een factsheet van deze visie kan ook zeer nuttig zijn in de communicatie rond de standaard en het bevorderen van adoptie van de standaard. Ook moet er aandacht zijn voor innovatie; veel organisaties gebruiken daar hulpmiddelen voor als een radar, of specifiek een tech-radar; daarin worden innovatieve ontwikkeling geplot op een radar op basis van tijd en impact. Dit soort hulpmiddelen zijn ook hier van toepassing. De visie voor een standaard is op zich niet anders dan de visie rond een bedrijf/product, etc. Vandaar dat BOMOS hier geen specifieke invulling voor standaarden aan geeft. 
-
-De verdere detailering van de in de visie benoemde innovatie onderwerpen zal veelal op tactisch niveau
+### Visie
+Inhoudelijke visie ontwikkelen over de richting van de standaard in de context: De plek op de horizon op de lange termijn. Een compacte vertaling in bijvoorbeeld een factsheet van deze visie kan ook zeer nuttig zijn in de communicatie rond de standaard en het bevorderen van adoptie van de standaard. Ook moet er aandacht zijn voor innovatie; veel organisaties gebruiken daar hulpmiddelen voor als een radar, of specifiek een tech-radar; daarin worden innovatieve ontwikkeling geplot op een radar op basis van tijd en impact. Dit soort hulpmiddelen zijn ook hier van toepassing. De visie voor een standaard is op zich niet anders dan de visie rond een bedrijf/product, etc. Vandaar dat BOMOS hier geen specifieke invulling voor standaarden aan geeft. De verdere detailering van de in de visie benoemde innovatie onderwerpen zal veelal op tactisch niveau plaatsvinden, bijvoorbeeld als onderdeel van Architectuur.
 
 
 
-
-
-## FINANCIËN: De kosten en de opbrengsten
+## De kosten en de opbrengsten (Activiteit: Financien)
 
 Een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte is het voornaamste doel van deze activiteit.
 Een standaard ontwikkelen en beheren kost structureel geld. De hoeveelheid is sterk afhankelijk van de context en dynamiek van de standaard en het is niet eenvoudig hier generieke uitspraken over te doen. De eerste ontwikkelingen starten vaak met projecten die beginnen met budgetten vanaf 30.000 euro tot vele malen groter. Een eerste project levert ook niet direct een standaard op, maar heeft in een werkgroep de mogelijkheden en scope van een standaard onderzocht. Na de initiÃ«le ontwikkeling moet de standaard structureel worden beheerd en doorontwikkeld. Er zijn cases bekend die het beheer met budgetten in de order van 250.000 tot 900.000 euro (per jaar) hebben georganiseerd. Tot op heden is hier weinig onderzoek naar gedaan, met uitzondering van de Ethernet standaard: deze technische standaard heeft $10 miljoen dollar gekost om te ontwikkelen. Andere informatie bekend uit literatuur is dat de opbrengsten van verkoop van ISO standaarden voor de helft voorziet in de kosten die ISO maakt in de ontwikkeling en beheer van de ISO standaarden.
