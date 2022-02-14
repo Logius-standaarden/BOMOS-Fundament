@@ -115,7 +115,9 @@ Om de kosten van beheer optimaal inzichtelijk te maken, heeft Geonovum op basis 
 Dit is ook voor andere organisaties te gebruiken: om het rekenmodel te kunnen gebruiken, kunnen zij een eigen generiek beheerplan maken, en voor de door hen beheerde standaarden een specifiek beheerplan. Die twee documenten zijn dan input voor het bijbehorende rekenmodel.
  
 </p>
+
 ### Visie
+
 Inhoudelijke visie ontwikkelen over de richting van de standaard in de context: De plek op de horizon op de lange termijn. Een compacte vertaling in bijvoorbeeld een factsheet van deze visie kan ook zeer nuttig zijn in de communicatie rond de standaard en het bevorderen van adoptie van de standaard. Ook moet er aandacht zijn voor innovatie; veel organisaties gebruiken daar hulpmiddelen voor als een radar, of specifiek een tech-radar; daarin worden innovatieve ontwikkeling geplot op een radar op basis van tijd en impact. Dit soort hulpmiddelen zijn ook hier van toepassing. De visie voor een standaard is op zich niet anders dan de visie rond een bedrijf/product, etc. Vandaar dat BOMOS hier geen specifieke invulling voor standaarden aan geeft. De verdere detailering van de in de visie benoemde innovatie onderwerpen zal veelal op tactisch niveau plaatsvinden, bijvoorbeeld als onderdeel van Architectuur.
 
 
