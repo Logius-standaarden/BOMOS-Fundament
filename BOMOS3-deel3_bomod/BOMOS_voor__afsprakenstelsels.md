@@ -30,6 +30,7 @@ Deze principes staan aan de basis van de afspraken en regels over de onderstaand
 ![medmij afsprakenstelsel 4 cornermodel](../BOMOS3-deel3_bomod//images/medmij_afsprakenstelsel.png "Medmij afsprakenstelsel 4 corner model")
 
 *Figuur 1: scope afsprakenstelsel Medmij*
+
 Het afsprakenstelsel Medmij maakt het mogelijk dat de eindgebruiker de gezondheidsinformatie in de persoonlijke gezondsheidsomgeving veilig en betrouwbaar kan delen met zorgaanbieders zoals een apotheek of ziekenhuis. Hierbij kiezen de eindgebruikers een partij die de gezondheidsomgeving levert en ziekenhuizen een partij die ze op het Medmij netwerk aansluit. Het afsprakenstelsel zorgt voor de voorwaarden van veilig en betrouwbare uitwisseling en ook de technische voorzieningen om dit te operationaliseren. De scope van het afsprakenstelsel is het vlak waar de dienstverlener van de eindgebruiker samen gaat werken met de dienstverlener van de zorgaanbieder. Er zijn meerdere dienstverleners aan beide kanten en dankzij het stelsel blijft de complexiteit beperkt en werken de diensten en producten goed met elkaar samen.  
 Deze opzet wordt  ook wel het “four corner” model genoemd; eindgebruikers zijn in dit geval via een eigen broker verbonden met andere deelnemers in het stelsel. Merk op: er zijn ook andere configuraties binnen een afsprakenstelsel mogelijk, zoals met een centrale voorziening (3-corner) of een extra afslag voor bijvoorbeeld transactie gedreven verantwoordingsinformatie (5-corner). 
 
