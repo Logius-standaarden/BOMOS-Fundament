@@ -27,7 +27,7 @@ Deze principes staan aan de basis van de afspraken en regels over de onderstaand
 -	Architectuur en techniek: denk hierbij aan technische standaarden, use-cases en interface beschrijvingen.
 
 ### Voorbeeld van een afsprakenstelsel: Medmij
-![medmij afsprakenstelsel 4 cornermodel](images/medmij_afsprakenstelsel.png "medmij afsprakenstelsel 4 corner model")
+![medmij afsprakenstelsel 4 cornermodel](../BOMOS3-deel3_bomod//images/medmij_afsprakenstelsel.png "Medmij afsprakenstelsel 4 corner model")
 
 *Figuur 1: scope afsprakenstelsel Medmij*
 Het afsprakenstelsel Medmij maakt het mogelijk dat de eindgebruiker de gezondheidsinformatie in de persoonlijke gezondsheidsomgeving veilig en betrouwbaar kan delen met zorgaanbieders zoals een apotheek of ziekenhuis. Hierbij kiezen de eindgebruikers een partij die de gezondheidsomgeving levert en ziekenhuizen een partij die ze op het Medmij netwerk aansluit. Het afsprakenstelsel zorgt voor de voorwaarden van veilig en betrouwbare uitwisseling en ook de technische voorzieningen om dit te operationaliseren. De scope van het afsprakenstelsel is het vlak waar de dienstverlener van de eindgebruiker samen gaat werken met de dienstverlener van de zorgaanbieder. Er zijn meerdere dienstverleners aan beide kanten en dankzij het stelsel blijft de complexiteit beperkt en werken de diensten en producten goed met elkaar samen.  
@@ -45,7 +45,7 @@ De uitkomst van een assessment helpt om in een korte termijn te komen tot een do
 Het BOMOS fundament is goed toepasbaar voor het inrichten van beheer van nieuwe afsprakenstelsels. BOMOS helpt dan om een programma of opdrachtgever een beeld te schetsen welke activiteiten ingeregeld moeten gaan worden en waarom. Dit beeld helpt bij het prioriteren en inplannen van het inregelen van beheeractiviteiten en het maken van de inschatting van de hiervoor benodigde middelen.
 
 ## BOMOS toegepast op afsprakenstelsels
-![BOMOS model](.BOMOS3-deel1_intro/images/bomos_activiteiten.png "BOMOS activiteiten")
+![BOMOS model](../BOMOS3-deel1_intro/images/bomos_activiteiten.png "BOMOS activiteiten")
 
 ## Strategie
 
