@@ -548,6 +548,24 @@ Met een plugfest wordt interoperabiliteit in de keten getoond door te laten zien
 
 Validatie kijkt ook naar individuele systemen maar dan zonder doel van transparantie van de markt maar als doel ondersteuning richting organisaties en projecten. Tot slot kunnen er pilot projects gestart worden om interoperabiliteit in de keten te testen.
 
+<aside class="comment">
+KADER: Validatie
+
+De meeste beheerorganisaties bieden hulpmiddelen voor het valideren van het gebruik van standaarden, zoals:
+
+* Geonovum:  
+  [http://validatie.geostandaarden.nl](http://validatie.geostandaarden.nl/)
+
+* Kennisnet:  
+  [https://testvoorziening.edustandaard.nl/](https://testvoorziening.edustandaard.nl/)
+* SETU:  
+  [https://setu.semantic-treehouse.nl/#/ext/eValidator](https://setu.semantic-treehouse.nl/#/ext/eValidator)  
+(alleen toegankelijk voor deelnemers in SETU).
+
+Overigens is de techniek die validatie van semantische standaarden mogelijk maakt zeer generiek. 
+</aside>
+
+
 Overigens zou het dus goed mogelijk zijn om validatie te gebruiken voor de interoperabiliteit doelstelling, en daarnaast op een andere manier certificatie) in te richten voor adoptie of financiële doelstellingen. De volgende figuur laat zien waar de verschillende concepten voor gebruikt kunnen worden.
 
 #### De praktijk
