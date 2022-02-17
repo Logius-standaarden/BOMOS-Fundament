@@ -41,7 +41,7 @@ var respecConfig = {
       name: "Edwin Wisse",
       company: "Logius",
       companyURL: "http://www.logius.nl/",
-    },
+    }
   ],
   authors: [
     {
