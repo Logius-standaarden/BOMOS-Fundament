@@ -1,4 +1,3 @@
-gemeenschap
 # Proces voor de ontwikkeling en het beheer van een standaard (Hoofdactiviteit: Operationeel)
 
 De primaire standaardisatieactiviteit is het operationele proces: Op welke manier komt de uiteindelijke standaard nu tot stand?
