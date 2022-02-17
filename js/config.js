@@ -8,10 +8,10 @@ var respecConfig = {
   // TODO: emailComments: '...',
   // TODO: Voor pubDomain mogelijkheden zie https://github.com/Geonovum/respec/wiki/pubDomain
   // TODO: pubDomain: "...",
- 
+
   // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
-  //subExplanation: "", 
- 
+  //subExplanation: "",
+
   // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
@@ -38,20 +38,39 @@ var respecConfig = {
       companyURL: "http://www.logius.nl/",
     },
         {
-      name: "Wouter van den Berg",
-      company: "TNO",
-      companyURL: "http://www.tno.nl/",
+      name: "Edwin Wisse",
+      company: "Logius",
+      companyURL: "http://www.logius.nl/",
     },
   ],
-  authors: [{
-    name: "Erwin Kaats",
-    url: "https://logius.nl/standaarden",
-  }
-],
+  authors: [
+    {
+      name: "Erwin Folmer",
+      company: "Kadaster",
+      companyURL: "http://www.kadaster.nl/",
+    },
+    {
+      name: "Sander Boer",
+      company: "Logius",
+      companyURL: "http://www.logius.nl/",
+    },
+    {
+      name: "Erwin Kaats",
+      company: "Logius",
+      url: "http://www.logius.nl/",
+    },
+    {
+      name: "Edwin Wisse",
+      company: "Logius",
+      url: "http://www.logius.nl/",
+    }
+  ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
   shortName: "bomos",
   // url van de github repository waar je in werkt
   github: "https://github.com/Logius-standaarden/BOMOS",
+  // Controls if linked "§" section markers are added to a document
+  addSectionLinks: true,
   // url van de issue lijst in de github repository waar je in werkt
   //issueBase: "https://github.com/centrumvoorstandaarden/.../issues/",
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
