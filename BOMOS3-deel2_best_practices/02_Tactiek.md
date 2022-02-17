@@ -94,7 +94,7 @@ Het Forum Standaardisatie toetst standaarden op onder meer openheid voor opname 
 
 ### Open invulling met Open Source Software
 
-Onderdeel van het takenmodel is _moduleontwikkeling_, dit wil zeggen dat de organisatie software kan (laten) ontwikkelen waarin de standaard geÃ¯mplementeerd is. Gevaarlijk is om dit als standaardisatieorganisatie zelf 'commercieel' te doen aangezien de standaardisatieorganisatie een concurrent wordt van andere leveranciers in de markt. De ondersteuning van de standaard door andere leveranciers zal dan snel afnemen. Door het ontwikkelen op basis van open source wordt dit deels ondervangen. De open source module waarin de standaard is verwerkt komt dan vrij beschikbaar waardoor de commerciÃ«le leveranciers dit verder kunnen oppakken, en op termijn kan de standaardisatieorganisatie haar handen er vanaf trekken. Het is dan ook voornamelijk een middel (stimulans) om de markt in beweging te krijgen.
+Onderdeel van het takenmodel is _moduleontwikkeling_, dit wil zeggen dat de organisatie software kan (laten) ontwikkelen waarin de standaard geÃ¯mplementeerd is. Gevaarlijk is om dit als standaardisatieorganisatie zelf 'commercieel' te doen aangezien de standaardisatieorganisatie een concurrent wordt van andere leveranciers in de markt. De ondersteuning van de standaard door andere leveranciers zal dan snel afnemen. Door het ontwikkelen op basis van open source wordt dit deels ondervangen. De open source module waarin de standaard is verwerkt komt dan vrij beschikbaar waardoor de commerciële leveranciers dit verder kunnen oppakken, en op termijn kan de standaardisatieorganisatie haar handen er vanaf trekken. Het is dan ook voornamelijk een middel (stimulans) om de markt in beweging te krijgen.
 
 Verder is Open Source Software een prima alternatief voor gesloten source software. Het voornaamste verschil is het business model. Voor de adoptie van een standaard is het belangrijk dat de standaard geÃ¯mplementeerd wordt in alle software, ongeacht het business model. Het is in enige mate gevaarlijk, vanuit adoptie oogpunt, om een bepaald type leverancier een voorkeursbehandeling te geven aangezien daarmee weerstand gecreÃƒÂ«erd wordt bij andere leveranciers.
 
@@ -120,7 +120,7 @@ Om het nog complexer te maken zijn er standaarden die gebruikt worden om standaa
 
 ### De relatie met internationale standaarden
 
-BOMOS focust zich op de semantisch standaarden. Semantische standaarden kennen een ongekende complexiteit in vergelijking met andere standaarden en worden anders ontwikkeld en beheerd. Het merendeel van de IT-standaarden wordt al buiten de officiÃ«le standaardisatieorganisaties (zoals ISO en NEN) ontwikkeld, namelijk in zogenoemde industrieconsortia zoals W3C en OASIS. Wanneer we naar semantische standaarden kijken, gaat het echter nog een stap verder aangezien die grotendeels door een eigen organisatie ontwikkeld worden.
+BOMOS focust zich op de semantisch standaarden. Semantische standaarden kennen een ongekende complexiteit in vergelijking met andere standaarden en worden anders ontwikkeld en beheerd. Het merendeel van de IT-standaarden wordt al buiten de officiële standaardisatieorganisaties (zoals ISO en NEN) ontwikkeld, namelijk in zogenoemde industrieconsortia zoals W3C en OASIS. Wanneer we naar semantische standaarden kijken, gaat het echter nog een stap verder aangezien die grotendeels door een eigen organisatie ontwikkeld worden.
 
 De praktijk laat zien dat alleen een onderscheid tussen horizontale en verticale standaarden te beperkt is. Internationale verticale standaarden hebben vaak nog een specifieke invulling nodig om bijvoorbeeld in de context van een land (zoals Nederland) perfect te kunnen aansluiten bij de bedrijfsprocessen in die context. Dit is noodzakelijk om interoperabiliteit te kunnen behalen. Op nationaal niveau ontstaan dan standaarden, ook wel afspraken of toepassingsprofielen genoemd, die een verdere invulling bevatten van een internationale standaard. Daarnaast worden er ook regelmatig specifieke codelijstjes voor de nationale context toegevoegd. Dit leidt tot de volgende classificatie:
 
@@ -175,11 +175,11 @@ Dit probleem kan ondervangen worden door de werkgroep/pressure cooker onder te b
 
 Dit laatste is met name nuttig als de formele standaard veel breder (of voor een ander domein) van toepassing is maar dat de keuzes ook prima van toepassing zijn op 'onze' standaard. Wel leidt het tot vraagstukken rondom de openheid van het eindresultaat. Het NEN hanteert als vuistregel dat 10% overgenomen mag worden na overleg met het NEN. Dit laatste is ook noodzakelijk zodat NEN kan controleren of er geen patenten worden geschonden die op de formele standaarden kunnen rusten.
 
-**De kosten voor de implementaties:** Als verwezen wordt naar een bestaande formele standaard, dan zal elke leverancier die de standaard wil implementeren deze formele standaard moeten aanschaffen. De eigen standaard kan dan wel open en gratis beschikbaar zijn, maar door de verwijzing creÃ«ren we toch een adoptiedrempel, en mogelijk risico dat de standaard verkeerd geÃ¯mplementeerd wordt omdat men tijdens de implementatie besluit de formele standaard niet aan te schaffen. Dus worden alle implementatie-partijen opgezadeld met kosten en wordt zo toch een adoptie en interoperabiliteits-drempel gecreÃ«erd, wat niet de bedoeling was.
+**De kosten voor de implementaties:** Als verwezen wordt naar een bestaande formele standaard, dan zal elke leverancier die de standaard wil implementeren deze formele standaard moeten aanschaffen. De eigen standaard kan dan wel open en gratis beschikbaar zijn, maar door de verwijzing creëren we toch een adoptiedrempel, en mogelijk risico dat de standaard verkeerd geÃ¯mplementeerd wordt omdat men tijdens de implementatie besluit de formele standaard niet aan te schaffen. Dus worden alle implementatie-partijen opgezadeld met kosten en wordt zo toch een adoptie en interoperabiliteits-drempel gecreëerd, wat niet de bedoeling was.
 
 
-### StrategieÃ«n voor omgang met lokalisatie profielen
-Als we in een nationale, sectorspecifieke context, een internationale standaard willen gebruiken, dan creÃ«ren we een belangrijke afhankelijkheid. De invulling van de relatie tussen de nationale en internationale standaard kan op verschillende manieren worden ingevuld, afhankelijk van de context en de gekozen strategie. Idealiter wordt gewoon de internationale standaard volledig geadopteerd, maar in de praktijk weten we dat een internationale standaard bijna nooit een op een overgenomen kan worden; soms zijn veranderingen beperkt: slechts wat extra zaken die voor de specifieke nationale context toegevoegd moeten worden om interoperabiliteit te kunnen bereiken.
+### Strategieën voor omgang met lokalisatie profielen
+Als we in een nationale, sectorspecifieke context, een internationale standaard willen gebruiken, dan creëren we een belangrijke afhankelijkheid. De invulling van de relatie tussen de nationale en internationale standaard kan op verschillende manieren worden ingevuld, afhankelijk van de context en de gekozen strategie. Idealiter wordt gewoon de internationale standaard volledig geadopteerd, maar in de praktijk weten we dat een internationale standaard bijna nooit een op een overgenomen kan worden; soms zijn veranderingen beperkt: slechts wat extra zaken die voor de specifieke nationale context toegevoegd moeten worden om interoperabiliteit te kunnen bereiken.
 
 De volgende situaties kunnen zich voordoen:
 
@@ -238,7 +238,7 @@ De middelen voor adoptie kunnen onderverdeeld worden in drie groepen:
 Meestal is er niet één altijd passende strategie. De keuze zal afhangen van de bestaande en gewenste situatie en van tal van omgevingsfactoren. Adoptiemiddelen kunnen bijvoorbeeld verschillen in of afhangen van:
 
 *   de keuze voor de primair aan te spreken doelgroepen: alle gebruikers specifieke gebruikers, softwareleveranciers
-*   de middelen die worden ingezet: verleiding, contracten, wetgeving, commerciÃ«le dwang
+*   de middelen die worden ingezet: verleiding, contracten, wetgeving, commerciële dwang
 *   de aanpak: klein beginnen, of direct groot; eerste kleine groep, of direct de hele doelgroep; eerst een klein deel van de standaard en later meer
 *   de bestaande situatie in de doelgroep: Is gegevensverkeer daar al gemeengoed? Worden daar al oudere of andere standaarden gebruikt?
 *   de dominante voordelen die de standaard met zich mee moet brengen of het dominante probleem waarvoor zij een oplossing is: Waar vallen de grootste baten van de standaard? Waar de kosten? Wie voelt het meest de huidige beperkingen?
@@ -390,9 +390,9 @@ Een standaardisatie-organisatie heeft doorgaans vooral een netwerkperspectief op
 Voor een standaardisatie-organisatie zijn dit aangrijpingspunten om de adoptie binnen een specifieke partij te stimuleren. Daar zit ook de samenhang met de adoptiemiddelen die een standaardisatie-organisatie kan inzetten. Bijvoorbeeld:
 
 1. Door juridische middelen (pas toe of leg uit, opname in de wet) wordt een organisatie gedwongen om binnen het compliance managementproces te bepalen hoe een bepaalde standaard wordt ingebed.
-2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur. 
+2. Door voorbeelden te geven of referentiemodellen te bieden kan gestimuleerd worden dat een organisatie een standaard opneemt in de doelarchitectuur.
 3. Via financiële middelen kan de migratie naar een standaard meer prioriteit krijgen in het portfolio management proces.
-4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop. 
+4. Tenslotte kan door bijvoorbeeld het bieden van modelbestekken de adoptie worden versneld op het gebied inkoop.
 
 ## KWALITEITSBELEID EN BENCHMARKING
 
@@ -435,10 +435,10 @@ De hoofdcategoriën zijn:
 **Adoptiegraad**: de mate waarin de standaard is geaccepteerd door verschillende partijen.  
 **Openheid:** de mate waarin de standaard voldoet aan openheidscriteria op het gebied van intellectueel eigendom en (onderhoudsen beheer)processen.
 
-Het kwaliteitsmodel in figuur 19 laat niet de volledig uitwerking voor elk kwaliteitsattribuut zien. Ter illustratie: het kwaliteitsattribuut Volwassenheid (onder Betrouwbaarheid) bevat meerdere attributen, zoals bijvoorbeeld Stabiliteit. Deze attributen kunnen weer meerdere metrieken bevatten, en daarnaast wordt vastgelegd hoe de waarde van de metriek bijdraagt aan de uiteindelijke waarde voor het attribuut. Een eenvoudig voorbeeld: het attribuut Stabiliteit heeft als metriek de hoeveelheid releases van een standaard in de afgelopen vijf jaar. Een potentiÃ«le meting van één release (in vijf jaar) kan door middel van het scoringsmechanisme leiden tot de waarde 'zeer stabiel' voor het attribuut Stabiliteit. Echter de onderste lagen van detaillering van attributen en metrieken is nog in ontwikkeling. Gelukkig is er veel waarop gebouwd kan worden. Bijvoorbeeld voor verdere detaillering van het kwaliteitsattribuut Openheid kan de uitwerking van openheid in hoofdstuk 8 als basis gebruikt worden.
+Het kwaliteitsmodel in figuur 19 laat niet de volledig uitwerking voor elk kwaliteitsattribuut zien. Ter illustratie: het kwaliteitsattribuut Volwassenheid (onder Betrouwbaarheid) bevat meerdere attributen, zoals bijvoorbeeld Stabiliteit. Deze attributen kunnen weer meerdere metrieken bevatten, en daarnaast wordt vastgelegd hoe de waarde van de metriek bijdraagt aan de uiteindelijke waarde voor het attribuut. Een eenvoudig voorbeeld: het attribuut Stabiliteit heeft als metriek de hoeveelheid releases van een standaard in de afgelopen vijf jaar. Een potentiële meting van één release (in vijf jaar) kan door middel van het scoringsmechanisme leiden tot de waarde 'zeer stabiel' voor het attribuut Stabiliteit. Echter de onderste lagen van detaillering van attributen en metrieken is nog in ontwikkeling. Gelukkig is er veel waarop gebouwd kan worden. Bijvoorbeeld voor verdere detaillering van het kwaliteitsattribuut Openheid kan de uitwerking van openheid in hoofdstuk 8 als basis gebruikt worden.
 
 #### Het kwaliteitsinstrument gebruiken
-De relatie tussen interoperabiliteit en standaarden is die van doel-middel. Zonder het kwaliteitsaspect in ogenschouw te nemen worden standaarden te veel gezien als heilige graal. De standaard wordt het doel, in plaats van een middel om op een effectieve en efficiÃ«nte manier interoperabiliteit te bereiken. Een aandachtsverschuiving naar de kwaliteit van standaarden voorkomt dat standaarden een doel op zich worden en zal de relatie tussen standaarden en interoperabiliteit versterken.
+De relatie tussen interoperabiliteit en standaarden is die van doel-middel. Zonder het kwaliteitsaspect in ogenschouw te nemen worden standaarden te veel gezien als heilige graal. De standaard wordt het doel, in plaats van een middel om op een effectieve en efficiënte manier interoperabiliteit te bereiken. Een aandachtsverschuiving naar de kwaliteit van standaarden voorkomt dat standaarden een doel op zich worden en zal de relatie tussen standaarden en interoperabiliteit versterken.
 
 ![alt_text](images/kwaliteitsinstrumenten.png "Kwaliteitsinstrumenten")
 
@@ -450,7 +450,7 @@ Het huidige kwaliteitsmodel is niet af maar is toch een startpunt om te gebruike
 * ideeën voor verbetering van de standaard
 * ideeën voor aanpassingen in het standaardisatieproces
 
-Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beïnvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeÃ«n ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
+Het helpt de standaardisatieontwikkelaar om met een frisse blik naar de standaard te kijken en daarbij een gevoel te krijgen hoe de kwaliteit te beïnvloeden is. Gedurende het gebruik zal de standaardisatieontwikkelaar ideeën ontwikkelen hoe de standaard te verbeteren is of mogelijkheden zien om het standaardisatieproces te veranderen om een hogere kwaliteit te bereiken.
 
 In ultieme vorm is het kwaliteitsinstrument een meetinstrument (zoals een thermometer) voor standaarden, dat wil zeggen een compleet gereedschap inclusief 'tool' en 'gebruikshandleiding'. Op dit moment ligt er een bruikbaar kwaliteitsmodel, met een stevig fundament, dat als 'bril' kan worden gebruikt om standaarden in de praktijk mee te toetsen.
 
@@ -468,7 +468,7 @@ Vanuit een standaardisatie-organisatie bekeken kan certificering een positieve b
 
 **Financiën.** Certificering kan ingezet worden als potentiële bron van inkomsten om het beheer van standaarden te financieren. Uitgangspunt hierbij is gebruikers van de standaard betalen voor de ontwikkeling hiervan.
 
-Dit zijn verschillende doelstellingen die niet altijd verenigbaar zijn: bijvoorbeeld de uitvoering van een interoperabiliteitscertificaat zal grondiger uitgevoerd moeten worden dan een adoptie-certificaat. Dat betekent dat de kosten voor uitvoering hoger zullen liggen waardoor er minder 'winst' gemaakt kan worden op het certificaat, en daardoor een kleinere bijdrage voor de financiÃ«n van een standaardisatie-organisatie zal opleveren, en eerder kosten-neutraal zal zijn.
+Dit zijn verschillende doelstellingen die niet altijd verenigbaar zijn: bijvoorbeeld de uitvoering van een interoperabiliteitscertificaat zal grondiger uitgevoerd moeten worden dan een adoptie-certificaat. Dat betekent dat de kosten voor uitvoering hoger zullen liggen waardoor er minder 'winst' gemaakt kan worden op het certificaat, en daardoor een kleinere bijdrage voor de financiën van een standaardisatie-organisatie zal opleveren, en eerder kosten-neutraal zal zijn.
 
 Samenvattend kan certificering ingezet worden als:
 * Interoperabiliteits-instrument
@@ -499,7 +499,7 @@ In de meeste situaties bestaat een semantische standaard uit een familie van sta
 
 Een grote hoeveelheid aan certificaten is niet verstandig als adoptie het doelstelling is voor certificering aangezien de herkenbaarheid en waarde van het certificaat dan afneemt. Daarnaast moet er ook een stimulans zijn om bijvoorbeeld een nieuwe versie te implementeren, bijvoorbeeld door de uitgifte van een nieuw certificaat. Een deel van de oplossing om bijvoorbeeld de hoeveelheid certificaten een halt toe te roepen, is een bepaalde geldigheidsduur van het certificaat. Bijvoorbeeld in plaats van SETU timecard v1.2 certificaat uit te geven, zou SETU timecard 2010 certificaat (waarin is aangegeven dat SETU timecard v.1.2 de versie van de standaard is) een alternatief kunnen zijn dat zijn waarde verliest in 2011 of 2012. Hiermee wordt de versieproblematiek ondervangen.
 
-Overigens is er een gevaar van doorschieten: bijvoorbeeld als er nieuwe versies van een standaard uitgebracht moeten worden om de financiÃ«n van de beheerorganisatie op orde te brengen.
+Overigens is er een gevaar van doorschieten: bijvoorbeeld als er nieuwe versies van een standaard uitgebracht moeten worden om de financiën van de beheerorganisatie op orde te brengen.
 
 #### Wie geeft het certificaat uit en wie doet de toetsing?
 Voor het uitgeven van het certificaat zijn er logische kandidaten: de standaardisatie-beheer organiatie, de branche-organisatie, formele standaardisatieorganisaties (NEN), onafhankelijke kennisinstelling-en (zoals bv. TNO), certificeringsinstellingen (bv. DNV) of andere belangenbehartigers. Er is een belangrijk onderscheid tussen de toetser en de uitgever. Beide rollen kan bij dezelfde partij zijn belegd, maar kan ook opgedeeld worden tussen verschillende partijen wat een onafhankelijkheid en betrouwbaarheid waarborgt. Dat laatste verdient de aanbeveling want de betrouwbaarheid van een certificaat is van groot belang. De uitgever heeft eindverantwoordelijkheid en geeft de certificaten uit, en stelt het toetsingskader op. De uitvoering van de toets (op basis van het toetsingskader) kan dan door een andere en zelfs meerdere partijen worden uitgevoerd. Het stelt wel eisen aan het toetsingskader, immers onafhankelijk van de toetser zou het resultaat van de toets gelijk moeten zijn.
@@ -562,7 +562,7 @@ De meeste beheerorganisaties bieden hulpmiddelen voor het valideren van het gebr
   [https://setu.semantic-treehouse.nl/#/ext/eValidator](https://setu.semantic-treehouse.nl/#/ext/eValidator)  
 (alleen toegankelijk voor deelnemers in SETU).
 
-Overigens is de techniek die validatie van semantische standaarden mogelijk maakt zeer generiek. 
+Overigens is de techniek die validatie van semantische standaarden mogelijk maakt zeer generiek.
 </aside>
 
 
