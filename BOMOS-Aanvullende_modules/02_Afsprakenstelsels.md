@@ -46,7 +46,7 @@ De uitkomst van een assessment helpt om in een korte termijn te komen tot een do
 Het BOMOS fundament is goed toepasbaar voor het inrichten van beheer van nieuwe afsprakenstelsels. BOMOS helpt dan om een programma of opdrachtgever een beeld te schetsen welke activiteiten ingeregeld moeten gaan worden en waarom. Dit beeld helpt bij het prioriteren en inplannen van het inregelen van beheeractiviteiten en het maken van de inschatting van de hiervoor benodigde middelen.
 
 ## BOMOS toegepast op afsprakenstelsels
-![BOMOS model](images/bomos_activiteiten.png "BOMOS activiteiten")
+![BOMOS model](../BOMOS-Fundament/images/bomos_activiteiten.png "BOMOS activiteiten")
 
 ## Strategie
 
