@@ -2,6 +2,7 @@
 # De open invulling van een standaard (Activiteit Community)
 
 Openheid is een belangrijk aspect van een duurzame standaard. Maar wat betekent dat voor de beheerorganisatie?
+Dat kunnen we nader beschouwen door naar een definitie of model van een open standaard te kijken. Echter door de jaren heen is er veel discussie geweest rond de definitie van openheid. Veelal richt de discussie zich op de beschikbaarheid (gratis of nominale bedrag voor aanschaf), gebruiksrechten (het wel/niet toestaan van Intellectual Property Rights (IPR)/Royalty Free en standaardisatieproces (wel/niet gratis participatie). Het model van Krechmer geeft een neutraal en brede blik op openheid, vandaar dat we het in BOMOS hanteren. 
 
 ### Krechmer's open standaarden model: '10 requirements'
 
@@ -96,7 +97,7 @@ Het Forum Standaardisatie toetst standaarden op onder meer openheid voor opname 
 
 Onderdeel van het takenmodel is _moduleontwikkeling_, dit wil zeggen dat de organisatie software kan (laten) ontwikkelen waarin de standaard geÃ¯mplementeerd is. Gevaarlijk is om dit als standaardisatieorganisatie zelf 'commercieel' te doen aangezien de standaardisatieorganisatie een concurrent wordt van andere leveranciers in de markt. De ondersteuning van de standaard door andere leveranciers zal dan snel afnemen. Door het ontwikkelen op basis van open source wordt dit deels ondervangen. De open source module waarin de standaard is verwerkt komt dan vrij beschikbaar waardoor de commerciële leveranciers dit verder kunnen oppakken, en op termijn kan de standaardisatieorganisatie haar handen er vanaf trekken. Het is dan ook voornamelijk een middel (stimulans) om de markt in beweging te krijgen.
 
-Verder is Open Source Software een prima alternatief voor gesloten source software. Het voornaamste verschil is het business model. Voor de adoptie van een standaard is het belangrijk dat de standaard geÃ¯mplementeerd wordt in alle software, ongeacht het business model. Het is in enige mate gevaarlijk, vanuit adoptie oogpunt, om een bepaald type leverancier een voorkeursbehandeling te geven aangezien daarmee weerstand gecreÃƒÂ«erd wordt bij andere leveranciers.
+Verder is Open Source Software een prima alternatief voor gesloten source software. Het voornaamste verschil is het business model. Voor de adoptie van een standaard is het belangrijk dat de standaard geïmplementeerd wordt in alle software, ongeacht het business model. Het is in enige mate gevaarlijk, vanuit adoptie oogpunt, om een bepaald type leverancier een voorkeursbehandeling te geven aangezien daarmee weerstand gecreëerd wordt bij andere leveranciers.
 
 Open Source Software dient zeker niet verward te worden met open standaarden. Dit zijn wezenlijk andere concepten, waarbij vanuit het oogpunt van interoperabiliteit alleen open standaarden essentieel zijn.
 
@@ -106,7 +107,7 @@ Zoals eerder geschetst is interoperabiliteit het doel en zijn standaarden het mi
 
 ### De gelaagdheid van standaarden
 
-Om interoperabiliteit (uitwisselbaarheid) te bewerkstelligen tussen organisaties of systemen is een complexe set van standaarden nodig. Dit maakt de materie uitermate lastig want het gaat niet meer om het kiezen of beheren van één standaard, maar het gaat om een set van standaarden die op sommige gebieden sterk aan elkaar gerelateerd zijn. Een onderscheid is daarbij te maken in standaarden voor technische zaken en standaarden voor de semantiek van informatie-uitwisseling. Het interoperabiliteitsraamwerk 21 in figuur 7 laat dit zien; tussen haakjes staan voorbeelden van standaarden waarmee dit kan worden ingevuld.
+Om interoperabiliteit (uitwisselbaarheid) te bewerkstelligen tussen organisaties of systemen is een complexe set van standaarden nodig. Dit maakt de materie uitermate lastig want het gaat niet meer om het kiezen of beheren van één standaard, maar het gaat om een set van standaarden die op sommige gebieden sterk aan elkaar gerelateerd zijn. Een onderscheid is daarbij te maken in standaarden voor technische zaken en standaarden voor de semantiek van informatie-uitwisseling. Het interoperabiliteitsraamwerk in onderstaand laat dit zien; tussen haakjes staan voorbeelden van standaarden waarmee dit kan worden ingevuld.
 
 ![alt_text](images/gelaagdheid_van_standaarden.png "De gelaagdheid van standaarden")
 
@@ -129,7 +130,7 @@ De praktijk laat zien dat alleen een onderscheid tussen horizontale en verticale
 *   Nationale standaard/toepassingsprofiel/afspraak/taxonomie
 *   Nationale vocabulaires, codelijstjes, etc.
 
-Ook in de organisaties is dit terug te zien: HL7 is de internationale standaard, en daarnaast is er HL7 Nederland. Bij het internationale HR-XML is het SETU dat Nederlandse HR-XML profielen maakt.
+Ook in de organisaties is dit terug te zien: HL7 is de internationale standaard, en daarnaast is er HL7 Nederland. Bij het internationale HR Open Standards is het SETU dat Nederlandse HR Open Standards profielen maakt.
 
 Alle vormen, of het nu een internationale horizontale standaard is of een nationaal codelijstje, moeten allemaal ontwikkeld en beheerd worden! Overigens wil het niet zeggen dat alle vier de classificaties voor een bepaald toepassingsdomein moeten voorkomen. In de praktijk kan elke willekeurige combinatie voorkomen, afhankelijk van de situatie.
 
@@ -142,7 +143,7 @@ Belangrijk aandachtspunt daarbij is dat in een situatie van bijvoorbeeld een int
 
 XBRL is een voorbeeld van een internationale verticale standaard (in de financiële sector) waarvoor nationale taxonomiën zijn opgesteld, bijvoorbeeld de US GAAP of in Nederland door het SBR programma.
 
-In het kader van e-factureren heeft de Nederlandse overheid gekozen voor een internationale horizontale standaard (UBL), en heeft men vervolgens zelf een factuurmodel ontwikkeld om de vrijheidsgraden te beperken. Dus ook hier is er sprake van een nationaal toepassingsprofiel om uiteindelijk interoperabiliteit te kunnen bereiken, alleen is dit toepassingsprofiel nog niet echt gestandaardiseerd. Overigens voor e-factureren rond flexibele arbeid heeft de Nederlandse overheid gekozen voor het gestandaardiseerde factuurmodel van SETU, waarin de internationale horizontale standaard OAGIS wordt gebruikt.
+In het kader van e-factureren heeft de Nederlandse overheid gekozen voor een internationale horizontale standaard (UBL), en heeft men vervolgens zelf een factuurmodel ontwikkeld om de vrijheidsgraden te beperken. Dus ook hier is er sprake van een nationaal toepassingsprofiel om uiteindelijk interoperabiliteit te kunnen bereiken.
 
 Tot slot, ook binnen de standaarden zelf kan weer gelaagdheid ontstaan, op verschillende manieren. Tussen verticalen sector modellen en horizontale standaarden, en daarnaast worden ook andere (bv. technische) standaarden vaak samen toegevoegd om een totaal oplossing te bieden voor interoperabiliteit.
 
@@ -158,7 +159,7 @@ De kern van de oplossing zit hem waarschijnlijk niet in de techniek, maar in de 
 
 ### De relatie met formele standaarden
 
-De vorige paragrafen maken helder dat semantische standaarden in de meeste gevallen een gelaagdheid kennen en daarmee voortbouwen of gebruik maken van andere standaarden. Interessant daarbij is een probleem dat generiek is voor het ontwikkelen van standaarden, maar in de pressure cooker (zie hoofdstuk 7) nadrukkelijk naar voren komt: de omgang met formele (o.a. ISO, CEN, NEN) standaarden. Uitgangspunt is namelijk dat er zoveel mogelijk hergebruik plaatsvindt van bestaande standaarden en dat niet het wiel opnieuw uitgevonden wordt.
+De vorige paragrafen maken helder dat semantische standaarden in de meeste gevallen een gelaagdheid kennen en daarmee voortbouwen of gebruik maken van andere standaarden. Interessant daarbij is een probleem dat generiek is voor het ontwikkelen van standaarden, maar in de pressure cooker nadrukkelijk naar voren komt: de omgang met formele (o.a. ISO, CEN, NEN) standaarden. Uitgangspunt is namelijk dat er zoveel mogelijk hergebruik plaatsvindt van bestaande standaarden en dat niet het wiel opnieuw uitgevonden wordt.
 
 Bij formele standaarden zijn er een aantal pijnpunten:
 
@@ -175,7 +176,7 @@ Dit probleem kan ondervangen worden door de werkgroep/pressure cooker onder te b
 
 Dit laatste is met name nuttig als de formele standaard veel breder (of voor een ander domein) van toepassing is maar dat de keuzes ook prima van toepassing zijn op 'onze' standaard. Wel leidt het tot vraagstukken rondom de openheid van het eindresultaat. Het NEN hanteert als vuistregel dat 10% overgenomen mag worden na overleg met het NEN. Dit laatste is ook noodzakelijk zodat NEN kan controleren of er geen patenten worden geschonden die op de formele standaarden kunnen rusten.
 
-**De kosten voor de implementaties:** Als verwezen wordt naar een bestaande formele standaard, dan zal elke leverancier die de standaard wil implementeren deze formele standaard moeten aanschaffen. De eigen standaard kan dan wel open en gratis beschikbaar zijn, maar door de verwijzing creëren we toch een adoptiedrempel, en mogelijk risico dat de standaard verkeerd geÃ¯mplementeerd wordt omdat men tijdens de implementatie besluit de formele standaard niet aan te schaffen. Dus worden alle implementatie-partijen opgezadeld met kosten en wordt zo toch een adoptie en interoperabiliteits-drempel gecreëerd, wat niet de bedoeling was.
+**De kosten voor de implementaties:** Als verwezen wordt naar een bestaande formele standaard, dan zal elke leverancier die de standaard wil implementeren deze formele standaard moeten aanschaffen. De eigen standaard kan dan wel open en gratis beschikbaar zijn, maar door de verwijzing creëren we toch een adoptiedrempel, en mogelijk risico dat de standaard verkeerd geïmplementeerd wordt omdat men tijdens de implementatie besluit de formele standaard niet aan te schaffen. Dus worden alle implementatie-partijen opgezadeld met kosten en wordt zo toch een adoptie en interoperabiliteits-drempel gecreëerd, wat niet de bedoeling was.
 
 
 ### Strategieën voor omgang met lokalisatie profielen
@@ -209,6 +210,12 @@ De strategieën:
 | Comply | 100% overname van internationale standaard zonder aanpassingen of uitbreidingen. |
 
 Met name om interoperabiliteit internationaal mogelijk te maken is het verstandig om zoveel mogelijk in lijn te blijven met de internationale standaarden en een strategie te kiezen aan de rechterkant van het figuur, waar mogelijk compliant profiling. Echter dat vergt afstemming met de internationale standaard, waaraan kosten verbonden zijn, ondermeer door het bezoeken van de internationale standaardisatie bijeenkomsten. Een noodzakelijkheid om interoperabiliteit in internationale context na te streven.
+
+### De Linked Data standaarden voor semantisch modelleren
+Linked Data heeft een lange weg doorgemaakt, maar is inmiddels de defacto standaard voor semantisch modelleren. De standaarden en technologiën die hieronder vallen -- zoals RDF, SPARQL en OWL -- worden steeds meer in de praktijk geadopteerd. Dat begon in de academische wereld maar heeft zich de afgelopen jaren uitgebreid naar de publieke sector en het bedrijfsleven.
+
+Linked Data brengt veranderingen in de semantische standaardisatiediscipline die BOMOS omschrijft. Het gaat niet enkel om het gebruik van nieuwe technologieën en hulpmiddelen. Linked Data betekent een andere benadering tot semantische interoperabiliteit: de nadruk verschuift van het standaardiseren van berichten (of 'transacties') naar het standaardiseren van de onderliggende domeinbeschrijving; de taal. Met vocabulaires en ontologieen wordt de taal in een domein gestandaardiseerd, maar ook relaties tussen domein-ontologieen kunnen gelegd worden, waardoor Linked Data de grenzen van sectoren weet te doorbreken en een middel voor domein-overstijgende interoperabiliteit is geworden. Daarnaast voldoen de Linked Data standaarden aan de open standaarden criteria, en een aantal zijn dan ook opgenomen op de pas-toe of leg-uit lijst van de Nederlandse Overheid.
+
 
 ## Stimuleren van het gebruik van standaarden (Activiteit Adoptie & Erkenning)
 Veel standaardisatieorganisaties zoeken naar mogelijkheden om het gebruik van hun standaard te stimuleren. Dit kan op verschillende manier gedaan worden. Een strategie daarvoor wordt een adoptiestrategie genoemd.
@@ -374,13 +381,7 @@ Een belangrijk, vaak vergeten factor is Community ideologie. Een sterke communit
 Een toenemend gebruik versterkt zichzelf vanwege netwerkeffecten. Dit kan daarom ook onderdeel uitmaken van de adoptiestrategie. Bijvoorbeeld door een grote organisatie te strikken die gebruik gaat maken van de standaard, door het organiseren van partnerships, gratis implementaties of het organiseren van een plugfest.
 
 ### Adoptie binnen gebruikersorganisaties
-Een standaardisatie-organisatie heeft doorgaans vooral een netwerkperspectief op de adoptie van hun open standaarden. Een ander perspectief is dat van een individuele organisatie. Deze individuele organisatie moet keuzes maken op het gebied van de te gebruiken standaarden. Het Forum Standaardisatie heeft een boekje uitgegeven met als titel 'Sturen op Open Standaarden'
-
-<p class="comment" style="color:red">
-[Nog relevant?]
-</p>
-
- Dit boekje schetst de mogelijkheden voor een organisatie om gericht te sturen op de adoptie van open standaarden. Sturingsmiddelen zijn onder andere:
+Een standaardisatie-organisatie heeft doorgaans vooral een netwerkperspectief op de adoptie van hun open standaarden. Een ander perspectief is dat van een individuele organisatie. Deze individuele organisatie moet keuzes maken op het gebied van de te gebruiken standaarden. Sturingsmiddelen voor een organisatie om gericht te sturen op de adoptie van open standaarden zijn onder andere:
 
 **Compliance management:** waarin een organisatie definieert hoe het met verplichte standaarden omgaat.  
 **Het IT-beleid:** waarin een organisatie de grote lijnen op het gebied ICT en open standaarden definieert. Architectuur management: de modellen en principes (waaronder de toe te passen standaarden) waaruit het ICT-landschap is opgebouwd.  
@@ -397,11 +398,8 @@ Voor een standaardisatie-organisatie zijn dit aangrijpingspunten om de adoptie b
 ## KWALITEITSBELEID EN BENCHMARKING
 
 ### Kwaliteit van standaarden
-<p class="comment" style="color:red">
-[Hier is veel overlap met BOMOS 2i en 2n, maar ook dingen die daar nog niet voldoende in terug komen. De categoriën uit 'kwaliteitsinstrument gebruiken' worden niet gebruikt in nieuwer werk]
-</p>
 
-Veel organisaties streven naar interoperabiliteit, waarbij semantische standaarden een middel zijn om dit doel te behalen. De afgelopen jaren zijn dan ook vele semantische standaarden geÃ¯ntroduceerd. Er is echter weinig bekend over de kwaliteit van semantische standaarden. Dat is opmerkelijk, want de kwaliteit van die standaarden is ongetwijfeld van invloed op de mate waarin het doel van interoperabiliteit behaald kan worden.
+Veel organisaties streven naar interoperabiliteit, waarbij semantische standaarden een middel zijn om dit doel te behalen. De afgelopen jaren zijn dan ook vele semantische standaarden geïntroduceerd. Er is echter weinig bekend over de kwaliteit van semantische standaarden. Dat is opmerkelijk, want de kwaliteit van die standaarden is ongetwijfeld van invloed op de mate waarin het doel van interoperabiliteit behaald kan worden.
 
 In tegenstelling tot andere disciplines, zoals software-engineering, is er weinig literatuur en kennis beschikbaar over wat een kwalitatief goede standaard is die een effectieve bijdrage levert aan interoperabiliteit. Dit definieert ook ons kwaliteitsbegrip: fitness for use! (definitie van kwaliteitsgoeroe Juran). Het overheidsbeleid richt zich voornamelijk op de openheid van een standaard, wat slechts één kwaliteitsaspect is. Een kwalitatief hoogwaardige standaard is ongetwijfeld een open standaard, maar het omgekeerde is niet noodzakelijkerwijs waar: een open standaard hoeft niet per definitie een kwalitatief hoogwaardige standaard te zijn. Overigens wordt in de toetsing van standaarden voor de 'pas-toe-of leg-uit lijst' van de Nederlandse overheid een sterke nadruk gelegd op de openheid, maar onderkent ook dat er meer kwaliteitsaspecten (bruikbaarheid, potentieel en impact) zijn die ook meegenomen worden in de toetsing voor opname op de lijst.
 
@@ -435,18 +433,18 @@ De hoofdcategoriën zijn:
 **Adoptiegraad**: de mate waarin de standaard is geaccepteerd door verschillende partijen.  
 **Openheid:** de mate waarin de standaard voldoet aan openheidscriteria op het gebied van intellectueel eigendom en (onderhoudsen beheer)processen.
 
-Het kwaliteitsmodel in figuur 19 laat niet de volledig uitwerking voor elk kwaliteitsattribuut zien. Ter illustratie: het kwaliteitsattribuut Volwassenheid (onder Betrouwbaarheid) bevat meerdere attributen, zoals bijvoorbeeld Stabiliteit. Deze attributen kunnen weer meerdere metrieken bevatten, en daarnaast wordt vastgelegd hoe de waarde van de metriek bijdraagt aan de uiteindelijke waarde voor het attribuut. Een eenvoudig voorbeeld: het attribuut Stabiliteit heeft als metriek de hoeveelheid releases van een standaard in de afgelopen vijf jaar. Een potentiële meting van één release (in vijf jaar) kan door middel van het scoringsmechanisme leiden tot de waarde 'zeer stabiel' voor het attribuut Stabiliteit. Echter de onderste lagen van detaillering van attributen en metrieken is nog in ontwikkeling. Gelukkig is er veel waarop gebouwd kan worden. Bijvoorbeeld voor verdere detaillering van het kwaliteitsattribuut Openheid kan de uitwerking van openheid in hoofdstuk 8 als basis gebruikt worden.
+Het kwaliteitsmodel in figuur 19 laat niet de volledig uitwerking voor elk kwaliteitsattribuut zien. Ter illustratie: het kwaliteitsattribuut Volwassenheid (onder Betrouwbaarheid) bevat meerdere attributen, zoals bijvoorbeeld Stabiliteit. Deze attributen kunnen weer meerdere metrieken bevatten, en daarnaast wordt vastgelegd hoe de waarde van de metriek bijdraagt aan de uiteindelijke waarde voor het attribuut. Een eenvoudig voorbeeld: het attribuut Stabiliteit heeft als metriek de hoeveelheid releases van een standaard in de afgelopen vijf jaar. Een potentiële meting van één release (in vijf jaar) kan door middel van het scoringsmechanisme leiden tot de waarde 'zeer stabiel' voor het attribuut Stabiliteit. 
 
 #### Het kwaliteitsinstrument gebruiken
 De relatie tussen interoperabiliteit en standaarden is die van doel-middel. Zonder het kwaliteitsaspect in ogenschouw te nemen worden standaarden te veel gezien als heilige graal. De standaard wordt het doel, in plaats van een middel om op een effectieve en efficiënte manier interoperabiliteit te bereiken. Een aandachtsverschuiving naar de kwaliteit van standaarden voorkomt dat standaarden een doel op zich worden en zal de relatie tussen standaarden en interoperabiliteit versterken.
 
 ![alt_text](images/kwaliteitsinstrumenten.png "Kwaliteitsinstrumenten")
 
-Het huidige kwaliteitsmodel is niet af maar is toch een startpunt om te gebruiken om de kwaliteit van een standaard te bekijken. Bij de ontwikkeling wordt ook gekeken naar de kosten van een kwaliteitsmeting, waarbij vooral de uren relevant en kostbaar zijn. Uitgangspunt is dat de kwaliteitsmeting in slechts een paar uur uitgevoerd kan worden, zodat de kosten beperkt zijn en opbrengst dan ook al snel de kosten zal overtreffen. Het is met name geschikt voor de standaardisatie-ontwikkelaar zelf die de eigen standaard goed kent en het model als denkkader kan gebruiken om de eigen standaard mee te analyseren.
+Het kwaliteitsmodel is een startpunt om te gebruiken om de kwaliteit van een standaard te bekijken. Bij de ontwikkeling wordt ook gekeken naar de kosten van een kwaliteitsmeting, waarbij vooral de uren relevant en kostbaar zijn. Uitgangspunt is dat de kwaliteitsmeting in slechts een paar uur uitgevoerd kan worden, zodat de kosten beperkt zijn en opbrengst dan ook al snel de kosten zal overtreffen. Het is met name geschikt voor de standaardisatie-ontwikkelaar zelf die de eigen standaard goed kent en het model als denkkader kan gebruiken om de eigen standaard mee te analyseren.
 
  De belangrijkste vraag is wat het gebruik van het kwaliteitsinstrument voor standaarden oplevert. Kort samengevat:
 
-* een model om naar de standaard te kijken: een frisse blik â€¢ inzicht in wat van invloed is op de kwaliteit van een standaard
+* een model om naar de standaard te kijken: een frisse blik / inzicht in wat van invloed is op de kwaliteit van een standaard
 * ideeën voor verbetering van de standaard
 * ideeën voor aanpassingen in het standaardisatieproces
 
@@ -571,4 +569,4 @@ Overigens zou het dus goed mogelijk zijn om validatie te gebruiken voor de inter
 #### De praktijk
 Terwijl validatie zeer gebruikelijk is geldt dit zeker niet voor certificatie. Over het algemeen wordt dit als 'gevaarlijk' gezien, en zou alleen toegepast moeten worden als het zeer zorgvuldig is ingericht. Het betekent immers nogal wat: een leverancier die het certificaat niet krijgt kan daarmee nadelige gevolgen ondervinden in de markt. De leverancier kan overgaan tot rechtszaken om het certificaat te bemachtigen. Dat leidt tot kosten voor de beheerorganisatie en negatieve publiciteit. Daarnaast is de standaardisatieorganisatie in veel gevallen afhankelijk van de kennis van leveranciers in de werkgroepen voor de totstandkoming van de standaard. Mogelijkerwijs staakt de leverancier ook de medewerking aan de werkgroep. De standaardisatieorganisatie kan zijn neutraliteit verliezen, wat schadelijk is voor adoptie en verdere ontwikkeling van de standaard.
 
-Daardoor zijn er meerdere semantische standaardisatieorganisaties die certificering overwogen hebben, maar tot op heden wordt certificering weinig toegepast. We denken wel dat het een kwestie van tijd is, met de opkomst van standaarden wordt de roep op certificering alleen maar groter.
+Daardoor zijn er meerdere semantische standaardisatieorganisaties die certificering overwogen hebben, maar tot op heden wordt certificering weinig toegepast. 
