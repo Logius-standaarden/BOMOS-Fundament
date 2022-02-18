@@ -29,8 +29,8 @@ var respecConfig = {
   editors: [
     {
       name: "Erwin Folmer",
-      company: "Kadaster",
-      companyURL: "http://www.kadaster.nl/",
+      company: "Universiteit Twente",
+      companyURL: "https://www.utwente.nl/",
     },
     {
       name: "Erwin Kaats.",
@@ -46,8 +46,8 @@ var respecConfig = {
   authors: [
     {
       name: "Erwin Folmer",
-      company: "Kadaster",
-      companyURL: "http://www.kadaster.nl/",
+      company: "Universiteit Twente",
+      companyURL: "https://www.utwente.nl/",
     },
     {
       name: "Sander Boer",
