@@ -1,5 +1,5 @@
 # BOMOS
 
-[Dynamische pagina (actueel)](https://Logius-standaarden.github.io/BOMOS/index.html)
+[Dynamische pagina (actueel)](https://Logius-standaarden.github.io/BOMOS-Fundament/index.html)
 
-[Statische pagina (laatste build)](https://Logius-standaarden.github.io/BOMOS/snapshot.html)
+[Statische pagina (laatste build)](https://Logius-standaarden.github.io/BOMOS-Fundament/snapshot.html)

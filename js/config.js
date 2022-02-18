@@ -29,8 +29,8 @@ var respecConfig = {
   editors: [
     {
       name: "Erwin Folmer",
-      company: "Kadaster",
-      companyURL: "http://www.kadaster.nl/",
+      company: "Universiteit Twente",
+      companyURL: "https://www.utwente.nl/",
     },
     {
       name: "Erwin Kaats.",
@@ -46,29 +46,29 @@ var respecConfig = {
   authors: [
     {
       name: "Erwin Folmer",
-      company: "Kadaster",
-      companyURL: "http://www.kadaster.nl/",
+      company: "Universiteit Twente",
+      companyURL: "https://www.utwente.nl/",
     },
     {
       name: "Sander Boer",
       company: "Logius",
-      companyURL: "http://www.logius.nl/",
+      companyURL: "https://www.logius.nl/",
     },
     {
       name: "Erwin Kaats",
       company: "Logius",
-      companyURL: "http://www.logius.nl/",
+      companyURL: "https://www.logius.nl/",
     },
     {
       name: "Edwin Wisse",
       company: "Logius",
-      companyURL: "http://www.logius.nl/",
+      companyURL: "https://www.logius.nl/",
     }
   ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
   shortName: "bomos",
   // url van de github repository waar je in werkt
-  github: "https://github.com/Logius-standaarden/BOMOS",
+  github: "https://github.com/Logius-standaarden/BOMOS-Fundament",
   // Controls if linked "§" section markers are added to a document
   addSectionLinks: true,
   // url van de issue lijst in de github repository waar je in werkt
