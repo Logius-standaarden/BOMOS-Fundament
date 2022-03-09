@@ -1,6 +1,6 @@
 # Documentbeheer
 
-| Datum    | Versie | Auteur | Opmerkingen   |                                      |
+| Datum    | Versie | Auteur | Opmerkingen   |
 |----------|--------|--------|---------------|
 | dd/mm/jj | 1.0    |        |               |
 | dd/mm/jj | 2.0    |        |               |
