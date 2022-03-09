@@ -26,6 +26,7 @@ var respecConfig = {
   license: 'cc-by-nd',
   // logos: [], // Geef een lege array op als er geen Geonovum logo moet staan
   doJsonLd: true,
+  maxTocLevel: 3,
   editors: [
     {
       name: "Erwin Folmer",
