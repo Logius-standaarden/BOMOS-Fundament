@@ -51,14 +51,14 @@ var respecConfig = {
       companyURL: "https://www.utwente.nl/",
     },
     {
-      name: "Erwin Kaats",
-      company: "Logius",
-      companyURL: "https://www.logius.nl/",
-    },
-    {
       name: "Wouter van den Berg",
       company: "TNO",
       companyURL: "https://www.tno.nl/",
+    },
+    {
+      name: "Erwin Kaats",
+      company: "Logius",
+      companyURL: "https://www.logius.nl/",
     }
   ],
   // shortName = korte naam voor in de url van het document, gebruik alleen letters, cijfers en eventueel '-'
