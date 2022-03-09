@@ -2,6 +2,6 @@
 
 | Datum    | Versie | Auteur | Opmerkingen   |
 |----------|--------|--------|---------------|
-| dd/mm/jj | 1.0    |        |               |
-| dd/mm/jj | 2.0    |        |               |
-| 09/03/22 | 3.0    | Logius | Herziene versie voor in-beheername |
+| 2009 | 1.0    | Erwin Folmer   |         Toevoeging vanuit Werkgroep CMO: Activiteiten Diagram      |
+| 2011 | 2.0    | Erwin Folmer & Matthijs Punter     |      Toevoeging: De Best Practices       |
+| 09/03/22 | 3.0    | Erwin Folmer, Erwin Kaats, Wouter van den Berg | Herziene versie met samenvoegingen uit andere BOMOS varianten |
