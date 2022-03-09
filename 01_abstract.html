@@ -1,0 +1,1 @@
+<p>Dit document is bedoeld om een algemene toelichting te geven over het BOMOS model.</p>
