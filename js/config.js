@@ -1,29 +1,50 @@
 var respecConfig = {
-  //voor specStatus mogelijkheden zie https://github.com/Logius-standaarden/respec/wiki/specStatus
-  specStatus: "CV",
-  //voor specType mogelijkheden zie https://github.com/Logiusstandaarden/respec/wiki/specType
+  // specStatus currently supported
+  // WW, GN-WV: Werkversie
+  // CV, GN-CV: Consultatie versie
+  // VV, GN-VV: Vastgestelde versie (of Versie ter vaststelling)
+  // DEF, GN-DEF: Definitieve versie
+  // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
+  // TG: Versie teruggetrokken
+  // BASIS, GN-BASIS: 'geen status'
+  specStatus: "DEF",
+
+  // SpecType currently supported
+  // NO: "Norm"
+  // ST: "Standaard"
+  // IM: "Informatiemodel"
+  // PR: "Praktijkrichtlijn"
+  // HR: "Handreiking"
+  // WA: "Werkafspraak"
+  // AL: "Algemeen"
+  // BD: "Beheerdocumentatie"
+  // BP: "Best Practice"
   specType: "ST",
-  // TODO: Standaard emailadres bij een consultatieversie: geo-standaarden@geonovum.nl
-  // TODO: Geef bij emailComments een ander emailadres op als dat gewenst is.
-  // TODO: emailComments: '...',
-  // TODO: Voor pubDomain mogelijkheden zie https://github.com/Geonovum/respec/wiki/pubDomain
-  // TODO: pubDomain: "...",
+  
+  // The specification's publish domain, which is used to publish the specification
+  // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
+  pubDomain: "bomos",
+  // The specification's "short name", which is the name used in NL_Respec URLs
+  shortName: "fundament",
 
-  // Vul in om een korte extra uitleg te weergeven op de docs.centrumvoorstandaarden.nl website.
-  //subExplanation: "",
-
-  // Voor publishDate zie https://github.com/w3c/respec/wiki/publishDate
+  // A YYYY-MM-DD date. The publication date of the present document.
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
   // Belangrijk: als publishDate niet opgegeven is, wordt bij de link "Laatst gepubliceerde versie" "geen" gezet. Anders wordt een link opgebouwd voor de laatste versie, met het formaat:
-  // https://docs.centrumvoorstandaarden.nl/{pubDomain}/{shortName}
-  //publishDate: "2017-12-22",
-  // Als er een eerder gepubliceerde versie is, geef dan de datum daarvan op
-  //previousPublishDate: "2017-05-31",
+  publishDate: "2020-04-01",
+
+  // A YYYY-MM-DD date. When there is a previous release of a given specification, (W3C)
+  //previousPublishDate: "2017-09-20",
+
+  publishVersion: "3.0.0",
+  // previousPublishVersion: "1.1",
+
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
-  // Als previousMaturity niet opgegeven wprdt, maar previousPublishDate wel, dan wordt dezelfde status gebruikt als bij specStatus
-  //previousMaturity: "WV",
-  // licentie. Kiezen uit:
+  // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
+  previousMaturity: "DEF",
+
+  // license can be one of the following: cc0, cc-by or cc-by-nd((default)) (see https://github.com/Geonovum/respec/wiki/license )
   license: 'cc-by-nd',
+
   // logos: [], // Geef een lege array op als er geen Geonovum logo moet staan
   doJsonLd: true,
   maxTocLevel: 3,
