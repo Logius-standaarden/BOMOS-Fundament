@@ -20,7 +20,7 @@ var respecConfig = {
   // BD: "Beheerdocumentatie"
   // BP: "Best Practice"
   specType: "ST",
-  
+
   // The specification's publish domain, which is used to publish the specification
   // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
   pubDomain: "bomos",
@@ -55,7 +55,7 @@ var respecConfig = {
       companyURL: "https://www.utwente.nl/",
     },
     {
-      name: "Erwin Kaats.",
+      name: "Erwin Kaats",
       company: "Logius",
       companyURL: "http://www.logius.nl/",
     },
