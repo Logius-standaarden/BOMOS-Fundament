@@ -88,6 +88,15 @@ var respecConfig = {
   github: "https://github.com/Logius-standaarden/BOMOS-Fundament",
   // Controls if linked "§" section markers are added to a document
   addSectionLinks: true,
+  // Lints for accessibility issues using axe-core
+  a11y: false,
+  // PDF version
+  alternateFormats: [
+    {
+      label: "pdf",
+      uri: "BOMOS-Fundament.pdf",
+    },
+  ],
   // url van de issue lijst in de github repository waar je in werkt
   //issueBase: "https://github.com/centrumvoorstandaarden/.../issues/",
   // in localBiblio kun je bibliografische items opnemen. In de tekst kun je dan tussen blokhaken verwijzen naar de korte naam bv [NEN3610].
