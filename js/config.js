@@ -103,7 +103,7 @@ var respecConfig = {
   nl_markdownSplitH1sections: false,
   nl_organisationName: "Logius",
   nl_organisationPrefix: "LS-",
-  nl_markdownTableClass: "logius",
+  nl_markdownTableClass: "dkkvs",
   nl_markdownEmbedImageInFigure: true,
   nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
   nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
