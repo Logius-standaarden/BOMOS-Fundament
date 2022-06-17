@@ -171,7 +171,7 @@ te gaan.
 BOMOS bestaat uit:
 * BOMOS Deel 1: Het Fundament (dit document)
 * [BOMOS Deel 2: De Verdieping](https://logius-standaarden.github.io/BOMOS-Verdieping)
-* [BOMOS Aanvullende Modules](https://logius-standaarden.github.io/BOMOS-Aanvullende-Modules)
+* BOMOS Aanvullende modules: [Linked Data](https://logius-standaarden.github.io/BOMOS-LinkedData) en [Stelsels](https://logius-standaarden.github.io/BOMOS-Stelsels)
 
 De kern van BOMOS is het "Fundament". Dat bestaat uit een basis
 beschrijving van het Beheer- en Ontwikkelmodel, en een verdere
