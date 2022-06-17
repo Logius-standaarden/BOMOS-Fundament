@@ -64,7 +64,7 @@ Maart 2022
     inrichting van ontwikkel en beheerproces.”
 7. “Een duurzame standaard wil zeggen open en beheerd.”
 8. “Het lelijke van standaarden is dat er al zoveel zijn; hergebruik
-    is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing 
+    is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing
     about standards is that you have so many to choose from".”
 9. “Het beheren van standaarden kent veel overeenkomsten met andere
     _artefacten_ (stelselafspraken, data, api's, ...) waardoor BOMOS
@@ -195,9 +195,15 @@ in Deel 1 en [Deel
 2](https://logius-standaarden.github.io/BOMOS-Verdieping)
 beschreven. De aanvullende modules zijn wel duidelijk met BOMOS
 verbonden, maar hebben een eigen governance wat kan resulteren in een
-eigen naam, eigen doelgroep, eigen beheer, etc. In het beheerproces
-van BOMOS wordt ook beschreven welke eisen er gesteld worden voordat
+eigen naam, eigen doelgroep, eigen beheer, etc. In het
+[beheerproces van BOMOS](#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer)
+wordt ook beschreven welke eisen er gesteld worden voordat
 iets opgenomen wordt als BOMOS aanvullende module.
+
+ De eerste twee aanvullende modules zijn:
+-	[Linked Data & Ontologieën](https://logius-standaarden.github.io/BOMOS-LinkedData):
+  het specifieke gebruik van Linked Data voor semantische standaarden.
+-	Invulling van [BOMOS voor het beheer van afsprakenstelsel](https://logius-standaarden.github.io/BOMOS-Stelsels): het gebruik van BOMOS in de specifieke situatie rond stelsels.
 
 ## Leeswijzer
 
