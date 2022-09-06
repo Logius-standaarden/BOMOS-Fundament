@@ -175,7 +175,7 @@ zullen zijn.
 
 Activiteit | Primair verantwoordelijke rol | Overige betrokken rollen
 -----------|-------------------------------|--------------------------
-Strategie | Houder, financier| Autorisator, functioneel beheerder, experts
+Strategie | Eigenaar, financier| Autorisator, functioneel beheerder, experts
 Tactiek | Autorisator | Functioneel beheerder, experts
 Operationeel | Functioneel beheerder | Technisch beheerder, experts
 Implementatie ondersteuning | Functioneel beheerder | Technisch beheerder, experts
