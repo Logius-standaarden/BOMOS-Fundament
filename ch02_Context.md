@@ -192,7 +192,8 @@ Voor meer informatie over interoperabiliteit en standaarden:
 Open Standaard:  
 https://forumstandaardisatie.nl/open-standaarden
 
-[https://en.wikipedia.org/wiki/Open_standard](https://en.wikipedia.org/wiki/Open_standard)
+Standardisation Handbook:
+[https://en.wikipedia.org/wiki/Open_standard]
 
 [https://open-stand.org/](https://open-stand.org/)
 
