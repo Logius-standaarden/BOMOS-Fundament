@@ -190,12 +190,12 @@ een eenduidig gedefinieerd eindresultaat als doel.
 Voor meer informatie over interoperabiliteit en standaarden:
 
 Open Standaard:  
-https://forumstandaardisatie.nl/open-standaarden
+[https://forumstandaardisatie.nl/open-standaarden]
 
 Standardisation Handbook:
 [https://en.wikipedia.org/wiki/Open_standard]
 
-[https://open-stand.org/](https://open-stand.org/)
+[https://open-stand.org/]
 
 European Interoperability Framework:  
 [https://ec.europa.eu/isa2/eif_en](https://ec.europa.eu/isa2/eif_en)
