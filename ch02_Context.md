@@ -199,10 +199,10 @@ Standardisation Handbook:
 https://open-stand.org/
 
 European Interoperability Framework:  
-[https://ec.europa.eu/isa2/eif_en]
+https://ec.europa.eu/isa2/eif_en
 
 BSI Guide to Standardization:  
-[https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/]
+[https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
 
 Standardisation Handbook:  
 https://en.wikipedia.org/wiki/Open_standard
@@ -214,4 +214,4 @@ Verplichte open standaarden in Nederland:
 https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht](https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)
 
 Nederlandse Overheids Referentie Architectuur (NORA):  
-https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/]
+https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/
