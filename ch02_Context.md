@@ -202,7 +202,7 @@ European Interoperability Framework:
 https://ec.europa.eu/isa2/eif_en
 
 BSI Guide to Standardization:  
-[https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
+https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
 
 Standardisation Handbook:  
 https://en.wikipedia.org/wiki/Open_standard
