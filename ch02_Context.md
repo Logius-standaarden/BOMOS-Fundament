@@ -190,7 +190,7 @@ een eenduidig gedefinieerd eindresultaat als doel.
 Voor meer informatie over interoperabiliteit en standaarden:
 
 Open Standaard:  
-[https://forumstandaardisatie.nl/open-standaarden(https://www.forumstandaardisatie.nl/thema/open-standaarden)
+https://forumstandaardisatie.nl/open-standaarden
 
 [https://en.wikipedia.org/wiki/Open_standard](https://en.wikipedia.org/wiki/Open_standard)
 
