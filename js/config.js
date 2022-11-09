@@ -19,7 +19,7 @@ var respecConfig = {
   // AL: "Algemeen"
   // BD: "Beheerdocumentatie"
   // BP: "Best Practice"
-  specType: "ST",
+  specType: "HR",
 
   // The specification's publish domain, which is used to publish the specification
   // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
@@ -36,7 +36,7 @@ var respecConfig = {
   //previousPublishDate: "2017-09-20",
 
   publishVersion: "3.0.0",
-  // previousPublishVersion: "1.1",
+  previousPublishVersion: "2i",
 
   // Zie https://github.com/w3c/respec/wiki/previousMaturity. Dit moet een
   // A YYYY-MM-DD date. When a previousPublishDate is specified, this is typically required as well in order to generate the "Previous Version"
