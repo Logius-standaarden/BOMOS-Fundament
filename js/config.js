@@ -106,7 +106,7 @@ var respecConfig = {
   nl_markdownTableClass: "dkkvs",
   nl_markdownEmbedImageInFigure: true,
   nl_organisationStylesURL: "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
-  nl_organisationPublishURL: "https://publicatie.centrumvoorstandaarden.nl/",
+  nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
   nl_logo: {
     src: "https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg",
     //src: "http://localhost:8081/respec/style/logos/figure-logius.svg",
