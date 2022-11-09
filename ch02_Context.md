@@ -210,8 +210,8 @@ https://en.wikipedia.org/wiki/Open_standard
 Handreiking Standardisatie voor onderzoekers:
 https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/
 
-Verplichte open standaarden in Nederland:  
-https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht](https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)
+Verplichte open standaarden in Nederland:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht/
 
 Nederlandse Overheids Referentie Architectuur (NORA):  
 https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/
