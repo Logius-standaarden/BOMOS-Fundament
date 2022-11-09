@@ -47,7 +47,7 @@ De tijd zal het leren of wij wel succesvol het eerdere werk hebben
 vervangen met deze versie, of dat wij ook gewoon in de valkuil zijn
 getrapt.
 
-Erwin Folmer & Erwin Kaats & Edwin Wisse
+Erwin Folmer & Gül Işik & Edwin Wisse
 Maart 2022
 
 ## De 13 BOMOS "geboden"
