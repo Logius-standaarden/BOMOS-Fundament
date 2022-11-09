@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 32.1.2 Logius profile 20220405">
+<meta name="generator" content="ReSpec 32.1.10 Logius profile 20220628">
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font:small Helvetica Neue,sans-serif,Droid Sans Fallback;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
 .dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
 .dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
@@ -109,11 +109,12 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </style>
 <script id="initialUserConfig" type="application/json">{
   "specStatus": "WV",
-  "specType": "ST",
+  "specType": "HR",
   "pubDomain": "bomos",
   "shortName": "bomos",
   "publishDate": "2020-04-05",
   "publishVersion": "3.0.0",
+  "previousPublishVersion": "2i",
   "previousMaturity": "DEF",
   "license": "cc-by-nd",
   "doJsonLd": true,
@@ -188,7 +189,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "publishISODate": "2020-04-05T00:00:00.000Z",
-  "generatedSubtitle": "Werkversie 13 april 2022"
+  "generatedSubtitle": "Werkversie 09 november 2022"
 }</script>
 <link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-WV.css"></head>
   <body class="h-entry informative toc-inline"><div class="head">
@@ -196,9 +197,9 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   </a> <h1 id="title" class="title">BOMOS, het fundament</h1>
     
     <h2>
-      Logius Standaard<br>
+      Logius Handreiking<br>
       Werkversie
-      <time class="dt-published" datetime="2020-04-05">13 april 2022</time>
+      <time class="dt-published" datetime="2020-04-05">09 november 2022</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
@@ -210,7 +211,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
       
       
-      
+      <dt>Vorige versie</dt><dd><a href="https://publicatie.centrumvoorstandaarden.nl/bomos/bomos/2i/">https://publicatie.centrumvoorstandaarden.nl/bomos/bomos/2i/</a></dd>
       
       <dt>Redacteurs:</dt>
       <dd class="editor p-author h-card vcard">
@@ -362,7 +363,7 @@ Maart 2022</p>
  inrichting van ontwikkel en beheerproces.”</li>
 <li>“Een duurzame standaard wil zeggen open en beheerd.”</li>
 <li>“Het lelijke van standaarden is dat er al zoveel zijn; hergebruik
- is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing 
+ is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing
  about standards is that you have so many to choose from".”</li>
 <li>“Het beheren van standaarden kent veel overeenkomsten met andere
  <em>artefacten</em> (stelselafspraken, data, api's, ...) waardoor BOMOS
@@ -452,7 +453,7 @@ te gaan.</p>
 <ul>
 <li>BOMOS Deel 1: Het Fundament (dit document)</li>
 <li><a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS Deel 2: De Verdieping</a></li>
-<li><a href="https://logius-standaarden.github.io/BOMOS-Aanvullende-Modules">BOMOS Aanvullende Modules</a></li>
+<li>BOMOS Aanvullende modules: <a href="https://logius-standaarden.github.io/BOMOS-LinkedData">Linked Data</a> en <a href="https://logius-standaarden.github.io/BOMOS-Stelsels">Stelsels</a></li>
 </ul>
 <p>De kern van BOMOS is het "Fundament". Dat bestaat uit een basis
 beschrijving van het Beheer- en Ontwikkelmodel, en een verdere
@@ -472,9 +473,14 @@ in Deel 1 en <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">Dee
 2</a>
 beschreven. De aanvullende modules zijn wel duidelijk met BOMOS
 verbonden, maar hebben een eigen governance wat kan resulteren in een
-eigen naam, eigen doelgroep, eigen beheer, etc. In het beheerproces
-van BOMOS wordt ook beschreven welke eisen er gesteld worden voordat
+eigen naam, eigen doelgroep, eigen beheer, etc. In het
+<a href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer">beheerproces van BOMOS</a>
+wordt ook beschreven welke eisen er gesteld worden voordat
 iets opgenomen wordt als BOMOS aanvullende module.</p>
+<p> De eerste twee aanvullende modules zijn:
+-	<a href="https://logius-standaarden.github.io/BOMOS-LinkedData">Linked Data &amp; Ontologieën</a>:
+  het specifieke gebruik van Linked Data voor semantische standaarden.
+-	Invulling van <a href="https://logius-standaarden.github.io/BOMOS-Stelsels">BOMOS voor het beheer van afsprakenstelsel</a>: het gebruik van BOMOS in de specifieke situatie rond stelsels.</p>
 </section><section id="leeswijzer"><div class="header-wrapper"><h3 id="x1-8-leeswijzer"><bdi class="secno">1.8 </bdi>Leeswijzer</h3><a class="self-link" href="#leeswijzer" aria-label="Permalink for Section 1.8"></a></div>
 <p>Bent u vanuit een beleidsmakende of besturende rol alleen op
 hoofdniveau geïnteresseerd, dan biedt het fundament (deel 1) voldoende
@@ -658,15 +664,16 @@ worden, dezelfde betekenis toekennen.</p>
 <p><strong>Werkgroep</strong><br>Een groep binnen de community met een afgebakende deelactiviteit met
 een eenduidig gedefinieerd eindresultaat als doel.</p>
 <p>Voor meer informatie over interoperabiliteit en standaarden:</p>
-<p>Open Standaard:<br><a href="https://www.forumstandaardisatie.nl/thema/open-standaarden">https://www.forumstandaardisatie.nl/thema/open-standaarden</a></p>
+<p>Open Standaard:<br><a href="https://forumstandaardisatie.nl/open-standaarden">https://forumstandaardisatie.nl/open-standaarden</a></p>
+<p>Standardisation Handbook:</p>
 <p><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p>
 <p><a href="https://open-stand.org/">https://open-stand.org/</a></p>
 <p>European Interoperability Framework:<br><a href="https://ec.europa.eu/isa2/eif_en">https://ec.europa.eu/isa2/eif_en</a></p>
 <p>BSI Guide to Standardization:<br><a href="https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/">https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/</a></p>
 <p>Standardisation Handbook:<br><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p>
 <p>Handreiking Standardisatie voor onderzoekers:
-[<a href="https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/%5D">https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/]</a></p>
-<p>Verplichte open standaarden in Nederland:<br><a href="https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht">https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht</a></p>
+<a href="https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/">https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/</a></p>
+<p>Verplichte open standaarden in Nederland:<br><a href="https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht%5D(https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)">https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht](https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)</a></p>
 <p>Nederlandse Overheids Referentie Architectuur (NORA):<br><a href="https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/">https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/</a></p>
 </section></section>
      <section id="bomos-gebruiken"><div class="header-wrapper"><h2 id="x3-bomos-gebruiken"><bdi class="secno">3. </bdi>BOMOS gebruiken</h2><a class="self-link" href="#bomos-gebruiken" aria-label="Permalink for Section 3."></a></div>
@@ -850,6 +857,7 @@ gaat hier verder op in.</p>
 <li>Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatie bijeenkomst tot aan een (online) cursus.</li>
 <li>Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een frequently asked questionslijst opstellen en bijhouden kan ook een helpdeskactiviteit zijn.</li>
 <li>Module-ontwikkeling: (Stimuleren van) de ontwikkeling van breed te verspreiden softwaremodules die de standaard implementeren. Dit kan door het stimuleren van de markt om software te ontwikkelen, of, als de markt niet beweegt, zelf software te ontwikkelen en te verspreiden om de markt in beweging te krijgen.</li>
+<li>Pilot: Proeven met de implementatie van de specificaties. Bij sommige standaardisatieorganisaties is het verplicht dat er 1 of meerdere pilots zijn geweest voordat de standaard officieel vrijgegeven wordt.</li>
 <li>Validatie &amp; Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden wat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.</li>
 </ul>
 <p><strong>Communicatie</strong>, ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:</p>
@@ -935,7 +943,7 @@ zullen zijn.</p>
 </thead>
 <tbody><tr>
 <td>Strategie</td>
-<td>Houder, financier</td>
+<td>Eigenaar, financier</td>
 <td>Autorisator, functioneel beheerder, experts</td>
 </tr>
 <tr>
