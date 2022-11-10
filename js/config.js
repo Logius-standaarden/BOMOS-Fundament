@@ -7,7 +7,7 @@ var respecConfig = {
   // EO: Einde ondersteuning, verouderde versie, vervangen door nieuwe versie
   // TG: Versie teruggetrokken
   // BASIS, GN-BASIS: 'geen status'
-  specStatus: "WV",
+  specStatus: "VV",
 
   // SpecType currently supported
   // NO: "Norm"
