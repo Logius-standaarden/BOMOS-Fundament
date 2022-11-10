@@ -1,1 +1,1 @@
-Directory voor afbeeldignen
+Directory voor afbeeldingen

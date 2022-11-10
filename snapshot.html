@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 28.1.0 Logius profile 20220113">
+<meta name="generator" content="ReSpec 32.1.10 Logius profile 20220628">
 <style>
 dfn{cursor:pointer}
-.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font:small Helvetica Neue,sans-serif,Droid Sans Fallback;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
+.dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font-family:"Helvetica Neue",sans-serif;font-size:small;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
 .dfn-panel:not(.docked)>.caret{position:absolute;top:-9px}
 .dfn-panel:not(.docked)>.caret::after,.dfn-panel:not(.docked)>.caret::before{content:"";position:absolute;border:10px solid transparent;border-top:0;border-bottom:10px solid #fff;top:0}
 .dfn-panel:not(.docked)>.caret::before{border-bottom:9px solid #a2a9b1}
@@ -27,9 +27,11 @@ dfn{cursor:pointer}
     
 <link rel="shortcut icon" type="image/x-icon" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/logius.ico">
     
-<title>BOMOS 3, het fundament</title>
+<title>BOMOS, het fundament</title>
     
     
+    
+<link rel="stylesheet" type="text/css" href="./media/style.css">
   
 <style id="respec-mainstyle">
 @keyframes pop{
@@ -76,22 +78,28 @@ details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin 
 details.respec-tests-details[open]>summary{border-bottom:thin solid #cad3e2;padding-left:1em;margin-bottom:1em;line-height:2em}
 details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
-a[href].self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
-h2,h3,h4,h5,h6{position:relative}
+.self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-:is(h2,h3,h4,h5,h6)>a.self-link{border:none;color:inherit;font-size:83%;height:2em;left:-1.6em;opacity:.5;position:absolute;text-align:center;text-decoration:none;top:0;transition:opacity .2s;width:2em}
-:is(h2,h3,h4,h5,h6)>a.self-link::before{content:"§";display:block}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2){position:relative;left:-.5em}
+:is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-1.1em;font-size:1rem;opacity:.5}
+:is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
+:is(h2,h3)+a.self-link{top:-.2em}
+:is(h4,h5,h6)+a.self-link::before{color:#000}
 @media (max-width:767px){
 dd{margin-left:0}
-:is(h2,h3,h4,h5,h6)>a.self-link{left:auto;top:auto}
 }
 @media print{
 .removeOnSave{display:none}
 }
 </style>
-<meta name="description" content="BOMOS (Beheer- en OntwikkelModel voor Open Standaarden) is een hulpmiddel van en voor de standaardisatiewereld. 
-  Dit deel 1 bevat als fundament een beschrijving van het Beheer- en Ontwikkelmodel; een gelaagde set van activiteiten die relevant zijn bij het ontwikkelen en beheren van standaarden.
-  Daarnaast zijn rollen gedefinieerd die relevant zijn bij het beheer- en ontwikkelproces van standaarden. Ook beschrijft het de context hoe BOMOS in de standaardisatiepraktijk te gebruiken is.">
+<meta name="description" content="BOMOS (Beheer- en OntwikkelModel voor Open Standaarden) is een hulpmiddel
+  van en voor de standaardisatiewereld. Dit deel 1 bevat als fundament een
+  beschrijving van het Beheer- en Ontwikkelmodel; een gelaagde set van
+  activiteiten die relevant zijn bij het ontwikkelen en beheren van standaarden.
+  Daarnaast zijn rollen gedefinieerd die relevant zijn bij het beheer-
+  en ontwikkelproces van standaarden. Ook beschrijft het de context hoe BOMOS
+  in de standaardisatiepraktijk te gebruiken is.">
 <style>
 var{position:relative;cursor:pointer}
 var[data-type]::after,var[data-type]::before{position:absolute;left:50%;top:-6px;opacity:0;transition:opacity .4s;pointer-events:none}
@@ -100,12 +108,13 @@ var[data-type]::after{content:attr(data-type);transform:translateX(-50%) transla
 var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </style>
 <script id="initialUserConfig" type="application/json">{
-  "specStatus": "DEF",
-  "specType": "ST",
+  "specStatus": "WV",
+  "specType": "HR",
   "pubDomain": "bomos",
-  "shortName": "bomos",
-  "publishDate": "2020-04-01",
+  "shortName": "fundament",
+  "publishDate": "2020-04-05",
   "publishVersion": "3.0.0",
+  "previousPublishVersion": "2i",
   "previousMaturity": "DEF",
   "license": "cc-by-nd",
   "doJsonLd": true,
@@ -117,7 +126,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "companyURL": "https://www.utwente.nl/"
     },
     {
-      "name": "Erwin Kaats.",
+      "name": "Erwin Kaats",
       "company": "Logius",
       "companyURL": "http://www.logius.nl/"
     },
@@ -146,12 +155,20 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   ],
   "github": "https://github.com/Logius-standaarden/BOMOS-Fundament",
   "addSectionLinks": true,
+  "a11y": false,
+  "alternateFormats": [
+    {
+      "label": "pdf",
+      "uri": "BOMOS-Fundament.pdf"
+    }
+  ],
   "nl_markdownSplitH1sections": false,
   "nl_organisationName": "Logius",
   "nl_organisationPrefix": "LS-",
-  "nl_markdownTableClass": "logius",
+  "nl_markdownTableClass": "dkkvs",
   "nl_markdownEmbedImageInFigure": true,
   "nl_organisationStylesURL": "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
+  "nl_organisationPublishURL": "https://gitdocumentatie.logius.nl/publicatie/",
   "nl_logo": {
     "src": "https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg",
     "alt": "Logius",
@@ -171,37 +188,36 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       "publisher": "Nederlands Normalisatie-instituut"
     }
   },
-  "publishISODate": "2020-04-01T00:00:00.000Z",
-  "generatedSubtitle": "Vastgestelde versie 01 april 2020"
+  "publishISODate": "2020-04-05T00:00:00.000Z",
+  "generatedSubtitle": "Werkversie 09 november 2022"
 }</script>
-<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-DEF.css"></head>
-  <body class="h-entry toc-inline"><div class="head">
+<link rel="stylesheet" href="https://publicatie.centrumvoorstandaarden.nl/respec/style/LS-WV.css"></head>
+  <body class="h-entry informative toc-inline"><div class="head">
     <a class="logo" href="https://www.logius.nl/standaarden"><img alt="Logius" height="77" id="Logius" src="https://publicatie.centrumvoorstandaarden.nl/respec/style/logos/figure-logius.svg" width="44">
-  </a> <h1 id="title" class="title">BOMOS 3, het fundament</h1>
+  </a> <h1 id="title" class="title">BOMOS, het fundament</h1>
     
     <h2>
-      Logius Standaard<br>
-      Vastgestelde versie
-      <time class="dt-published" datetime="2020-04-01">01 april 2020</time>
+      Logius Handreiking<br>
+      Werkversie
+      <time class="dt-published" datetime="2020-04-05">09 november 2022</time>
     </h2>
-	<a lang="nl" href="https://publicatie.centrumvoorstandaarden.nl/">Overzicht standaarden</a>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/bomos/bomos/3.0.0">https://docs.geostandaarden.nl/bomos/bomos/3.0.0</a>
+              <a class="u-url status" href="https://logius-standaarden.github.io/BOMOS-Fundament/">https://logius-standaarden.github.io/BOMOS-Fundament/</a>
             </dd><dt>Laatst gepubliceerde versie:</dt><dd>
-              <a href="https://docs.geostandaarden.nl/bomos/bomos/">https://docs.geostandaarden.nl/bomos/bomos/</a>
+              <a href="https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/">https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/</a>
             </dd>
       <dt>Laatste werkversie:</dt><dd><a href="https://logius-standaarden.github.io/BOMOS-Fundament/">https://logius-standaarden.github.io/BOMOS-Fundament/</a></dd>
       
       
       
-      
+      <dt>Vorige versie</dt><dd><a href="https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/2i/">https://gitdocumentatie.logius.nl/publicatie/bomos/fundament/2i/</a></dd>
       
       <dt>Redacteurs:</dt>
       <dd class="editor p-author h-card vcard">
     <span class="p-name fn">Erwin Folmer</span> (<a class="p-org org h-org" href="https://www.utwente.nl/">Universiteit Twente</a>)
   </dd><dd class="editor p-author h-card vcard">
-    <span class="p-name fn">Erwin Kaats.</span> (<a class="p-org org h-org" href="http://www.logius.nl/">Logius</a>)
+    <span class="p-name fn">Erwin Kaats</span> (<a class="p-org org h-org" href="http://www.logius.nl/">Logius</a>)
   </dd><dd class="editor p-author h-card vcard">
     <span class="p-name fn">Edwin Wisse</span> (<a class="p-org org h-org" href="http://www.logius.nl/">Logius</a>)
   </dd>
@@ -225,22 +241,29 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     </dl>
     
     
-    
+    <p lang="en">
+          This document is also available in this non-normative format:
+          <a rel="alternate" href="BOMOS-Fundament.pdf">pdf</a>
+        </p>
     <p class="copyright" lang="en">
           This document is licensed under a
           <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" class="subfoot">Creative Commons Attribution 4.0 License</a>.
         </p>
     <hr title="Separator for header">
   </div>
-    
-     <section id="abstract" class="introductory"><h2 id="samenvatting">Samenvatting<a class="self-link" href="#abstract" aria-label="Permalink for Section"></a></h2><p> BOMOS (Beheer- en OntwikkelModel voor Open Standaarden) is een hulpmiddel van en voor de standaardisatiewereld. 
-  Dit deel 1 bevat als fundament een beschrijving van het Beheer- en Ontwikkelmodel; een gelaagde set van activiteiten die relevant zijn bij het ontwikkelen en beheren van standaarden.
-  Daarnaast zijn rollen gedefinieerd die relevant zijn bij het beheer- en ontwikkelproces van standaarden. Ook beschrijft het de context hoe BOMOS in de standaardisatiepraktijk te gebruiken is.
-  
+
+     <section id="abstract" class="introductory"><h2>Samenvatting</h2><p> BOMOS (Beheer- en OntwikkelModel voor Open Standaarden) is een hulpmiddel
+  van en voor de standaardisatiewereld. Dit deel 1 bevat als fundament een
+  beschrijving van het Beheer- en Ontwikkelmodel; een gelaagde set van
+  activiteiten die relevant zijn bij het ontwikkelen en beheren van standaarden.
+  Daarnaast zijn rollen gedefinieerd die relevant zijn bij het beheer-
+  en ontwikkelproces van standaarden. Ook beschrijft het de context hoe BOMOS
+  in de standaardisatiepraktijk te gebruiken is.
  </p>
 </section>
-     <section id="sotd" class="introductory"><h2 id="status-van-dit-document">Status van dit document<a class="self-link" href="#sotd" aria-label="Permalink for Section"></a></h2>Dit is de definitieve versie van de  standaard. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.<p>Het OBDO heeft op advies van het Forum Standaardisatie deze versie vastgesteld.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#bomos-deel-1-het-fundament"><bdi class="secno">1. </bdi>BOMOS Deel 1: Het Fundament</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#woord-van-dank"><bdi class="secno">1.1 </bdi>Woord van dank</a></li><li class="tocline"><a class="tocxref" href="#de-13-bomos-geboden"><bdi class="secno">1.2 </bdi>De 13 BOMOS "geboden"</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1.3 </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aanleiding"><bdi class="secno">1.3.1 </bdi>Aanleiding</a></li><li class="tocline"><a class="tocxref" href="#doel"><bdi class="secno">1.3.2 </bdi>Doel</a></li><li class="tocline"><a class="tocxref" href="#doelgroep"><bdi class="secno">1.3.3 </bdi>Doelgroep</a></li><li class="tocline"><a class="tocxref" href="#aanpak-historie"><bdi class="secno">1.3.4 </bdi>Aanpak &amp; Historie</a></li><li class="tocline"><a class="tocxref" href="#structuur-bomos"><bdi class="secno">1.3.5 </bdi>Structuur BOMOS</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.3.6 </bdi>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#context-definities"><bdi class="secno">1.4 </bdi>Context &amp; Definities</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#context-standaarden-voor-interoperabiliteit"><bdi class="secno">1.4.1 </bdi>Context: standaarden voor interoperabiliteit</a></li><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">1.4.2 </bdi>Definities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bomos-gebruiken"><bdi class="secno">1.5 </bdi>BOMOS gebruiken</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><bdi class="secno">1.5.1 </bdi>BOMOS als hulpmiddel voor verdere ontwikkeling van de beheerorganisaties</a></li><li class="tocline"><a class="tocxref" href="#bomos-als-achtergrondinformatie-ter-inspiratie"><bdi class="secno">1.5.2 </bdi>BOMOS als achtergrondinformatie ter inspiratie</a></li><li class="tocline"><a class="tocxref" href="#bomos-als-spiegel-voor-het-huidige-beheerproces"><bdi class="secno">1.5.3 </bdi>BOMOS als spiegel voor het huidige beheerproces</a></li></ol></li><li class="tocline"><a class="tocxref" href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><bdi class="secno">1.6 </bdi>Het Beheer- en Ontwikkelmodel: Onderwerpen voor ontwikkeling en beheer</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#benodigde-invulling-per-situatie"><bdi class="secno">1.6.1 </bdi>Benodigde invulling per situatie</a></li><li class="tocline"><a class="tocxref" href="#de-onderwerpen-uit-het-model"><bdi class="secno">1.6.2 </bdi>De onderwerpen uit het model</a></li><li class="tocline"><a class="tocxref" href="#activiteiten-en-rollen"><bdi class="secno">1.6.3 </bdi>Activiteiten en Rollen</a></li><li class="tocline"><a class="tocxref" href="#hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><bdi class="secno">1.6.4 </bdi>Hoe BOMOS als hulpmiddel te gebruiken voor beheerorganisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><bdi class="secno">1.7 </bdi>De BOMOS best practices in vogelvlucht - Introductie van BOMOS Deel 2: De Verdieping.</a></li><li class="tocline"><a class="tocxref" href="#tot-slot"><bdi class="secno">1.8 </bdi>Tot slot</a></li></ol></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">2. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">3. </bdi>Lijst met figuren</a></li></ol></nav>
-     <section class="introductory" data-format="markdown"><h1>Documentbeheer</h1><table class="logius">
+     <section id="sotd" class="introductory"><h2>Status van dit document</h2>Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen door het Technisch Overleg goedgekeurde consultatieversie.<p></p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#woord-van-dank"><bdi class="secno">1.1 </bdi>Woord van dank</a></li><li class="tocline"><a class="tocxref" href="#de-13-bomos-geboden"><bdi class="secno">1.2 </bdi>De 13 BOMOS "geboden"</a></li><li class="tocline"><a class="tocxref" href="#aanleiding"><bdi class="secno">1.3 </bdi>Aanleiding</a></li><li class="tocline"><a class="tocxref" href="#doel"><bdi class="secno">1.4 </bdi>Doel</a></li><li class="tocline"><a class="tocxref" href="#doelgroep"><bdi class="secno">1.5 </bdi>Doelgroep</a></li><li class="tocline"><a class="tocxref" href="#aanpak-historie"><bdi class="secno">1.6 </bdi>Aanpak &amp; Historie</a></li><li class="tocline"><a class="tocxref" href="#structuur-bomos"><bdi class="secno">1.7 </bdi>Structuur BOMOS</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.8 </bdi>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#context-definities"><bdi class="secno">2. </bdi>Context &amp; Definities</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#context-standaarden-voor-interoperabiliteit"><bdi class="secno">2.1 </bdi>Context: standaarden voor interoperabiliteit</a></li><li class="tocline"><a class="tocxref" href="#definities"><bdi class="secno">2.2 </bdi>Definities</a></li></ol></li><li class="tocline"><a class="tocxref" href="#bomos-gebruiken"><bdi class="secno">3. </bdi>BOMOS gebruiken</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><bdi class="secno">3.1 </bdi>BOMOS als hulpmiddel voor verdere ontwikkeling van de beheerorganisaties</a></li><li class="tocline"><a class="tocxref" href="#bomos-als-achtergrondinformatie-ter-inspiratie"><bdi class="secno">3.2 </bdi>BOMOS als achtergrondinformatie ter inspiratie</a></li><li class="tocline"><a class="tocxref" href="#bomos-als-spiegel-voor-het-huidige-beheerproces"><bdi class="secno">3.3 </bdi>BOMOS als spiegel voor het huidige beheerproces</a></li></ol></li><li class="tocline"><a class="tocxref" href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><bdi class="secno">4. </bdi>Het Beheer- en Ontwikkelmodel: Onderwerpen voor ontwikkeling en beheer</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#benodigde-invulling-per-situatie"><bdi class="secno">4.1 </bdi>Benodigde invulling per situatie</a></li><li class="tocline"><a class="tocxref" href="#de-onderwerpen-uit-het-model"><bdi class="secno">4.2 </bdi>De onderwerpen uit het model</a></li><li class="tocline"><a class="tocxref" href="#activiteiten-en-rollen"><bdi class="secno">4.3 </bdi>Activiteiten en Rollen</a></li><li class="tocline"><a class="tocxref" href="#hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><bdi class="secno">4.4 </bdi>Hoe BOMOS als hulpmiddel te gebruiken voor beheerorganisatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><bdi class="secno">5. </bdi>De BOMOS best practices in vogelvlucht - Introductie van BOMOS Deel 2: De Verdieping</a></li><li class="tocline"><a class="tocxref" href="#tot-slot"><bdi class="secno">6. </bdi>Tot slot</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">7. </bdi>Lijst met figuren</a></li></ol></nav>
+     <section class="introductory"><h1>Documentbeheer</h1>
+<table class="dkkvs">
 <thead>
 <tr>
 <th>Datum</th>
@@ -262,13 +285,15 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <td>Toevoeging: De Best Practices</td>
 </tr>
 <tr>
-<td>09/03/2022</td>
+<td>05/04/2022</td>
 <td>3.0</td>
 <td>Erwin Folmer, Erwin Kaats, Wouter van den Berg</td>
 <td>Herziene versie met samenvoegingen uit andere BOMOS varianten</td>
 </tr>
-</tbody></table></section>
-     <section class="introductory" data-format="markdown"><h1>Colofon</h1><table class="logius">
+</tbody></table>
+</section>
+     <section class="introductory"><h1>Colofon</h1>
+<table class="dkkvs">
 <thead>
 <tr>
 <th></th>
@@ -277,38 +302,240 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </thead>
 <tbody><tr>
 <td>Logius Servicecentrum:</td>
-<td>Postbus 96810 2509<br>JE Den Haag<br>t. 0900 555 4555 (10 ct p/m)<br>e.<a href="mailto:servicecentrum@logius.nl">servicecentrum@logius.nl</a></td>
+<td>Postbus 96810 <br>2509 JE Den Haag<br>tel. 0900 555 4555 (10 ct p/m)<br>email <a href="mailto:servicecentrum@logius.nl">servicecentrum@logius.nl</a></td>
 </tr>
-</tbody></table></section>
- 
-     <section data-format="markdown" id="bomos-deel-1-het-fundament"><h2 id="x1-bomos-deel-1-het-fundament"><bdi class="secno">1. </bdi>BOMOS Deel 1: Het Fundament<a class="self-link" href="#bomos-deel-1-het-fundament" aria-label="Permalink for Section 1."></a></h2><p>We starten met een woord van dank, en zullen vervolgens de BOMOS "Geboden" presenteren, waarin veel uit BOMOS in samen komt. De structuur van BOMOS wordt toegelicht, om daarna uitgebreid het Beheer- en Ontwikkelmodel te introduceren, wat afgesloten wordt met een overzicht van onderwerpen die in <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS Deel 2, De Verdieping</a> terugkomen.</p><section id="woord-van-dank"><h3 id="x1-1-woord-van-dank"><bdi class="secno">1.1 </bdi>Woord van dank<a class="self-link" href="#woord-van-dank" aria-label="Permalink for Section 1.1"></a></h3><p>Al in 2006 werd er aan voorlopers van BOMOS gewerkt, maar het duurde tot 2009 voordat de eerste publicatie van BOMOS het levenslicht zag, met de kenmerkende activiteitenplaat. Dus hoe je ook telt, BOMOS bestaat inmiddels meer dan 10 jaar.</p><p>Er zijn inmiddels al vele werkgroepen betrokkenen geweest die in de loop der jaren aan BOMOS hebben bijgedragen. Een mooie ontwikkeling, die eigenlijk ook de essentie van BOMOS benadrukken: Van en Voor de standaardisatiepraktijk. BOMOS als inspiratie voor in de standaardisatie praktijk, en dat gebruik leidt ongetwijfeld tot nieuwe ervaringen en behoeftes die ook weer verwerkt kunnen worden in BOMOS. Het heeft ook geleidt tot verschillende versies en variaties van BOMOS, wat het gebruik niet makkelijker maakt.</p><p><figure id="fig-xkcd-comic-about-competing-standards"><img src="images/xkcd_standards.png" alt="xkcd comic about competing standards" title="xkcd comic about competing standards"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">xkcd comic about competing standards</span></figcaption></figure></p><p>In de beroemde strip denkt men het teveel standaarden op te lossen door het introduceren van een nieuwe standaard die alle anderen standaarden zou moeten vervangen. Echter het eindresultaat is alleen een extra standaard toegevoegd. Met BOMOS hebben we dezelfde intentie, maar hopen we toch echt op een ander resultaat: 1 BOMOS als startpunt voor iedereen.</p><p>Eind 2018 organiseerde Logius een sessie rond het gebruik van BOMOS; een inspirerende sessie met zo’n 40 deelnemers, die zo’n 30 verschillende organisaties representeerde die allen BOMOS (in meer of mindere mate) gebruikte. Als wens kwam naar voren om deze nieuwe versie te maken….maar ja, wie gaat dat dan doen? Wij staken de hand op, en zijn aan de slag gegaan, met als doel niet om veel aan BOMOS te veranderen, maar om deze ene integraal nieuwe versie te maken, die al het andere vervangt, en daarnaast een toets op actualiteit heeft gehad; immers de standaardisatie wereld heeft niet stilgestaan.</p><p>De tijd zal het leren of wij wel succesvol het eerdere werk hebben vervangen met deze versie, of dat wij ook gewoon in de valkuil zijn getrapt.</p><p>Erwin Folmer &amp; Erwin Kaats &amp; Edwin Wisse
-Maart 2022</p></section><section id="de-13-bomos-geboden"><h3 id="x1-2-de-13-bomos-geboden"><bdi class="secno">1.2 </bdi>De 13 BOMOS "geboden"<a class="self-link" href="#de-13-bomos-geboden" aria-label="Permalink for Section 1.2"></a></h3><ol>
+</tbody></table>
+</section>
+
+     <section id="inleiding"><div class="header-wrapper"><h2 id="x1-inleiding"><bdi class="secno">1. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 1."></a></div>
+<p>We starten met een woord van dank, en zullen vervolgens de BOMOS
+"Geboden" presenteren, waarin veel uit BOMOS in samen komt. De
+structuur van BOMOS wordt toegelicht, om daarna uitgebreid het Beheer-
+en Ontwikkelmodel te introduceren, wat afgesloten wordt met een
+overzicht van onderwerpen die in <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS Deel 2: De
+Verdieping</a>
+terugkomen.</p>
+<section id="woord-van-dank"><div class="header-wrapper"><h3 id="x1-1-woord-van-dank"><bdi class="secno">1.1 </bdi>Woord van dank</h3><a class="self-link" href="#woord-van-dank" aria-label="Permalink for Section 1.1"></a></div>
+<p>Al in 2006 werd er aan voorlopers van BOMOS gewerkt, maar het duurde
+tot 2009 voordat de eerste publicatie van BOMOS het levenslicht zag,
+met de kenmerkende activiteitenplaat. Dus hoe je ook telt, BOMOS
+bestaat inmiddels meer dan 10 jaar.</p>
+<p>Er zijn inmiddels al vele werkgroepen betrokkenen geweest die in de
+loop der jaren aan BOMOS hebben bijgedragen. Een mooie ontwikkeling,
+die eigenlijk ook de essentie van BOMOS benadrukken: Van en Voor de
+standaardisatiepraktijk. BOMOS als inspiratie voor in de
+standaardisatie praktijk, en dat gebruik leidt ongetwijfeld tot nieuwe
+ervaringen en behoeftes die ook weer verwerkt kunnen worden in
+BOMOS. Het heeft ook geleidt tot verschillende versies en variaties
+van BOMOS, wat het gebruik niet makkelijker maakt.</p>
+<p><figure id="fig-strip-over-standaarden"><img src="images/xkcd_standards.png" alt="xkcd comic about competing standards" title="Strip over standaarden" height="423" width="749"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Strip over standaarden</span></figcaption></figure></p>
+<p>In de beroemde strip denkt men het teveel standaarden op te lossen
+door het introduceren van een nieuwe standaard die alle anderen
+standaarden zou moeten vervangen. Echter het eindresultaat is alleen
+een extra standaard toegevoegd. Met BOMOS hebben we dezelfde intentie,
+maar hopen we toch echt op een ander resultaat: 1 BOMOS als startpunt
+voor iedereen.</p>
+<p>Eind 2018 organiseerde Logius een sessie rond het gebruik van BOMOS;
+een inspirerende sessie met zo’n 40 deelnemers, die zo’n 30
+verschillende organisaties representeerde die allen BOMOS (in meer of
+mindere mate) gebruikte. Als wens kwam naar voren om deze nieuwe
+versie te maken….maar ja, wie gaat dat dan doen? Wij staken de hand
+op, en zijn aan de slag gegaan, met als doel niet om veel aan BOMOS te
+veranderen, maar om deze ene integraal nieuwe versie te maken, die al
+het andere vervangt, en daarnaast een toets op actualiteit heeft
+gehad; immers de standaardisatie wereld heeft niet stilgestaan.</p>
+<p>De tijd zal het leren of wij wel succesvol het eerdere werk hebben
+vervangen met deze versie, of dat wij ook gewoon in de valkuil zijn
+getrapt.</p>
+<p>Erwin Folmer &amp; Erwin Kaats &amp; Edwin Wisse
+Maart 2022</p>
+</section><section id="de-13-bomos-geboden"><div class="header-wrapper"><h3 id="x1-2-de-13-bomos-geboden"><bdi class="secno">1.2 </bdi>De 13 BOMOS "geboden"</h3><a class="self-link" href="#de-13-bomos-geboden" aria-label="Permalink for Section 1.2"></a></div>
+<ol>
 <li>“Een standaard die niet beheerd wordt is geen standaard!”</li>
-<li>“Het is nooit te vroeg om de mogelijkheden voor het beheer van de standaard te onderzoeken.”</li>
-<li>“Een standaard ontwikkelen en beheren is geen tijdelijk project, waardoor projectfinanciering geen geschikte financieringsbron is.”</li>
-<li>“Een standaard ontwikkelen en beheren is een situationeel proces, en kan daardoor voor elke standaard anders ingevuld zijn.”</li>
+<li>“Het is nooit te vroeg om de mogelijkheden voor het beheer van
+ de standaard te onderzoeken.”</li>
+<li>“Een standaard ontwikkelen en beheren is geen tijdelijk project,
+ waardoor projectfinanciering geen geschikte financieringsbron is.”</li>
+<li>“Een standaard ontwikkelen en beheren is een situationeel proces,
+ en kan daardoor voor elke standaard anders ingevuld zijn.”</li>
 <li>“Een standaard is nooit af!”</li>
-<li>“De openheid van de standaard wordt volledig bepaald door de inrichting van ontwikkel en beheerproces.”</li>
+<li>“De openheid van de standaard wordt volledig bepaald door de
+ inrichting van ontwikkel en beheerproces.”</li>
 <li>“Een duurzame standaard wil zeggen open en beheerd.”</li>
-<li>“Het lelijke van standaarden is dat er al zoveel zijn; hergebruik is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing about standards is that you have so many to choose from".”</li>
-<li>“Het beheren van standaarden kent veel overeenkomsten met andere "artefacten" (stelselafspraken, data, api's, ...) waardoor BOMOS ook bruikbaar is in andere contexten.”</li>
-<li>“Een standaard is niet goed of slecht, open of gesloten, etc.; er zijn vele tinten grijs, en altijd verbeterpunten.”</li>
-<li>“Zonder standaarden waren er geen pyramides (standaarden zijn al zo oud als de mensheid)”</li>
-<li>“Standaarden, toegepast in architectuur, vormen de basis van interoperabiliteit.”</li>
-<li>“De essentie van een standaardisatie-proces is samenwerken; daarmee is standaardisatie een cultuurverschijnsel.”</li>
-</ol></section><section id="inleiding"><h3 id="x1-3-inleiding"><bdi class="secno">1.3 </bdi>Inleiding<a class="self-link" href="#inleiding" aria-label="Permalink for Section 1.3"></a></h3><p>Deze sectie bevat de context van BOMOS.</p><section id="aanleiding"><h4 id="x1-3-1-aanleiding"><bdi class="secno">1.3.1 </bdi>Aanleiding<a class="self-link" href="#aanleiding" aria-label="Permalink for Section 1.3.1"></a></h4><p>Het beheer en ontwikkelen van standaarden is geen sinecure. Toch gebeurt het vaak dat standaarden worden ontwikkeld zonder stil te staan bij verdere ontwikkeling en beheer van de standaard. Dit komt doordat standaardisatie vaak als tijdelijk project tot stand komt. Er wordt projectfinanciering ingezet voor de ontwikkeling van een standaard of een bijbehorende voorziening, maar een structurele inzet ontbreekt. Dat gaat niet goed samen met een continue ontwikkeling en beheer van standaarden.</p></section><section id="doel"><h4 id="x1-3-2-doel"><bdi class="secno">1.3.2 </bdi>Doel<a class="self-link" href="#doel" aria-label="Permalink for Section 1.3.2"></a></h4><p>Het doel van deze publicatie is organisaties te helpen bij het opzetten van het beheer van standaarden en de verbetering daarvan. Vragen waar deze publicatie een antwoord op geeft zijn:</p><ul>
+<li>“Het lelijke van standaarden is dat er al zoveel zijn; hergebruik
+ is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing
+ about standards is that you have so many to choose from".”</li>
+<li>“Het beheren van standaarden kent veel overeenkomsten met andere
+ <em>artefacten</em> (stelselafspraken, data, api's, ...) waardoor BOMOS
+ ook bruikbaar is in andere contexten.”</li>
+<li>“Een standaard is niet goed of slecht, open of gesloten, etc.;
+er zijn vele tinten grijs, en altijd verbeterpunten.”</li>
+<li>“Zonder standaarden waren er geen pyramides (standaarden zijn al
+zo oud als de mensheid)”</li>
+<li>“Standaarden, toegepast in architectuur, vormen de basis van
+interoperabiliteit.”</li>
+<li>“De essentie van een standaardisatie-proces is samenwerken; daarmee
+is standaardisatie een cultuurverschijnsel.”</li>
+</ol>
+</section><section id="aanleiding"><div class="header-wrapper"><h3 id="x1-3-aanleiding"><bdi class="secno">1.3 </bdi>Aanleiding</h3><a class="self-link" href="#aanleiding" aria-label="Permalink for Section 1.3"></a></div>
+<p>Het beheer en ontwikkelen van standaarden is geen sinecure. Toch
+gebeurt het vaak dat standaarden worden ontwikkeld zonder stil te
+staan bij verdere ontwikkeling en beheer van de standaard. Dit komt
+doordat standaardisatie vaak als tijdelijk project tot stand komt. Er
+wordt projectfinanciering ingezet voor de ontwikkeling van een
+standaard of een bijbehorende voorziening, maar een structurele inzet
+ontbreekt. Dat gaat niet goed samen met een continue ontwikkeling en
+beheer van standaarden.</p>
+</section><section id="doel"><div class="header-wrapper"><h3 id="x1-4-doel"><bdi class="secno">1.4 </bdi>Doel</h3><a class="self-link" href="#doel" aria-label="Permalink for Section 1.4"></a></div>
+<p>Het doel van deze publicatie is organisaties te helpen bij het
+opzetten van het beheer van standaarden en de verbetering
+daarvan. Vragen waar deze publicatie een antwoord op geeft zijn:</p>
+<ul>
 <li>Hoe kunnen we de standaard organisatorisch goed (door)ontwikkelen en beheren?</li>
 <li>Hoe kunnen we ontwikkeling en beheer zo inrichten, dat er sprake is van een open standaard?</li>
 <li>Hoe kunnen we de adoptie van onze standaard bij gebruikers verbeteren?</li>
-</ul><p>Deze concrete vragen waren oorspronkelijk de aanleiding tot het opstellen van het Beheer- en OntwikkelModel voor Open Standaarden (BOMOS), met handreikingen (best practices) voor een open invulling voor het beheer. Sindsdien wordt BOMOS in de praktijk gebruikt, en is er bij de gebruikers behoefte ontstaan om meer kennis en ervaringen te delen rond het beheer van standaarden.  Andere vraagstukken, zoals het verbeteren van interoperaliteit met standaarden, de transparantie en beheersbaarheid van een standaard zijn toegevoegd. En ook wordt BOMOS gebruikt als gemeenschappelijke taal in de standaardisatiewereld.</p></section><section id="doelgroep"><h4 id="x1-3-3-doelgroep"><bdi class="secno">1.3.3 </bdi>Doelgroep<a class="self-link" href="#doelgroep" aria-label="Permalink for Section 1.3.3"></a></h4><p>Met BOMOS worden standaardisatiecommunities en hun opdrachtgevers ondersteund en geïnspireerd bij het structureel vormgeven van het beheer en verdere ontwikkelingen van standaarden. Op basis van praktische inzichten wordt deze doelgroep bedient met eenvoudige en overzichtelijke modellen en adviezen.</p></section><section id="aanpak-historie"><h4 id="x1-3-4-aanpak-historie"><bdi class="secno">1.3.4 </bdi>Aanpak &amp; Historie<a class="self-link" href="#aanpak-historie" aria-label="Permalink for Section 1.3.4"></a></h4><p>In 2006 heeft de Werkgroep CMO (Community Model Open Standaarden), een werkgroep van Bureau Open Standaarden (later omgedoopt tot Forum Standaardisatie) van GBO.Overheid (later omgedoopt tot Logius), al aan dit onderwerp gewerkt. De uitkomst, een notitie, is door Forum Standaardisatie beschikbaar gesteld en vormde het startpunt voor de ontwikkeling van BOMOS versie 1.</p><p>Als aanpak voor de ontwikkeling van BOMOS is gekozen voor een gestructureerde discussie met een kleine groep van experts uit de semantische standaardisatieorganisaties waarin kennis gedeeld werd over de relevante onderwerpen. Dit heeft geleid tot versie 1 van BOMOS in 2009.</p><p>Na de eerste uitgave heeft in 2010 opnieuw een serie bijeenkomsten plaatsgevonden. Daar waren ook gebruikers van de eerste versie vertegenwoordigd. Aan de hand van de ervaringen en nieuwe inzichten is BOMOS verder uitgebouwd en uitgebreid: BOMOS versie 2.</p><p>Door middel van deze aanpak is kennis van organisaties die zich bezighouden met ontwikkeling en beheer van standaarden verankerd; zoals Logius, Geonovum, Kennisnet, CROW, Informatiehuis Water, Stichting Elektronische Transacties Uitzendbranche (SETU), het Nederlands Normalisatie-instituut (NEN), VNG Realisatie, onderzoeksorganisatie TNO, Universiteit Twente en vele anderen.</p><p>In 2012 is onder aanvoering van Forum Standaardisatie gewerkt aan een uitbreiding met als titel Bomos2i. Waarbij de “i” staat voor “implementatie”; Een handreiking hoe BOMOS in de standaardisatie praktijk gebruikt kan worden. Een andere variant op BOMOS is uitgebracht door TNO genaamd BOMOD. Ook hier gaat het over beheer en ontwikkelprocessen, maar nu is het onderwerp het publiceren van datasets in plaats van standaarden. Ook is in die periode BOMOS (her)uitgebracht in verschillende huisstijlen. Al met al is het er niet per definitie overzichtelijker op geworden voor een gebruiker.</p><p>Rond 2017 heeft Logius BOMOS verder opgepakt. Er is een uitbreiding op BOMOS 2i gepubliceerd door de toevoeging van een normenkader. Hierop is de BOMOS-meting gebouwd. Dit instrument stelt een beheerder in staat om het beheer van de standaard daadwerkelijk te toetsen.</p><p>In 2022 is deze BOMOS (versie 3.0.0) gepubliceerd waarmee de BOMOS gebruiker een nieuw integraal startpunt heeft om met BOMOS aan de slag te gaan.</p></section><section id="structuur-bomos"><h4 id="x1-3-5-structuur-bomos"><bdi class="secno">1.3.5 </bdi>Structuur BOMOS<a class="self-link" href="#structuur-bomos" aria-label="Permalink for Section 1.3.5"></a></h4><p>BOMOS bestaat uit:</p><ul>
+</ul>
+<p>Deze concrete vragen waren oorspronkelijk de aanleiding tot het
+opstellen van het Beheer- en OntwikkelModel voor Open Standaarden
+(BOMOS), met handreikingen (best practices) voor een open invulling
+voor het beheer. Sindsdien wordt BOMOS in de praktijk gebruikt, en is
+er bij de gebruikers behoefte ontstaan om meer kennis en ervaringen te
+delen rond het beheer van standaarden.  Andere vraagstukken, zoals het
+verbeteren van interoperaliteit met standaarden, de transparantie en
+beheersbaarheid van een standaard zijn toegevoegd. En ook wordt BOMOS
+gebruikt als gemeenschappelijke taal in de standaardisatiewereld.</p>
+</section><section id="doelgroep"><div class="header-wrapper"><h3 id="x1-5-doelgroep"><bdi class="secno">1.5 </bdi>Doelgroep</h3><a class="self-link" href="#doelgroep" aria-label="Permalink for Section 1.5"></a></div>
+<p>Met BOMOS worden standaardisatiecommunities en hun opdrachtgevers
+ondersteund en geïnspireerd bij het structureel vormgeven van het
+beheer en verdere ontwikkelingen van standaarden. Op basis van
+praktische inzichten wordt deze doelgroep bedient met eenvoudige en
+overzichtelijke modellen en adviezen.</p>
+</section><section id="aanpak-historie"><div class="header-wrapper"><h3 id="x1-6-aanpak-historie"><bdi class="secno">1.6 </bdi>Aanpak &amp; Historie</h3><a class="self-link" href="#aanpak-historie" aria-label="Permalink for Section 1.6"></a></div>
+<p>In 2006 heeft de Werkgroep CMO (Community Model Open Standaarden), een
+werkgroep van Bureau Open Standaarden (later omgedoopt tot Forum
+Standaardisatie) van GBO.Overheid (later omgedoopt tot Logius), al aan
+dit onderwerp gewerkt. De uitkomst, een notitie, is door Forum
+Standaardisatie beschikbaar gesteld en vormde het startpunt voor de
+ontwikkeling van BOMOS versie 1.</p>
+<p>Als aanpak voor de ontwikkeling van BOMOS is gekozen voor een
+gestructureerde discussie met een kleine groep van experts uit de
+semantische standaardisatieorganisaties waarin kennis gedeeld werd
+over de relevante onderwerpen. Dit heeft geleid tot versie 1 van BOMOS
+in 2009.</p>
+<p>Na de eerste uitgave heeft in 2010 opnieuw een serie bijeenkomsten
+plaatsgevonden. Daar waren ook gebruikers van de eerste versie
+vertegenwoordigd. Aan de hand van de ervaringen en nieuwe inzichten is
+BOMOS verder uitgebouwd en uitgebreid: BOMOS versie 2.</p>
+<p>Door middel van deze aanpak is kennis van organisaties die zich
+bezighouden met ontwikkeling en beheer van standaarden verankerd;
+zoals Logius, Geonovum, Kennisnet, CROW, Informatiehuis Water,
+Stichting Elektronische Transacties Uitzendbranche (SETU), het
+Nederlands Normalisatie-instituut (NEN), VNG Realisatie,
+onderzoeksorganisatie TNO, Universiteit Twente en vele anderen.</p>
+<p>In 2012 is onder aanvoering van Forum Standaardisatie gewerkt aan een
+uitbreiding met als titel BOMOS2i. Waarbij de “i” staat voor
+“implementatie”; Een handreiking hoe BOMOS in de standaardisatie
+praktijk gebruikt kan worden. Een andere variant op BOMOS is
+uitgebracht door TNO genaamd BOMOD. Ook hier gaat het over beheer en
+ontwikkelprocessen, maar nu is het onderwerp het publiceren van
+datasets in plaats van standaarden. Ook is in die periode BOMOS
+(her)uitgebracht in verschillende huisstijlen. Al met al is het er
+niet per definitie overzichtelijker op geworden voor een gebruiker.</p>
+<p>Rond 2017 heeft Logius BOMOS verder opgepakt. Er is een uitbreiding op
+BOMOS2i gepubliceerd door de toevoeging van een normenkader. Hierop is
+de BOMOS-meting gebouwd. Dit instrument stelt een beheerder in staat
+om het beheer van de standaard daadwerkelijk te toetsen.</p>
+<p>In 2022 is deze BOMOS (versie 3.0.0) gepubliceerd waarmee de BOMOS
+gebruiker een nieuw integraal startpunt heeft om met BOMOS aan de slag
+te gaan.</p>
+</section><section id="structuur-bomos"><div class="header-wrapper"><h3 id="x1-7-structuur-bomos"><bdi class="secno">1.7 </bdi>Structuur BOMOS</h3><a class="self-link" href="#structuur-bomos" aria-label="Permalink for Section 1.7"></a></div>
+<p>BOMOS bestaat uit:</p>
+<ul>
 <li>BOMOS Deel 1: Het Fundament (dit document)</li>
 <li><a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS Deel 2: De Verdieping</a></li>
-<li><a href="https://logius-standaarden.github.io/BOMOS-Aanvullende-Modules">BOMOS Aanvullende Modules</a></li>
-</ul><p>De kern van BOMOS is het "Fundament". Dat bestaat uit een basis beschrijving van het Beheer- en Ontwikkelmodel, en een verdere verdieping op basis van literatuur of praktijkervaringen.  Het Beheer- en Ontwikkelmodel is in de basis een activiteitendiagram, daarnaast zijn rollen gedefinieerd die relevant zijn bij het beheer- en ontwikkelproces van standaarden.  </p><p>Daarnaast biedt <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS in deel 2</a> meer verdieping door het delen van met name best practices uit de standaardisatiewereld.</p><p>Deel 1 en Deel 2 samen vormen de basis van BOMOS.</p><p>Naast deze basis zijn er uitbreidingen voor BOMOS gemaakt door de community, die het toepassen van BOMOS in concrete situaties, soms met een wat andere context, kunnen helpen. We noemen dit de BOMOS Aanvullende Modules, ook wel een Body of Knowledge genoemd, welke dynamisch zullen zijn in de tijd.  </p><p>Als we het hebben over BOMOS, dan bedoelen we daarmee de basis zoals in Deel 1 en <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">Deel 2</a> beschreven. De aanvullende modules zijn wel duidelijk met BOMOS verbonden, maar hebben een eigen governance wat kan resulteren in een eigen naam, eigen doelgroep, eigen beheer, etc. In het beheerproces van BOMOS wordt ook beschreven welke eisen er gesteld worden voordat iets opgenomen wordt als BOMOS aanvullende module.</p></section><section id="leeswijzer"><h4 id="x1-3-6-leeswijzer"><bdi class="secno">1.3.6 </bdi>Leeswijzer<a class="self-link" href="#leeswijzer" aria-label="Permalink for Section 1.3.6"></a></h4><p>Bent u vanuit een beleidsmakende of besturende rol alleen op hoofdniveau geïnteresseerd, dan biedt het fundament (Deel 1) voldoende achtergrond en context. Bent u zelf actief in standaardisatiecommunities dan kunt u naadloos doorgaan met het lezen van deel 2: De verdieping met best practices, waarin meer achtergrond en praktische tips rond standaardisatie zijn opgenomen.</p><p>Wilt u BOMOS gaan toepassen dan is het ook raadzaam om de aanvullende modules te gaan bekijken. Hier kunt u voorbeelden en tools vinden die kunnen helpen bij implementaties van open standaarden. Ook vindt u hier varianten op BOMOS. Deze implementatieprofielen maken BOMOS toepasbaar op meer dan (semantische) standaarden alleen.</p></section></section><section id="context-definities"><h3 id="x1-4-context-definities"><bdi class="secno">1.4 </bdi>Context &amp; Definities<a class="self-link" href="#context-definities" aria-label="Permalink for Section 1.4"></a></h3><section id="context-standaarden-voor-interoperabiliteit"><h4 id="x1-4-1-context-standaarden-voor-interoperabiliteit"><bdi class="secno">1.4.1 </bdi>Context: standaarden voor interoperabiliteit<a class="self-link" href="#context-standaarden-voor-interoperabiliteit" aria-label="Permalink for Section 1.4.1"></a></h4><p>De belangrijkste redenen voor organisaties om interoperabiliteit na te streven zijn effectiviteit en efficiëntie. Standaardisatie zorgt voor een betere samenwerking in de gehele keten van bijvoorbeeld partners, toeleveranciers en klanten. Een gebrek aan interoperabiliteit is niet alleen kostbaar, maar kan ook leiden tot langere doorlooptijden, zoals verschillende onderzoeken laten zien. Zo worden de kosten van gebrek aan interoperabiliteit in de automobielindustrie in de Verenigde Staten geschat op 1 miljard dollar, en een twee maanden langere ontwerptijd dan strikt noodzakelijk (Zie: Brunnermeier, S.B. &amp; S.A. Martin (2002). Interoperability costs in the US automotive supply chain. Supply Chain Management 7(2), pp. 71-82.). Ook de overheid heeft belang bij het nastreven van interoperabiliteit, maar heeft nog een extra reden ondermeer vanuit maatschappelijk oogpunt. Denk aan de consequenties bij een ramp wanneer de verschillende hulpdienstorganisaties niet interoperabel met elkaar zouden zijn. Daarnaast doen zich bij thema’s als het elektronisch patiëntendossier en de problematiek rond risicojongeren ook interoperabiliteitsvraagstukken voor.</p><p>Standaarden zijn een belangrijk middel voor het bereiken van interoperabiliteit, en daarnaast ook belangrijk voor leveranciersonafhankelijkheid. Standaarden zijn er in verschillende soorten en maten. Er zijn zeer veel indelingen in type standaarden, maar binnen de overheid wordt het European Interoperability Framework als leidraad gehanteerd.
-Hierin wordt onderscheid gemaakt tussen technische en semantische interoperabiliteit, waarmee ook een onderscheid te maken is tussen technische en semantische standaarden.
-De technische (infrastructureel) georiënteerde standaarden kunnen veelal één-op-één overgenomen worden van internationale consortia zoals W3C, UN/CEFACT, ETSI, ISO, CEN en IETF.</p><p>Standaarden van semantische aard vereisen vaak een regionaal profiel zodat rekening kan worden gehouden met  specifieke implemenatieeisen.
-Zo zijn er Nederlandse gebruikersgroepen (communities) actief voor het ontwikkelen van een nationale profielen op internationale standarden.
-In de context van Nederlandse wetgeving en/of Nederlandse specifieke bedrijfs(overheids)-processen is het namelijk noodzakelijk om internationale standaarden toe te spitsen op de Nederlandse situatie.</p><p>(Bedrijfs)Transactie standaarden, vocabulaires (waardelijstjes) of dossiers (bv. patiëntendossier) zijn ook voorbeelden van semantische standaarden. Andere kenmerken van semantische standaarden zijn:</p><ul>
+<li>BOMOS Aanvullende modules: <a href="https://logius-standaarden.github.io/BOMOS-LinkedData">Linked Data</a> en <a href="https://logius-standaarden.github.io/BOMOS-Stelsels">Stelsels</a></li>
+</ul>
+<p>De kern van BOMOS is het "Fundament". Dat bestaat uit een basis
+beschrijving van het Beheer- en Ontwikkelmodel, en een verdere
+verdieping op basis van literatuur of praktijkervaringen.  Het Beheer-
+en Ontwikkelmodel is in de basis een activiteitendiagram, daarnaast
+zijn rollen gedefinieerd die relevant zijn bij het beheer- en
+ontwikkelproces van standaarden.</p>
+<p>Daarnaast biedt <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">BOMOS in deel 2</a> meer verdieping door het delen van met name best practices uit de standaardisatiewereld.</p>
+<p>Deel 1 en Deel 2 samen vormen de basis van BOMOS.</p>
+<p>Naast deze basis zijn er uitbreidingen voor BOMOS gemaakt door de
+community, die het toepassen van BOMOS in concrete situaties, soms met
+een wat andere context, kunnen helpen. We noemen dit de BOMOS
+Aanvullende Modules, ook wel een Body of Knowledge genoemd, welke
+dynamisch zullen zijn in de tijd.</p>
+<p>Als we het hebben over BOMOS, dan bedoelen we daarmee de basis zoals
+in Deel 1 en <a href="https://logius-standaarden.github.io/BOMOS-Verdieping">Deel
+2</a>
+beschreven. De aanvullende modules zijn wel duidelijk met BOMOS
+verbonden, maar hebben een eigen governance wat kan resulteren in een
+eigen naam, eigen doelgroep, eigen beheer, etc. In het
+<a href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer">beheerproces van BOMOS</a>
+wordt ook beschreven welke eisen er gesteld worden voordat
+iets opgenomen wordt als BOMOS aanvullende module.</p>
+<p> De eerste twee aanvullende modules zijn:
+-	<a href="https://logius-standaarden.github.io/BOMOS-LinkedData">Linked Data &amp; Ontologieën</a>:
+  het specifieke gebruik van Linked Data voor semantische standaarden.
+-	Invulling van <a href="https://logius-standaarden.github.io/BOMOS-Stelsels">BOMOS voor het beheer van afsprakenstelsel</a>: het gebruik van BOMOS in de specifieke situatie rond stelsels.</p>
+</section><section id="leeswijzer"><div class="header-wrapper"><h3 id="x1-8-leeswijzer"><bdi class="secno">1.8 </bdi>Leeswijzer</h3><a class="self-link" href="#leeswijzer" aria-label="Permalink for Section 1.8"></a></div>
+<p>Bent u vanuit een beleidsmakende of besturende rol alleen op
+hoofdniveau geïnteresseerd, dan biedt het fundament (deel 1) voldoende
+achtergrond en context. Bent u zelf actief in
+standaardisatiecommunities dan kunt u naadloos doorgaan met het lezen
+van deel 2: De verdieping met best practices, waarin meer achtergrond
+en praktische tips rond standaardisatie zijn opgenomen.</p>
+<p>Wilt u BOMOS gaan toepassen dan is het ook raadzaam om de aanvullende
+modules te gaan bekijken. Hier kunt u voorbeelden en tools vinden die
+kunnen helpen bij implementaties van open standaarden. Ook vindt u
+hier varianten op BOMOS. Deze implementatieprofielen maken BOMOS
+toepasbaar op meer dan (semantische) standaarden alleen.</p>
+</section></section>
+     <section id="context-definities"><div class="header-wrapper"><h2 id="x2-context-definities"><bdi class="secno">2. </bdi>Context &amp; Definities</h2><a class="self-link" href="#context-definities" aria-label="Permalink for Section 2."></a></div>
+<section id="context-standaarden-voor-interoperabiliteit"><div class="header-wrapper"><h3 id="x2-1-context-standaarden-voor-interoperabiliteit"><bdi class="secno">2.1 </bdi>Context: standaarden voor interoperabiliteit</h3><a class="self-link" href="#context-standaarden-voor-interoperabiliteit" aria-label="Permalink for Section 2.1"></a></div>
+<p>De belangrijkste redenen voor organisaties om interoperabiliteit na te
+streven zijn effectiviteit en efficiëntie. Standaardisatie zorgt voor
+een betere samenwerking in de gehele keten van bijvoorbeeld partners,
+toeleveranciers en klanten. Een gebrek aan interoperabiliteit is niet
+alleen kostbaar, maar kan ook leiden tot langere doorlooptijden, zoals
+verschillende onderzoeken laten zien. Zo worden de kosten van gebrek
+aan interoperabiliteit in de automobielindustrie in de Verenigde
+Staten geschat op 1 miljard dollar, en een twee maanden langere
+ontwerptijd dan strikt noodzakelijk (Zie: Brunnermeier, S.B. &amp;
+S.A. Martin (2002). Interoperability costs in the US automotive supply
+chain. Supply Chain Management 7(2), pp. 71-82.). Ook de overheid
+heeft belang bij het nastreven van interoperabiliteit, maar heeft nog
+een extra reden ondermeer vanuit maatschappelijk oogpunt. Denk aan de
+consequenties bij een ramp wanneer de verschillende
+hulpdienstorganisaties niet interoperabel met elkaar zouden
+zijn. Daarnaast doen zich bij thema’s als het elektronisch
+patiëntendossier en de problematiek rond risicojongeren ook
+interoperabiliteitsvraagstukken voor.</p>
+<p>Standaarden zijn een belangrijk middel voor het bereiken van
+interoperabiliteit, en daarnaast ook belangrijk voor
+leveranciersonafhankelijkheid. Standaarden zijn er in verschillende
+soorten en maten. Er zijn zeer veel indelingen in type standaarden,
+maar binnen de overheid wordt het European Interoperability Framework
+als leidraad gehanteerd.  Hierin wordt onderscheid gemaakt tussen
+technische en semantische interoperabiliteit, waarmee ook een
+onderscheid te maken is tussen technische en semantische standaarden.
+De technische (infrastructureel) georiënteerde standaarden kunnen
+veelal één-op-één overgenomen worden van internationale consortia
+zoals W3C, UN/CEFACT, ETSI, ISO, CEN en IETF.</p>
+<p>Standaarden van semantische aard vereisen vaak een regionaal profiel
+zodat rekening kan worden gehouden met specifieke implemenatieeisen.
+Zo zijn er Nederlandse gebruikersgroepen (communities) actief voor het
+ontwikkelen van een nationale profielen op internationale standarden.
+In de context van Nederlandse wetgeving en/of Nederlandse specifieke
+bedrijfs(overheids)-processen is het namelijk noodzakelijk om
+internationale standaarden toe te spitsen op de Nederlandse situatie.</p>
+<p>(Bedrijfs)Transactie standaarden, vocabulaires (waardelijstjes) of
+dossiers (bv. patiëntendossier) zijn ook voorbeelden van semantische
+standaarden. Andere kenmerken van semantische standaarden zijn:</p>
+<ul>
 <li>Het zijn vaak een specifieke invulling van een internationale standaard.</li>
 <li>Ze zijn vaak voor een specifiek inhoudelijk probleem:<ul>
 <li>Bijv. ‘verticaal’: informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.</li>
@@ -317,31 +544,188 @@ In de context van Nederlandse wetgeving en/of Nederlandse specifieke bedrijfs(ov
 </li>
 <li>Ze worden vaak ontwikkeld en beheerd in het domein (de sector), en niet door formele standaardisatieorganisaties.</li>
 <li>De kern van de standaard is de semantiek (de betekenis), niet de techniek.</li>
-</ul><p>Een semantische standaard staat nooit op zichzelf en heeft vaak meerdere relaties met andere internationale standaarden, waaronder ook technische standaarden. Vaak zien we ook een gelaagdheid binnen de semantische standaard: De internationale semantische standaard die de basissemantiek standaardiseert voor een bepaald probleemdomein en ruimte biedt om in een specifieke context (zoals een land) nog extra afspraken te standaardiseren. Deze extra afspraken bovenop de internationale standaarden worden soms een toepassingsprofiel genoemd, maar regelmatig ook gewoon aangeduid met de term semantische standaard. Binnen het toepassingsprofiel of semantische standaard worden vaak vocabulaires (codelijsten e.d.) buiten de standaard vastgesteld omdat deze een eigen dynamiek kennen en daarmee andere beheerprocedures van toepassing kunnen zijn. Hiermee hebben we drie niveaus van semantische standaarden; de internationale, de specifieke context (bijv. nationaal), en de vocabulaires. Een belangrijke taak is afstemming blijven houden met de ontwikkel- en beheerorganisaties van deze internationale standaarden. De semantische standaarden, waar dit document op van toepassing is, kan van toepassing zijn in de overheidscontext (G2G, G2B en/of G2C-context), maar in de praktijk zal dit document evengoed van toepassing zijn buiten de overheidscontext.</p><p>Het ontwikkelen en het beheer van standaarden is anders dan het ontwikkelen en beheren van andere producten zoals voorzieningen en software. Een voorziening is een samenstel van informatie, systeem, organisatie en koppelvlak ten behoeve van dienstverlening. Zowel intern binnen de voorziening, als op het koppelvlak van de voorziening met de buitenwereld kunnen verschillende type standaarden gebruikt worden waaronder ook semantische standaarden. Deze gebruiksrelatie tussen een standaard en voorziening geldt evengoed tussen een standaard en software.</p><p>Voorbeeld: NL-LOM en Edurep. De standaard NL-LOM beschrijft op welke manier metadata moet worden vastgelegd bij educatief materiaal. Een voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine die op basis van metadata educatief materiaal vindbaar maakt. (NL-LOM: <a href="https://www.forumstandaardisatie.nl/standaard/nl-lom">https://www.forumstandaardisatie.nl/standaard/nl-lom</a>; Edurep: <a href="https://www.kennisnet.nl/edurep/">https://www.kennisnet.nl/edurep/</a>)</p><p>Standaarden hebben daarmee andere gebruikers, en andere uitdagingen zoals afstemming met communities en internationale standaarden. Dat betekent niet dat de semantische standaardisatiediscipline niet kan leren van andere disciplines, zoals de software-wereld. Modellen uit die disciplines kunnen bruikbaar zijn. Met name het BiSL-raamwerk voor functioneel beheer is in enige mate bruikbaar, en deze is dan ook meegenomen in de totstandkoming van BOMOS (Voor meer informatie over BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van Outvorst, Van Haren Publishing, 2005.).</p><p>BOMOS is initieel ontwikkeld voor semantische standaarden; deze focus is nog regelmatig terug te vinden in onder meer <a href="https://logius-standaarden.github.io/BOMOS-Verdieping/">de best practices in deel 2</a>. Echter op basis van gebruikservaringen hebben we inmiddels ook geleerd dat wanneer BOMOS met beleid wordt toegepast het ook bruikbaar is in de context van andere standaarden (zoals technische of organisatorische), voorzieningen, stelsels, of andere concepten zoals het beheer van data, of software. Dit soort gebruikservaringen, die eventueel leiden tot aangepaste BOMOS versies voor gebruik in een specifieke context, kunnen gepubliceerd worden als BOMOS Aanvullende Module.</p></section><section id="definities"><h4 id="x1-4-2-definities"><bdi class="secno">1.4.2 </bdi>Definities<a class="self-link" href="#definities" aria-label="Permalink for Section 1.4.2"></a></h4><p><strong>Beheer en Ontwikkelen van standaarden (kortweg: beheer)</strong>
-Alle activiteiten gericht op het structureel werken aan, beschikbaar stellen, en houden van een (set van) standaard(en) die steeds past bij de actuele behoefte van de belanghebbenden.</p><p>Een onderscheid is te maken tussen ontwikkeling en beheer. Het beheer van standaarden heeft betrekking op het beschikbaar stellen en aanpassen van bestaande standaarden op basis van nieuwe wensen en eisen zonder dat er sprake is van functionele uitbreidingen. Dit bevat dus ondermeer het verspreiden van de standaard bijvoorbeeld op een website, het bieden van ondersteuning, het verzamelen van wensen en eisen en het uitbrengen van nieuwe versies.</p><p>Het ontwikkelen van standaarden heeft betrekking op de ontwikkeling van een standaard als oplossing voor een nieuw functioneel terrein. Dit kan betekenen dat op basis van de ontwikkeling de bestaande standaard wordt uitgebreid of dat er een nieuwe standaard ontstaat.</p><p>Beheer en ontwikkeling, in de brede zin, voor een standaard bevat ook onderwerpen als adoptie en certificering.</p><p><strong>Beheer- en Ontwikkelmodel"</strong>
-Het Beheer- en Ontwikkelmodel is een gelaagde structuur van onderwerpen die nodig zijn voor het ontwikkelen en beheren van een open standaard, en is weergegeven als een activiteitendiagram. Het is de kern van BOMOS.</p><p><strong>Community</strong><br>Elke specifieke gemeenschap of groep in het elektronische (overheids-)veld die zich bezighoudt met de ontwikkeling en/of het beheer van een specifieke (set van) standaard(en), vanuit een expliciete gezamenlijke behoefte. Omdat dergelijke behoeften vaak zowel in het private als in het publieke domein worden gevoeld, kan een community een publiek-private samenwerkingsvorm zijn.</p><p><strong>Open standaard</strong><br>Er zijn vele meningen over de definitie van een open standaard, vooral vanwege belangen van verschillende organisaties is het nooit gelukt om dit goed te definiëren. In BOMOS hanteren we een definitie die in de start periode van het European Interoperability Framework werd gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de oorspronkelijke definitie is relatief het meest open.
-Onder een ‘open standaard’ verstaan we een standaard die voldoet aan de volgende eisen:</p><ol>
-<li><p>De standaard is goedgekeurd en zal worden gehandhaafd door een not-for-profit organisatie, en de lopende ontwikkeling gebeurt op basis van een open besluitvormingsprocedure die toegankelijk is voor alle belanghebbende partijen (consensus of meerderheidsbeschikking);</p>
-</li>
-<li><p>De standaard is gepubliceerd en over het specificatiedocument van de standaard kan vrijelijk worden beschikt of het is te verkrijgen tegen een nominale bijdrage. Het moet voor een ieder mogelijk zijn om het te kopiëren, beschikbaar te stellen en te gebruiken om niet of tegen een nominale prijs;</p>
-</li>
-<li><p>Het intellectuele eigendom - m.b.t. mogelijk aanwezige patenten - van (delen van) de standaard is onherroepelijk ter beschikking gesteld op een royalty-free basis;</p>
-</li>
-<li><p>Er zijn geen beperkingen omtrent het hergebruik van de standaard.</p>
-</li>
-</ol><p><strong>Semantische interoperabiliteit</strong><br>Betekent dat samenwerkende partijen aan gegevens, die uitgewisseld worden, dezelfde betekenis toekennen.</p><p><strong>Semantische standaarden</strong><br>Zijn afspraken over de betekenis van gegevens.</p><p><strong>Werkgroep</strong><br>Een groep binnen de community met een afgebakende deelactiviteit met een eenduidig gedefinieerd eindresultaat als doel.</p><p>Voor meer informatie over interoperabiliteit en standaarden:</p><p>Open Standaard:<br><a href="https://www.forumstandaardisatie.nl/thema/open-standaarden">https://www.forumstandaardisatie.nl/thema/open-standaarden</a></p><p><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p><p><a href="https://open-stand.org/">https://open-stand.org/</a></p><p>European Interoperability Framework:<br><a href="https://ec.europa.eu/isa2/eif_en">https://ec.europa.eu/isa2/eif_en</a></p><p>BSI Guide to Standardization:<br><a href="https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/">https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/</a></p><p>Standardisation Handbook:<br><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p><p>Handreiking Standardisatie voor onderzoekers:
-[<a href="https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/%5D">https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/]</a></p><p>Verplichte open standaarden in Nederland:<br><a href="https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht">https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht</a></p><p>Nederlandse Overheids Referentie Architectuur (NORA):<br><a href="https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/">https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/</a></p></section></section><section id="bomos-gebruiken"><h3 id="x1-5-bomos-gebruiken"><bdi class="secno">1.5 </bdi>BOMOS gebruiken<a class="self-link" href="#bomos-gebruiken" aria-label="Permalink for Section 1.5"></a></h3><p>Hoe kan BOMOS ingezet worden? Er zijn verschillende mogelijkheden:</p><ol>
+</ul>
+<p>Een semantische standaard staat nooit op zichzelf en heeft vaak
+meerdere relaties met andere internationale standaarden, waaronder ook
+technische standaarden. Vaak zien we ook een gelaagdheid binnen de
+semantische standaard: De internationale semantische standaard die de
+basissemantiek standaardiseert voor een bepaald probleemdomein en
+ruimte biedt om in een specifieke context (zoals een land) nog extra
+afspraken te standaardiseren. Deze extra afspraken bovenop de
+internationale standaarden worden soms een toepassingsprofiel genoemd,
+maar regelmatig ook gewoon aangeduid met de term semantische
+standaard. Binnen het toepassingsprofiel of semantische standaard
+worden vaak vocabulaires (codelijsten e.d.) buiten de standaard
+vastgesteld omdat deze een eigen dynamiek kennen en daarmee andere
+beheerprocedures van toepassing kunnen zijn. Hiermee hebben we drie
+niveaus van semantische standaarden; de internationale, de specifieke
+context (bijv. nationaal), en de vocabulaires. Een belangrijke taak is
+afstemming blijven houden met de ontwikkel- en beheerorganisaties van
+deze internationale standaarden. De semantische standaarden, waar dit
+document op van toepassing is, kan van toepassing zijn in de
+overheidscontext (G2G, G2B en/of G2C-context), maar in de praktijk zal
+dit document evengoed van toepassing zijn buiten de overheidscontext.</p>
+<p>Het ontwikkelen en het beheer van standaarden is anders dan het
+ontwikkelen en beheren van andere producten zoals voorzieningen en
+software. Een voorziening is een samenstel van informatie, systeem,
+organisatie en koppelvlak ten behoeve van dienstverlening. Zowel
+intern binnen de voorziening, als op het koppelvlak van de voorziening
+met de buitenwereld kunnen verschillende type standaarden gebruikt
+worden waaronder ook semantische standaarden. Deze gebruiksrelatie
+tussen een standaard en voorziening geldt evengoed tussen een
+standaard en software.</p>
+<p>Voorbeeld: NL-LOM en Edurep. De standaard NL-LOM beschrijft op welke
+manier metadata moet worden vastgelegd bij educatief materiaal. Een
+voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
+die op basis van metadata educatief materiaal vindbaar maakt. (NL-LOM:
+<a href="https://www.forumstandaardisatie.nl/standaard/nl-lom">https://www.forumstandaardisatie.nl/standaard/nl-lom</a>;
+Edurep:
+<a href="https://www.kennisnet.nl/edurep/">https://www.kennisnet.nl/edurep/</a>)</p>
+<p>Standaarden hebben daarmee andere gebruikers, en andere uitdagingen
+zoals afstemming met communities en internationale standaarden. Dat
+betekent niet dat de semantische standaardisatiediscipline niet kan
+leren van andere disciplines, zoals de software-wereld. Modellen uit
+die disciplines kunnen bruikbaar zijn. Met name het BiSL-raamwerk voor
+functioneel beheer is in enige mate bruikbaar, en deze is dan ook
+meegenomen in de totstandkoming van BOMOS (Voor meer informatie over
+BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en
+Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van
+Outvorst, Van Haren Publishing, 2005.).</p>
+<p>BOMOS is initieel ontwikkeld voor semantische standaarden; deze focus
+is nog regelmatig terug te vinden in onder meer <a href="https://logius-standaarden.github.io/BOMOS-Verdieping/">de best practices in
+deel
+2</a>. Echter op
+basis van gebruikservaringen hebben we inmiddels ook geleerd dat
+wanneer BOMOS met beleid wordt toegepast het ook bruikbaar is in de
+context van andere standaarden (zoals technische of organisatorische),
+voorzieningen, stelsels, of andere concepten zoals het beheer van
+data, of software. Dit soort gebruikservaringen, die eventueel leiden
+tot aangepaste BOMOS versies voor gebruik in een specifieke context,
+kunnen gepubliceerd worden als BOMOS Aanvullende Module.</p>
+</section><section id="definities"><div class="header-wrapper"><h3 id="x2-2-definities"><bdi class="secno">2.2 </bdi>Definities</h3><a class="self-link" href="#definities" aria-label="Permalink for Section 2.2"></a></div>
+<p><strong>Beheer en Ontwikkelen van standaarden (kortweg: beheer)</strong>
+Alle activiteiten gericht op het structureel werken aan, beschikbaar
+stellen, en houden van een (set van) standaard(en) die steeds past bij
+de actuele behoefte van de belanghebbenden.</p>
+<p>Een onderscheid is te maken tussen ontwikkeling en beheer. Het beheer
+van standaarden heeft betrekking op het beschikbaar stellen en
+aanpassen van bestaande standaarden op basis van nieuwe wensen en
+eisen zonder dat er sprake is van functionele uitbreidingen. Dit bevat
+dus ondermeer het verspreiden van de standaard bijvoorbeeld op een
+website, het bieden van ondersteuning, het verzamelen van wensen en
+eisen en het uitbrengen van nieuwe versies.</p>
+<p>Het ontwikkelen van standaarden heeft betrekking op de ontwikkeling
+van een standaard als oplossing voor een nieuw functioneel
+terrein. Dit kan betekenen dat op basis van de ontwikkeling de
+bestaande standaard wordt uitgebreid of dat er een nieuwe standaard
+ontstaat.</p>
+<p>Beheer en ontwikkeling, in de brede zin, voor een standaard bevat ook
+onderwerpen als adoptie en certificering.</p>
+<p><strong>Beheer- en Ontwikkelmodel</strong>
+Het Beheer- en Ontwikkelmodel is een gelaagde structuur van
+onderwerpen die nodig zijn voor het ontwikkelen en beheren van een
+open standaard, en is weergegeven als een activiteitendiagram. Het is
+de kern van BOMOS.</p>
+<p><strong>Community</strong>
+Elke specifieke gemeenschap of groep in het elektronische
+(overheids-)veld die zich bezighoudt met de ontwikkeling en/of het
+beheer van een specifieke (set van) standaard(en), vanuit een
+expliciete gezamenlijke behoefte. Omdat dergelijke behoeften vaak
+zowel in het private als in het publieke domein worden gevoeld, kan
+een community een publiek-private samenwerkingsvorm zijn.</p>
+<p><strong>Open standaard</strong><br>Er zijn vele meningen over de definitie van een open standaard, vooral
+vanwege belangen van verschillende organisaties is het nooit gelukt om
+dit goed te definiëren. In BOMOS hanteren we een definitie die in de
+start periode van het European Interoperability Framework werd
+gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later
+zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de
+oorspronkelijke definitie is relatief het meest open.  Onder een ‘open
+standaard’ verstaan we een standaard die voldoet aan de volgende
+eisen:</p>
+<ol>
+<li>De standaard is goedgekeurd en zal worden gehandhaafd door een
+not-for-profit organisatie, en de lopende ontwikkeling gebeurt op
+basis van een open besluitvormingsprocedure die toegankelijk is voor
+alle belanghebbende partijen (consensus of meerderheidsbeschikking);</li>
+<li>De standaard is gepubliceerd en over het specificatiedocument van
+de standaard kan vrijelijk worden beschikt of het is te verkrijgen
+tegen een nominale bijdrage. Het moet voor een ieder mogelijk zijn om
+het te kopiëren, beschikbaar te stellen en te gebruiken om niet of
+tegen een nominale prijs;</li>
+<li>Het intellectuele eigendom - m.b.t. mogelijk aanwezige patenten -
+van (delen van) de standaard is onherroepelijk ter beschikking gesteld
+op een royalty-free basis;</li>
+<li>Er zijn geen beperkingen omtrent het hergebruik van de standaard.</li>
+</ol>
+<p><strong>Semantische interoperabiliteit</strong>
+Betekent dat samenwerkende partijen aan gegevens, die uitgewisseld
+worden, dezelfde betekenis toekennen.</p>
+<p><strong>Semantische standaarden</strong><br>Zijn afspraken over de betekenis van gegevens.</p>
+<p><strong>Werkgroep</strong><br>Een groep binnen de community met een afgebakende deelactiviteit met
+een eenduidig gedefinieerd eindresultaat als doel.</p>
+<p>Voor meer informatie over interoperabiliteit en standaarden:</p>
+<p>Open Standaard:<br><a href="https://forumstandaardisatie.nl/open-standaarden">https://forumstandaardisatie.nl/open-standaarden</a></p>
+<p>Standardisation Handbook:</p>
+<p><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p>
+<p><a href="https://open-stand.org/">https://open-stand.org/</a></p>
+<p>European Interoperability Framework:<br><a href="https://ec.europa.eu/isa2/eif_en">https://ec.europa.eu/isa2/eif_en</a></p>
+<p>BSI Guide to Standardization:<br><a href="https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/">https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/</a></p>
+<p>Standardisation Handbook:<br><a href="https://en.wikipedia.org/wiki/Open_standard">https://en.wikipedia.org/wiki/Open_standard</a></p>
+<p>Handreiking Standardisatie voor onderzoekers:
+<a href="https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/">https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/</a></p>
+<p>Verplichte open standaarden in Nederland:<br><a href="https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht%5D(https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)">https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht](https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht)</a></p>
+<p>Nederlandse Overheids Referentie Architectuur (NORA):<br><a href="https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/">https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/</a></p>
+</section></section>
+     <section id="bomos-gebruiken"><div class="header-wrapper"><h2 id="x3-bomos-gebruiken"><bdi class="secno">3. </bdi>BOMOS gebruiken</h2><a class="self-link" href="#bomos-gebruiken" aria-label="Permalink for Section 3."></a></div>
+<p>Hoe kan BOMOS ingezet worden? Er zijn verschillende mogelijkheden:</p>
+<ol>
 <li>Als hulpmiddel voor verdere ontwikkeling van beheerorganisaties</li>
 <li>Als achtergrondinformatie ter inspiratie</li>
 <li>Als spiegel voor het huidige beheerproces</li>
-</ol><section id="bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><h4 id="x1-5-1-bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><bdi class="secno">1.5.1 </bdi>BOMOS als hulpmiddel voor verdere ontwikkeling van de beheerorganisaties<a class="self-link" href="#bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties" aria-label="Permalink for Section 1.5.1"></a></h4><p>De belangrijkste toepassing van BOMOS is als hulpmiddel voor de verdere ontwikkeling van beheerorganisaties. Veel beheerorganisaties komen voort uit een initieel project of programma. Soms is dit gekoppeld aan een bepaalde voorziening. Het beheer van de standaard kan dan een afhankelijkheid hebben met het operationele beheer van die voorziening. Om de standaard breder te kunnen inzetten zijn dan nadere afwegingen nodig. BOMOS helpt daarbij.</p><p>Een andere toepassing is de inrichting van een geheel nieuwe beheerorganisatie. Als organisaties er voor kiezen om in een sector een standaard af te spreken dan ontkomt men er niet aan om naast inhoudelijke ook financiële en beheersmatige afspraken te maken. BOMOS vormt dan een leidraad waarmee die afspraken gemaakt kunnen worden.</p><p>Er zijn een aantal mogelijkheden:</p><ol>
-<li><p>Is er al een standaard?<br>Soms is er nog geen standaard, maar moet deze nog ontwikkeld worden. In het hoofdstuk operationeel beheer wordt ingegaan op het verzamelen van de juiste wensen voor en eisen aan de standaard. Vervolgens kan de brug worden geslagen naar het beheerproces.</p>
+</ol>
+<section id="bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><div class="header-wrapper"><h3 id="x3-1-bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties"><bdi class="secno">3.1 </bdi>BOMOS als hulpmiddel voor verdere ontwikkeling van de beheerorganisaties</h3><a class="self-link" href="#bomos-als-hulpmiddel-voor-verdere-ontwikkeling-van-de-beheerorganisaties" aria-label="Permalink for Section 3.1"></a></div>
+<p>De belangrijkste toepassing van BOMOS is als hulpmiddel voor de
+verdere ontwikkeling van beheerorganisaties. Veel beheerorganisaties
+komen voort uit een initieel project of programma. Soms is dit
+gekoppeld aan een bepaalde voorziening. Het beheer van de standaard
+kan dan een afhankelijkheid hebben met het operationele beheer van die
+voorziening. Om de standaard breder te kunnen inzetten zijn dan nadere
+afwegingen nodig. BOMOS helpt daarbij.</p>
+<p>Een andere toepassing is de inrichting van een geheel nieuwe
+beheerorganisatie. Als organisaties er voor kiezen om in een sector
+een standaard af te spreken dan ontkomt men er niet aan om naast
+inhoudelijke ook financiële en beheersmatige afspraken te
+maken. BOMOS vormt dan een leidraad waarmee die afspraken gemaakt
+kunnen worden.</p>
+<p>Er zijn een aantal mogelijkheden:</p>
+<ol>
+<li><p>Is er al een standaard?
+Soms is er nog geen standaard, maar moet deze nog ontwikkeld
+worden. In het hoofdstuk operationeel beheer wordt ingegaan op het
+verzamelen van de juiste wensen voor en eisen aan de
+standaard. Vervolgens kan de brug worden geslagen naar het
+beheerproces.</p>
 </li>
-<li><p>Inrichting van het beheerproces<br>Dit begint met het bepalen van de scope van het beheerproces: waarvoor moet het beheerproces worden ingericht? Voor het beheer van één standaard of van meerdere standaarden? Aan de hand daarvan kan met BOMOS een keuze worden gemaakt op het gebied van de beheeractiviteiten (strategisch, tactisch, operationeel) en ondersteunende activiteiten. Niet alleen kan met BOMOS bewust gekozen worden voor het wel of niet inrichten van bepaalde beheeractiviteiten, maar ook zijn er hints en tips voor de inrichting zelf.</p>
+<li><p>Inrichting van het beheerproces
+Dit begint met het bepalen van de scope van het beheerproces:
+waarvoor moet het beheerproces worden ingericht? Voor het beheer
+van één standaard of van meerdere standaarden? Aan de hand
+daarvan kan met BOMOS een keuze worden gemaakt op het gebied van de
+beheeractiviteiten (strategisch, tactisch, operationeel) en
+ondersteunende activiteiten. Niet alleen kan met BOMOS bewust
+gekozen worden voor het wel of niet inrichten van bepaalde
+beheeractiviteiten, maar ook zijn er hints en tips voor de
+inrichting zelf.</p>
 </li>
-<li><p>Is er al een beheerorganisatie ingericht?<br>Vaak is er al een vorm van beheer ingericht. Dan kan BOMOS worden gebruikt om te controleren of alle activiteiten nog voldoen, of dat er naast operationele ook strategische en tactische activiteiten opgepakt kunnen worden. Daarnaast kan BOMOS dienen om de openheid van het proces te verbeteren.</p>
+<li><p>Is er al een beheerorganisatie ingericht?
+Vaak is er al een vorm van beheer ingericht. Dan kan BOMOS worden
+gebruikt om te controleren of alle activiteiten nog voldoen, of dat
+er naast operationele ook strategische en tactische activiteiten
+opgepakt kunnen worden. Daarnaast kan BOMOS dienen om de openheid
+van het proces te verbeteren.</p>
 </li>
-<li><p>Aanpak van specifieke problemen<br>Vaak zijn er specifieke problemen. BOMOS kan ook voor maatwerk worden ingezet om op basis van best practices en referentiemodellen verbeteringen door te voeren in zaken als:  </p>
+<li><p>Aanpak van specifieke problemen</p>
+<p>Vaak zijn er specifieke problemen. BOMOS kan ook voor maatwerk worden ingezet om op basis van best practices en referentiemodellen verbeteringen door te voeren in zaken als:  </p>
 <ul>
 <li>Kwaliteit: hoe kan de kwaliteit van een standaard gemeten en verbeterd worden?</li>
 <li>Adoptie: hoe kan de adoptie van een standaard worden versneld? Welke middelen kunnen daarvoor worden ingezet?</li>
@@ -349,38 +733,207 @@ Onder een ‘open standaard’ verstaan we een standaard die voldoet aan de volg
 <li>Validatie en certificering: hoe kan worden getoetst dat implementaties van een standaard voldoen aan de gestelde specificaties? Welke mogelijkheden zijn er?</li>
 </ul>
 </li>
-</ol></section><section id="bomos-als-achtergrondinformatie-ter-inspiratie"><h4 id="x1-5-2-bomos-als-achtergrondinformatie-ter-inspiratie"><bdi class="secno">1.5.2 </bdi>BOMOS als achtergrondinformatie ter inspiratie<a class="self-link" href="#bomos-als-achtergrondinformatie-ter-inspiratie" aria-label="Permalink for Section 1.5.2"></a></h4><p>BOMOS kan goed gebruikt worden als achtergrondinformatie voor bijvoorbeeld opdrachtgevers van standaarden. Het BOMOS Model is hiervoor ontwikkeld en legt een basis. Kennis over het beheer van standaarden is essentieel voor een ieder betrokken bij standaardisatie.</p><p>In het verdiepende deel  worden oplossingen geschetst waarbij de praktijk centraal staat: waar mogelijk is met behulp van voorbeelden aangegeven wat de acceptatie van de oplossing in de praktijk is, welke standaardisatieorganisaties daar ervaring mee hebben, en welke adviezen daarbij horen. Oftewel: waardevolle achtergrondinformatie over praktijksituaties.</p><p>Samen zijn deze twee delen de basis van BOMOS, en inspirerende achtergrondinformatie.
-Een ander voorbeeld is het gebruik van BOMOS als middel voor bestuurders en beleidsmakers om aan te geven wat openheid van standaarden nu concreet inhoudt. Ook wordt BOMOS gebruikt als "taal" om eenduidig over het beheer van standaarden te kunnen praten.</p></section><section id="bomos-als-spiegel-voor-het-huidige-beheerproces"><h4 id="x1-5-3-bomos-als-spiegel-voor-het-huidige-beheerproces"><bdi class="secno">1.5.3 </bdi>BOMOS als spiegel voor het huidige beheerproces<a class="self-link" href="#bomos-als-spiegel-voor-het-huidige-beheerproces" aria-label="Permalink for Section 1.5.3"></a></h4><p>Diverse organisaties gebruiken BOMOS als onderlegger of zelfs als richtlijn voor het beheer van hun (open) standaard. Andere organisaties gebruiken BOMOS als globale checklist en als inhoudelijke verantwoording voor bepaalde keuzes. Echter BOMOS is niet normatief. Dat kan ook niet want de inrichting van het beheer van standaarden is in hoge mate situatieafhankelijk.</p><p>Toch is wel conformiteit met BOMOS mogelijk. <strong>De beheerorganisatie werkt conform BOMOS als er een beheerdocument is gepubliceerd waarin de invulling van alle onderdelen uit het BOMOS Model zijn beschreven.</strong></p><p>Voor specifieke situaties zijn wel in meer details eisen/toetsen te definieren per BOMOS activiteit, maar deze behoren niet tot het fundament van BOMOS vanwege dat ze niet voor alle BOMOS gebruikers relevant hoeven te zijn.  </p><p>Overigens als de beheerorganisatie conform BOMOS werkt, dan wil dat niet automatisch zeggen dat de standaard daarmee ook voldoet aan de criteria voor de pas-toe of leg-uit lijst van standaarden van de overheid. Echter het is wel te prefereren dat aangemelde standaarden conform BOMOS werken, en daarnaast speciale aandacht schenken aan de hoofdstukken rond de ontwikkel-beheer organisatie, openheid, het operationele proces, en de financiële structuur.</p><p>Taalkundig betekent het woord "Standaard", vaak in de trend van vastgesteld of met elkaar afgesproken. In die context concluderen we dat BOMOS een standaard is. Een standaard voor (het ontwikkelen en beheren van) standaarden.</p></section></section><section id="het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><h3 id="x1-6-het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><bdi class="secno">1.6 </bdi>Het Beheer- en Ontwikkelmodel: Onderwerpen voor ontwikkeling en beheer<a class="self-link" href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer" aria-label="Permalink for Section 1.6"></a></h3><p>In figuur 1 is het Beheer- en Ontwikkelmodel weergegeven: een gelaagde structuur van onderwerpen die nodig zijn voor het ontwikkelen en beheren van een open standaard.</p><p>De structuur bestaat uit een aantal elementen:</p><ul>
+</ol>
+</section><section id="bomos-als-achtergrondinformatie-ter-inspiratie"><div class="header-wrapper"><h3 id="x3-2-bomos-als-achtergrondinformatie-ter-inspiratie"><bdi class="secno">3.2 </bdi>BOMOS als achtergrondinformatie ter inspiratie</h3><a class="self-link" href="#bomos-als-achtergrondinformatie-ter-inspiratie" aria-label="Permalink for Section 3.2"></a></div>
+<p>BOMOS kan goed gebruikt worden als achtergrondinformatie voor
+bijvoorbeeld opdrachtgevers van standaarden. Het BOMOS Model is
+hiervoor ontwikkeld en legt een basis. Kennis over het beheer van
+standaarden is essentieel voor een ieder betrokken bij
+standaardisatie.</p>
+<p>In het verdiepende deel worden oplossingen geschetst waarbij de
+praktijk centraal staat: waar mogelijk is met behulp van voorbeelden
+aangegeven wat de acceptatie van de oplossing in de praktijk is, welke
+standaardisatieorganisaties daar ervaring mee hebben, en welke
+adviezen daarbij horen. Oftewel: waardevolle achtergrondinformatie
+over praktijksituaties.</p>
+<p>Samen zijn deze twee delen de basis van BOMOS, en inspirerende
+achtergrondinformatie.  Een ander voorbeeld is het gebruik van BOMOS
+als middel voor bestuurders en beleidsmakers om aan te geven wat
+openheid van standaarden nu concreet inhoudt. Ook wordt BOMOS gebruikt
+als "taal" om eenduidig over het beheer van standaarden te kunnen
+praten.</p>
+</section><section id="bomos-als-spiegel-voor-het-huidige-beheerproces"><div class="header-wrapper"><h3 id="x3-3-bomos-als-spiegel-voor-het-huidige-beheerproces"><bdi class="secno">3.3 </bdi>BOMOS als spiegel voor het huidige beheerproces</h3><a class="self-link" href="#bomos-als-spiegel-voor-het-huidige-beheerproces" aria-label="Permalink for Section 3.3"></a></div>
+<p>Diverse organisaties gebruiken BOMOS als onderlegger of zelfs als
+richtlijn voor het beheer van hun (open) standaard. Andere
+organisaties gebruiken BOMOS als globale checklist en als inhoudelijke
+verantwoording voor bepaalde keuzes. Echter BOMOS is niet
+normatief. Dat kan ook niet want de inrichting van het beheer van
+standaarden is in hoge mate situatieafhankelijk.</p>
+<p>Toch is wel conformiteit met BOMOS mogelijk. <strong>De beheerorganisatie
+werkt conform BOMOS als er een beheerdocument is gepubliceerd waarin
+de invulling van alle onderdelen uit het BOMOS Activiteitendiagram
+(het Beheer- en Ontwikkelmodel) zijn beschreven.</strong></p>
+<p>Voor specifieke situaties zijn wel in meer details eisen/toetsen te
+definieren per BOMOS activiteit, maar deze behoren niet tot het
+fundament van BOMOS vanwege dat ze niet voor alle BOMOS gebruikers
+relevant hoeven te zijn.</p>
+<p>Overigens als de beheerorganisatie conform BOMOS werkt, dan wil dat
+niet automatisch zeggen dat de standaard daarmee ook voldoet aan de
+criteria voor de pas-toe of leg-uit lijst van standaarden van de
+overheid. Echter het is wel te prefereren dat aangemelde standaarden
+conform BOMOS werken, en daarnaast speciale aandacht schenken aan de
+hoofdstukken rond de ontwikkel-beheer organisatie, openheid, het
+operationele proces, en de financiële structuur.</p>
+<p>Taalkundig betekent het woord "Standaard", vaak in de trend van
+vastgesteld of met elkaar afgesproken. In die context concluderen we
+dat BOMOS een standaard is. Een standaard voor (het ontwikkelen en
+beheren van) standaarden.</p>
+</section></section>
+     <section id="het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><div class="header-wrapper"><h2 id="x4-het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer"><bdi class="secno">4. </bdi>Het Beheer- en Ontwikkelmodel: Onderwerpen voor ontwikkeling en beheer</h2><a class="self-link" href="#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer" aria-label="Permalink for Section 4."></a></div>
+<p>In <a href="#fig-bomos-activiteitendiagram">onderstaande figuur</a> is het
+Beheer- en Ontwikkelmodel weergegeven: een gelaagde structuur van
+onderwerpen die nodig zijn voor het ontwikkelen en beheren van een
+open standaard.</p>
+<p>De structuur bestaat uit een aantal elementen:</p>
+<ul>
 <li>Drie hoofdlagen: strategie, tactiek en operationeel.</li>
 <li>Twee ondersteunende lagen: implementatie ondersteuning en communicatie.</li>
 <li>Per laag meerdere activiteiten die uitgevoerd kunnen worden.</li>
-</ul><p><figure id="fig-bomos-activiteitendiagram"><img src="images/bomos_activiteiten.png" alt="BOMOS Activiteiten diagram" title="BOMOS Activiteitendiagram"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">BOMOS Activiteitendiagram</span></figcaption></figure></p><section id="benodigde-invulling-per-situatie"><h4 id="x1-6-1-benodigde-invulling-per-situatie"><bdi class="secno">1.6.1 </bdi>Benodigde invulling per situatie<a class="self-link" href="#benodigde-invulling-per-situatie" aria-label="Permalink for Section 1.6.1"></a></h4><p>De invulling van de ontwikkel- en beheeronderwerpen zijn situationeel afhankelijk; dit wil zeggen dat verschillende situaties kunnen leiden tot een andere invulling voor een optimaal resultaat. Voor alle onderwerpen geldt dat deze in een ‘minimum’ en ‘maximum’ scenario kunnen worden uitgevoerd of wellicht niet relevant zijn voor een bepaalde organisatie. Het is dus zeker niet zo dat elk onderwerp moet worden geïmplementeerd. In tegendeel, teveel nadruk op formalisatie kan averechts werken.</p><p>In het model worden slechts de onderwerpen beschreven die met activiteiten ingevuld kunnen worden, en waarvan sommige noodzakelijk kunnen zijn. Het is aan de inrichter van een organisatie voor beheer en ontwikkeling van standaarden om op basis van het hier gegeven model de relevante onderdelen te selecteren en in te richten. Daar waar relevant worden eventuele voor- en nadelen van een specifieke invulling van een onderwerp of activiteit gegeven.</p><p>Kernonderwerpen zijn door de situationele afhankelijkheid ook onmogelijk aan te geven, maar het moge duidelijk zijn dat ‘governance’ altijd georganiseerd moet zijn om besluitvorming te kunnen laten plaatsvinden.</p><p>Afhankelijk van de situatie is het dan te bepalen welke onderwerpen prioriteit dienen te krijgen. In het figuur zijn de drie traditionele lagen herkenbaar: strategie, tactiek en operationeel. Deze worden geflankeerd door twee ondersteunende processen: communicatie en implementatieondersteuning.</p><p>Het model kan de suggestie wekken dat de onderwerpen geïsoleerd zijn, omdat er geen onderlinge relaties zijn aangegeven. Het tegendeel is waar: veel onderwerpen zijn gerelateerd – zowel binnen een hoofdgroep als tussen de hoofdgroepen.</p><p>Afstemming tussen onderwerpen is dan ook essentieel. Het model zegt niets over de organisatievorm of indeling daarvan in een beheerorganisatie. In de praktijk kunnen meerdere activiteiten belegd zijn bij een enkel organisatieonderdeel of kunnen meerdere organisatieonderdelen zich bezighouden met een enkele activiteit. De best practice organisatiestructuur (<a href="https://logius-standaarden.github.io/BOMOS-Verdieping">Deel 2: De Verdieping</a> gaat hier verder op in.</p></section><section id="de-onderwerpen-uit-het-model"><h4 id="x1-6-2-de-onderwerpen-uit-het-model"><bdi class="secno">1.6.2 </bdi>De onderwerpen uit het model<a class="self-link" href="#de-onderwerpen-uit-het-model" aria-label="Permalink for Section 1.6.2"></a></h4><p>Onder de genoemde activiteiten verstaan we het volgende:</p><p><strong>Strategie</strong>: Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:</p><ul>
+</ul>
+<p><figure id="fig-bomos-activiteitendiagram"><img src="images/bomos_activiteiten.png" alt="BOMOS Activiteitendiagram" title="BOMOS Activiteitendiagram" height="751" width="1219"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">BOMOS Activiteitendiagram</span></figcaption></figure></p>
+<section id="benodigde-invulling-per-situatie"><div class="header-wrapper"><h3 id="x4-1-benodigde-invulling-per-situatie"><bdi class="secno">4.1 </bdi>Benodigde invulling per situatie</h3><a class="self-link" href="#benodigde-invulling-per-situatie" aria-label="Permalink for Section 4.1"></a></div>
+<p>De invulling van de ontwikkel- en beheeronderwerpen zijn situationeel
+afhankelijk; dit wil zeggen dat verschillende situaties kunnen leiden
+tot een andere invulling voor een optimaal resultaat. Voor alle
+onderwerpen geldt dat deze in een ‘minimum’ en ‘maximum’ scenario
+kunnen worden uitgevoerd of wellicht niet relevant zijn voor een
+bepaalde organisatie. Het is dus zeker niet zo dat elk onderwerp moet
+worden geïmplementeerd. In tegendeel, teveel nadruk op formalisatie
+kan averechts werken.</p>
+<p>In het model worden slechts de onderwerpen beschreven die met
+activiteiten ingevuld kunnen worden, en waarvan sommige noodzakelijk
+kunnen zijn. Het is aan de inrichter van een organisatie voor beheer
+en ontwikkeling van standaarden om op basis van het hier gegeven model
+de relevante onderdelen te selecteren en in te richten. Daar waar
+relevant worden eventuele voor- en nadelen van een specifieke
+invulling van een onderwerp of activiteit gegeven.</p>
+<p>Kernonderwerpen zijn door de situationele afhankelijkheid ook
+onmogelijk aan te geven, maar het moge duidelijk zijn dat ‘governance’
+altijd georganiseerd moet zijn om besluitvorming te kunnen laten
+plaatsvinden.</p>
+<p>Afhankelijk van de situatie is het dan te bepalen welke onderwerpen
+prioriteit dienen te krijgen. In het figuur zijn de drie traditionele
+lagen herkenbaar: strategie, tactiek en operationeel. Deze worden
+geflankeerd door twee ondersteunende processen: communicatie en
+implementatieondersteuning.</p>
+<p>Het model kan de suggestie wekken dat de onderwerpen geïsoleerd zijn,
+omdat er geen onderlinge relaties zijn aangegeven. Het tegendeel is
+waar: veel onderwerpen zijn gerelateerd – zowel binnen een hoofdgroep
+als tussen de hoofdgroepen.</p>
+<p>Afstemming tussen onderwerpen is dan ook essentieel. Het model zegt
+niets over de organisatievorm of indeling daarvan in een
+beheerorganisatie. In de praktijk kunnen meerdere activiteiten belegd
+zijn bij een enkel organisatieonderdeel of kunnen meerdere
+organisatieonderdelen zich bezighouden met een enkele activiteit. De
+best practice organisatiestructuur (<a href="https://logius-standaarden.github.io/BOMOS-Verdieping">Deel 2: De
+Verdieping</a>)
+gaat hier verder op in.</p>
+</section><section id="de-onderwerpen-uit-het-model"><div class="header-wrapper"><h3 id="x4-2-de-onderwerpen-uit-het-model"><bdi class="secno">4.2 </bdi>De onderwerpen uit het model</h3><a class="self-link" href="#de-onderwerpen-uit-het-model" aria-label="Permalink for Section 4.2"></a></div>
+<p>Onder de genoemde activiteiten verstaan we het volgende:</p>
+<p><strong>Strategie</strong>: Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:</p>
+<ul>
 <li>Governance: beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal.</li>
 <li>Visie: het beschrijven van een ontwikkelrichting. Dit is de stip op de horizon en geldt als focus voor de lange termijn.</li>
 <li>Financiën: een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte.</li>
-</ul><p><strong>Tactiek</strong>, Activiteiten die op middellang termijn voor stabiliteit zorgen:</p><ul>
+</ul>
+<p><strong>Tactiek</strong>, Activiteiten die op middellang termijn voor stabiliteit zorgen:</p>
+<ul>
 <li>Adoptie &amp; erkenning: Activiteiten die te maken hebben met de certificiering, verplichtstelling of promotie van de standaard.</li>
 <li>Architectuur: Opbouw van de standaard en de aangrenzende processen en technieken.</li>
 <li>Community: Beheer en ondersteuning van gremia en stakeholders.</li>
 <li>Kwaliteitsbeleid benchmarking: ontwikkeling van beleid dat toeziet op de kwaliteit van implementaties van de standaard.</li>
 <li>Rechtenbeleid: Vaststellen van rechten van intellectueel eigendom.</li>
-</ul><p><strong>Operationeel</strong>, de uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:</p><ul>
+</ul>
+<p><strong>Operationeel</strong>, de uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:</p>
+<ul>
 <li>Initiatie: identificatie van nieuwe ideeën (voor bijvoorbeeld een nieuwe specificatie en nieuwe werkgroep) en alle activiteiten die horen bij het succesvol optuigen daarvan (bijv. belangenanalyse, business case, agendering).</li>
 <li>Wensen en eisen: opstellen van de wensen en eisen aan de te ontwikkelen en te beheren specificatie, ook wel bekend onder de naam Maintenance Requests (MRs).</li>
 <li>Ontwikkeling: op conceptueel niveau de inhoudelijke uitwerking van oplossingen voor de ideeën, wensen en eisen opgesteld in voorafgaande fasen. Deze oplossingen zijn zoveel mogelijk los van technologieën bedoeld voor nadere uitwerking in een (nieuwe versie van) de specificatie.</li>
 <li>Uitvoeren: de daadwerkelijk aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.</li>
 <li>Documentatie: verzorgen van passende neerslag van de resultaten van het primaire beheerproces. Niet alleen de beschikbaarheid van de specificaties, maar bijvoorbeeld ook de mogelijkheid bieden tot een historisch overzicht van verzoeken tot wijzigingen (maintenance requests) en de actuele status daarvan.</li>
-</ul><p><strong>Implementatie-ondersteuning</strong>, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:</p><ul>
+</ul>
+<p><strong>Implementatie-ondersteuning</strong>, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:</p>
+<ul>
 <li>Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatie bijeenkomst tot aan een (online) cursus.</li>
 <li>Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een frequently asked questionslijst opstellen en bijhouden kan ook een helpdeskactiviteit zijn.</li>
 <li>Module-ontwikkeling: (Stimuleren van) de ontwikkeling van breed te verspreiden softwaremodules die de standaard implementeren. Dit kan door het stimuleren van de markt om software te ontwikkelen, of, als de markt niet beweegt, zelf software te ontwikkelen en te verspreiden om de markt in beweging te krijgen.</li>
+<li>Pilot: Proeven met de implementatie van de specificaties. Bij sommige standaardisatieorganisaties is het verplicht dat er 1 of meerdere pilots zijn geweest voordat de standaard officieel vrijgegeven wordt.</li>
 <li>Validatie &amp; Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden wat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.</li>
-</ul><p><strong>Communicatie</strong>, ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:</p><ul>
+</ul>
+<p><strong>Communicatie</strong>, ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:</p>
+<ul>
 <li>Promotie: Het uitdragen van nut/noodzaak/voordelen van de standaard.</li>
 <li>Publicatie: Het vindbaar/kenbaar maken van de standaard en de actuele stand van zaken (website).</li>
 <li>Klachtenafhandeling: Het garanderen van het serieus nemen van klachten door deze volgens een zorgvuldige procedure te behandelen. Klachten kunnen ook beschouwd worden als verbetersuggesties.</li>
-</ul></section><section id="activiteiten-en-rollen"><h4 id="x1-6-3-activiteiten-en-rollen"><bdi class="secno">1.6.3 </bdi>Activiteiten en Rollen<a class="self-link" href="#activiteiten-en-rollen" aria-label="Permalink for Section 1.6.3"></a></h4><p>De activiteiten moeten worden uitgevoerd door verschillende rollen. Een overzicht van rollen die relevant zijn bij het ontwikkelen en beheren van stadnaarden is opgenomen in NEN 7522:2021 "Medische informatica - Ontwikkelen en beheren van standaarden en stelsels van standaarden", en is hier in licht aangepaste versie overgenomen.</p><p><strong>Eigenaar</strong>: eindverantwoordelijk voor het ontwikkelen en beheren van een standaard. De eigenaar bepaalt de scope en het doel van een standaard, en bepaalt de principes en de uitgangspunten die worden gehanteerd bij ontwikkeling en beheer.</p><p><strong>Financier</strong>: verantwoordelijk voor het financieren van het ontwikkelen en beheren van standaarden.</p><p><strong>Autorisator</strong>: keurt een standaard goed. Toelichting: een autorisator kan een persoon, organisatie of groep van personen en organisaties zijn. Het is aan de eigenaar om de autorisator te benoemen. Een autorisator bevat vaak een vertegenwoordiging van stakeholders, die als persoon of organisatie ook de ook de rol gebruiker hebben.</p><p><strong>Functioneel beheerder</strong>: verantwoordelijk voor het proces van ontwikkelen en beheren van standaarden, binnen de kaders van de gemaakte afspraken en afgesproken governance. Toelichting: de functioneel beheerder is verantwoordelijk het proces van ontwikkelen en beheer van de inhoud van standaarden. Hiervoor werkt hij nauw samen met experts, gebruikers, de technische beheerder en de distributeur. De functioneel beheerder heeft vaak een regie voerende rol. Resultaten van het proces worden voorgelegd aan de autorisator.</p><p><strong>Technisch beheerder</strong>: verantwoordelijk voor het technisch beheren van standaarden. De technisch beheerder zorgt voor de inrichting en beheer van een technische omgeving die noodzakelijk is om de artefacten die onderdeel zijn van de standaard te onderhouden. Toelichting: De technisch beheerder is verantwoordelijk voor de technische omgeving waarin de artefacten, die in beheer zijn, worden onderhouden. Zo’n technische omgeving zal bestaan uit het geheel aan ICT-middelen (tools, hardware, netwerken, e.d.) die noodzakelijk zijn om het functioneel beheer uit te kunnen voeren op de standaard. Onder de verantwoordelijkheid van de technische beheerder valt o.a. het kunnen toepassen van versiebeheer op de technische omgeving en het beschikbaar stellen en houden van de technische omgeving, in overleg met de functioneel beheerder.</p><p><strong>Distributeur</strong>: verantwoordelijk voor het distribueren van standaarden.</p><p><strong>Expert</strong>: brengt specifieke noodzakelijke expertise in ten behoeve van het ontwikkelen of beheren van een standaard. Toelichting: verschillende type experts kunnen, afhankelijk van de standaard, noodzakelijk zijn. Veel voorkomende experts zijn domein-inhoudelijk of bijvoorbeeld expert op het gebied van ontologie, architectuur, vertrouwen, informatiebeveiliging, cryptografie of privacy. Vaak voorkomend is ook een vertegenwoordiging ervaringsdeskundige stakeholders die als persoon of organisatie ook de rol gebruiker hebben.</p><p><strong>Gebruiker</strong>: gebruikt de standaarden direct of indirect. Voorbeelden van deze gebruikers zijn leveranciers van componenten (vaak applicaties), of gebruikers van deze applicaties (indirect).</p><p>Van bovenstaande rollen kunnen de financier-rol, de expert-rol, de gebruikers-rol en de eindgebruikers-rol meervoudig worden ingevuld: meer dan één persoon of organisatie kan de rol van financier, expert, gebruiker of eindgebruiker vervullen. Meervoudigheid betekent hier ook dat de stakeholders die deze rollen invullen een ander belang of expertise gebied kunnen vertegenwoordigen en dit dus ook inbrengen.
-De overige rollen zijn enkelvoudig: er kan maar één persoon of organisatie in die rol zijn. Enkelvoudig kan wel betekenen dat de rol ingevuld wordt met een instantie, bijvoorbeeld een raad of een overleg, waarin meerdere personen of organisaties zijn vertegenwoordigd.</p><p>Onderstaande tabel geeft voor de BOMOS hoofdactiviteiten weer welke rol primair verantwoordelijk is, en welke rollen veelal ook betrokken zullen zijn.</p><table class="logius">
+</ul>
+</section><section id="activiteiten-en-rollen"><div class="header-wrapper"><h3 id="x4-3-activiteiten-en-rollen"><bdi class="secno">4.3 </bdi>Activiteiten en Rollen</h3><a class="self-link" href="#activiteiten-en-rollen" aria-label="Permalink for Section 4.3"></a></div>
+<p>De activiteiten moeten worden uitgevoerd door verschillende
+rollen. Een overzicht van rollen die relevant zijn bij het ontwikkelen
+en beheren van standaarden is opgenomen in NEN 7522:2021 "Medische
+informatica - Ontwikkelen en beheren van standaarden en stelsels van
+standaarden", en is hier in licht aangepaste versie overgenomen.</p>
+<p><strong>Eigenaar</strong>: eindverantwoordelijk voor het ontwikkelen en beheren van
+  een standaard. De eigenaar bepaalt de scope en het doel van een
+  standaard, en bepaalt de principes en de uitgangspunten die worden
+  gehanteerd bij ontwikkeling en beheer.</p>
+<p><strong>Financier</strong>: verantwoordelijk voor het financieren van het
+  ontwikkelen en beheren van standaarden.</p>
+<p><strong>Autorisator</strong>: keurt een standaard goed. Toelichting: een
+  autorisator kan een persoon, organisatie of groep van personen en
+  organisaties zijn. Het is aan de eigenaar om de autorisator te
+  benoemen. Een autorisator bevat vaak een vertegenwoordiging van
+  stakeholders, die als persoon of organisatie ook de ook de rol
+  gebruiker hebben.</p>
+<p><strong>Functioneel beheerder</strong>: verantwoordelijk voor het proces van
+  ontwikkelen en beheren van standaarden, binnen de kaders van de
+  gemaakte afspraken en afgesproken governance. Toelichting: de
+  functioneel beheerder is verantwoordelijk het proces van ontwikkelen
+  en beheer van de inhoud van standaarden. Hiervoor werkt hij nauw
+  samen met experts, gebruikers, de technische beheerder en de
+  distributeur. De functioneel beheerder heeft vaak een regie voerende
+  rol. Resultaten van het proces worden voorgelegd aan de autorisator.</p>
+<p><strong>Technisch beheerder</strong>: verantwoordelijk voor het technisch beheren
+  van standaarden. De technisch beheerder zorgt voor de inrichting en
+  beheer van een technische omgeving die noodzakelijk is om de
+  artefacten die onderdeel zijn van de standaard te
+  onderhouden. Toelichting: De technisch beheerder is verantwoordelijk
+  voor de technische omgeving waarin de artefacten, die in beheer
+  zijn, worden onderhouden. Zo’n technische omgeving zal bestaan uit
+  het geheel aan ICT-middelen (tools, hardware, netwerken, e.d.) die
+  noodzakelijk zijn om het functioneel beheer uit te kunnen voeren op
+  de standaard. Onder de verantwoordelijkheid van de technische
+  beheerder valt o.a. het kunnen toepassen van versiebeheer op de
+  technische omgeving en het beschikbaar stellen en houden van de
+  technische omgeving, in overleg met de functioneel beheerder.</p>
+<p><strong>Distributeur</strong>: verantwoordelijk voor het distribueren van
+  standaarden.</p>
+<p><strong>Expert</strong>: brengt specifieke noodzakelijke expertise in ten behoeve
+  van het ontwikkelen of beheren van een standaard. Toelichting:
+  verschillende type experts kunnen, afhankelijk van de standaard,
+  noodzakelijk zijn. Veel voorkomende experts zijn domein-inhoudelijk
+  of bijvoorbeeld expert op het gebied van ontologie, architectuur,
+  vertrouwen, informatiebeveiliging, cryptografie of privacy. Vaak
+  voorkomend is ook een vertegenwoordiging ervaringsdeskundige
+  stakeholders die als persoon of organisatie ook de rol gebruiker
+  hebben.</p>
+<p><strong>Gebruiker</strong>: gebruikt de standaarden direct of indirect. Voorbeelden
+  van deze gebruikers zijn leveranciers van componenten (vaak
+  applicaties), of gebruikers van deze applicaties (indirect).</p>
+<p>Van bovenstaande rollen kunnen de financier-rol, de expert-rol, de
+gebruikers-rol en de eindgebruikers-rol meervoudig worden ingevuld:
+meer dan één persoon of organisatie kan de rol van financier, expert,
+gebruiker of eindgebruiker vervullen. Meervoudigheid betekent hier ook
+dat de stakeholders die deze rollen invullen een ander belang of
+expertise gebied kunnen vertegenwoordigen en dit dus ook inbrengen.
+De overige rollen zijn enkelvoudig: er kan maar één persoon of
+organisatie in die rol zijn. Enkelvoudig kan wel betekenen dat de rol
+ingevuld wordt met een instantie, bijvoorbeeld een raad of een
+overleg, waarin meerdere personen of organisaties zijn
+vertegenwoordigd.</p>
+<p>Onderstaande tabel geeft voor de BOMOS hoofdactiviteiten weer welke
+rol primair verantwoordelijk is, en welke rollen veelal ook betrokken
+zullen zijn.</p>
+<table class="dkkvs">
 <thead>
 <tr>
 <th>Activiteit</th>
@@ -390,7 +943,7 @@ De overige rollen zijn enkelvoudig: er kan maar één persoon of organisatie in 
 </thead>
 <tbody><tr>
 <td>Strategie</td>
-<td>Houder, financier</td>
+<td>Eigenaar, financier</td>
 <td>Autorisator, functioneel beheerder, experts</td>
 </tr>
 <tr>
@@ -413,21 +966,273 @@ De overige rollen zijn enkelvoudig: er kan maar één persoon of organisatie in 
 <td>Distributeur</td>
 <td>Functioneel beheerder, technisch beheerder, experts</td>
 </tr>
-</tbody></table></section><section id="hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><h4 id="x1-6-4-hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><bdi class="secno">1.6.4 </bdi>Hoe BOMOS als hulpmiddel te gebruiken voor beheerorganisatie<a class="self-link" href="#hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie" aria-label="Permalink for Section 1.6.4"></a></h4><p><a href="#bomos-gebruiken">Eerder hebben we beschreven in welke situaties BOMOS te gebruiken is</a>, nu maken we de stap <em>hoe</em> BOMOS vervolgens ingezet kan worden. Dit is niet eenvoudig eenduidig te definiëren omdat de context van de gebruiker hierin bepalend is. De context kan bepaald worden aan de hand van het in kaart brengen van situatiekenmerken. Een belangrijke situationele kenmerk is de plaats van de standaard in de standaardenlevenscyclus.</p><p>De levensfase waarin een standaard zich bevindt is immers van invloed op de inrichting van het beheer. Een standaard die zich nog in de ontwikkelingsfase bevindt stelt andere eisen aan beheer dan een standaard die grootschalig is geadopteerd en geïmplementeerd. Het is dan ook als vuistregel verstandig om bij iedere overgang een controle (op basis van het Beheer- en Ontwikkelmodel) uit te voeren om te bepalen of uw beheerinrichting nog voldoet. Hieronder volgt een beschrijving van de fasen van de standaardenlevenscyclus, zodat u kunt toetsen in welke fase uw standaard zich bevindt.</p><p><figure id="fig-levensfases-van-een-standaard"><img src="images/levensfases_standaard.png" alt="Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug" title="Levensfases van een standaard"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Levensfases van een standaard</span></figcaption></figure></p><p><strong>1. Creatie / ontwikkeling</strong></p><p>Deze fase markeert het moment waarop een community van belanghebbenden en geïnteresseerden de behoefte aan een standaard vaststelt en start met het opstellen van de standaard.
-Dit hoeft niet altijd te betekenen dat een standaard geheel ontbreekt.
-Ook in het geval dat een standaard met (kleine) afwijkende specificaties al bestaat kan een community tot de conclusie komen dat de behoefte aan een nieuwe standaard de inspanning rechtvaardigt.
-In deze fase is nog geen sprake van ingericht beheer maar hebben de meeste activiteiten vooral een projectmatig karakter. In deze fase is het bijvoorbeeld belangrijk na te denken over de besluitvormingsprocessen. Bij een modulair opgezette standaard kunnen onderdelen van de standaard al gereed zijn, terwijl andere onderdelen nog in de ontwikkelfase verkeren. Creatie heeft dan betrekking op de nieuw ontwikkelde modules.</p><p>In deze eerste fase waarin een standaard zich bevindt is vooral afstemming van besluitvorming belangrijk. Er moet een goede business case zijn die het management, de geïnteresseerde gebruikers en ontwikkelaars kan overtuigen van het nut van de standaard. Ook moet er een duidelijk adoptiebeleid zijn. In grotere organisaties is het ook belangrijk dat de processen rondom de adoptie zijn verankerd in het proceslandschap. Dit is immers een goede manier om de adoptie ook via formele wegen af te dwingen.</p><p><strong>2. Introductiefase van de standaard</strong></p><p>In deze fase wordt gekozen voor een specifieke standaard om in een behoefte te voorzien. Tijdens deze fase zullen veel wijzigingen aan de orde zijn. De inrichting van beheer wordt belangrijk. De keuze kan bewust en expliciet worden gemaakt in besluitvorming om een standaard algemeen geldend te verklaren of door organische groei waarbij de adoptie geleidelijk plaatsvindt. Een voorbeeld van bewuste keuze is besluitvorming door de overheid om een standaard verplicht te stellen. Ook sectorafspraken of een besluit van het Forum Standaardisatie om een standaard op de ‘Pas toe of leg uit’-lijst te plaatsen, vallen hieronder.</p><p>In de introductiefase is het nog steeds belangrijk om een goed adoptieplan te hebben. Ook het uitdragen van het nut en de noodzaak van de standaard is relevant. Nieuw in deze fase is het monitoren van de adoptie en het publiceren van de standaard. Waar er tijdens de creatiefase misschien nog geen (concept)versie beschikbaar is, moet dit tijdens de introductie wel het geval zijn.</p><p><strong>3. Implementatie / groei van de standaard</strong></p><p>In deze fase kiezen gebruikers bewust voor de implementatie van de standaard. In het beheer wordt ook rekening gehouden met het feit dat niet alle gebruikers beschikken over een volwaardig kennisniveau van de standaard. Beheer betekent in deze fase ook de ondersteuning en het informeren van de gebruikers. Marketingtermen als ‘early majority’ zijn in deze fase van toepassing. Uw activiteiten zijn gericht op meer professionele adoptie en professionalisatie van de open beheerprocessen, zodat bij opschaling van het gebruik alle partijen aangehaakt blijven en de processen transparant verlopen. Registraties van gebruikers/ afnemers/ experts etc. worden steeds belangrijker.</p><p>Van organische adoptie is sprake als diverse (individuele) partijen besluiten een standaard te gaan toepassen. Tijdens deze fase zullen veel wijzigingen aan de orde zijn. De inrichting voor beheer wordt belangrijk, net als de adoptie van de standaard bij de ‘early adopters’ van belang.  activiteiten zullen hierop gericht moeten zijn.</p><p><strong>4. Volwaardige toepassing / volwassenheid van de standaard</strong></p><p>In deze fase is de standaard algemeen geaccepteerd en geïmplementeerd. Het beheer is in deze fase volledig ingericht om de stabiliteit en kwaliteit van de standaard te waarborgen.</p><p>Kwaliteitsmanagement en het volgen van de BOMOS-activiteiten zijn belangrijk, net als de relatie met andere (internationale) standaarden. Natuurlijk kan dit ook van belang zijn in eerdere fases, maar in de regel is dit voor een volwassen standaard altijd het geval.</p><p><strong>5. Uitfaseren / overgang naar een andere (versie van de) standaard</strong></p><p>Tijdens het uitfaseren van een standaard is het van belang dat de samenhang met verschillende producten goed wordt bewaakt. Het kan namelijk zo zijn dat de standaard een cruciale plaats inneemt in het architectuurlandschap van derden. Daarbij is ook het bewaken van de organisatiestructuur van belang aangezien het verwijderen van standaard kan zorgen voor verschuivende verantwoordelijkheden. Verder is het afbouwen van financiëringen een aandachtspunt, net als het beheersen van verwachtingen.</p></section></section><section id="de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><h3 id="x1-7-de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><bdi class="secno">1.7 </bdi>De BOMOS best practices in vogelvlucht - Introductie van BOMOS Deel 2: De Verdieping.<a class="self-link" href="#de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping" aria-label="Permalink for Section 1.7"></a></h3><p>Met alleen het Beheer- en Ontwikkelmodel voor standaarden leggen we een fundament, maar daarmee kunnen niet al standaardisatievraagstukken worden opgelost. Op meerdere vlakken dienen keuzes gemaakt te worden met betrekking tot de inrichting van het beheerproces van standaarden.
-Daarbij zijn verschillende vraagstukken te herkennen, zoals:</p><p>Bijvoorbeeld over:</p><ul>
+</tbody></table>
+</section><section id="hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><div class="header-wrapper"><h3 id="x4-4-hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie"><bdi class="secno">4.4 </bdi>Hoe BOMOS als hulpmiddel te gebruiken voor beheerorganisatie</h3><a class="self-link" href="#hoe-bomos-als-hulpmiddel-te-gebruiken-voor-beheerorganisatie" aria-label="Permalink for Section 4.4"></a></div>
+<p><a href="#bomos-gebruiken">Eerder hebben we beschreven in welke situaties BOMOS te gebruiken
+is</a>, nu maken we de stap <em>hoe</em> BOMOS vervolgens
+ingezet kan worden. Dit is niet eenvoudig eenduidig te definiëren
+omdat de context van de gebruiker hierin bepalend is. De context kan
+bepaald worden aan de hand van het in kaart brengen van
+situatiekenmerken. Een belangrijke situationele kenmerk is de plaats
+van de standaard in de standaardenlevenscyclus.</p>
+<p>De levensfase waarin een standaard zich bevindt is immers van invloed
+op de inrichting van het beheer. Een standaard die zich nog in de
+ontwikkelingsfase bevindt stelt andere eisen aan beheer dan een
+standaard die grootschalig is geadopteerd en geïmplementeerd. Het is
+dan ook als vuistregel verstandig om bij iedere overgang een controle
+(op basis van het Beheer- en Ontwikkelmodel) uit te voeren om te
+bepalen of uw beheerinrichting nog voldoet. Hieronder volgt een
+beschrijving van de fasen van de standaardenlevenscyclus, zodat u kunt
+toetsen in welke fase uw standaard zich bevindt.</p>
+<p><figure id="fig-levensfases-van-een-standaard"><img src="images/levensfases_standaard.png" alt="Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug" title="Levensfases van een standaard" height="344" width="630"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Levensfases van een standaard</span></figcaption></figure></p>
+<p><strong>1. Creatie / ontwikkeling</strong></p>
+<p>Deze fase markeert het moment waarop een community van belanghebbenden
+en geïnteresseerden de behoefte aan een standaard vaststelt en start
+met het opstellen van de standaard.  Dit hoeft niet altijd te
+betekenen dat een standaard geheel ontbreekt.  Ook in het geval dat
+een standaard met (kleine) afwijkende specificaties al bestaat kan een
+community tot de conclusie komen dat de behoefte aan een nieuwe
+standaard de inspanning rechtvaardigt.  In deze fase is nog geen
+sprake van ingericht beheer maar hebben de meeste activiteiten vooral
+een projectmatig karakter. In deze fase is het bijvoorbeeld belangrijk
+na te denken over de besluitvormingsprocessen. Bij een modulair
+opgezette standaard kunnen onderdelen van de standaard al gereed zijn,
+terwijl andere onderdelen nog in de ontwikkelfase verkeren. Creatie
+heeft dan betrekking op de nieuw ontwikkelde modules.</p>
+<p>In deze eerste fase waarin een standaard zich bevindt is vooral
+afstemming van besluitvorming belangrijk. Er moet een goede business
+case zijn die het management, de geïnteresseerde gebruikers en
+ontwikkelaars kan overtuigen van het nut van de standaard. Ook moet er
+een duidelijk adoptiebeleid zijn. In grotere organisaties is het ook
+belangrijk dat de processen rondom de adoptie zijn verankerd in het
+proceslandschap. Dit is immers een goede manier om de adoptie ook via
+formele wegen af te dwingen.</p>
+<p><strong>2. Introductiefase van de standaard</strong></p>
+<p>In deze fase wordt gekozen voor een specifieke standaard om in een
+behoefte te voorzien. Tijdens deze fase zullen veel wijzigingen aan de
+orde zijn. De inrichting van beheer wordt belangrijk. De keuze kan
+bewust en expliciet worden gemaakt in besluitvorming om een standaard
+algemeen geldend te verklaren of door organische groei waarbij de
+adoptie geleidelijk plaatsvindt. Een voorbeeld van bewuste keuze is
+besluitvorming door de overheid om een standaard verplicht te
+stellen. Ook sectorafspraken of een besluit van het Forum
+Standaardisatie om een standaard op de ‘Pas toe of leg uit’-lijst te
+plaatsen, vallen hieronder.</p>
+<p>In de introductiefase is het nog steeds belangrijk om een goed
+adoptieplan te hebben. Ook het uitdragen van het nut en de noodzaak
+van de standaard is relevant. Nieuw in deze fase is het monitoren van
+de adoptie en het publiceren van de standaard. Waar er tijdens de
+creatiefase misschien nog geen (concept)versie beschikbaar is, moet
+dit tijdens de introductie wel het geval zijn.</p>
+<p><strong>3. Implementatie / groei van de standaard</strong></p>
+<p>In deze fase kiezen gebruikers bewust voor de implementatie van de
+standaard. In het beheer wordt ook rekening gehouden met het feit dat
+niet alle gebruikers beschikken over een volwaardig kennisniveau van
+de standaard. Beheer betekent in deze fase ook de ondersteuning en het
+informeren van de gebruikers. Marketingtermen als ‘early majority’
+zijn in deze fase van toepassing. Uw activiteiten zijn gericht op meer
+professionele adoptie en professionalisatie van de open
+beheerprocessen, zodat bij opschaling van het gebruik alle partijen
+aangehaakt blijven en de processen transparant verlopen. Registraties
+van gebruikers/ afnemers/ experts etc. worden steeds belangrijker.</p>
+<p>Van organische adoptie is sprake als diverse (individuele) partijen
+besluiten een standaard te gaan toepassen. Tijdens deze fase zullen
+veel wijzigingen aan de orde zijn. De inrichting voor beheer wordt
+belangrijk, net als de adoptie van de standaard bij de ‘early
+adopters’ van belang.  activiteiten zullen hierop gericht moeten zijn.</p>
+<p><strong>4. Volwaardige toepassing / volwassenheid van de standaard</strong></p>
+<p>In deze fase is de standaard algemeen geaccepteerd en
+geïmplementeerd. Het beheer is in deze fase volledig ingericht om de
+stabiliteit en kwaliteit van de standaard te waarborgen.</p>
+<p>Kwaliteitsmanagement en het volgen van de BOMOS-activiteiten zijn
+belangrijk, net als de relatie met andere (internationale)
+standaarden. Natuurlijk kan dit ook van belang zijn in eerdere fases,
+maar in de regel is dit voor een volwassen standaard altijd het geval.</p>
+<p><strong>5. Uitfaseren / overgang naar een andere (versie van de) standaard</strong></p>
+<p>Tijdens het uitfaseren van een standaard is het van belang dat de
+samenhang met verschillende producten goed wordt bewaakt. Het kan
+namelijk zo zijn dat de standaard een cruciale plaats inneemt in het
+architectuurlandschap van derden. Daarbij is ook het bewaken van de
+organisatiestructuur van belang aangezien het verwijderen van
+standaard kan zorgen voor verschuivende verantwoordelijkheden. Verder
+is het afbouwen van financiëringen een aandachtspunt, net als het
+beheersen van verwachtingen.</p>
+</section></section>
+     <section id="de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><div class="header-wrapper"><h2 id="x5-de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping"><bdi class="secno">5. </bdi>De BOMOS best practices in vogelvlucht - Introductie van BOMOS Deel 2: De Verdieping</h2><a class="self-link" href="#de-bomos-best-practices-in-vogelvlucht-introductie-van-bomos-deel-2-de-verdieping" aria-label="Permalink for Section 5."></a></div>
+<p>Met alleen het Beheer- en Ontwikkelmodel voor standaarden leggen we
+een fundament, maar daarmee kunnen niet al standaardisatievraagstukken
+worden opgelost. Op meerdere vlakken dienen keuzes gemaakt te worden
+met betrekking tot de inrichting van het beheerproces van standaarden.
+Daarbij zijn verschillende vraagstukken te herkennen, zoals:</p>
+<p>Bijvoorbeeld over:</p>
+<ul>
 <li>Adoptie: hoe stimuleer je dat?</li>
 <li>Open: Ik hoor over ‘openheid’, maar wat betekent dat?</li>
 <li>Business case: Wat levert het uiteindelijk op?</li>
 <li>Financiering: Wat kost het nou? En wat zijn goede inkomstenbronnen?  </li>
 <li>De kwaliteit van de standaard leidt tot problemen of ontevredenheid.</li>
 <li>Leveranciers die gecertificeerd willen worden zodat ze zich kunnen profileren.</li>
-</ul><p>Deze onderwerpen worden in detail in Deel 2 - De Verdieping besproken:</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-ontwikkel-en-beheerorganisatie-activiteit-governance">De organisatiestructuur</a></strong></p><p>De activiteiten uit het Beheer- en Ontwikkelmodel worden uitgevoerd in een organisatiestructuur, welke vaak bestaat uit een uitvoeringsorganisatie die opdrachten ontvangt vanuit het bestuur. De uitvoeringsorganisatie werkt met werkgroepen om de opdrachten in te vullen. Naast de werkgroepen kunnen nog aparte leveranciers en/of adviesorganen worden opgericht. De beheer- en ontwikkelactiviteiten kunnen belegd worden bij een eigen organisatie, maar voor specifieke taken kan ook een beroep worden gedaan op andere organisaties zoals formele standaardisatieorganisaties, kennisinstellingen, of brancheorganisaties. Voor de eigen beheerorganisatie zijn er verschillende rechtsvormen mogelijk, waarbij de stichting de meest voorkomende is.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-kosten-en-de-opbrengsten-activiteit-financien">Financieel: de kosten en de opbrengsten</a></strong></p><p>Weinig cijfers zijn bekend over opbrengsten en kosten van standaardisatie. Maar toch weten we dat standaarden economisch een toegevoegde waarde hebben. Voordelen liggen onder andere op het gebied van netwerkeffecten, voorkomen van vendor lock-ins en het verlagen van transactiekosten.</p><p>Los van alle grote voordelen is het soms lastig om een sluitende begroting voor de standaard op te stellen. Een standaard brengt ontwikkelkosten met zich mee, terwijl de opbrengsten voor de standaard lastig zijn te realiseren, helemaal opbrengsten die niet strijdig zijn met openheid. Voor de opbrengsten wordt een groeimodel geschetst. Tijdelijk financiering geschikt voor het opstarten, is geen geschikte financiering voor continu beheer. Zonder structurele financiering lijkt de meest voor de hand liggende vorm te werken met lidmaatschapsgelden of betaalde dienstverlening aan te bieden. De consequenties voor openheid zijn dan beperkt.</p><p>De business case van standaarden is een belangrijk onderwerp, We schetsen hier, op basis van ervaringen met een standaard voor de juweliersbranche, een aanpak in drie stappen om een eenvoudige business case op te stellen. Dit leidt niet tot harde cijfers, maar geeft wel een beeld van hoe de kosten en baten verdeeld zijn over de verschillende stakeholders.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-open-invulling-van-een-standaard-activiteit-community">De open invulling van een standaard</a></strong></p><p>We willen allemaal open standaarden, maar anders dan een definitie hebben we weinig handvatten voor wat een open standaard werkelijk betekent. Aan de hand van 10 criteria, waaronder de voor de hand liggende Open Intellectuele Eigendomsrechten als criteria ook minder voor de hand liggende criteria zoals Open Change (wie bepaalt wanneer er een nieuwe versie komt?) en One World (1 standaard voor 1 wereldwijd probleem). De 10 criteria worden meetbaar gemaakt, waarmee een standaard zijn eigen openheid kan bepalen en verbetertrajecten kan inzetten.</p><p> <strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#samenhang-met-andere-standaarden-activiteit-architectuur">Samenhang met andere standaarden</a></strong></p><p>Semantische standaarden zijn uitermate complex door de relaties met andere standaarden. Om interoperabiliteit te behalen is allereerst een combinatie nodig van technische, syntax en semantische standaarden. Semantische standaarden zijn te herkennen in zogenaamde horizontale en verticale (domein) standaarden. Daarnaast is er een onderscheid tussen de internationale standaarden, en de nationale invullingen daarop. Dit type standaarden wordt ook wel afspraken of toepassingsprofielen genoemd.</p><p>Deze standaarden maken ook weer gebruik van vocabulaires (codelijstjes). Alle varianten van standaarden moeten beheerd worden. Met alleen een internationale standaard zijn we er dus niet; dat zal vaak het interoperabiliteitsprobleem niet oplossen. De semantische standaarden worden veelal buiten de formele standaardisatieorganisaties (zoals NEN en ISO) ontwikkeld maar hebben wel vaak een relatie met formele standaarden die lastig is vanwege een potentieel gebrek aan openheid van deze standaarden. Op nationaal niveau hebben we vaak te maken met nationale invullingen van internationale standaarden, dat brengt een complexe relatie met zich mee waarvoor een strategie noodzakelijk is. Brengen we de aanpassingen ook internationaal in bij de standaard, of passen we de internationale standaard gewoon aan? Daarvoor zijn strategieën opgesteld.</p><p>In de wereld van semantische standaarden zijn de Semantic Web / Linked Data concepten een belangrijke ontwikkeling geweest voor de omgang en het vastleggen van semantiek bij de data. Deze ontwikkelingen zijn gebaseerd op een reeks van veelal W3C standaarden.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#stimuleren-van-het-gebruik-van-standaarden-activiteit-adoptie-erkenning">Adoptie: het stimuleren van het gebruik van een standaard</a></strong></p><p>De waarde van een standaard wordt voor een belangrijk deel gevormd door het aantal gebruikers. Immers: hoe meer gebruikers, hoe makkelijker het is om in een bepaalde sector of groep organisaties via de standaard gegevens uit te wisselen. Veel standaardisatieorganisaties willen daarom de adoptie van hun standaard (-en) versnellen. Hiervoor zijn verschillende soorten middelen te gebruiken: communicatief (voorlichting, promotie, etc.), financieel (implementatiesubsidies, financiering van voorbeeldprojecten, bieden van implementatietools, etc.) en juridisch (afdwingen, bijvoorbeeld via ‘pas toe of leg uit’). Het is van belang om het juiste middel te kiezen. Dit is afhankelijk van de zogenaamde adoptiekans in het netwerk van organisaties (collectieve business case) en voor individuele organisaties (business case voor individuele organisaties).</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteitsbeleid-en-benchmarking">Kwaliteit van standaarden</a></strong></p><p>Door de jaren heen zal kwaliteit van standaarden een steeds belangrijker issue worden. We vergeten nog wel eens dat niet standaarden het doel zijn, maar juist interoperabiliteit. Een standaard met een slechte kwaliteit zal niet leiden tot interoperabiliteit en vaak duurt het even voordat we er achter komen dat interoperabiliteit in de praktijk deels of niet behaald wordt. Uit onderzoek is gebleken dat de meeste beheerorganisaties vinden dat de kwaliteit van de standaard verbeterd kan worden en dat dit zal leiden tot een verbetering in interoperabiliteit. Daarmee wordt het belangrijk om de kwaliteit van standaarden te verbeteren.</p><p>Op basis van bestaande modellen, onder meer uit de software engineering, wordt een eerste versie van een kwaliteitsmodel voorgesteld waarin kwaliteitsconcepten zoals effectiviteit, betrouwbaarheid en bruikbaarheid verder worden uitgewerkt. Door toepassing van dit kwaliteitsinstrument kan de kwaliteit van standaarden worden verbeterd.</p><p> <strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#proces-voor-de-ontwikkeling-en-het-beheer-van-een-standaard-hoofdactiviteit-operationeel">Het operationele proces voor de ontwikkeling en het beheer van een standaard</a></strong></p><p>Het verzamelen van wensen en eisen voor de standaard is een belangrijke stap in het operationele proces en kan op verschillende manieren gebeuren variërend van workshops tot online op het web. Deze wensen en eisen doorlopen dan een proces voordat ze opgenomen kunnen worden in de standaard. Versiemanagement is een belangrijk issue, aangezien teveel versies de doodsteek voor de adoptie van een standaard kunnen zijn. Het operationele proces van standaardisatie wordt veelal als langdurig en niet efficiënt bestempeld. Methodes die gebruik maken van Web 2.0 toepassingen, of het concept van de pressure cooker, maken het mogelijk om sneller en goedkoper standaarden te ontwikkelen.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteit-van-implementaties_sectie">Conformance, certificering, validatie</a></strong></p><p>Vaak als een standaard grofweg 2 jaar bestaat ontstaat er behoefte aan certificatie. Leveranciers willen graag hun implementatie van de standaard commercieel uitbuiten, en certificatie kan hen daarbij helpen. Vanuit de beheerorganisatie zou certificatie aangeboden kunnen worden met verschillende doelstellingen (bevorderen van interoperabiliteit, of adoptie, of financiën) welke andere uitwerkingen tot gevolg kunnen hebben en ook niet altijd te combineren zijn.</p><p>Certificering is complex en eigenlijk is het advies om te starten met validatie en een overzicht te creëren van leveranciers die de standaard gebruiken. Ook met validatie kan conformance aan een standaard gecontroleerd worden maar op een laagdrempelige manier.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#implementatie-ondersteuning">Ondersteuning bieden aan implementaties</a></strong>
+</ul>
+<p>Deze onderwerpen worden in detail in Deel 2 - De Verdieping besproken:</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-ontwikkel-en-beheerorganisatie-activiteit-governance">De organisatiestructuur</a></strong></p>
+<p>De activiteiten uit het Beheer- en Ontwikkelmodel worden uitgevoerd in
+een organisatiestructuur, welke vaak bestaat uit een
+uitvoeringsorganisatie die opdrachten ontvangt vanuit het bestuur. De
+uitvoeringsorganisatie werkt met werkgroepen om de opdrachten in te
+vullen. Naast de werkgroepen kunnen nog aparte leveranciers en/of
+adviesorganen worden opgericht. De beheer- en ontwikkelactiviteiten
+kunnen belegd worden bij een eigen organisatie, maar voor specifieke
+taken kan ook een beroep worden gedaan op andere organisaties zoals
+formele standaardisatieorganisaties, kennisinstellingen, of
+brancheorganisaties. Voor de eigen beheerorganisatie zijn er
+verschillende rechtsvormen mogelijk, waarbij de stichting de meest
+voorkomende is.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-kosten-en-de-opbrengsten-activiteit-financien">Financieel: de kosten en de opbrengsten</a></strong></p>
+<p>Weinig cijfers zijn bekend over opbrengsten en kosten van
+standaardisatie. Maar toch weten we dat standaarden economisch een
+toegevoegde waarde hebben. Voordelen liggen onder andere op het gebied
+van netwerkeffecten, voorkomen van vendor lock-ins en het verlagen van
+transactiekosten.</p>
+<p>Los van alle grote voordelen is het soms lastig om een sluitende
+begroting voor de standaard op te stellen. Een standaard brengt
+ontwikkelkosten met zich mee, terwijl de opbrengsten voor de standaard
+lastig zijn te realiseren, helemaal opbrengsten die niet strijdig zijn
+met openheid. Voor de opbrengsten wordt een groeimodel
+geschetst. Tijdelijk financiering geschikt voor het opstarten, is geen
+geschikte financiering voor continu beheer. Zonder structurele
+financiering lijkt de meest voor de hand liggende vorm te werken met
+lidmaatschapsgelden of betaalde dienstverlening aan te bieden. De
+consequenties voor openheid zijn dan beperkt.</p>
+<p>De business case van standaarden is een belangrijk onderwerp, We
+schetsen hier, op basis van ervaringen met een standaard voor de
+juweliersbranche, een aanpak in drie stappen om een eenvoudige
+business case op te stellen. Dit leidt niet tot harde cijfers, maar
+geeft wel een beeld van hoe de kosten en baten verdeeld zijn over de
+verschillende stakeholders.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-open-invulling-van-een-standaard-activiteit-community">De open invulling van een standaard</a></strong></p>
+<p>We willen allemaal open standaarden, maar anders dan een definitie
+hebben we weinig handvatten voor wat een open standaard werkelijk
+betekent. Aan de hand van 10 criteria, waaronder de voor de hand
+liggende Open Intellectuele Eigendomsrechten als criteria ook minder
+voor de hand liggende criteria zoals Open Change (wie bepaalt wanneer
+er een nieuwe versie komt?) en One World (1 standaard voor 1
+wereldwijd probleem). De 10 criteria worden meetbaar gemaakt, waarmee
+een standaard zijn eigen openheid kan bepalen en verbetertrajecten kan
+inzetten.</p>
+<p> <strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#samenhang-met-andere-standaarden-activiteit-architectuur">Samenhang met andere standaarden</a></strong></p>
+<p>Semantische standaarden zijn uitermate complex door de relaties met
+andere standaarden. Om interoperabiliteit te behalen is allereerst een
+combinatie nodig van technische, syntax en semantische
+standaarden. Semantische standaarden zijn te herkennen in zogenaamde
+horizontale en verticale (domein) standaarden. Daarnaast is er een
+onderscheid tussen de internationale standaarden, en de nationale
+invullingen daarop. Dit type standaarden wordt ook wel afspraken of
+toepassingsprofielen genoemd.</p>
+<p>Deze standaarden maken ook weer gebruik van vocabulaires
+(codelijstjes). Alle varianten van standaarden moeten beheerd
+worden. Met alleen een internationale standaard zijn we er dus niet;
+dat zal vaak het interoperabiliteitsprobleem niet oplossen. De
+semantische standaarden worden veelal buiten de formele
+standaardisatieorganisaties (zoals NEN en ISO) ontwikkeld maar hebben
+wel vaak een relatie met formele standaarden die lastig is vanwege een
+potentieel gebrek aan openheid van deze standaarden. Op nationaal
+niveau hebben we vaak te maken met nationale invullingen van
+internationale standaarden, dat brengt een complexe relatie met zich
+mee waarvoor een strategie noodzakelijk is. Brengen we de aanpassingen
+ook internationaal in bij de standaard, of passen we de internationale
+standaard gewoon aan? Daarvoor zijn strategieën opgesteld.</p>
+<p>In de wereld van semantische standaarden zijn de Semantic Web / Linked Data concepten een belangrijke ontwikkeling geweest voor de omgang en het vastleggen van semantiek bij de data. Deze ontwikkelingen zijn gebaseerd op een reeks van veelal W3C standaarden.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#stimuleren-van-het-gebruik-van-standaarden-activiteit-adoptie-erkenning">Adoptie: het stimuleren van het gebruik van een standaard</a></strong></p>
+<p>De waarde van een standaard wordt voor een belangrijk deel gevormd
+door het aantal gebruikers. Immers: hoe meer gebruikers, hoe
+makkelijker het is om in een bepaalde sector of groep organisaties via
+de standaard gegevens uit te wisselen. Veel
+standaardisatieorganisaties willen daarom de adoptie van hun standaard
+(-en) versnellen. Hiervoor zijn verschillende soorten middelen te
+gebruiken: communicatief (voorlichting, promotie, etc.), financieel
+(implementatiesubsidies, financiering van voorbeeldprojecten, bieden
+van implementatietools, etc.) en juridisch (afdwingen, bijvoorbeeld
+via ‘pas toe of leg uit’). Het is van belang om het juiste middel te
+kiezen. Dit is afhankelijk van de zogenaamde adoptiekans in het
+netwerk van organisaties (collectieve business case) en voor
+individuele organisaties (business case voor individuele
+organisaties).</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteitsbeleid-en-benchmarking">Kwaliteit van standaarden</a></strong></p>
+<p>Door de jaren heen zal kwaliteit van standaarden een steeds
+belangrijker issue worden. We vergeten nog wel eens dat niet
+standaarden het doel zijn, maar juist interoperabiliteit. Een
+standaard met een slechte kwaliteit zal niet leiden tot
+interoperabiliteit en vaak duurt het even voordat we er achter komen
+dat interoperabiliteit in de praktijk deels of niet behaald wordt. Uit
+onderzoek is gebleken dat de meeste beheerorganisaties vinden dat de
+kwaliteit van de standaard verbeterd kan worden en dat dit zal leiden
+tot een verbetering in interoperabiliteit. Daarmee wordt het
+belangrijk om de kwaliteit van standaarden te verbeteren.</p>
+<p>Op basis van bestaande modellen, onder meer uit de software
+engineering, wordt een eerste versie van een kwaliteitsmodel
+voorgesteld waarin kwaliteitsconcepten zoals effectiviteit,
+betrouwbaarheid en bruikbaarheid verder worden uitgewerkt. Door
+toepassing van dit kwaliteitsinstrument kan de kwaliteit van
+standaarden worden verbeterd.</p>
+<p> <strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#proces-voor-de-ontwikkeling-en-het-beheer-van-een-standaard-hoofdactiviteit-operationeel">Het operationele proces voor de ontwikkeling en het beheer van een standaard</a></strong></p>
+<p>Het verzamelen van wensen en eisen voor de standaard is een
+belangrijke stap in het operationele proces en kan op verschillende
+manieren gebeuren variërend van workshops tot online op het web. Deze
+wensen en eisen doorlopen dan een proces voordat ze opgenomen kunnen
+worden in de standaard. Versiemanagement is een belangrijk issue,
+aangezien teveel versies de doodsteek voor de adoptie van een
+standaard kunnen zijn. Het operationele proces van standaardisatie
+wordt veelal als langdurig en niet efficiënt bestempeld. Methodes die
+gebruik maken van Web 2.0 toepassingen, of het concept van de pressure
+cooker, maken het mogelijk om sneller en goedkoper standaarden te
+ontwikkelen.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteit-van-implementaties_sectie">Conformance, certificering, validatie</a></strong></p>
+<p>Vaak als een standaard grofweg 2 jaar bestaat ontstaat er behoefte aan
+certificatie. Leveranciers willen graag hun implementatie van de
+standaard commercieel uitbuiten, en certificatie kan hen daarbij
+helpen. Vanuit de beheerorganisatie zou certificatie aangeboden kunnen
+worden met verschillende doelstellingen (bevorderen van
+interoperabiliteit, of adoptie, of financiën) welke andere
+uitwerkingen tot gevolg kunnen hebben en ook niet altijd te combineren
+zijn.</p>
+<p>Certificering is complex en eigenlijk is het advies om te starten met
+validatie en een overzicht te creëren van leveranciers die de
+standaard gebruiken. Ook met validatie kan conformance aan een
+standaard gecontroleerd worden maar op een laagdrempelige manier.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#implementatie-ondersteuning">Ondersteuning bieden aan implementaties</a></strong>
 De ondersteuning bieden aan implementaties is het gevolg van strategische en met name tactische keuzes rond onder meer adoptie en kwaliteit; andere best practices onderwerpen.
-Vandaar een wat kortere beschrijving mogelijke invullingen.</p><p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#communicatie-bekendheid-creeren">Bekendheid creëren</a></strong>
-Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt, dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.</p></section><section id="tot-slot"><h3 id="x1-8-tot-slot"><bdi class="secno">1.8 </bdi>Tot slot<a class="self-link" href="#tot-slot" aria-label="Permalink for Section 1.8"></a></h3><p>Een belangrijk onderbelicht onderwerp in de kennis over standaarden is de inrichting van het ontwikkel- en beheerproces. Met BOMOS wordt getracht een handreiking te geven voor de inrichting van een ontwikkel- en beheerproces binnen een organisatie. Daarbij wordt extra nadruk gelegd op hoe de ontwikkeling en beheer op een open manier kan geschieden.</p><p>Het document schetst ook dat het ontwikkelen en beheren van standaarden complexe materie is, met vele verschillende taken die al dan niet ingevuld zijn, en op verschillende manieren ingevuld kunnen zijn afhankelijk van de context van de standaard.</p><p>Ook laat het document zien dat openheid vele facetten heeft, meer dan men zich zou realiseren op basis van de definitie van een open standaard. De 10 punten van Krechmer worden deels in de praktijk vergeten, waardoor er veel verborgen geslotenheid is. Op basis van deze punten kan getracht worden het ontwikkelen en beheren op een zeer open manier in te vullen. Daarbij zijn de genoemde punten, gecombineerd met de concrete tips vooral geschikt om het denkproces hierover te initiëren.</p><p>Het doel is en blijft een duurzame standaard die een bijdrage levert in interoperabiliteit. Duurzaam kan alleen als het ontwikkel- en beheerproces op een kwalitatief hoogstaand niveau is ingericht. Dit document levert een bijdrage om de ontwikkeling en beheer van standaarden op een hoger plan te krijgen en daarmee duurzame standaarden te realiseren. Uiteraard is een duurzame standaard een open standaard die duurzaam beheerd wordt!</p><p>Ter afsluiting van deel 1, drie concrete tips:</p><ol>
+Vandaar een wat kortere beschrijving mogelijke invullingen.</p>
+<p><strong><a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#communicatie-bekendheid-creeren">Bekendheid creëren</a></strong>
+Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt, dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.</p>
+</section>
+     <section id="tot-slot"><div class="header-wrapper"><h2 id="x6-tot-slot"><bdi class="secno">6. </bdi>Tot slot</h2><a class="self-link" href="#tot-slot" aria-label="Permalink for Section 6."></a></div>
+<p>Een belangrijk onderbelicht onderwerp in de kennis over standaarden is
+de inrichting van het ontwikkel- en beheerproces. Met BOMOS wordt
+getracht een handreiking te geven voor de inrichting van een
+ontwikkel- en beheerproces binnen een organisatie. Daarbij wordt extra
+nadruk gelegd op hoe de ontwikkeling en beheer op een open manier kan
+geschieden.</p>
+<p>Het document schetst ook dat het ontwikkelen en beheren van
+standaarden complexe materie is, met vele verschillende taken die al
+dan niet ingevuld zijn, en op verschillende manieren ingevuld kunnen
+zijn afhankelijk van de context van de standaard.</p>
+<p>Ook laat het document zien dat openheid vele facetten heeft, meer dan
+men zich zou realiseren op basis van de definitie van een open
+standaard. De 10 punten van Krechmer worden deels in de praktijk
+vergeten, waardoor er veel verborgen geslotenheid is. Op basis van
+deze punten kan getracht worden het ontwikkelen en beheren op een zeer
+open manier in te vullen. Daarbij zijn de genoemde punten,
+gecombineerd met de concrete tips vooral geschikt om het denkproces
+hierover te initiëren.</p>
+<p>Het doel is en blijft een duurzame standaard die een bijdrage levert
+in interoperabiliteit. Duurzaam kan alleen als het ontwikkel- en
+beheerproces op een kwalitatief hoogstaand niveau is ingericht. Dit
+document levert een bijdrage om de ontwikkeling en beheer van
+standaarden op een hoger plan te krijgen en daarmee duurzame
+standaarden te realiseren. Uiteraard is een duurzame standaard een
+open standaard die duurzaam beheerd wordt!</p>
+<p>Ter afsluiting van deel 1, drie concrete tips:</p>
+<ol>
 <li>Beschrijf de invulling van het takenpakket op basis van het BOMOS activiteitenmodel. (BOMOS Compliant)</li>
 <li>Creëer continuïteit van ontwikkeling en beheer van een standaard door:<ol>
 <li>Het zorgdragen voor een stabiel/structureel financieringsmodel.</li>
@@ -435,23 +1240,26 @@ Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker 
 </ol>
 </li>
 <li>Zie openheid als een middel om de kwaliteit te verhogen, en adoptie te vereenvoudigen: gebruik <a href="https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#krechmer-s-open-standaarden-model-10-requirements">de 10 punten van Krechmer</a> voor het zoeken naar verbeteringen in openheid.</li>
-</ol><p>Net zoals een standaard is BOMOS nooit af; op basis van nieuwe ervaringen kunnen nieuwe inzichten ontstaan. Ook zijn er andere meningen mogelijk over de materie. Daarnaast kan dit document vragen oproepen als u ermee aan de slag gaat. We hopen dat er een actieve BOMOS community ontstaat die hierin een rol gaat spelen, en verdere BOMOS Aanvullende Modules beschikbaar stelt.</p></section></section>
-    
-     <section id="conformance"><h2 id="x2-conformiteit"><bdi class="secno">2. </bdi>Conformiteit<a class="self-link" href="#conformance" aria-label="Permalink for Section 2."></a></h2><p>Naast onderdelen die als niet normatief gemarkeerd zijn, zijn ook alle diagrammen, voorbeelden, en noten in dit document niet normatief. Verder is alles in dit document normatief.</p>
-        
-     </section>
-     <section id="tof">
-        
-     <h2 id="x3-lijst-met-figuren"><bdi class="secno">3. </bdi>Lijst met figuren<a class="self-link" href="#tof" aria-label="Permalink for Section 3."></a></h2><ul class="tof">
+</ol>
+<p>Net zoals een standaard is BOMOS nooit af; op basis van nieuwe
+ervaringen kunnen nieuwe inzichten ontstaan. Ook zijn er andere
+meningen mogelijk over de materie. Daarnaast kan dit document vragen
+oproepen als u ermee aan de slag gaat. We hopen dat er een actieve
+BOMOS community ontstaat die hierin een rol gaat spelen, en verdere
+BOMOS Aanvullende Modules beschikbaar stelt.</p>
+</section>
+
+     
+     <section id="tof"><div class="header-wrapper"><h2 id="x7-lijst-met-figuren"><bdi class="secno">7. </bdi>Lijst met figuren</h2><a class="self-link" href="#tof" aria-label="Permalink for Section 7."></a></div><ul class="tof">
         <li class="tofline">
-    <a class="tocxref" href="#fig-xkcd-comic-about-competing-standards">Figuur <bdi class="figno">1</bdi> <span class="fig-title">xkcd comic about competing standards</span></a>
+    <a class="tocxref" href="#fig-strip-over-standaarden">Figuur <bdi class="figno">1</bdi> <span class="fig-title">Strip over standaarden</span></a>
   </li><li class="tofline">
     <a class="tocxref" href="#fig-bomos-activiteitendiagram">Figuur <bdi class="figno">2</bdi> <span class="fig-title">BOMOS Activiteitendiagram</span></a>
   </li><li class="tofline">
     <a class="tocxref" href="#fig-levensfases-van-een-standaard">Figuur <bdi class="figno">3</bdi> <span class="fig-title">Levensfases van een standaard</span></a>
   </li>
       </ul></section>
-    
+
   
 
 <p role="navigation" id="back-to-top">

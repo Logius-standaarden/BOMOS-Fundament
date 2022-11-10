@@ -1,6 +1,6 @@
 table.dkkvs {
     border-collapse: collapse;
-    font-size: 10.5pt;
+    font-size: 12pt;
     width: 100%;
     /* --- dkcvs --- */
     border-collapse: collapse;
@@ -9,11 +9,11 @@ table.dkkvs {
 
 .dkkvs th {
     border: 1px solid white;
-    background-color:  #005a9c;
+    background-color: #005a9c;
     color: white;
     text-align: left;
     padding: 8px;
-    
+
 
     /* --- dkcvs --- */
 
@@ -50,10 +50,70 @@ table.dkkvs {
 /* --- dkcvs --- */
 
 table.dkkvsincell {
-    border: 1px;
+    border: solid 1px black;
     border-collapse: separate;
-    width:100%;
+    width: 100%;
     font-size: 8pt;
     border-bottom: 0px solid #005a9c;
 
+}
+
+table.legendum {
+    width: auto;
+    font-weight: lighter;
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+.legendum th {
+    font-weight: normal;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+}
+
+.legendum td.green {
+    background-color: #a5d95c;
+}
+
+.legendum td.grey {
+    background-color: #cbcbcb;
+}
+table.dkcomp{
+    font-size: 10pt;
+}
+
+.dkcomp th {
+    background-color: #538ED5;
+    color: white;
+    font-weight: bold;
+}
+.dkcomp tr {
+    vertical-align: middle;
+}
+.dkcomp tr:first-child {
+    background-color: #00B0F0;
+    color: black;
+}
+
+.dkcomp td.normative {
+    background-color: #92D050;
+}
+
+.dkcomp td.informative {
+    background-color: #D8D8D8;
+}
+
+.dkcomp td.wus {
+    background-color: #DBEEF3;
+}
+
+.dkcomp td.ebms {
+    background-color: #B8CCE4;
+}
+
+.dkcomp td.gb {
+    background-color: #95B3D7;
 }
