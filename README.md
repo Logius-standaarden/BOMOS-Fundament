@@ -17,6 +17,7 @@ waaruit de documentatie gegeneerd wordt.
 
 De gepubliceerde (vastgestelde) versie staat online:
 - [Vastgestelde versie 07 juni 2022](https://gitdocumentatie.logius.nl/publicatie/bomos/fundament)
+
 De ontwikkelversies van dit document staan online:
 - [Dynamische pagina (actueel)](https://Logius-standaarden.github.io/BOMOS-Fundament/index.html)
 - [Statische pagina (laatste build)](https://Logius-standaarden.github.io/BOMOS-Fundament/snapshot.html)
