@@ -73,6 +73,21 @@ document op van toepassing is, kan van toepassing zijn in de
 overheidscontext (G2G, G2B en/of G2C-context), maar in de praktijk zal
 dit document evengoed van toepassing zijn buiten de overheidscontext.
 
+<aside class="example" title="Gegevenswoordenboek Stedelijk Water">
+Het Gegevenswoordenboek Stedelijk Water (GWSW) is een open standaard voor 
+het eenduidig vastleggen, uitwisselen en delen van gegevens in het stedelijk 
+waterbeheer. Het GWSW is een semantische standaard. Het specificeert de vaste 
+gegevens over objecten, maar ook het netwerk, maatregelen (aanleg, vervanging, 
+reparatie, renovatie) en processen zoals inspectie, capaciteits- en 
+afvoerberekeningen. Voor het uitwisselen van data en informatie is het 
+essentieel dat alle partijen met dezelfde systematiek en definities werken 
+en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin 
+voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen 
+datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het 
+gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer. 
+Via de GWSW-standaard is het ook eenvoudig om rioleringsdata via PDOK te publiceren.
+</aside>
+
 Het ontwikkelen en het beheer van standaarden is anders dan het
 ontwikkelen en beheren van andere producten zoals voorzieningen en
 software. Een voorziening is een samenstel van informatie, systeem,
