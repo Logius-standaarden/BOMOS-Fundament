@@ -58,6 +58,21 @@ Er zijn een aantal mogelijkheden:
    * Financiën: hoe kan het financiële model van een beheerorganisatie worden verbeterd, bijvoorbeeld bij teruglopende financiering of veranderde wensen?
    * Validatie en certificering: hoe kan worden getoetst dat implementaties van een standaard voldoen aan de gestelde specificaties? Welke mogelijkheden zijn er?
 
+<aside class="example" title="Geo-standaarden">
+In Nederland ontwikkelt en beheert Geonovum de basis geo-standaarden. 
+De geo-standaarden zijn opgenomen in de pas-toe-of-leg-uit-lijst van het 
+Forum Standaardisatie, waarvoor wij in 2014 het predicaat uitstekend beheer 
+ontvingen, mede omdat wij de geo-standaarden beheren conform BOMOS.  
+Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen 
+uitwisselen en (her-) gebruiken in verschillende softwarepakketten en 
+voor verschillende doeleinden. Er zijn generieke standaarden die 
+basisfunctionaliteiten als 'zoeken' en 'presenteren' mogelijk maken. 
+Daarnaast zijn er standaarden die zich richten op het betekenisvol kunnen 
+uitwisselen van gegevens, vaak binnen een bepaalde sector. De systematiek 
+van BOMOS passen toe voor zowel de generieke geo-standaarden met een 
+beheerplan en wijzigingsprotocol als voor de specifieke domeinstandaarden.  
+</aside>
+
 ## BOMOS als achtergrondinformatie ter inspiratie
 
 BOMOS kan goed gebruikt worden als achtergrondinformatie voor
