@@ -83,13 +83,15 @@ worden waaronder ook semantische standaarden. Deze gebruiksrelatie
 tussen een standaard en voorziening geldt evengoed tussen een
 standaard en software.
 
-Voorbeeld: NL-LOM en Edurep. De standaard NL-LOM beschrijft op welke
+<aside class="example" title="NL-LOM en Edurep">
+De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
 voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
 die op basis van metadata educatief materiaal vindbaar maakt. (NL-LOM:
 [https://www.forumstandaardisatie.nl/standaard/nl-lom](https://www.forumstandaardisatie.nl/standaard/nl-lom);
 Edurep:
 [https://www.kennisnet.nl/edurep/](https://www.kennisnet.nl/edurep/))
+</aside>
 
 Standaarden hebben daarmee andere gebruikers, en andere uitdagingen
 zoals afstemming met communities en internationale standaarden. Dat
