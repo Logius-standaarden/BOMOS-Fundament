@@ -279,6 +279,15 @@ belangrijk, net als de relatie met andere (internationale)
 standaarden. Natuurlijk kan dit ook van belang zijn in eerdere fases,
 maar in de regel is dit voor een volwassen standaard altijd het geval.
 
+Een volwassen standaard wordt regelmatig getoetst om vast te stellen of 
+de standaard nog actueel is. Wanneer een standaard gebaseerd is op een 
+onderliggende standaard kan de beheerder hierbij controleren of deze 
+standaard nog in actief beheer is. Daarnaast is het zinvol om na te gaan 
+of er nieuwe (internationale) standaarden beschikbaar zijn gekomen met 
+dezelfde toepassing als de standaard. Beschikbaarheid van een nieuwe, 
+internationale standaard met internationale toepassing kan prioriteit 
+gegeven worden boven een in nationale context beheerde standaard.
+
 **5. Uitfaseren / overgang naar een andere (versie van de) standaard**
 
 Tijdens het uitfaseren van een standaard is het van belang dat de
