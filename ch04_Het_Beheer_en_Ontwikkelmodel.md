@@ -11,7 +11,7 @@ De structuur bestaat uit een aantal elementen:
 * Twee ondersteunende lagen: implementatie ondersteuning en communicatie.
 * Per laag meerdere activiteiten die uitgevoerd kunnen worden.
 
-![BOMOS Activiteitendiagram](images/bomos_activiteiten.png "BOMOS Activiteitendiagram")
+![BOMOS Activiteitendiagram](images/BOMOS-15_Bomos-activiteiten-blanco.png "BOMOS Activiteitendiagram")
 
 ## Benodigde invulling per situatie
 
@@ -202,7 +202,7 @@ bepalen of uw beheerinrichting nog voldoet. Hieronder volgt een
 beschrijving van de fasen van de standaardenlevenscyclus, zodat u kunt
 toetsen in welke fase uw standaard zich bevindt.
 
-![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](images/levensfases_standaard.png "Levensfases van een standaard")
+![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](images/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
 
 **1. Creatie / ontwikkeling**
 
