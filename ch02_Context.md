@@ -85,7 +85,7 @@ en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin
 voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen 
 datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het 
 gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer. 
-Via de GWSW-standaard is het ook eenvoudig om rioleringsdata via PDOK te publiceren.
+Via de GWSW-standaard is het voor gemeenten en waterschappen ook eenvoudig om actuele rioleringsdata via PDOK open te publiceren.
 </aside>
 
 Het ontwikkelen en het beheer van standaarden is anders dan het
