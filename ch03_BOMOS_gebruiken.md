@@ -62,8 +62,8 @@ Er zijn een aantal mogelijkheden:
 In Nederland ontwikkelt en beheert Geonovum de basis geo-standaarden. 
 De geo-standaarden zijn opgenomen in de pas-toe-of-leg-uit-lijst van het 
 Forum Standaardisatie, waarvoor wij in 2014 het predicaat uitstekend beheer 
-ontvingen, mede omdat wij de geo-standaarden beheren conform BOMOS.  
-Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen 
+ontvingen, mede omdat wij de geo-standaarden beheren conform 
+BOMOS. Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen 
 uitwisselen en (her-) gebruiken in verschillende softwarepakketten en 
 voor verschillende doeleinden. Er zijn generieke standaarden die 
 basisfunctionaliteiten als 'zoeken' en 'presenteren' mogelijk maken. 
