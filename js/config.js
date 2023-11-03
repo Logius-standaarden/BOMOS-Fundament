@@ -32,7 +32,7 @@ var respecConfig = {
   previousPublishVersion: "3.0.0",
   pubDomain: "bomos",
   publishDate: "2023-11-02",
-  publishVersion: "3.0.1",
+  publishVersion: "3.1.0",
   shortName: "fundament",
   specStatus: "WV",
   specType: "HR"
