@@ -102,10 +102,9 @@ standaard en software.
 De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
 voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
-die op basis van metadata educatief materiaal vindbaar maakt. (NL-LOM:
-[https://www.forumstandaardisatie.nl/standaard/nl-lom](https://www.forumstandaardisatie.nl/standaard/nl-lom);
-Edurep:
-[https://www.kennisnet.nl/edurep/](https://www.kennisnet.nl/edurep/))
+die op basis van metadata educatief materiaal vindbaar maakt. 
+([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
+[Edurep](https://www.kennisnet.nl/edurep/))
 </aside>
 
 Standaarden hebben daarmee andere gebruikers, en andere uitdagingen
