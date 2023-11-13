@@ -11,7 +11,7 @@ De structuur bestaat uit een aantal elementen:
 * Twee ondersteunende lagen: implementatie ondersteuning en communicatie.
 * Per laag meerdere activiteiten die uitgevoerd kunnen worden.
 
-![BOMOS Activiteitendiagram](images/bomos_activiteiten.png "BOMOS Activiteitendiagram")
+![BOMOS Activiteitendiagram](images/BOMOS-15_Bomos-activiteiten-blanco.png "BOMOS Activiteitendiagram")
 
 ## Benodigde invulling per situatie
 
@@ -202,7 +202,7 @@ bepalen of uw beheerinrichting nog voldoet. Hieronder volgt een
 beschrijving van de fasen van de standaardenlevenscyclus, zodat u kunt
 toetsen in welke fase uw standaard zich bevindt.
 
-![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](images/levensfases_standaard.png "Levensfases van een standaard")
+![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](images/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
 
 **1. Creatie / ontwikkeling**
 
@@ -278,6 +278,15 @@ Kwaliteitsmanagement en het volgen van de BOMOS-activiteiten zijn
 belangrijk, net als de relatie met andere (internationale)
 standaarden. Natuurlijk kan dit ook van belang zijn in eerdere fases,
 maar in de regel is dit voor een volwassen standaard altijd het geval.
+
+Een volwassen standaard wordt regelmatig getoetst om vast te stellen of 
+de standaard nog actueel is. Wanneer een standaard gebaseerd is op een 
+onderliggende standaard kan de beheerder hierbij controleren of deze 
+standaard nog in actief beheer is. Daarnaast is het zinvol om na te gaan 
+of er nieuwe (internationale) standaarden beschikbaar zijn gekomen met 
+dezelfde toepassing als de standaard. Beschikbaarheid van een nieuwe, 
+internationale standaard met internationale toepassing kan prioriteit 
+gegeven worden boven een in nationale context beheerde standaard.
 
 **5. Uitfaseren / overgang naar een andere (versie van de) standaard**
 

@@ -166,6 +166,14 @@ In 2022 is deze BOMOS (versie 3.0.0) gepubliceerd waarmee de BOMOS
 gebruiker een nieuw integraal startpunt heeft om met BOMOS aan de slag
 te gaan.
 
+<aside class=" example" title="BOMOS gebruikt door CROW">
+Om te zorgen voor een zorgvuldige doorontwikkeling, met oog voor de belangen van alle gebruikers, wordt het IMBOR door CROW beheerd volgens BOMOS. Beheer volgens BOMOS heeft voor IMBOR de volgende voordelen:
+- Belangen van stakeholders worden evenwichtig afgewogen bij ontwikkeling en beheer van de standaard.
+- De standaard wordt samen met gebruikers actueel gehouden, iedereen kan ideeën aandragen.
+- Het beheer gebeurt transparant.
+- Informatie is voor iedereen toegankelijk met heldere voorwaarden voor gebruik.
+</aside>
+
 ## Structuur BOMOS
 
 BOMOS bestaat uit:
