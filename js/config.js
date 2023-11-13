@@ -34,6 +34,6 @@ var respecConfig = {
   publishDate: "2023-11-02",
   publishVersion: "3.0.1",
   shortName: "fundament",
-  specStatus: "DEF",
+  specStatus: "WV",
   specType: "HR"
 };
