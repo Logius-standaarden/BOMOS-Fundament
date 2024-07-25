@@ -121,7 +121,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
 **Functioneel beheerder**: verantwoordelijk voor het proces van
   ontwikkelen en beheren van standaarden, binnen de kaders van de
   gemaakte afspraken en afgesproken governance. Toelichting: de
-  functioneel beheerder is verantwoordelijk het proces van ontwikkelen
+  functioneel beheerder is verantwoordelijk voor het proces van ontwikkelen
   en beheer van de inhoud van standaarden. Hiervoor werkt hij nauw
   samen met experts, gebruikers, de technische beheerder en de
   distributeur. De functioneel beheerder heeft vaak een regie voerende
