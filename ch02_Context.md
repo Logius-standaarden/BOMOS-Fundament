@@ -103,8 +103,8 @@ De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
 voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
 die op basis van metadata educatief materiaal vindbaar maakt. 
-([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
-[Edurep](https://www.kennisnet.nl/edurep/))
+(<a href=https://www.forumstandaardisatie.nl/standaard/nl-lom>NL-LOM</a>;
+<a href=https://www.kennisnet.nl/edurep/">Edurep</a>)
 </aside>
 
 Standaarden hebben daarmee andere gebruikers, en andere uitdagingen
@@ -115,7 +115,7 @@ die disciplines kunnen bruikbaar zijn. Met name het BiSL-raamwerk voor
 functioneel beheer is in enige mate bruikbaar, en deze is dan ook
 meegenomen in de totstandkoming van BOMOS (Voor meer informatie over
 BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en
-Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van
+Informatiemanagement, Remko van der Pols, Ralph Donatz, Frank van
 Outvorst, Van Haren Publishing, 2005.).
 
 BOMOS is initieel ontwikkeld voor semantische standaarden; deze focus
@@ -154,13 +154,13 @@ ontstaat.
 Beheer en ontwikkeling, in de brede zin, voor een standaard bevat ook
 onderwerpen als adoptie en certificering.
 
-**Beheer- en Ontwikkelmodel**
+**Beheer- en Ontwikkelmodel**    
 Het Beheer- en Ontwikkelmodel is een gelaagde structuur van
 onderwerpen die nodig zijn voor het ontwikkelen en beheren van een
 open standaard, en is weergegeven als een activiteitendiagram. Het is
 de kern van BOMOS.
 
-**Community**
+**Community**  
 Elke specifieke gemeenschap of groep in het elektronische
 (overheids-)veld die zich bezighoudt met de ontwikkeling en/of het
 beheer van een specifieke (set van) standaard(en), vanuit een
@@ -192,7 +192,7 @@ eisen:
    op een royalty-free basis;
 4. Er zijn geen beperkingen omtrent het hergebruik van de standaard.
 
-**Semantische interoperabiliteit**
+**Semantische interoperabiliteit**  
 Betekent dat samenwerkende partijen aan gegevens, die uitgewisseld
 worden, dezelfde betekenis toekennen.
 
@@ -209,7 +209,6 @@ Open Standaard:
 https://forumstandaardisatie.nl/open-standaarden
 
 Standardisation Handbook:
-
 https://en.wikipedia.org/wiki/Open_standard
 
 https://open-stand.org/
