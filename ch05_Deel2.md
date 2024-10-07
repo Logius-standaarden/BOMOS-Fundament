@@ -51,7 +51,7 @@ financiering lijkt de meest voor de hand liggende vorm te werken met
 lidmaatschapsgelden of betaalde dienstverlening aan te bieden. De
 consequenties voor openheid zijn dan beperkt.
 
-De business case van standaarden is een belangrijk onderwerp, We
+De business case van standaarden is een belangrijk onderwerp. We
 schetsen hier, op basis van ervaringen met een standaard voor de
 juweliersbranche, een aanpak in drie stappen om een eenvoudige
 business case op te stellen. Dit leidt niet tot harde cijfers, maar
@@ -148,7 +148,7 @@ gebruik maken van Web 2.0 toepassingen, of het concept van de pressure
 cooker, maken het mogelijk om sneller en goedkoper standaarden te
 ontwikkelen.
 
-**[Conformance, certificering, validatie](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteit-van-implementaties_sectie)**
+**[Conformance, certificering, validatie](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteit-van-implementaties)**
 
 Vaak als een standaard grofweg 2 jaar bestaat ontstaat er behoefte aan
 certificatie. Leveranciers willen graag hun implementatie van de
@@ -168,5 +168,5 @@ standaard gecontroleerd worden maar op een laagdrempelige manier.
 De ondersteuning bieden aan implementaties is het gevolg van strategische en met name tactische keuzes rond onder meer adoptie en kwaliteit; andere best practices onderwerpen.
 Vandaar een wat kortere beschrijving mogelijke invullingen.
 
-**[Bekendheid creëren](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#communicatie-bekendheid-creeren)**
+**[Bekendheid creëren](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#communicatie)**
 Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt, dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.
