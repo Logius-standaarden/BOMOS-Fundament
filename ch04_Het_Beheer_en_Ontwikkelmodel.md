@@ -29,7 +29,7 @@ activiteiten ingevuld kunnen worden, en waarvan sommige noodzakelijk
 kunnen zijn. Het is aan de inrichter van een organisatie voor beheer
 en ontwikkeling van standaarden om op basis van het hier gegeven model
 de relevante onderdelen te selecteren en in te richten. Daar waar
-relevant worden eventuele voor- en nadelen van een specifieke
+relevant, worden eventuele voor- en nadelen van een specifieke
 invulling van een onderwerp of activiteit gegeven.
 
 Kernonderwerpen zijn door de situationele afhankelijkheid ook
@@ -61,7 +61,7 @@ gaat hier verder op in.
 
 Onder de genoemde activiteiten verstaan we het volgende:
 
-**Strategie**: Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:
+**Strategie**, Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:
 
 * Governance: beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal.
 * Visie: het beschrijven van een ontwikkelrichting. Dit is de stip op de horizon en geldt als focus voor de lange termijn.
@@ -80,7 +80,7 @@ Onder de genoemde activiteiten verstaan we het volgende:
 * Initiatie: identificatie van nieuwe ideeën (voor bijvoorbeeld een nieuwe specificatie en nieuwe werkgroep) en alle activiteiten die horen bij het succesvol optuigen daarvan (bijv. belangenanalyse, business case, agendering).
 * Wensen en eisen: opstellen van de wensen en eisen aan de te ontwikkelen en te beheren specificatie, ook wel bekend onder de naam Maintenance Requests (MRs).
 * Ontwikkeling: op conceptueel niveau de inhoudelijke uitwerking van oplossingen voor de ideeën, wensen en eisen opgesteld in voorafgaande fasen. Deze oplossingen zijn zoveel mogelijk los van technologieën bedoeld voor nadere uitwerking in een (nieuwe versie van) de specificatie.
-* Uitvoeren: de daadwerkelijk aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
+* Uitvoeren: de daadwerkelijke aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
 * Documentatie: verzorgen van passende neerslag van de resultaten van het primaire beheerproces. Niet alleen de beschikbaarheid van de specificaties, maar bijvoorbeeld ook de mogelijkheid bieden tot een historisch overzicht van verzoeken tot wijzigingen (maintenance requests) en de actuele status daarvan.
 
 **Implementatie-ondersteuning**, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:
@@ -99,9 +99,9 @@ Onder de genoemde activiteiten verstaan we het volgende:
 
 De activiteiten moeten worden uitgevoerd door verschillende
 rollen. Een overzicht van rollen die relevant zijn bij het ontwikkelen
-en beheren van standaarden is opgenomen in NEN 7522:2021 "Medische
+en beheren van standaarden is opgenomen in [NEN 7522:2021 "Medische
 informatica - Ontwikkelen en beheren van standaarden en stelsels van
-standaarden", en is hier in licht aangepaste versie overgenomen.
+standaarden"](https://www.nen.nl/nen-7522-2021-nl-283706), en is hier in licht aangepaste versie overgenomen.
 
 **Eigenaar**: eindverantwoordelijk voor het ontwikkelen en beheren van
   een standaard. De eigenaar bepaalt de scope en het doel van een
