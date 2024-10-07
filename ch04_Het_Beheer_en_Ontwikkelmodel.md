@@ -29,7 +29,7 @@ activiteiten ingevuld kunnen worden, en waarvan sommige noodzakelijk
 kunnen zijn. Het is aan de inrichter van een organisatie voor beheer
 en ontwikkeling van standaarden om op basis van het hier gegeven model
 de relevante onderdelen te selecteren en in te richten. Daar waar
-relevant, worden eventuele voor- en nadelen van een specifieke
+relevant worden eventuele voor- en nadelen van een specifieke
 invulling van een onderwerp of activiteit gegeven.
 
 Kernonderwerpen zijn door de situationele afhankelijkheid ook
