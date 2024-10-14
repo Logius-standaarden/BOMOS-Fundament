@@ -58,10 +58,10 @@ Each specific community or group in the electronic (government) field involved w
 
 **Open standard**  
 There are many different opinions about the definition of an open standard. Above all because of the interests of different organisations, no successful definition has ever been produced. In BOMOS, we use a definition that was used in the initial period of the European Interoperability Framework, and which was adopted by the Dutch government. At a later stage adaptations were made, in particular more strict definitions, but the original definition is relatively the most open. What we understand by an ‘open standard’ is a standard that satisfies the following requirements:
-1. 	The standard is approved and will be maintained by a not-for-profit organisation and further development is based on an open decision-making procedure accessible to all stakeholders (consensus or majority decision);
-2. 	The standard is published and there is free access to the specification document for the standard or the document can be obtained for a nominal charge. It must be possible for all parties to copy, to supply and to use the standard free of charge or for a nominal price;
-3. 	The intellectual property - in respect of any patents present - to (parts of) the standard is provided irrevocably on a royalty-free basis;
-4. 	There are no restrictions regarding the reuse of the standard.
+1. The standard is approved and will be maintained by a not-for-profit organisation and further development is based on an open decision-making procedure accessible to all stakeholders (consensus or majority decision);
+2. The standard is published and there is free access to the specification document for the standard or the document can be obtained for a nominal charge. It must be possible for all parties to copy, to supply and to use the standard free of charge or for a nominal price;
+3. The intellectual property - in respect of any patents present - to (parts of) the standard is provided irrevocably on a royalty-free basis;
+4. There are no restrictions regarding the reuse of the standard.
 
 **Semantic interoperability**
 Means that the collaborating parties allocate the same meaning to the data exchange.
