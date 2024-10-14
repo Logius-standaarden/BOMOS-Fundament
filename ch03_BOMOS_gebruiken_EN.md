@@ -14,22 +14,22 @@ Another application is the structuring of a completely new management organisati
 
 There are a number of options:
 
-1. 	Is there already a standard in place?
+1. Is there already a standard in place?
  	On occasion there is not yet a standard but a standard needs to be developed. In the chapter on operational management, we consider gathering the correct wishes for and requirements on the standard. The next step is to build the bridge to the management process.
 
-2. 	Structuring the management process
+2. Structuring the management process
  	It starts with setting the scope for the management process: what does the management process need to be equipped for? To manage a single standard or multiple standards? Depending on the answer, using BOMOS, it is possible to make a choice relating to the management activities (strategic, tactical, operational) and support activities. Using BOMOS it is not only possible to deliberately choose whether or not to undertake certain management activities; the system also contains hints and tips for the structuring of the activities themselves.
 
-3. 	Has a management organisation already been established?
+3. Has a management organisation already been established?
  	There is often already some form of management structure. In that case, BOMOS can be used to check whether all activities still comply and whether in addition to operational activities, strategic and tactical activities also need to be dealt with. BOMOS can also serve to improve the openness of the process.
 
-4. 	Tackling specific problems
+4. Tackling specific problems
 
  	There are often specific problems. BOMS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
- * Quality: how can the quality of a standard be measured and improved?
- * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
- * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
- * Validation and certification: how is it possible to test whether the implementations of a standard comply with the specifications imposed? What possibilities are available?
+   * Quality: how can the quality of a standard be measured and improved?
+   * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
+   * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
+   * Validation and certification: how is it possible to test whether the implementations of a standard comply with the specifications imposed? What possibilities are available?
 
 <aside class="example" title="Geo-standaarden">
 In the Netherlands, Geonovum develops and manages the basic geostandards. The geostandards are included in the apply or explain list published by the Standardisation Forum. In 2014 we received the label excellent management, partly because we manage the geostandards in accordance with BOMOS. Geostandards ensure that we are able to exchange geoinformation in digital form and (re)use that information in a variety of software packages for a variety of purposes. There are generic standards which enable basic functionalities such as ‘search’ and ‘present’. There are also standards focused on the ability to meaningfully exchange data, often within a specific sector. The BOMOS system is appropriate for both the generic geostandards with a management plan and a change protocol and for specific domain standards. 
