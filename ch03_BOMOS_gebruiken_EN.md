@@ -38,7 +38,7 @@ In the Netherlands, Geonovum develops and manages the basic geostandards. The ge
 <aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
 TOOI (Thesaurus and Ontology for Government Information) is a model for the information published by all organisations within the Dutch government. Using the TOOI model, it is possible to make information coherent and findable, across the boundaries of individual organisations and information systems.
 
-The TOOI management plan describes how the specifications for TOOI are managed. It encompasses both the management organisation and the underlying rules and regulations. The TOOI management plan was established according to the principles of BOMOS. The structure based on the 5 themes from BOMOS (Strategy, Tactical, Operational, Implementation Support and Communication) are described in detail on the [website](https://standaarden.overheid.nl/tooi/beheerplan).
+The TOOI management plan describes how the specifications for TOOI are managed. It encompasses both the management organisation and the underlying rules and regulations. The TOOI management plan was established according to the principles of BOMOS. The structure based on the 5 themes from BOMOS (Strategy, Tactical, Operational, Implementation Support and Communication) are described in detail on the TOOI (Dutch) [website](https://standaarden.overheid.nl/tooi/beheerplan).
 </aside>
 
 ## BOMOS as background information and a source of inspiration
