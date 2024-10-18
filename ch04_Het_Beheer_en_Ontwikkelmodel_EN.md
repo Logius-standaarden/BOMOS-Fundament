@@ -1,6 +1,6 @@
 # The Management and Development Model: Design for development and management
 
-The [understander figuur](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
+The [figure below](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
 
 The structure consists of a series of elements:
 
@@ -8,7 +8,7 @@ The structure consists of a series of elements:
 * Two support layers: implementation support and communication.
 * A series of activities that can be implemented in each layer.
 
-![BOMOS Activiteitendiagram](images/BOMOS-15_Bomos-activiteiten-blanco.png "BOMOS Activiteitendiagram")
+![BOMOS Activiteitendiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
 
 ## Necessary structure for each situation
 
@@ -21,23 +21,23 @@ As a result of the situational dependence it is not possible to identify core su
 Depending on the situation, the next step is to determine which subjects should be given priority. The figure shows the three traditional layers: strategy, tactical and operational. These are flanked by two support processes: communication and implementation support. 
 The model could suggest that these subjects operate in isolation, because no relationships between them are shown. However, the opposite is the case: many subjects are related - both within a main group and between the main groups.
 
-This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Deel 2: De Verdieping](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
+This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Part 2: The Substantiation](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
 
 ## The subjects from the model 
 The activities referred to can be interpreted as follows:
 
 **Strategy**: Course-setting activities related to the strategic (long) term:
 
-*Governance: laying down policy for  your own administrative organisation (such as the legal form); the bylaws (charter) and forming alliances with other organisations. Regulation of the decision-making process is crucial.
-*Vision: the description of a direction for development. This is the spot on the horizon that provides the focus for the long term.
-*Financing: having a financial model for the long term that guarantees revenue in line with demand.
+* Governance: laying down policy for  your own administrative organisation (such as the legal form); the bylaws (charter) and forming alliances with other organisations. Regulation of the decision-making process is crucial.
+* Vision: the description of a direction for development. This is the spot on the horizon that provides the focus for the long term.
+* Financing: having a financial model for the long term that guarantees revenue in line with demand.
 
 **Tactical**, Activities that ensure stability in the medium term:
 
 * Adoption & recognition: Activities relating to certification, the compulsory nature or promotion of the standard.
 * Architecture: Layout of the standard and the related processes and techniques.
 * Community: Management and support for forums and stakeholders.
-*Quality policy benchmarking: developing policy that ensures the quality of implementations of the standard.
+* Quality policy benchmarking: developing policy that ensures the quality of implementations of the standard.
 * Rights policy: Determining the intellectual property rights.
 
 **Operational**, the practical activities that lead to new versions of standards, including:
@@ -74,7 +74,7 @@ The various activities must be undertaken by different roles. The NEN standard 7
 
 **Technical manager**: responsible for the technical management of standards. The technical manager is responsible for the structure and management of a technical environment necessary for maintaining the artefacts that form part of the standard. Explanation: The technical manager is responsible for the technical environment in which the artefacts under management are maintained. The technical environment consists of the set of IT resources (tools, hardware, networks, etc.) necessary for implementing functional management of the standard. The technical manager is responsible for the possible application of version management for the technical environment and the provision and maintenance of the technical environment, in consultation with the functional manager.
 
-** \Distributor**: responsible for distributing standards.
+**Distributor**: responsible for distributing standards.
 
 **Expert**: provides specific necessary expertise for the development and management of standards. Explanation: depending on the standard, different types of experts may be necessary. Experts commonly called in are substantive domain experts or experts in the field of ontology, architecture, trust, information security, cryptography or privacy. It is also common for stakeholders who have practical experience to be represented, who as a person or organisation also have the role of users.
 
