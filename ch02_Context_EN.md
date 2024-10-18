@@ -31,7 +31,8 @@ The Data Dictionary Urban Water (GWSW) is an open standard for the uniform recor
 The development and management of standards differs from the development and management of other products such as provisions and software. A provision is a combination of information, system, organisation and interface required for a service. Both internally within the provision and at the interface between the provision and the outside world, different types of standards can be used, including semantic standards. This user relationship between a standard and a provision applies equally between a standard and software.
 
 <aside class="example" title="NL-LOM en Edurep">
-The standard NL-LOM describes how metadata must be recorded in educational material. A provision that makes use of NL-LOM is Edurep, a search engine which makes it possible to find educational material based on metadata. 
+The standard NL-LOM describes how metadata must be recorded in educational material. A provision that makes use of NL-LOM is Edurep, a search engine which makes it possible to find educational material based on metadata.
+
 ([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
 [Edurep](https://www.kennisnet.nl/edurep/))
 </aside>
