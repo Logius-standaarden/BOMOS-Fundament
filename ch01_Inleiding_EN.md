@@ -6,7 +6,9 @@ Work on the predecessors to BOMOS was started in 2006, but it was not until 2009
 
 Since then, numerous working groups have become involved, all contributing to BOMOS. A positive development, that effectively reinforces the essence of BOMOS: For and By practitioners in standardisation. BOMOS as a source of inspiration for the practice of standardisation, and use of BOMOS had undoubtedly led to new experiences and needs that in turn can be integrated in the BOMOS system. It has also led to a number of different versions and variations of BOMOS, which have not made using the system easier. 
 
-![xkcd comic about competing standards](images/xkcd_standards.png "Strip over standaarden”) the idea behind this now famous cartoon is that the problem of too many standards can be solved by introducing a new standard to replace all the other standards. At the end of the day, the result is nothing more than the addition of a further standard. We have the same intention with BOMOS, but uphold the hope that the result will be different: a single BOMOS as the starting point for everyone. 
+![xkcd comic about competing standards](images/xkcd_standards.png "Strip over standaarden")
+
+The idea behind this now famous cartoon is that the problem of too many standards can be solved by introducing a new standard to replace all the other standards. At the end of the day, the result is nothing more than the addition of a further standard. We have the same intention with BOMOS, but uphold the hope that the result will be different: a single BOMOS as the starting point for everyone. 
 
 At the end of 2018, Logius organised a session to discuss the use of BOMOS; an inspiration session attended by some 40 people, representing around 30 different organisations, all of which use BOMOS (to a greater or lesser extent). One wish that emerged from this session was to produce this new version...but who should take on that task? We raised our hand, and set to work not with the objective of making too many changes to BOMOS, but rather to create this one integrated new version that replaces all previous versions while at the same time taking into account the latest developments; after all, the world of standardisation has not stood still. 
 
@@ -24,11 +26,11 @@ March 2022
 6. ‘How open a standard can be depends entirely on the structure of the development and management process.’
 7. ‘A sustainable standard is a standard that is open and managed.’
 8. ‘The worst thing about standards is that there are so many of them; it is crucial that they be reused (inspired by Professor Tanenbaum: “The nice thing about standards is that you have so many to choose from”.’)
-9. ‘The management of standards has a great deal in common with other artifacts_ (framework agreements, data, apis, ...) which makes BOMOS also suitable for use in other contexts.’
+9. ‘The management of standards has a great deal in common with other _artifacts_ (framework agreements, data, apis, ...) which makes BOMOS also suitable for use in other contexts.’
 10. ‘A standard is not good or bad, open or closed, etc.; there are many shades of grey, and always room for improvement.’
 11. ‘Without standards there would have been no pyramids (standards are as old as humanity itself).’
 12. ‘Standards, employed in architecture, form the basis for interoperability.’
-13. The essence of a standardisation process is cooperation; that makes standardisation a cultural phenomenon.’  
+13. ‘The essence of a standardisation process is cooperation; that makes standardisation a cultural phenomenon.’  
 
 ## Background 
 The management and development of standards is no easy task. Nevertheless, standards are often developed without ever considering the further development and management of those standards. This is because standardisation is often implemented in the form of a temporary project. Based on project funding for the development of a standard or a related facility, without considering structural deployment. This coincides poorly with the continuous development and management of standards.  
