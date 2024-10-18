@@ -1,6 +1,6 @@
 # The Management and Development Model: Design for development and management
 
-The [understander figuur](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
+The [figure below](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
 
 The structure consists of a series of elements:
 
@@ -8,7 +8,7 @@ The structure consists of a series of elements:
 * Two support layers: implementation support and communication.
 * A series of activities that can be implemented in each layer.
 
-![BOMOS Activiteitendiagram](images/BOMOS-15_Bomos-activiteiten-blanco.png "BOMOS Activiteitendiagram")
+![BOMOS Activiteitendiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
 
 ## Necessary structure for each situation
 
