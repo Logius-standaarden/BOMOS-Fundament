@@ -1,12 +1,14 @@
 # Introduction 
-We will start with a series of acknowledgements, before presenting the BOMOS ‘Commandments’, which bring together many of the elements that make up BOMOS. We will then describe the structure behind BOMOS before introducing the Management and Development Model itself in detail, concluding with an overview of the subjects discussed in [BOMOS Part 2: The Substantiation](https://logius-standaarden.github.io/BOMOS-Verdieping).[^1] 
+We will start with a series of acknowledgements, before presenting the BOMOS ‘Commandments’, which bring together many of the elements that make up BOMOS. We will then describe the structure behind BOMOS before introducing the Management and Development Model itself in detail, concluding with an overview of the subjects discussed in [BOMOS Part 2: The Substantiation](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). [^1] 
 
 ## Acknowledgements 
 Work on the predecessors to BOMOS was started in 2006, but it was not until 2009 that the first BOMOS publication saw the light of day, with its characteristic activity diagram. In other words, whichever way you look at it, BOMOS has been around for more than ten years. 
 
 Since then, numerous working groups have become involved, all contributing to BOMOS. A positive development, that effectively reinforces the essence of BOMOS: For and By practitioners in standardisation. BOMOS as a source of inspiration for the practice of standardisation, and use of BOMOS had undoubtedly led to new experiences and needs that in turn can be integrated in the BOMOS system. It has also led to a number of different versions and variations of BOMOS, which have not made using the system easier. 
 
-![xkcd comic about competing standards](images/xkcd_standards.png "Strip over standaarden”) the idea behind this now famous cartoon is that the problem of too many standards can be solved by introducing a new standard to replace all the other standards. At the end of the day, the result is nothing more than the addition of a further standard. We have the same intention with BOMOS, but uphold the hope that the result will be different: a single BOMOS as the starting point for everyone. 
+![xkcd comic about competing standards](images/xkcd_standards.png "Strip over standaarden")
+
+The idea behind this now famous cartoon is that the problem of too many standards can be solved by introducing a new standard to replace all the other standards. At the end of the day, the result is nothing more than the addition of a further standard. We have the same intention with BOMOS, but uphold the hope that the result will be different: a single BOMOS as the starting point for everyone. 
 
 At the end of 2018, Logius organised a session to discuss the use of BOMOS; an inspiration session attended by some 40 people, representing around 30 different organisations, all of which use BOMOS (to a greater or lesser extent). One wish that emerged from this session was to produce this new version...but who should take on that task? We raised our hand, and set to work not with the objective of making too many changes to BOMOS, but rather to create this one integrated new version that replaces all previous versions while at the same time taking into account the latest developments; after all, the world of standardisation has not stood still. 
 
@@ -24,11 +26,11 @@ March 2022
 6. ‘How open a standard can be depends entirely on the structure of the development and management process.’
 7. ‘A sustainable standard is a standard that is open and managed.’
 8. ‘The worst thing about standards is that there are so many of them; it is crucial that they be reused (inspired by Professor Tanenbaum: “The nice thing about standards is that you have so many to choose from”.’)
-9. ‘The management of standards has a great deal in common with other artifacts_ (framework agreements, data, apis, ...) which makes BOMOS also suitable for use in other contexts.’
+9. ‘The management of standards has a great deal in common with other _artifacts_ (framework agreements, data, apis, ...) which makes BOMOS also suitable for use in other contexts.’
 10. ‘A standard is not good or bad, open or closed, etc.; there are many shades of grey, and always room for improvement.’
 11. ‘Without standards there would have been no pyramids (standards are as old as humanity itself).’
 12. ‘Standards, employed in architecture, form the basis for interoperability.’
-13. The essence of a standardisation process is cooperation; that makes standardisation a cultural phenomenon.’  
+13. ‘The essence of a standardisation process is cooperation; that makes standardisation a cultural phenomenon.’  
 
 ## Background 
 The management and development of standards is no easy task. Nevertheless, standards are often developed without ever considering the further development and management of those standards. This is because standardisation is often implemented in the form of a temporary project. Based on project funding for the development of a standard or a related facility, without considering structural deployment. This coincides poorly with the continuous development and management of standards.  
@@ -69,22 +71,22 @@ To safeguard any further development, and with a view to the interests of all us
 ## BOMOS structure
 
 BOMOS consists of:
-* [BOMOS Part 1: The Foundation (this document)
-* BOMOS Part 2: The Substantiation](https://logius-standaarden.github.io/BOMOS-Verdieping)
-* BOMOS Supplementary modules: [Linked Data](https://logius-standaarden.github.io/BOMOS-LinkedData) en [Stelsels](https://logius-standaarden.github.io/BOMOS-Stelsels)
+* BOMOS Part 1: The Foundation (this document)
+* BOMOS Part 2: [The Substantiation](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/)
+* BOMOS Supplementary modules: [Linked Data](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/) en [Stelsels](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/)
 
 The heart of BOMOS is the ‘Foundation’. This consists of a basic description of the Management and Development Model and a further elaboration based on literature and experiences gained in practice.  In essence, the Management and Development Model is an activity diagram which also offers a definition of the roles relevant in the process of managing and developing standards. 
 
-In addition the [BOMOS in part 2](https://logius-standaarden.github.io/BOMOS-Verdieping) offers further insight in particular by sharing best practices from the world of standardisation. 
+In addition the [BOMOS in part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/) offers further insight in particular by sharing best practices from the world of standardisation. 
 
 Together Part 1 and Part 2 form the basis for BOMOS.
  On top of this basic structure, the community has produced a number of BOMOS expansions which can be useful in deploying BOMOS in concrete situations, some of which may involve a slightly different context. We refer to these as the BOMOS Supplementary Modules or a Body of Knowledge, which will remain dynamic over time. 
 
-When we talk about BOMOS, what we are actually referring to is the basis as described in Part 1 and [Part 2](https://logius-standaarden.github.io/BOMOS-Verdieping). Although the supplementary modules are clearly linked to BOMOS, they have their own governance, which can result in their being given their own name, their own target group, their own management system, etc. The [BOMOS management process](#het-beheer-en-ontwikkelmodel-onderwerpen-voor-ontwikkeling-en-beheer) also describes the requirements that are imposed before something can be added as a BOMOS supplementary module. 
+When we talk about BOMOS, what we are actually referring to is the basis as described in Part 1 and [Part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). Although the supplementary modules are clearly linked to BOMOS, they have their own governance, which can result in their being given their own name, their own target group, their own management system, etc. The [BOMOS management process](#the-management-and-development-model-design-for-development-and-management) also describes the requirements that are imposed before something can be added as a BOMOS supplementary module. 
 
  The first two supplementary modules are:
--	[Linked Data & Ontologieën](https://logius-standaarden.github.io/BOMOS-LinkedData): the specific use of Linked Data for sematic standards.
--	Structure for [BOMOS for the management of trust framework](https://logius-standaarden.github.io/BOMOS-Stelsels): the use of BOMOS in the specific situation governing trust frameworks.
+-	[Linked Data & Ontologieën](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/): the specific use of Linked Data for sematic standards.
+-	Structure for [BOMOS for the management of trust framework](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/): the use of BOMOS in the specific situation governing trust frameworks.
 
 ## Reading guide 
 If from your policy making or administrative role you are only interested in the primary level, the foundation (part 1) will offer sufficient background and context. If however you are personally active in standardisation communities, you can seamlessly continue with reading part 2: The substantiation with best practices, which includes more background and practical tips for standardisation. 
