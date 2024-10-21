@@ -1,5 +1,5 @@
 # Introduction 
-We will start with a series of acknowledgements, before presenting the BOMOS ‘Commandments’, which bring together many of the elements that make up BOMOS. We will then describe the structure behind BOMOS before introducing the Management and Development Model itself in detail, concluding with an overview of the subjects discussed in [BOMOS Part 2: The Substantiation](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). 
+We will start with a series of acknowledgements, before presenting the BOMOS ‘Commandments’, which bring together many of the elements that make up BOMOS. We will then describe the structure behind BOMOS before introducing the Management and Development Model itself in detail, concluding with an overview of the subjects discussed in [BOMOS Part 2: The Substantiation](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). [^1] 
 
 ## Acknowledgements 
 Work on the predecessors to BOMOS was started in 2006, but it was not until 2009 that the first BOMOS publication saw the light of day, with its characteristic activity diagram. In other words, whichever way you look at it, BOMOS has been around for more than ten years. 
@@ -92,3 +92,4 @@ When we talk about BOMOS, what we are actually referring to is the basis as desc
 If from your policy making or administrative role you are only interested in the primary level, the foundation (part 1) will offer sufficient background and context. If however you are personally active in standardisation communities, you can seamlessly continue with reading part 2: The substantiation with best practices, which includes more background and practical tips for standardisation. 
 
 If you actually intend to make use of BOMOS, it is advisable that you also study the supplementary modules. These contain examples and tools that could prove useful for implementing open standards. The supplementary modules also contain variants on BOMOS. These implementation profiles make BOMOS suitable for use with more than just semantic standards. 
+[^1]: BOMOS is an abreviaton of "Beheer en OntwikkelModel voor Open Standaarden". Translated this is Management and Development Model for Open Standards
