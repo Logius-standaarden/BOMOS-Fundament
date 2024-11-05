@@ -93,12 +93,11 @@ Implementation support | Functional manager | Technical manager, experts
 Communication | Distributor | Functional manager, technical manager, experts
 
 ## How to use BOMOS as a tool for the management organisation
-
-[Eerder hebben we beschreven in welke situaties BOMOS te gebruiken is](#bomos-gebruiken), here we make the step to _how_ BOMOS can be used. This cannot be easily and uniformly defined, as it is determined by the context of the user. That context itself can be determined by mapping out the situational characteristics. One key situational characteristic is the position of the standard in the standard lifecycle.
+Earlier, we described in which situations BOMOS can be used, here we make the step to _how_ BOMOS can be used. This cannot be easily and uniformly defined, as it is determined by the context of the user. That context itself can be determined by mapping out the situational characteristics. One key situational characteristic is the position of the standard in the standard lifecycle.
 
 The current life phase of a standard clearly impacts on the structure of the management. A standard still in the development phase imposes different requirements on management than a standard that has been broadly adopted and implemented. A sensible rule of thumb is to carry out a check (on the basis of the Management and Development Model) at each transition point, to determine whether your management structure is still compliant. Below is a description of the phases of the standard lifecycle, to enable you to determine the current phase of your standard.
 
-![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](images/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
+![Life phases of a standard. A linear progression goes from creation, through introduction and maturity, to phasing out. A loop goes from introduction and implementation to maturity and back againg](images/BOMOS-17_Adoptie-Tijd-blanco_EN.png "Life phases of a standard")
 
 **1. Creation / development**
 
