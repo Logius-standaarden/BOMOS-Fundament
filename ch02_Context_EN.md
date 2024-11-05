@@ -39,7 +39,7 @@ The standard NL-LOM describes how metadata must be recorded in educational mater
 
 As a consequence, standards have a different set of users and a different set of challenges, such as harmonisation with communities and international standards. This does not mean that the discipline of semantic standardisation is unable to learn from other disciplines such as the software world. Models from those disciplines can be perfectly usable. In particular the BiSL framework for functional management is usable to a certain degree and was also considered in the creation of BOMOS (For more information about BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van Outvorst, Van Haren Publishing, 2005.).
 
-BOMOS was initially developed for semantic standards; this focus is still regularly reflected among others in [de best practices in deel 2](https://logius-standaarden.github.io/BOMOS-Verdieping/). However, on the basis of user experiences, we have since also learned that where BOMOS is employed advisedly, it is also usable in the context of other standards (such as technical or organisational standards), provisions, frameworks or even other concepts such as the management of data, or software. User experiences of this kind, which may result in amended BOMOS versions for use in a specific context, can be published as BOMOS Supplementary Modules. 
+BOMOS was initially developed for semantic standards; this focus is still regularly reflected among others in [the best practices in part 2](https://logius-standaarden.github.io/BOMOS-Verdieping/). However, on the basis of user experiences, we have since also learned that where BOMOS is employed advisedly, it is also usable in the context of other standards (such as technical or organisational standards), provisions, frameworks or even other concepts such as the management of data, or software. User experiences of this kind, which may result in amended BOMOS versions for use in a specific context, can be published as BOMOS Supplementary Modules. 
 
 ## Definitions
 
@@ -51,6 +51,7 @@ It is possible to distinguish between development and management. The management
 The development of standards relates to the development of a standard as a solution for a new functional domain. This can mean that on the basis of the development the existing standard is expanded, or that a new standard emerges.
 
 Management and development in its broadest sense, for a standard, also includes such subjects as adoption and certification. 
+
 **Management and Development Model**
 The Management and Development Model is a layered structure of subjects necessary for the development and management of an open standard, as reproduced in an activity diagram. It is the core of BOMOS.
 
