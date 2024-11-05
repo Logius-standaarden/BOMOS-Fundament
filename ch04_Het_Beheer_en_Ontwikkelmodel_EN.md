@@ -8,7 +8,7 @@ The structure consists of a series of elements:
 * Two support layers: implementation support and communication.
 * A series of activities that can be implemented in each layer.
 
-![BOMOS Activiteitendiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
+![BOMOS Activitydiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
 
 ## Necessary structure for each situation
 
