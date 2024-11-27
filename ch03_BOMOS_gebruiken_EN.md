@@ -15,13 +15,14 @@ Another application is the structuring of a completely new standards management 
 There are a number of options:
 
 1. Is there already a standard in place?
- 	On occasion there is not yet a standard but a standard needs to be developed. In the chapter on operational management, we consider gathering the correct wishes for and requirements on the standard. The next step is to build the bridge to the management process.
+ 	On occasion there is not yet a standard but a standard needs to be developed. In the chapter on operational management, we consider gathering the correct wishes for and requirements on the standard. The next step is bring the standard to the to the management process.
 
 2. Structuring the management process
  	It starts with setting the scope for the management process: what does the management process need to be equipped for? To manage a single standard or multiple standards? Depending on the answer, using BOMOS, it is possible to make a choice relating to the management activities (strategic, tactical, operational) and support activities. Using BOMOS it is not only possible to deliberately choose whether or not to undertake certain management activities; the system also contains hints and tips for the structuring of the activities themselves.
 
-3. Has a management organisation already been established?
- 	There is often already some form of management structure. In that case, BOMOS can be used to check whether all activities still comply and whether in addition to operational activities, strategic and tactical activities also need to be dealt with. BOMOS can also serve to improve the openness of the process.
+3. Has a standards management organisation already been established?
+ 	There is often already some form of management structure. In that case, BOMOS can be used to check whether all activities comply and whether in addition to operational activities, strategic and tactical activities also need to be dealt with. BOMOS can also serve to improve the openness of the process.
+
 
 4. Tackling specific problems
 
