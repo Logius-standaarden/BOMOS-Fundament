@@ -26,7 +26,7 @@ There are a number of options:
 
 4. Tackling specific problems
 
- 	There are often specific problems. BOMS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
+ 	BOMS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
    * Quality: how can the quality of a standard be measured and improved?
    * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
    * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
@@ -44,11 +44,11 @@ The TOOI management plan describes how the specifications for TOOI are managed. 
 
 ## BOMOS as background information and a source of inspiration
 
-BOMOS is extremely useful as a source of background information, for example for the parties who commission standards. The BOMOS Model was in fact developed for this purpose, and lays a solid foundation. Knowledge about the management of standards is essential for everyone involved in standardisation.
+BOMOS is extremely useful as a source of background information, for example for parties who commission standards. The BOMOS Model was in fact developed for this purpose, and lays a solid foundation. Knowledge about the management of standards is essential for everyone involved in standardisation.
 
-In the substantiation section, solutions are presented based on practical experience: where possible, examples are used to demonstrate the acceptance of the solution in practice, to describe the standardisation organisations that have experience with that process and to present the related recommendations and advice. In other words, valuable background information about practical situations.
+In the elaboration section, solutions are presented based on practical experience: where possible, examples are used to demonstrate the acceptance of the solution in practice, to describe the standardisation organisations that have experience with that process and to present the related recommendations and advice. In other words, valuable background information about practical situations.
 
-Together, these two elements for the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
+Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
 
 ## BOMOS as a mirror for the current management process
 
