@@ -2,15 +2,15 @@
 
 How can BOMOS be used? There are a number of different options:
 
-1. As a tool for further development of management organisations
+1. As a tool for further development of standards management organisations
 2. As background information and a source of inspiration
 3. As a mirror for the current management process
 
 ## BOMOS as a tool for further development of the management organisations
 
-The most important application of BOMOS is as a tool for the further development of management organisations. Many management organisations originate from an initial project or programme. This is sometimes linked to a specific provision. Management of the standard can then have a dependency with the operational management of that provision. To enable the standard to be deployed more broadly, further considerations are needed and BOMOS can be useful in that context.
+The most important application of BOMOS is as a tool for the further development of standards management organisations. Many standards management organisations originate from an initial project or programme. This is sometimes linked to a specific service. Management of the standard can then have a dependency with the operational management of that service. To enable the standard to be deployed beyond the service it was developed for, further considerations are needed and BOMOS can be useful in that context.
 
-Another application is the structuring of a completely new management organisation. If organisations opt to agree on a standard in a sector, it is not possible to avoid reaching not only substantive but also financial and management-related agreements. In that case, BOMOS can be a useful guideline for reaching those agreements.
+Another application is the structuring of a completely new standards management organisation. If organisations opt to agree on a standard in a sector, it is not possible to avoid reaching not only substantive but also financial and management-related agreements. In that case, BOMOS can be a useful guideline for reaching those agreements.
 
 There are a number of options:
 
