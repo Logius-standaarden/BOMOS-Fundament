@@ -21,7 +21,7 @@ As a result of the situational dependence it is not possible to identify core su
 Depending on the situation, the next step is to determine which subjects should be given priority. The figure shows the three traditional layers: strategy, tactical and operational. These are flanked by two support processes: communication and implementation support. 
 The model could suggest that these subjects operate in isolation, because no relationships between them are shown. However, the opposite is the case: many subjects are related - both within a main group and between the main groups.
 
-This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Part 2: The Substantiation](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
+This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Part 2: The Elaboration](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
 
 ## The subjects from the model 
 The activities referred to can be interpreted as follows:

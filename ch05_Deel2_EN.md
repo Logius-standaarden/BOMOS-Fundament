@@ -1,4 +1,4 @@
-# BOMOS best practices a review - Introduction to BOMOS Part 2: The Substantiation
+# BOMOS best practices a review - Introduction to BOMOS Part 2: The Elaboration
 
 On its own, the Management and Development Model for standards creates a foundation, but it is not enough to solve all the standardisation issues. Choices have to be made in a number of different areas, relating to the structuring of the management process for standards. This reveals a number of different issues such as:
 
@@ -11,7 +11,7 @@ For example about:
 * The quality of the standard leads to problems and dissatisfaction.
 * Suppliers that want to be certified so they can boost their profile.
 
-These subjects are discussed in detail in Part 2 - The Substantiation:
+These subjects are discussed in detail in Part 2 - The Elaboration:
 
 **[The organisational structure](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-ontwikkel-en-beheerorganisatie-activiteit-governance)**
 

@@ -50,6 +50,7 @@ In the elaboration section, solutions are presented based on practical experienc
 
 Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
 
+
 ## BOMOS as a mirror for the current management process
 
 Various organisations use BOMOS as a sort of underpinning or even as a guideline for the management of their (open) standard. Other organisations use BOMOS as an outline checklist and to account for and substantiate specific choices they make. However, BOMOS has no normative role. That is indeed not possible, because the structuring of the management is highly situationally dependent.
