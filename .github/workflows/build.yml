@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - en
 jobs:
   build:
     name: Build
