@@ -20,9 +20,9 @@ Erwin Folmer & Gül Işik & Edwin Wisse
 March 2022
 
 ## The 13 BOMOS ‘commandments’ 
-1. ‘An non-managed standard is not a standard!’
-2. ‘It is never too early to start looking into possibilities to manage the standard.’
-3. ‘Developing and managing a standard is not a temporary project. Which makes project financing an unsuitable source of funding.’
+1. ‘An unmanaged standard is not a standard!’
+2. ‘It is never too early to start looking into possibilities for managing the standard.’
+3. ‘Developing and managing a standard is not a temporary project, which makes project financing an unsuitable source of funding.’
 4. ‘Developing and managing a standard is a situational process which potentially requires a different structure for every standard!’
 5. ‘A standard is never finished!’
 6. ‘How open a standard can be depends entirely on the structure of the development and management process.’
