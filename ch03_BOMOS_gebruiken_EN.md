@@ -26,7 +26,7 @@ There are a number of options:
 
 4. Tackling specific problems
 
- 	BOMS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
+ 	BOMOS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
    * Quality: how can the quality of a standard be measured and improved?
    * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
    * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
