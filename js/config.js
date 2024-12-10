@@ -1,7 +1,7 @@
 var respecConfig = {
   alternateFormats: [ { 
         "label" : "pdf",
-        "uri" : "BOMOS-Fundament.pdf"
+        "uri" : "BOMOS-Foundation.pdf"
       } ],
   authors: [ { 
         "company" : "HAN University of Applied Sciences",
@@ -33,7 +33,7 @@ var respecConfig = {
   pubDomain: "bomos",
   publishDate: "2023-11-02",
   publishVersion: "3.0.1",
-  shortName: "fundament",
+  shortName: "fundament/en",
   specStatus: "DEF",
   specType: "HR"
 };
