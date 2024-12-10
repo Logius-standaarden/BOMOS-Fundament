@@ -2,30 +2,31 @@
 
 How can BOMOS be used? There are a number of different options:
 
-1. As a tool for further development of management organisations
+1. As a tool for further development of standards management organisations
 2. As background information and a source of inspiration
 3. As a mirror for the current management process
 
 ## BOMOS as a tool for further development of the management organisations
 
-The most important application of BOMOS is as a tool for the further development of management organisations. Many management organisations originate from an initial project or programme. This is sometimes linked to a specific provision. Management of the standard can then have a dependency with the operational management of that provision. To enable the standard to be deployed more broadly, further considerations are needed and BOMOS can be useful in that context.
+The most important application of BOMOS is as a tool for the further development of standards management organisations. Many standards management organisations originate from an initial project or programme. This is sometimes linked to a specific service. Management of the standard can then have a dependency with the operational management of that service. To enable the standard to be deployed beyond the service it was developed for, further considerations are needed and BOMOS can be useful in that context.
 
-Another application is the structuring of a completely new management organisation. If organisations opt to agree on a standard in a sector, it is not possible to avoid reaching not only substantive but also financial and management-related agreements. In that case, BOMOS can be a useful guideline for reaching those agreements.
+Another application is the structuring of a completely new standards management organisation. If organisations opt to agree on a standard in a sector, it is not possible to avoid reaching not only substantive but also financial and management-related agreements. In that case, BOMOS can be a useful guideline for reaching those agreements.
 
 There are a number of options:
 
 1. Is there already a standard in place?
- 	On occasion there is not yet a standard but a standard needs to be developed. In the chapter on operational management, we consider gathering the correct wishes for and requirements on the standard. The next step is to build the bridge to the management process.
+ 	On occasion there is not yet a standard but a standard needs to be developed. In the chapter on operational management, we consider gathering the correct wishes for and requirements on the standard. The next step is bring the standard to the to the management process.
 
 2. Structuring the management process
  	It starts with setting the scope for the management process: what does the management process need to be equipped for? To manage a single standard or multiple standards? Depending on the answer, using BOMOS, it is possible to make a choice relating to the management activities (strategic, tactical, operational) and support activities. Using BOMOS it is not only possible to deliberately choose whether or not to undertake certain management activities; the system also contains hints and tips for the structuring of the activities themselves.
 
-3. Has a management organisation already been established?
- 	There is often already some form of management structure. In that case, BOMOS can be used to check whether all activities still comply and whether in addition to operational activities, strategic and tactical activities also need to be dealt with. BOMOS can also serve to improve the openness of the process.
+3. Has a standards management organisation already been established?
+ 	There is often already some form of management structure. In that case, BOMOS can be used to check whether all activities comply and whether in addition to operational activities, strategic and tactical activities also need to be dealt with. BOMOS can also serve to improve the openness of the process.
+
 
 4. Tackling specific problems
 
- 	There are often specific problems. BOMS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
+ 	BOMOS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
    * Quality: how can the quality of a standard be measured and improved?
    * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
    * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
@@ -43,11 +44,12 @@ The TOOI management plan describes how the specifications for TOOI are managed. 
 
 ## BOMOS as background information and a source of inspiration
 
-BOMOS is extremely useful as a source of background information, for example for the parties who commission standards. The BOMOS Model was in fact developed for this purpose, and lays a solid foundation. Knowledge about the management of standards is essential for everyone involved in standardisation.
+BOMOS is extremely useful as a source of background information, for example for parties who commission standards. The BOMOS Model was in fact developed for this purpose, and lays a solid foundation. Knowledge about the management of standards is essential for everyone involved in standardisation.
 
-In the substantiation section, solutions are presented based on practical experience: where possible, examples are used to demonstrate the acceptance of the solution in practice, to describe the standardisation organisations that have experience with that process and to present the related recommendations and advice. In other words, valuable background information about practical situations.
+In the elaboration section, solutions are presented based on practical experience: where possible, examples are used to demonstrate the acceptance of the solution in practice, to describe the standardisation organisations that have experience with that process and to present the related recommendations and advice. In other words, valuable background information about practical situations.
 
-Together, these two elements for the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
+Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
+
 
 ## BOMOS as a mirror for the current management process
 
