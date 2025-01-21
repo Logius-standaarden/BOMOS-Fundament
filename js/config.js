@@ -23,6 +23,11 @@ var respecConfig = {
         "company" : "Logius",
         "companyURL" : "http://www.logius.nl/",
         "name" : "Edwin Wisse"
+      },
+      { 
+        "company" : "TNO",
+        "companyURL" : "https://www.tno.nl/nl/",
+        "name" : "Wouter van den Berg"
       }
     ],
   github: "https://github.com/Logius-standaarden/BOMOS-Fundament",
