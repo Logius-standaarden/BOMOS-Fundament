@@ -5,13 +5,13 @@ var respecConfig = {
       } ],
   authors: [ { 
         "company" : "HAN University of Applied Sciences",
-        "companyURL" : "https://www.utwente.nl/",
+        "companyURL" : "https://www.han.nl/",
         "name" : "Erwin Folmer"
       } ],
   editors: [ 
       { 
         "company" : "HAN University of Applied Sciences",
-        "companyURL" : "https://www.utwente.nl/",
+        "companyURL" : "https://www.han.nl/",
         "name" : "Erwin Folmer"
       },
       { 
@@ -21,7 +21,7 @@ var respecConfig = {
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl/",
         "name" : "Edwin Wisse"
       },
       { 
