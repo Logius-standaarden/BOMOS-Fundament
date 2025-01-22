@@ -1,4 +1,4 @@
-# In conclusion
+# In Conclusion
 
 One important subject which often remains little discussed in terms of knowledge of standards is the structure of the development and management process. BOMOS is an attempt to provide a guideline for structuring a development and management process within an organisation. It places additional focus on how the development and management can be achieved in an open manner.
 The document also explains that the development and management of standards is a complex issue, comprising numerous different tasks which may or may not have to be implemented, and which can be implemented in different ways, depending on the context of the standard.

@@ -6,7 +6,7 @@ How can BOMOS be used? There are a number of different options:
 2. As background information and a source of inspiration
 3. As a mirror for the current management process
 
-## BOMOS as a tool for further development of the management organisations
+## BOMOS as a Tool for Further Development of the Management Organisations
 
 The most important application of BOMOS is as a tool for the further development of standards management organisations. Many standards management organisations originate from an initial project or programme. This is sometimes linked to a specific service. Management of the standard can then have a dependency with the operational management of that service. To enable the standard to be deployed beyond the service it was developed for, further considerations are needed and BOMOS can be useful in that context.
 
@@ -42,7 +42,7 @@ TOOI (Thesaurus and Ontology for Government Information) is a model for the info
 The TOOI management plan describes how the specifications for TOOI are managed. It encompasses both the management organisation and the underlying rules and regulations. The TOOI management plan was established according to the principles of BOMOS. The structure based on the 5 themes from BOMOS (Strategy, Tactical, Operational, Implementation Support and Communication) are described in detail on the TOOI (Dutch) [website](https://standaarden.overheid.nl/tooi/beheerplan).
 </aside>
 
-## BOMOS as background information and a source of inspiration
+## BOMOS as Background Information and a Source of Inspiration
 
 BOMOS is extremely useful as a source of background information, for example for parties who commission standards. The BOMOS Model was in fact developed for this purpose, and lays a solid foundation. Knowledge about the management of standards is essential for everyone involved in standardisation.
 
@@ -51,7 +51,7 @@ In the elaboration section, solutions are presented based on practical experienc
 Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
 
 
-## BOMOS as a mirror for the current management process
+## BOMOS as a Mirror for the Current Management Process
 
 Various organisations use BOMOS as a sort of underpinning or even as a guideline for the management of their (open) standard. Other organisations use BOMOS as an outline checklist and to account for and substantiate specific choices they make. However, BOMOS has no normative role. That is indeed not possible, because the structuring of the management is highly situationally dependent.
 

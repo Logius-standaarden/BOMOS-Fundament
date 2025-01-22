@@ -1,4 +1,4 @@
-# The Management and Development Model: Design for development and management
+# The Management and Development Model: Design for Development and mMnagement
 
 The [figure below](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
 
@@ -10,7 +10,7 @@ The structure consists of a series of elements:
 
 ![BOMOS Activitydiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
 
-## Necessary structure for each situation
+## Necessary Structure for each Situation
 
 The structure of the development and management subjects is situationally dependent; in other words, different situations can result in a different structure for the optimum result. Every subject can be implemented in a minimum and a maximum scenario, or may not in fact be relevant for a specific organisation. In other words there is no automatic requirement that every subject is implemented. Indeed, too much emphasis on formalisation can have a counterproductive result.
 
@@ -23,7 +23,7 @@ The model could suggest that these subjects operate in isolation, because no rel
 
 This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Part 2: The Elaboration](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
 
-## The subjects from the model 
+## The Subjects from the Model 
 The activities referred to can be interpreted as follows:
 
 **Strategy**: Course-setting activities related to the strategic (long) term:
@@ -92,7 +92,7 @@ Operational | Functional manager | Technical manager, experts
 Implementation support | Functional manager | Technical manager, experts
 Communication | Distributor | Functional manager, technical manager, experts
 
-## How to use BOMOS as a tool for the management organisation
+## How to use BOMOS as a Tool for the Management Organisation
 Earlier, we described in which situations BOMOS can be used, here we make the step to _how_ BOMOS can be used. This cannot be easily and uniformly defined, as it is determined by the context of the user. That context itself can be determined by mapping out the situational characteristics. One key situational characteristic is the position of the standard in the standard lifecycle.
 
 The current life phase of a standard clearly impacts on the structure of the management. A standard still in the development phase imposes different requirements on management than a standard that has been broadly adopted and implemented. A sensible rule of thumb is to carry out a check (on the basis of the Management and Development Model) at each transition point, to determine whether your management structure is still compliant. Below is a description of the phases of the standard lifecycle, to enable you to determine the current phase of your standard.

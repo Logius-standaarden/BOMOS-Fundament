@@ -1,6 +1,6 @@
 # Context & Definitions
 
-## Context: standards for interoperability
+## Context: Standards for Interoperability
 
 The most important reasons for organisations to strive for interoperability are effectiveness and efficiency. Standardisation ensures improved cooperation throughout the chain comprising for example partners, suppliers and customers.
 

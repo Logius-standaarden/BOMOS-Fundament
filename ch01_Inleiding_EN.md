@@ -19,7 +19,7 @@ Only time will show whether we have successfully replaced the earlier work with 
 Erwin Folmer & Gül Işik & Edwin Wisse
 March 2022
 
-## The 13 BOMOS ‘commandments’ 
+## The 13 BOMOS ‘Commandments’ 
 1. ‘An unmanaged standard is not a standard!’
 2. ‘It is never too early to start looking into possibilities for managing the standard.’
 3. ‘Developing and managing a standard is not a temporary project, which makes project financing an unsuitable source of funding.’
@@ -72,7 +72,7 @@ To safeguard any further development, and with a view to the interests of all us
 - Information is accessible to everyone, with clear conditions of use.
 </aside>
 
-## BOMOS structure
+## BOMOS Structure
 
 BOMOS consists of:
 * BOMOS Part 1: Foundation (this document)
@@ -92,7 +92,7 @@ When we talk about BOMOS, what we are actually referring to is the basis as desc
 -	[Linked Data & Ontologies](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/): the specific use of Linked Data for sematic standards.
 -	Structure for [BOMOS for the management of Trust Frameworks](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/): the use of BOMOS in the specific situation governing trust frameworks.
 
-## Reading guide 
+## Reading Guide 
 If from your policy making or administrative role you are only interested in the primary level, the foundation (part 1) will offer sufficient background and context. If however you are personally active in standardisation communities, you can seamlessly continue with reading part 2: The elaboration with best practices, which includes more background and practical tips for standardisation. 
 
 If you actually intend to make use of BOMOS, it is advisable that you also study the supplementary modules. These contain examples and tools that could prove useful for implementing open standards. The supplementary modules also contain variants on BOMOS. These implementation profiles make BOMOS suitable for use with more than just semantic standards. 
