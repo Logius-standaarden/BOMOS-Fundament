@@ -1,5 +1,5 @@
 # Introduction 
-_BOMOS is the abreviaton of dutch name "Beheer en OntwikkelModel voor Open Standaarden". In English this means **Management and Development Model for Open Standards**_. We will use BOMOS as a noun in the English version rather than introducing a new acronym.
+_BOMOS is the abbreviaton of dutch name "Beheer en OntwikkelModel voor Open Standaarden". In English this means **Management and Development Model for Open Standards**_. We will use BOMOS as a noun in the English version rather than introducing a new acronym.
 
 We will start with a series of acknowledgements, before presenting the BOMOS ‘Commandments’, which bring together many of the elements that make up BOMOS. We will then describe the structure behind BOMOS before introducing the Management and Development Model itself in detail, concluding with an overview of the subjects discussed in [BOMOS Part 2: The Elaboration](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/).  
 
