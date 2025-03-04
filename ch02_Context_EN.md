@@ -79,9 +79,7 @@ Open Standard:
 https://forumstandaardisatie.nl/open-standaarden
 
 Standardisation Handbook:
-
 https://en.wikipedia.org/wiki/Open_standard
-
 https://open-stand.org/
 
 European Interoperability Framework:  

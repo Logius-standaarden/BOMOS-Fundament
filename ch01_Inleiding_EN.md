@@ -46,7 +46,7 @@ The purpose of this publication is to assist organisations in compiling and impr
 
 These specific questions were the original reason for drawing up the Management and Development Model for Open Standards (BOMOS) with its best practice guidelines for an open structure for management. Since that time, BOMOS has been used in practice, and users have expressed the need to share more knowledge and experience with the management of standards.  Other issues such as improving interoperability based on standards, transparency and the manageability of standards have been added. Finally BOMOS is now used as the common language in the world of standardisation. 
 
-## Target group
+## Target audience
 The purpose of BOMOS is to support and inspire standardisation communities and their clients in the structural design and management as well as the further development of standards. Practical insights are used to provide this target group with simple and clear models and recommendations. 
 
 ## Approach & History
