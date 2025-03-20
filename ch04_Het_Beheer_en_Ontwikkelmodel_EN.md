@@ -1,6 +1,6 @@
 # The Management and Development Model: Design for Development and Management
 
-The [figure below](#fig-bomos-activiteitendiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
+The [figure below](#fig-bomos-activitydiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
 
 The structure consists of a series of elements:
 
