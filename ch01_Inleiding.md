@@ -24,7 +24,7 @@ ervaringen en behoeftes die ook weer verwerkt kunnen worden in
 BOMOS. Het heeft ook geleidt tot verschillende versies en variaties
 van BOMOS, wat het gebruik niet makkelijker maakt.
 
-![xkcd comic about competing standards](images/xkcd_standards.png "Strip over standaarden")
+![xkcd comic about competing standards](media/xkcd_standards.png "Strip over standaarden")
 
 In de beroemde strip denkt men het teveel standaarden op te lossen
 door het introduceren van een nieuwe standaard die alle anderen
