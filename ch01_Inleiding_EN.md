@@ -8,7 +8,7 @@ Work on the predecessors to BOMOS was started in 2006, but it was not until 2009
 
 Since then, numerous working groups have become involved, all contributing to BOMOS. A positive development, that effectively reinforces the essence of BOMOS: For and By practitioners in standardisation. BOMOS as a source of inspiration for the practice of standardisation, and use of BOMOS had undoubtedly led to new experiences and needs that in turn can be integrated in the BOMOS system. It has also led to a number of different versions and variations of BOMOS, which have not made using the system easier. 
 
-![xkcd comic about competing standards](images/xkcd_standards.png "Comic about competing standards")
+![xkcd comic about competing standards](media/xkcd_standards.png "Comic about competing standards")
 
 The idea behind this now famous cartoon is that the problem of too many standards can be solved by introducing a new standard to replace all the other standards. At the end of the day, the result is nothing more than the addition of a further standard. We have the same intention with BOMOS, but uphold the hope that the result will be different: a single BOMOS as the starting point for everyone. 
 

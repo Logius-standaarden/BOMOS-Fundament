@@ -8,7 +8,7 @@ The structure consists of a series of elements:
 * Two support layers: implementation support and communication.
 * A series of activities that can be implemented in each layer.
 
-![BOMOS Activitydiagram](images/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
+![BOMOS Activitydiagram](media/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
 
 ## Necessary Structure for each Situation
 
@@ -97,7 +97,7 @@ Earlier, we described in which situations BOMOS can be used, here we make the st
 
 The current life phase of a standard clearly impacts on the structure of the management. A standard still in the development phase imposes different requirements on management than a standard that has been broadly adopted and implemented. A sensible rule of thumb is to carry out a check (on the basis of the Management and Development Model) at each transition point, to determine whether your management structure is still compliant. Below is a description of the phases of the standard lifecycle, to enable you to determine the current phase of your standard.
 
-![Life phases of a standard. A linear progression goes from creation, through introduction and maturity, to phasing out. A loop goes from introduction and implementation to maturity and back againg](images/BOMOS-17_Adoptie-Tijd-blanco_EN.png "Life phases of a standard")
+![Life phases of a standard. A linear progression goes from creation, through introduction and maturity, to phasing out. A loop goes from introduction and implementation to maturity and back againg](media/BOMOS-17_Adoptie-Tijd-blanco_EN.png "Life phases of a standard")
 
 **1. Creation / development**
 
