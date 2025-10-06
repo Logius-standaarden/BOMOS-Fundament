@@ -1,17 +1,19 @@
-var respecConfig = {
+import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
+
+loadRespecWithConfiguration({
   alternateFormats: [ { 
         "label" : "pdf",
         "uri" : "BOMOS-Fundament.pdf"
       } ],
   authors: [ { 
         "company" : "HAN University of Applied Sciences",
-        "companyURL" : "https://www.utwente.nl/",
+        "companyURL" : "https://www.han.nl/",
         "name" : "Erwin Folmer"
       } ],
   editors: [ 
       { 
         "company" : "HAN University of Applied Sciences",
-        "companyURL" : "https://www.utwente.nl/",
+        "companyURL" : "https://www.han.nl/",
         "name" : "Erwin Folmer"
       },
       { 
@@ -21,8 +23,13 @@ var respecConfig = {
       },
       { 
         "company" : "Logius",
-        "companyURL" : "http://www.logius.nl/",
+        "companyURL" : "https://www.logius.nl/",
         "name" : "Edwin Wisse"
+      },
+      { 
+        "company" : "TNO",
+        "companyURL" : "https://www.tno.nl/nl/",
+        "name" : "Wouter van den Berg"
       }
     ],
   github: "https://github.com/Logius-standaarden/BOMOS-Fundament",
@@ -36,4 +43,4 @@ var respecConfig = {
   shortName: "fundament",
   specStatus: "WV",
   specType: "HR"
-};
+});
