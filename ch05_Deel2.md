@@ -148,7 +148,7 @@ gebruik maken van Web 2.0 toepassingen, of het concept van de pressure
 cooker, maken het mogelijk om sneller en goedkoper standaarden te
 ontwikkelen.
 
-**[Conformance, certificering, validatie](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteit-van-implementaties)**
+**[Conformance, certificering, validatie](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping#kwaliteit-van-implementaties)**
 
 Vaak als een standaard grofweg 2 jaar bestaat ontstaat er behoefte aan
 certificatie. Leveranciers willen graag hun implementatie van de
