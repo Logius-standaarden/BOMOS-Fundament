@@ -165,8 +165,10 @@ standaard gebruiken. Ook met validatie kan conformance aan een
 standaard gecontroleerd worden maar op een laagdrempelige manier.
 
 **[Ondersteuning bieden aan implementaties](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#implementatie-ondersteuning)**
+
 De ondersteuning bieden aan implementaties is het gevolg van strategische en met name tactische keuzes rond onder meer adoptie en kwaliteit; andere best practices onderwerpen.
 Vandaar een wat kortere beschrijving mogelijke invullingen.
 
 **[Bekendheid creëren](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping#communicatie)**
+
 Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt, dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.
