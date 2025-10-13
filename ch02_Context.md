@@ -133,7 +133,7 @@ kunnen gepubliceerd worden als BOMOS Aanvullende Module.
 
 ## Definities
 
-Beheer en Ontwikkelen van standaarden (kortweg: beheer)</dfn>
+<dfn>Beheer en Ontwikkelen van standaarden (kortweg: beheer)</dfn>
 Alle activiteiten gericht op het structureel werken aan, beschikbaar
 stellen, en houden van een (set van) standaard(en) die steeds past bij
 de actuele behoefte van de belanghebbenden.
