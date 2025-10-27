@@ -1,7 +1,7 @@
 # De BOMOS best practices in vogelvlucht - Introductie van BOMOS Deel 2: De Verdieping
 
 Met alleen het Beheer- en Ontwikkelmodel voor standaarden leggen we
-een fundament, maar daarmee kunnen niet al standaardisatievraagstukken
+een fundament, maar daarmee kunnen niet alle standaardisatievraagstukken
 worden opgelost. Op meerdere vlakken dienen keuzes gemaakt te worden
 met betrekking tot de inrichting van het beheerproces van standaarden.
 Daarbij zijn verschillende vraagstukken te herkennen, zoals:
@@ -12,7 +12,7 @@ Bijvoorbeeld over:
 * Open: Ik hoor over ‘openheid’, maar wat betekent dat?
 * Business case: Wat levert het uiteindelijk op?
 * Financiering: Wat kost het nou? En wat zijn goede inkomstenbronnen?  
-* De kwaliteit van de standaard leidt tot problemen of ontevredenheid.
+* De kwaliteit van de standaard, als die leidt tot problemen of ontevredenheid.
 * Leveranciers die gecertificeerd willen worden zodat ze zich kunnen profileren.
 
 Deze onderwerpen worden in detail in Deel 2 - De Verdieping besproken:
@@ -23,7 +23,7 @@ De activiteiten uit het Beheer- en Ontwikkelmodel worden uitgevoerd in
 een organisatiestructuur, welke vaak bestaat uit een
 uitvoeringsorganisatie die opdrachten ontvangt vanuit het bestuur. De
 uitvoeringsorganisatie werkt met werkgroepen om de opdrachten in te
-vullen. Naast de werkgroepen kunnen nog aparte leveranciers en/of
+vullen. Naast de werkgroepen kunnen nog aparte leveranciers- en/of
 adviesorganen worden opgericht. De beheer- en ontwikkelactiviteiten
 kunnen belegd worden bij een eigen organisatie, maar voor specifieke
 taken kan ook een beroep worden gedaan op andere organisaties zoals
@@ -45,7 +45,7 @@ begroting voor de standaard op te stellen. Een standaard brengt
 ontwikkelkosten met zich mee, terwijl de opbrengsten voor de standaard
 lastig zijn te realiseren, helemaal opbrengsten die niet strijdig zijn
 met openheid. Voor de opbrengsten wordt een groeimodel
-geschetst. Tijdelijk financiering geschikt voor het opstarten, is geen
+geschetst. Tijdelijke financiering, geschikt voor het opstarten, is geen
 geschikte financiering voor continu beheer. Zonder structurele
 financiering lijkt de meest voor de hand liggende vorm te werken met
 lidmaatschapsgelden of betaalde dienstverlening aan te bieden. De
@@ -74,15 +74,15 @@ inzetten.
 
 Semantische standaarden zijn uitermate complex door de relaties met
 andere standaarden. Om interoperabiliteit te behalen is allereerst een
-combinatie nodig van technische, syntax en semantische
+combinatie nodig van technische, syntax- en semantische
 standaarden. Semantische standaarden zijn te herkennen in zogenaamde
-horizontale en verticale (domein) standaarden. Daarnaast is er een
+horizontale en verticale (domein)standaarden. Daarnaast is er een
 onderscheid tussen de internationale standaarden, en de nationale
 invullingen daarop. Dit type standaarden wordt ook wel afspraken of
 toepassingsprofielen genoemd.
 
 Deze standaarden maken ook weer gebruik van vocabulaires
-(codelijstjes). Alle varianten van standaarden moeten beheerd
+(codelijsten). Alle varianten van standaarden moeten beheerd
 worden. Met alleen een internationale standaard zijn we er dus niet;
 dat zal vaak het interoperabiliteitsprobleem niet oplossen. De
 semantische standaarden worden veelal buiten de formele
@@ -165,8 +165,10 @@ standaard gebruiken. Ook met validatie kan conformance aan een
 standaard gecontroleerd worden maar op een laagdrempelige manier.
 
 **[Ondersteuning bieden aan implementaties](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#implementatie-ondersteuning)**
+
 De ondersteuning bieden aan implementaties is het gevolg van strategische en met name tactische keuzes rond onder meer adoptie en kwaliteit; andere best practices onderwerpen.
-Vandaar een wat kortere beschrijving mogelijke invullingen.
+Vandaar een wat kortere beschrijving van mogelijke invullingen.
 
 **[Bekendheid creëren](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#communicatie-bekendheid-creeren)**
-Voorgaande geldt ook voor de communicatie activiteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt, dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.
+
+Voorgaande geldt ook voor de communicatieactiviteiten, echter deze mogen zeker niet onderschat worden. Uiteindelijk draait het erom dat de standaard in de praktijk gebruikt wordt. Dat betekent dat de standaard een hoge mate van bekendheid moet hebben in het werkveld. Deze bekendheid ontstaat niet vanzelf.

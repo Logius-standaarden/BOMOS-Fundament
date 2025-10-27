@@ -8,7 +8,7 @@ open standaard.
 De structuur bestaat uit een aantal elementen:
 
 * Drie hoofdlagen: strategie, tactiek en operationeel.
-* Twee ondersteunende lagen: implementatie ondersteuning en communicatie.
+* Twee ondersteunende lagen: implementatieondersteuning en communicatie.
 * Per laag meerdere activiteiten die uitgevoerd kunnen worden.
 
 ![BOMOS Activiteitendiagram](media/BOMOS-15_Bomos-activiteiten-blanco.png "BOMOS Activiteitendiagram")
@@ -63,11 +63,11 @@ Onder de genoemde activiteiten verstaan we het volgende:
 
 **Strategie**: Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:
 
-* Governance: beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal.
+* Governance: beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijk reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal.
 * Visie: het beschrijven van een ontwikkelrichting. Dit is de stip op de horizon en geldt als focus voor de lange termijn.
 * Financiën: een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte.
 
-**Tactiek**, Activiteiten die op middellang termijn voor stabiliteit zorgen:
+**Tactiek**: Activiteiten die op middellang termijn voor stabiliteit zorgen:
 
 * Adoptie & erkenning: Activiteiten die te maken hebben met de certificiering, verplichtstelling of promotie van de standaard.
 * Architectuur: Opbouw van de standaard en de aangrenzende processen en technieken.
@@ -75,20 +75,20 @@ Onder de genoemde activiteiten verstaan we het volgende:
 * Kwaliteitsbeleid benchmarking: ontwikkeling van beleid dat toeziet op de kwaliteit van implementaties van de standaard.
 * Rechtenbeleid: Vaststellen van rechten van intellectueel eigendom.
 
-**Operationeel**, de uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:
+**Operationeel**: De uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:
 
 * Initiatie: identificatie van nieuwe ideeën (voor bijvoorbeeld een nieuwe specificatie en nieuwe werkgroep) en alle activiteiten die horen bij het succesvol optuigen daarvan (bijv. belangenanalyse, business case, agendering).
 * Wensen en eisen: opstellen van de wensen en eisen aan de te ontwikkelen en te beheren specificatie, ook wel bekend onder de naam Maintenance Requests (MRs).
 * Ontwikkeling: op conceptueel niveau de inhoudelijke uitwerking van oplossingen voor de ideeën, wensen en eisen opgesteld in voorafgaande fasen. Deze oplossingen zijn zoveel mogelijk los van technologieën bedoeld voor nadere uitwerking in een (nieuwe versie van) de specificatie.
-* Uitvoeren: de daadwerkelijk aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
+* Uitvoeren: de daadwerkelijke aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
 * Documentatie: verzorgen van passende neerslag van de resultaten van het primaire beheerproces. Niet alleen de beschikbaarheid van de specificaties, maar bijvoorbeeld ook de mogelijkheid bieden tot een historisch overzicht van verzoeken tot wijzigingen (maintenance requests) en de actuele status daarvan.
 
 **Implementatie-ondersteuning**, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:
-* Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatie bijeenkomst tot aan een (online) cursus.
+* Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatiebijeenkomst totaan een (online) cursus.
 * Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een frequently asked questionslijst opstellen en bijhouden kan ook een helpdeskactiviteit zijn.
 * Module-ontwikkeling: (Stimuleren van) de ontwikkeling van breed te verspreiden softwaremodules die de standaard implementeren. Dit kan door het stimuleren van de markt om software te ontwikkelen, of, als de markt niet beweegt, zelf software te ontwikkelen en te verspreiden om de markt in beweging te krijgen.
 * Pilot: Proeven met de implementatie van de specificaties. Bij sommige standaardisatieorganisaties is het verplicht dat er 1 of meerdere pilots zijn geweest voordat de standaard officieel vrijgegeven wordt.
-* Validatie & Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden wat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.
+* Validatie & Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden dat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.
 
 **Communicatie**, ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:
 * Promotie: Het uitdragen van nut/noodzaak/voordelen van de standaard.
@@ -124,7 +124,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   functioneel beheerder is verantwoordelijk voor het proces van ontwikkelen
   en beheer van de inhoud van standaarden. Hiervoor werkt hij nauw
   samen met experts, gebruikers, de technische beheerder en de
-  distributeur. De functioneel beheerder heeft vaak een regie voerende
+  distributeur. De functioneel beheerder heeft vaak een regievoerende
   rol. Resultaten van het proces worden voorgelegd aan de autorisator.
 
 **Technisch beheerder**: verantwoordelijk voor het technisch beheren
@@ -136,7 +136,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   zijn, worden onderhouden. Zo’n technische omgeving zal bestaan uit
   het geheel aan ICT-middelen (tools, hardware, netwerken, e.d.) die
   noodzakelijk zijn om het functioneel beheer uit te kunnen voeren op
-  de standaard. Onder de verantwoordelijkheid van de technische
+  de standaard. Onder de verantwoordelijkheid van de technisch
   beheerder valt o.a. het kunnen toepassen van versiebeheer op de
   technische omgeving en het beschikbaar stellen en houden van de
   technische omgeving, in overleg met de functioneel beheerder.
@@ -150,7 +150,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   noodzakelijk zijn. Veel voorkomende experts zijn domein-inhoudelijk
   of bijvoorbeeld expert op het gebied van ontologie, architectuur,
   vertrouwen, informatiebeveiliging, cryptografie of privacy. Vaak
-  voorkomend is ook een vertegenwoordiging ervaringsdeskundige
+  voorkomend is ook een vertegenwoordiging van ervaringsdeskundige
   stakeholders die als persoon of organisatie ook de rol gebruiker
   hebben.
 
@@ -163,7 +163,7 @@ gebruikers-rol en de eindgebruikers-rol meervoudig worden ingevuld:
 meer dan één persoon of organisatie kan de rol van financier, expert,
 gebruiker of eindgebruiker vervullen. Meervoudigheid betekent hier ook
 dat de stakeholders die deze rollen invullen een ander belang of
-expertise gebied kunnen vertegenwoordigen en dit dus ook inbrengen.
+expertisegebied kunnen vertegenwoordigen en dit dus ook inbrengen.
 De overige rollen zijn enkelvoudig: er kan maar één persoon of
 organisatie in die rol zijn. Enkelvoudig kan wel betekenen dat de rol
 ingevuld wordt met een instantie, bijvoorbeeld een raad of een
@@ -176,10 +176,10 @@ zullen zijn.
 
 Activiteit | Primair verantwoordelijke rol | Overige betrokken rollen
 -----------|-------------------------------|--------------------------
-Strategie | Eigenaar, financier| Autorisator, functioneel beheerder, experts
+Strategie | Eigenaar, financier | Autorisator, functioneel beheerder, experts
 Tactiek | Autorisator | Functioneel beheerder, experts
 Operationeel | Functioneel beheerder | Technisch beheerder, experts
-Implementatie ondersteuning | Functioneel beheerder | Technisch beheerder, experts
+Implementatieondersteuning | Functioneel beheerder | Technisch beheerder, experts
 Communicatie | Distributeur | Functioneel beheerder, technisch beheerder, experts
 
 ## Hoe BOMOS als hulpmiddel te gebruiken voor beheerorganisatie
@@ -188,9 +188,9 @@ Communicatie | Distributeur | Functioneel beheerder, technisch beheerder, expert
 is](#bomos-gebruiken), nu maken we de stap _hoe_ BOMOS vervolgens
 ingezet kan worden. Dit is niet eenvoudig eenduidig te definiëren
 omdat de context van de gebruiker hierin bepalend is. De context kan
-bepaald worden aan de hand van het in kaart brengen van
-situatiekenmerken. Een belangrijke situationele kenmerk is de plaats
-van de standaard in de standaardenlevenscyclus.
+bepaald worden door het in kaart brengen van situatiekenmerken. Een
+belangrijke situationele kenmerk is de plaats van de standaard in de
+standaardenlevenscyclus.
 
 De levensfase waarin een standaard zich bevindt is immers van invloed
 op de inrichting van het beheer. Een standaard die zich nog in de
@@ -202,17 +202,17 @@ bepalen of uw beheerinrichting nog voldoet. Hieronder volgt een
 beschrijving van de fasen van de standaardenlevenscyclus, zodat u kunt
 toetsen in welke fase uw standaard zich bevindt.
 
-![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](media/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
+![Levensfases van een standaard. Een pijl gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](media/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
 
 **1. Creatie / ontwikkeling**
 
 Deze fase markeert het moment waarop een community van belanghebbenden
 en geïnteresseerden de behoefte aan een standaard vaststelt en start
-met het opstellen van de standaard.  Dit hoeft niet altijd te
-betekenen dat een standaard geheel ontbreekt.  Ook in het geval dat
+met het opstellen van de standaard. Dit hoeft niet altijd te
+betekenen dat een standaard geheel ontbreekt. Ook in het geval dat
 een standaard met (kleine) afwijkende specificaties al bestaat kan een
 community tot de conclusie komen dat de behoefte aan een nieuwe
-standaard de inspanning rechtvaardigt.  In deze fase is nog geen
+standaard de inspanning rechtvaardigt. In deze fase is nog geen
 sprake van ingericht beheer maar hebben de meeste activiteiten vooral
 een projectmatig karakter. In deze fase is het bijvoorbeeld belangrijk
 na te denken over de besluitvormingsprocessen. Bij een modulair
@@ -266,7 +266,7 @@ Van organische adoptie is sprake als diverse (individuele) partijen
 besluiten een standaard te gaan toepassen. Tijdens deze fase zullen
 veel wijzigingen aan de orde zijn. De inrichting voor beheer wordt
 belangrijk, net als de adoptie van de standaard bij de ‘early
-adopters’ van belang.  activiteiten zullen hierop gericht moeten zijn.
+adopters’ van belang is. Uw activiteiten zullen hierop gericht moeten zijn.
 
 **4. Volwaardige toepassing / volwassenheid van de standaard**
 
@@ -281,7 +281,7 @@ maar in de regel is dit voor een volwassen standaard altijd het geval.
 
 Een volwassen standaard wordt regelmatig getoetst om vast te stellen of 
 de standaard nog actueel is. Wanneer een standaard gebaseerd is op een 
-onderliggende standaard kan de beheerder hierbij controleren of deze 
+onderliggende standaard, kan de beheerder hierbij controleren of deze 
 standaard nog in actief beheer is. Daarnaast is het zinvol om na te gaan 
 of er nieuwe (internationale) standaarden beschikbaar zijn gekomen met 
 dezelfde toepassing als de standaard. Beschikbaarheid van een nieuwe, 
@@ -296,5 +296,5 @@ namelijk zo zijn dat de standaard een cruciale plaats inneemt in het
 architectuurlandschap van derden. Daarbij is ook het bewaken van de
 organisatiestructuur van belang aangezien het verwijderen van
 standaard kan zorgen voor verschuivende verantwoordelijkheden. Verder
-is het afbouwen van financiëringen een aandachtspunt, net als het
+is het afbouwen van financieringen een aandachtspunt, net als het
 beheersen van verwachtingen.
