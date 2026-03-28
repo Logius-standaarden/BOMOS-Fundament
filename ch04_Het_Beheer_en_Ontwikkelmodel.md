@@ -61,13 +61,13 @@ gaat hier verder op in.
 
 Onder de genoemde activiteiten verstaan we het volgende:
 
-**Strategie**: Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:
+<dfn>Strategie</dfn> Richtinggevende activiteiten gerelateerd aan de strategische (lange) termijn:
 
 * Governance: beleid uitzetten over de eigen bestuurlijke organisatie (zoals de rechtsvorm); het huishoudelijke reglement (de charter), maar ook allianties vormen met andere organisaties. Het regelen van besluitvorming is cruciaal.
 * Visie: het beschrijven van een ontwikkelrichting. Dit is de stip op de horizon en geldt als focus voor de lange termijn.
 * Financiën: een financieel model voor de lange termijn hebben die opbrengsten garandeert in overeenstemming met de behoefte.
 
-**Tactiek**, Activiteiten die op middellang termijn voor stabiliteit zorgen:
+<dfn>Tactiek</dfn> Activiteiten die op middellang termijn voor stabiliteit zorgen:
 
 * Adoptie & erkenning: Activiteiten die te maken hebben met de certificiering, verplichtstelling of promotie van de standaard.
 * Architectuur: Opbouw van de standaard en de aangrenzende processen en technieken.
@@ -75,22 +75,22 @@ Onder de genoemde activiteiten verstaan we het volgende:
 * Kwaliteitsbeleid benchmarking: ontwikkeling van beleid dat toeziet op de kwaliteit van implementaties van de standaard.
 * Rechtenbeleid: Vaststellen van rechten van intellectueel eigendom.
 
-**Operationeel**, de uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:
+<dfn>Operationeel</dfn> de uitvoerende activiteiten die leiden tot nieuwe versies van standaarden, waaronder:
 
 * Initiatie: identificatie van nieuwe ideeën (voor bijvoorbeeld een nieuwe specificatie en nieuwe werkgroep) en alle activiteiten die horen bij het succesvol optuigen daarvan (bijv. belangenanalyse, business case, agendering).
 * Wensen en eisen: opstellen van de wensen en eisen aan de te ontwikkelen en te beheren specificatie, ook wel bekend onder de naam Maintenance Requests (MRs).
 * Ontwikkeling: op conceptueel niveau de inhoudelijke uitwerking van oplossingen voor de ideeën, wensen en eisen opgesteld in voorafgaande fasen. Deze oplossingen zijn zoveel mogelijk los van technologieën bedoeld voor nadere uitwerking in een (nieuwe versie van) de specificatie.
-* Uitvoeren: de daadwerkelijk aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
+* Uitvoeren: de daadwerkelijke aanpassingen op basis van de conceptuele oplossingen doorvoeren in de specificatie en eventuele technische invulling.
 * Documentatie: verzorgen van passende neerslag van de resultaten van het primaire beheerproces. Niet alleen de beschikbaarheid van de specificaties, maar bijvoorbeeld ook de mogelijkheid bieden tot een historisch overzicht van verzoeken tot wijzigingen (maintenance requests) en de actuele status daarvan.
 
-**Implementatie-ondersteuning**, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:
+<dfn>Implementatie-ondersteuning</dfn> ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:
 * Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatie bijeenkomst tot aan een (online) cursus.
 * Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een frequently asked questionslijst opstellen en bijhouden kan ook een helpdeskactiviteit zijn.
 * Module-ontwikkeling: (Stimuleren van) de ontwikkeling van breed te verspreiden softwaremodules die de standaard implementeren. Dit kan door het stimuleren van de markt om software te ontwikkelen, of, als de markt niet beweegt, zelf software te ontwikkelen en te verspreiden om de markt in beweging te krijgen.
 * Pilot: Proeven met de implementatie van de specificaties. Bij sommige standaardisatieorganisaties is het verplicht dat er 1 of meerdere pilots zijn geweest voordat de standaard officieel vrijgegeven wordt.
 * Validatie & Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden wat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.
 
-**Communicatie**, ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:
+<dfn>Communicatie</dfn> ondersteunende activiteiten gericht op het creëren van draagvlak voor de standaard, waaronder:
 * Promotie: Het uitdragen van nut/noodzaak/voordelen van de standaard.
 * Publicatie: Het vindbaar/kenbaar maken van de standaard en de actuele stand van zaken (website).
 * Klachtenafhandeling: Het garanderen van het serieus nemen van klachten door deze volgens een zorgvuldige procedure te behandelen. Klachten kunnen ook beschouwd worden als verbetersuggesties.
@@ -99,26 +99,26 @@ Onder de genoemde activiteiten verstaan we het volgende:
 
 De activiteiten moeten worden uitgevoerd door verschillende
 rollen. Een overzicht van rollen die relevant zijn bij het ontwikkelen
-en beheren van standaarden is opgenomen in NEN 7522:2021 "Medische
+en beheren van standaarden is opgenomen in [NEN 7522:2021 "Medische
 informatica - Ontwikkelen en beheren van standaarden en stelsels van
-standaarden", en is hier in licht aangepaste versie overgenomen.
+standaarden"](https://www.nen.nl/nen-7522-2021-nl-283706), en is hier in licht aangepaste versie overgenomen.
 
-**Eigenaar**: eindverantwoordelijk voor het ontwikkelen en beheren van
+<dfn>Eigenaar</dfn> eindverantwoordelijk voor het ontwikkelen en beheren van
   een standaard. De eigenaar bepaalt de scope en het doel van een
   standaard, en bepaalt de principes en de uitgangspunten die worden
   gehanteerd bij ontwikkeling en beheer.
 
-**Financier**: verantwoordelijk voor het financieren van het
+<dfn>Financier</dfn> verantwoordelijk voor het financieren van het
   ontwikkelen en beheren van standaarden.
 
-**Autorisator**: keurt een standaard goed. Toelichting: een
+<dfn>Autorisator</dfn> keurt een standaard goed. Toelichting: een
   autorisator kan een persoon, organisatie of groep van personen en
   organisaties zijn. Het is aan de eigenaar om de autorisator te
   benoemen. Een autorisator bevat vaak een vertegenwoordiging van
   stakeholders, die als persoon of organisatie ook de ook de rol
   gebruiker hebben.
 
-**Functioneel beheerder**: verantwoordelijk voor het proces van
+<dfn>Functioneel beheerder</dfn> verantwoordelijk voor het proces van
   ontwikkelen en beheren van standaarden, binnen de kaders van de
   gemaakte afspraken en afgesproken governance. Toelichting: de
   functioneel beheerder is verantwoordelijk voor het proces van ontwikkelen
@@ -127,7 +127,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   distributeur. De functioneel beheerder heeft vaak een regie voerende
   rol. Resultaten van het proces worden voorgelegd aan de autorisator.
 
-**Technisch beheerder**: verantwoordelijk voor het technisch beheren
+<dfn>Technisch beheerder</dfn> verantwoordelijk voor het technisch beheren
   van standaarden. De technisch beheerder zorgt voor de inrichting en
   beheer van een technische omgeving die noodzakelijk is om de
   artefacten die onderdeel zijn van de standaard te
@@ -141,10 +141,10 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   technische omgeving en het beschikbaar stellen en houden van de
   technische omgeving, in overleg met de functioneel beheerder.
 
-**Distributeur**: verantwoordelijk voor het distribueren van
+<dfn>Distributeur</dfn> verantwoordelijk voor het distribueren van
   standaarden.
 
-**Expert**: brengt specifieke noodzakelijke expertise in ten behoeve
+<dfn>Expert</dfn> brengt specifieke noodzakelijke expertise in ten behoeve
   van het ontwikkelen of beheren van een standaard. Toelichting:
   verschillende type experts kunnen, afhankelijk van de standaard,
   noodzakelijk zijn. Veel voorkomende experts zijn domein-inhoudelijk
@@ -154,7 +154,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   stakeholders die als persoon of organisatie ook de rol gebruiker
   hebben.
 
-**Gebruiker**: gebruikt de standaarden direct of indirect. Voorbeelden
+<dfn>Gebruiker</dfn> gebruikt de standaarden direct of indirect. Voorbeelden
   van deze gebruikers zijn leveranciers van componenten (vaak
   applicaties), of gebruikers van deze applicaties (indirect).
 
@@ -204,7 +204,7 @@ toetsen in welke fase uw standaard zich bevindt.
 
 ![Levensfases van een standaard. Een peil gaat van creatie, via introductie en volwassen naar uitfaseren. Een lus gaat van introductie en implementatie naar volwassen en weer terug](media/BOMOS-17_Adoptie-Tijd-blanco.png "Levensfases van een standaard")
 
-**1. Creatie / ontwikkeling**
+### Creatie / ontwikkeling (1)
 
 Deze fase markeert het moment waarop een community van belanghebbenden
 en geïnteresseerden de behoefte aan een standaard vaststelt en start
@@ -229,7 +229,7 @@ belangrijk dat de processen rondom de adoptie zijn verankerd in het
 proceslandschap. Dit is immers een goede manier om de adoptie ook via
 formele wegen af te dwingen.
 
-**2. Introductiefase van de standaard**
+### Introductiefase van de standaard (2)
 
 In deze fase wordt gekozen voor een specifieke standaard om in een
 behoefte te voorzien. Tijdens deze fase zullen veel wijzigingen aan de
@@ -249,7 +249,7 @@ de adoptie en het publiceren van de standaard. Waar er tijdens de
 creatiefase misschien nog geen (concept)versie beschikbaar is, moet
 dit tijdens de introductie wel het geval zijn.
 
-**3. Implementatie / groei van de standaard**
+### Implementatie / groei van de standaard (3)
 
 In deze fase kiezen gebruikers bewust voor de implementatie van de
 standaard. In het beheer wordt ook rekening gehouden met het feit dat
@@ -268,7 +268,7 @@ veel wijzigingen aan de orde zijn. De inrichting voor beheer wordt
 belangrijk, net als de adoptie van de standaard bij de ‘early
 adopters’ van belang.  activiteiten zullen hierop gericht moeten zijn.
 
-**4. Volwaardige toepassing / volwassenheid van de standaard**
+### Volwaardige toepassing / volwassenheid van de standaard (4)
 
 In deze fase is de standaard algemeen geaccepteerd en
 geïmplementeerd. Het beheer is in deze fase volledig ingericht om de
@@ -288,7 +288,7 @@ dezelfde toepassing als de standaard. Beschikbaarheid van een nieuwe,
 internationale standaard met internationale toepassing kan prioriteit 
 gegeven worden boven een in nationale context beheerde standaard.
 
-**5. Uitfaseren / overgang naar een andere (versie van de) standaard**
+### Uitfaseren / overgang naar een andere (versie van de) standaard (5)
 
 Tijdens het uitfaseren van een standaard is het van belang dat de
 samenhang met verschillende producten goed wordt bewaakt. Het kan

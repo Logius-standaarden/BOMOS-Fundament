@@ -74,17 +74,17 @@ overheidscontext (G2G, G2B en/of G2C-context), maar in de praktijk zal
 dit document evengoed van toepassing zijn buiten de overheidscontext.
 
 <aside class="example" title="Gegevenswoordenboek Stedelijk Water">
-Het Gegevenswoordenboek Stedelijk Water (GWSW) is een open standaard voor 
-het eenduidig vastleggen, uitwisselen en delen van gegevens in het stedelijk 
-waterbeheer. Het GWSW is een semantische standaard. Het specificeert de vaste 
-gegevens over objecten, maar ook het netwerk, maatregelen (aanleg, vervanging, 
-reparatie, renovatie) en processen zoals inspectie, capaciteits- en 
-afvoerberekeningen. Voor het uitwisselen van data en informatie is het 
-essentieel dat alle partijen met dezelfde systematiek en definities werken 
-en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin 
-voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen 
-datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het 
-gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer. 
+Het Gegevenswoordenboek Stedelijk Water (GWSW) is een open standaard voor
+het eenduidig vastleggen, uitwisselen en delen van gegevens in het stedelijk
+waterbeheer. Het GWSW is een semantische standaard. Het specificeert de vaste
+gegevens over objecten, maar ook het netwerk, maatregelen (aanleg, vervanging,
+reparatie, renovatie) en processen zoals inspectie, capaciteits- en
+afvoerberekeningen. Voor het uitwisselen van data en informatie is het
+essentieel dat alle partijen met dezelfde systematiek en definities werken
+en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin
+voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen
+datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het
+gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer.
 Via de GWSW-standaard is het voor gemeenten en waterschappen ook eenvoudig om actuele rioleringsdata via PDOK open te publiceren.
 </aside>
 
@@ -102,7 +102,8 @@ standaard en software.
 De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
 voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
-die op basis van metadata educatief materiaal vindbaar maakt. 
+die op basis van metadata educatief materiaal vindbaar maakt.
+
 ([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
 [Edurep](https://www.kennisnet.nl/edurep/))
 </aside>
@@ -115,7 +116,7 @@ die disciplines kunnen bruikbaar zijn. Met name het BiSL-raamwerk voor
 functioneel beheer is in enige mate bruikbaar, en deze is dan ook
 meegenomen in de totstandkoming van BOMOS (Voor meer informatie over
 BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en
-Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van
+Informatiemanagement, Remko van der Pols, Ralph Donatz, Frank van
 Outvorst, Van Haren Publishing, 2005.).
 
 BOMOS is initieel ontwikkeld voor semantische standaarden; deze focus
@@ -132,7 +133,7 @@ kunnen gepubliceerd worden als BOMOS Aanvullende Module.
 
 ## Definities
 
-**Beheer en Ontwikkelen van standaarden (kortweg: beheer)**
+<dfn>Beheer en Ontwikkelen van standaarden (kortweg: beheer)</dfn>
 Alle activiteiten gericht op het structureel werken aan, beschikbaar
 stellen, en houden van een (set van) standaard(en) die steeds past bij
 de actuele behoefte van de belanghebbenden.
@@ -154,13 +155,13 @@ ontstaat.
 Beheer en ontwikkeling, in de brede zin, voor een standaard bevat ook
 onderwerpen als adoptie en certificering.
 
-**Beheer- en Ontwikkelmodel**
+<dfn>Beheer- en Ontwikkelmodel</dfn> 
 Het Beheer- en Ontwikkelmodel is een gelaagde structuur van
 onderwerpen die nodig zijn voor het ontwikkelen en beheren van een
 open standaard, en is weergegeven als een activiteitendiagram. Het is
 de kern van BOMOS.
 
-**Community**
+<dfn>Community</dfn>
 Elke specifieke gemeenschap of groep in het elektronische
 (overheids-)veld die zich bezighoudt met de ontwikkeling en/of het
 beheer van een specifieke (set van) standaard(en), vanuit een
@@ -168,7 +169,7 @@ expliciete gezamenlijke behoefte. Omdat dergelijke behoeften vaak
 zowel in het private als in het publieke domein worden gevoeld, kan
 een community een publiek-private samenwerkingsvorm zijn.
 
-**Open standaard**  
+<dfn>Open standaard</dfn>
 Er zijn vele meningen over de definitie van een open standaard, vooral
 vanwege belangen van verschillende organisaties is het nooit gelukt om
 dit goed te definiëren. In BOMOS hanteren we een definitie die in de
@@ -192,35 +193,34 @@ eisen:
    op een royalty-free basis;
 4. Er zijn geen beperkingen omtrent het hergebruik van de standaard.
 
-**Semantische interoperabiliteit**
+<dfn>Semantische interoperabiliteit</dfn>
 Betekent dat samenwerkende partijen aan gegevens, die uitgewisseld
 worden, dezelfde betekenis toekennen.
 
-**Semantische standaarden**  
+<dfn>Semantische standaarden</dfn>
 Zijn afspraken over de betekenis van gegevens.
 
-**Werkgroep**  
+<dfn>Werkgroep</dfn>
 Een groep binnen de community met een afgebakende deelactiviteit met
 een eenduidig gedefinieerd eindresultaat als doel.
 
 Voor meer informatie over interoperabiliteit en standaarden:
 
-Open Standaard:  
+Open Standaard:
 https://forumstandaardisatie.nl/open-standaarden
 
 Standardisation Handbook:
-
 https://en.wikipedia.org/wiki/Open_standard
 
 https://open-stand.org/
 
-European Interoperability Framework:  
+European Interoperability Framework:
 https://ec.europa.eu/isa2/eif_en
 
-BSI Guide to Standardization:  
+BSI Guide to Standardization:
 https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
 
-Standardisation Handbook:  
+Standardisation Handbook:
 https://en.wikipedia.org/wiki/Open_standard
 
 Handreiking Standardisatie voor onderzoekers:
@@ -229,5 +229,5 @@ https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e
 Verplichte open standaarden in Nederland:
 https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht/
 
-Nederlandse Overheids Referentie Architectuur (NORA):  
+Nederlandse Overheids Referentie Architectuur (NORA):
 https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/
