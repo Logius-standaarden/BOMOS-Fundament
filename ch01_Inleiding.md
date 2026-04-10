@@ -21,13 +21,13 @@ die eigenlijk ook de essentie van BOMOS benadrukken: Van en Voor de
 standaardisatiepraktijk. BOMOS als inspiratie voor in de
 standaardisatie praktijk, en dat gebruik leidt ongetwijfeld tot nieuwe
 ervaringen en behoeftes die ook weer verwerkt kunnen worden in
-BOMOS. Het heeft ook geleidt tot verschillende versies en variaties
+BOMOS. Het heeft ook geleid tot verschillende versies en variaties
 van BOMOS, wat het gebruik niet makkelijker maakt.
 
 ![xkcd comic about competing standards](media/xkcd_standards.png "Strip over standaarden")
 
-In de beroemde strip denkt men het teveel standaarden op te lossen
-door het introduceren van een nieuwe standaard die alle anderen
+In de beroemde strip denkt men het teveel aan standaarden op te lossen
+door het introduceren van een nieuwe standaard die alle andere
 standaarden zou moeten vervangen. Echter het eindresultaat is alleen
 een extra standaard toegevoegd. Met BOMOS hebben we dezelfde intentie,
 maar hopen we toch echt op een ander resultaat: 1 BOMOS als startpunt
@@ -36,12 +36,12 @@ voor iedereen.
 Eind 2018 organiseerde Logius een sessie rond het gebruik van BOMOS;
 een inspirerende sessie met zo’n 40 deelnemers, die zo’n 30
 verschillende organisaties representeerde die allen BOMOS (in meer of
-mindere mate) gebruikte. Als wens kwam naar voren om deze nieuwe
+mindere mate) gebruikten. Als wens kwam naar voren om deze nieuwe
 versie te maken….maar ja, wie gaat dat dan doen? Wij staken de hand
 op, en zijn aan de slag gegaan, met als doel niet om veel aan BOMOS te
 veranderen, maar om deze ene integraal nieuwe versie te maken, die al
 het andere vervangt, en daarnaast een toets op actualiteit heeft
-gehad; immers de standaardisatie wereld heeft niet stilgestaan.
+gehad; immers de standaardisatiewereld heeft niet stilgestaan.
 
 De tijd zal het leren of wij wel succesvol het eerdere werk hebben
 vervangen met deze versie, of dat wij ook gewoon in de valkuil zijn
@@ -61,11 +61,11 @@ Maart 2022
     en kan daardoor voor elke standaard anders ingevuld zijn.”
 5. “Een standaard is nooit af!”
 6. “De openheid van de standaard wordt volledig bepaald door de
-    inrichting van ontwikkel en beheerproces.”
+    inrichting van ontwikkel- en beheerproces.”
 7. “Een duurzame standaard wil zeggen open en beheerd.”
 8. “Het lelijke van standaarden is dat er al zoveel zijn; hergebruik
-    is cruciaal (geinspireerd door Professor Tanenbaum:"The nice thing
-    about standards is that you have so many to choose from".”
+    is cruciaal (geïnspireerd door Professor Tanenbaum:"The nice thing
+    about standards is that you have so many to choose from".”)
 9. “Het beheren van standaarden kent veel overeenkomsten met andere
     _artefacten_ (stelselafspraken, data, api's, ...) waardoor BOMOS
     ook bruikbaar is in andere contexten.”
@@ -75,7 +75,7 @@ Maart 2022
     zo oud als de mensheid)”
 12. “Standaarden, toegepast in architectuur, vormen de basis van
     interoperabiliteit.”
-13. “De essentie van een standaardisatie-proces is samenwerken; daarmee
+13. “De essentie van een standaardisatieproces is samenwerken; daarmee
     is standaardisatie een cultuurverschijnsel.”
 
 
@@ -124,7 +124,7 @@ overzichtelijke modellen en adviezen.
 
 In 2006 heeft de Werkgroep CMO (Community Model Open Standaarden), een
 werkgroep van Bureau Open Standaarden (later omgedoopt tot Forum
-Standaardisatie) van GBO.Overheid (later omgedoopt tot Logius), al aan
+Standaardisatie) van GBO. Overheid (later omgedoopt tot Logius), al aan
 dit onderwerp gewerkt. De uitkomst, een notitie, is door Forum
 Standaardisatie beschikbaar gesteld en vormde het startpunt voor de
 ontwikkeling van BOMOS versie 1.
@@ -149,7 +149,7 @@ onderzoeksorganisatie TNO, Universiteit Twente en vele anderen.
 
 In 2012 is onder aanvoering van Forum Standaardisatie gewerkt aan een
 uitbreiding met als titel BOMOS2i. Waarbij de “i” staat voor
-“implementatie”; Een handreiking hoe BOMOS in de standaardisatie
+“implementatie”; een handreiking hoe BOMOS in de standaardisatie
 praktijk gebruikt kan worden. Een andere variant op BOMOS is
 uitgebracht door TNO genaamd BOMOD. Ook hier gaat het over beheer en
 ontwikkelprocessen, maar nu is het onderwerp het publiceren van
@@ -162,7 +162,7 @@ BOMOS2i gepubliceerd door de toevoeging van een normenkader. Hierop is
 de BOMOS-meting gebouwd. Dit instrument stelt een beheerder in staat
 om het beheer van de standaard daadwerkelijk te toetsen.
 
-In 2022 is deze BOMOS (versie 3.0.0) gepubliceerd waarmee de BOMOS
+In 2022 is deze BOMOS (versie 3.0.0) gepubliceerd waarmee de BOMOS-
 gebruiker een nieuw integraal startpunt heeft om met BOMOS aan de slag
 te gaan.
 
@@ -181,10 +181,10 @@ BOMOS bestaat uit:
 * [BOMOS Deel 2: De Verdieping](https://logius-standaarden.github.io/BOMOS-Verdieping)
 * BOMOS Aanvullende modules: [Linked Data](https://logius-standaarden.github.io/BOMOS-LinkedData) en [Stelsels](https://logius-standaarden.github.io/BOMOS-Stelsels)
 
-De kern van BOMOS is het "Fundament". Dat bestaat uit een basis
+De kern van BOMOS is het "Fundament". Dat bestaat uit een basis-
 beschrijving van het Beheer- en Ontwikkelmodel, en een verdere
 verdieping op basis van literatuur of praktijkervaringen.  Het Beheer-
-en Ontwikkelmodel is in de basis een activiteitendiagram, daarnaast
+en Ontwikkelmodel is in de basis een activiteitendiagram. Daarnaast
 zijn rollen gedefinieerd die relevant zijn bij het beheer- en
 ontwikkelproces van standaarden.
 
@@ -219,10 +219,10 @@ Bent u vanuit een beleidsmakende of besturende rol alleen op
 hoofdniveau geïnteresseerd, dan biedt het fundament (deel 1) voldoende
 achtergrond en context. Bent u zelf actief in
 standaardisatiecommunities dan kunt u naadloos doorgaan met het lezen
-van deel 2: De verdieping met best practices, waarin meer achtergrond
+van deel 2: De Verdieping met best practices, waarin meer achtergrond
 en praktische tips rond standaardisatie zijn opgenomen.
 
-Wilt u BOMOS gaan toepassen dan is het ook raadzaam om de aanvullende
+Wilt u BOMOS gaan toepassen, dan is het ook raadzaam om de aanvullende
 modules te gaan bekijken. Hier kunt u voorbeelden en tools vinden die
 kunnen helpen bij implementaties van open standaarden. Ook vindt u
 hier varianten op BOMOS. Deze implementatieprofielen maken BOMOS

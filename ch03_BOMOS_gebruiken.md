@@ -69,14 +69,14 @@ voor verschillende doeleinden. Er zijn generieke standaarden die
 basisfunctionaliteiten als 'zoeken' en 'presenteren' mogelijk maken. 
 Daarnaast zijn er standaarden die zich richten op het betekenisvol kunnen 
 uitwisselen van gegevens, vaak binnen een bepaalde sector. De systematiek 
-van BOMOS passen toe voor zowel de generieke geo-standaarden met een 
+van BOMOS is toepasselijk voor zowel de generieke geo-standaarden met een 
 beheerplan en wijzigingsprotocol als voor de specifieke domeinstandaarden.  
 </aside>
 
 <aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
 TOOI (Thesaurus en Ontologie voor OverheidsInformatie) is een model van de informatie die gepubliceerd wordt door alle organisaties binnen de Nederlandse overheid. Met behulp van het TOOI-model kan die informatie in samenhang vindbaar gemaakt worden over organisaties en informatiesystemen heen.
 
-Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema’s uit BOMOS (Strategie, Tactiek, Operationeel, Implementatie Ondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
+Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema’s uit BOMOS (Strategie, Tactiek, Operationeel, Implementatieondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
 </aside>
 
 ## BOMOS als achtergrondinformatie ter inspiratie
@@ -88,14 +88,14 @@ standaarden is essentieel voor een ieder betrokken bij
 standaardisatie.
 
 In het verdiepende deel worden oplossingen geschetst waarbij de
-praktijk centraal staat: waar mogelijk is met behulp van voorbeelden
+praktijk centraal staat: waar mogelijk, is met behulp van voorbeelden
 aangegeven wat de acceptatie van de oplossing in de praktijk is, welke
 standaardisatieorganisaties daar ervaring mee hebben, en welke
 adviezen daarbij horen. Oftewel: waardevolle achtergrondinformatie
 over praktijksituaties.
 
 Samen zijn deze twee delen de basis van BOMOS, en inspirerende
-achtergrondinformatie.  Een ander voorbeeld is het gebruik van BOMOS
+achtergrondinformatie. Een ander voorbeeld is het gebruik van BOMOS
 als middel voor bestuurders en beleidsmakers om aan te geven wat
 openheid van standaarden nu concreet inhoudt. Ook wordt BOMOS gebruikt
 als "taal" om eenduidig over het beheer van standaarden te kunnen
@@ -116,11 +116,11 @@ de invulling van alle onderdelen uit het BOMOS Activiteitendiagram
 (het Beheer- en Ontwikkelmodel) zijn beschreven.**
 
 Voor specifieke situaties zijn wel in meer details eisen/toetsen te
-definieren per BOMOS activiteit, maar deze behoren niet tot het
-fundament van BOMOS vanwege dat ze niet voor alle BOMOS gebruikers
+definiëren per BOMOS activiteit, maar deze behoren niet tot het
+fundament van BOMOS aangezien ze niet voor alle BOMOS gebruikers
 relevant hoeven te zijn.
 
-Overigens als de beheerorganisatie conform BOMOS werkt, dan wil dat
+Overigens, als de beheerorganisatie conform BOMOS werkt, dan wil dat
 niet automatisch zeggen dat de standaard daarmee ook voldoet aan de
 criteria voor de pas-toe of leg-uit lijst van standaarden van de
 overheid. Echter het is wel te prefereren dat aangemelde standaarden
