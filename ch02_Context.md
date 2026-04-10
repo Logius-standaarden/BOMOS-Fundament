@@ -36,16 +36,16 @@ zoals W3C, UN/CEFACT, ETSI, ISO, CEN en IETF.
 Standaarden van semantische aard vereisen vaak een regionaal profiel
 zodat rekening kan worden gehouden met specifieke implemenatieeisen.
 Zo zijn er Nederlandse gebruikersgroepen (communities) actief voor het
-ontwikkelen van een nationale profielen op internationale standarden.
+ontwikkelen van nationale profielen op internationale standarden.
 In de context van Nederlandse wetgeving en/of Nederlandse specifieke
 bedrijfs(overheids)-processen is het namelijk noodzakelijk om
 internationale standaarden toe te spitsen op de Nederlandse situatie.
 
-(Bedrijfs)Transactie standaarden, vocabulaires (waardelijstjes) of
+(Bedrijfs)Transactie standaarden, vocabulaires (waardelijsten) of
 dossiers (bv. patiëntendossier) zijn ook voorbeelden van semantische
 standaarden. Andere kenmerken van semantische standaarden zijn:
 
-* Het zijn vaak een specifieke invulling van een internationale standaard.
+* Het zijn vaak specifieke invullingen van een internationale standaard.
 * Ze zijn vaak voor een specifiek inhoudelijk probleem:
   * Bijv. ‘verticaal’: informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
   * Bijv. ‘horizontaal’ informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
@@ -64,7 +64,7 @@ maar regelmatig ook gewoon aangeduid met de term semantische
 standaard. Binnen het toepassingsprofiel of semantische standaard
 worden vaak vocabulaires (codelijsten e.d.) buiten de standaard
 vastgesteld omdat deze een eigen dynamiek kennen en daarmee andere
-beheerprocedures van toepassing kunnen zijn. Hiermee hebben we drie
+beheerprocedures kunnen vereisen. Hiermee hebben we drie
 niveaus van semantische standaarden; de internationale, de specifieke
 context (bijv. nationaal), en de vocabulaires. Een belangrijke taak is
 afstemming blijven houden met de ontwikkel- en beheerorganisaties van
@@ -101,7 +101,7 @@ standaard en software.
 <aside class="example" title="NL-LOM en Edurep">
 De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
-voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
+voorziening die gebruik maakt van NL-LOM is Edurep, een zoekmachine
 die op basis van metadata educatief materiaal vindbaar maakt. 
 ([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
 [Edurep](https://www.kennisnet.nl/edurep/))
@@ -123,11 +123,11 @@ is nog regelmatig terug te vinden in onder meer [de best practices in
 deel
 2](https://logius-standaarden.github.io/BOMOS-Verdieping/). Echter op
 basis van gebruikservaringen hebben we inmiddels ook geleerd dat
-wanneer BOMOS met beleid wordt toegepast het ook bruikbaar is in de
+wanneer BOMOS met beleid wordt toegepast, het ook bruikbaar is in de
 context van andere standaarden (zoals technische of organisatorische),
 voorzieningen, stelsels, of andere concepten zoals het beheer van
-data, of software. Dit soort gebruikservaringen, die eventueel leiden
-tot aangepaste BOMOS versies voor gebruik in een specifieke context,
+data of software. Dit soort gebruikservaringen, die eventueel leiden
+tot aangepaste BOMOS-versies voor gebruik in een specifieke context,
 kunnen gepubliceerd worden als BOMOS Aanvullende Module.
 
 ## Definities
@@ -141,7 +141,7 @@ Een onderscheid is te maken tussen ontwikkeling en beheer. Het beheer
 van standaarden heeft betrekking op het beschikbaar stellen en
 aanpassen van bestaande standaarden op basis van nieuwe wensen en
 eisen zonder dat er sprake is van functionele uitbreidingen. Dit bevat
-dus ondermeer het verspreiden van de standaard bijvoorbeeld op een
+dus onder meer het verspreiden van de standaard bijvoorbeeld op een
 website, het bieden van ondersteuning, het verzamelen van wensen en
 eisen en het uitbrengen van nieuwe versies.
 
@@ -169,13 +169,13 @@ zowel in het private als in het publieke domein worden gevoeld, kan
 een community een publiek-private samenwerkingsvorm zijn.
 
 **Open standaard**  
-Er zijn vele meningen over de definitie van een open standaard, vooral
+Er zijn vele meningen over de definitie van een open standaard. Vooral
 vanwege belangen van verschillende organisaties is het nooit gelukt om
 dit goed te definiëren. In BOMOS hanteren we een definitie die in de
-start periode van het European Interoperability Framework werd
+startperiode van het European Interoperability Framework werd
 gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later
 zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de
-oorspronkelijke definitie is relatief het meest open.  Onder een ‘open
+oorspronkelijke definitie is relatief het meest open. Onder een ‘open
 standaard’ verstaan we een standaard die voldoet aan de volgende
 eisen:
 1. De standaard is goedgekeurd en zal worden gehandhaafd door een
