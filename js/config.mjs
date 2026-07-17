@@ -1,8 +1,6 @@
-var respecConfig = {
-  alternateFormats: [ { 
-        "label" : "pdf",
-        "uri" : "BOMOS-Foundation.pdf"
-      } ],
+import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
+
+loadRespecWithConfiguration({
   authors: [ { 
         "company" : "HAN University of Applied Sciences",
         "companyURL" : "https://www.han.nl/",
@@ -41,4 +39,4 @@ var respecConfig = {
   shortName: "fundament/en",
   specStatus: "DEF",
   specType: "HR"
-};
+});
