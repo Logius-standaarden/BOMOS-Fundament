@@ -5,9 +5,9 @@ On its own, the Management and Development Model for standards creates a foundat
 For example about:
 
 * Adoption: how can you encourage it?
-* Open: I hear about ‘openness’, but what does it actually mean?
+* Open: I hear about 'openness', but what does it actually mean?
 * Business case: What is the ultimate benefit?
-* Financing: What does it actually cost? And what are good sources of income?  
+* Financing: What does it actually cost? And what are good sources of income?
 * The quality of the standard leads to problems and dissatisfaction.
 * Suppliers that want to be certified so they can boost their profile.
 
@@ -33,13 +33,13 @@ We all want open standards, but except for a definition we have few pointers as 
 
 Due to their relationships with other standards, semantic standards are extremely complex. To achieve interoperability, the first essential requirement is a combination of technical, syntactical and semantic standards. Semantic standards can be recognised in what is known as horizontal and vertical (domain) standards. There is also a distinction between international standards and the ways they are implemented nationally. Standards of this kind are also referred to as agreements or application profiles.
 
-In turn, these standards use vocabularies (or code lists). All variants of standards must be managed. In other words, an international standard is not the end point; in many cases it fails to solve interoperability problems. Many semantic standards are developed outside the formal standardisation organisations (such as NEN and ISO) but they do often have a difficult relationship with formal standards, made so by the potential absence of openness in these standards. At national level, we must often deal with national implementations of international standards, a complex relationship which calls for a strategy. Do any alterations we make apply internationally to the standard, or is it simply a question of adapting the international standard? For that aspect too, strategies have been devised. 
+In turn, these standards use vocabularies (or code lists). All variants of standards must be managed. In other words, an international standard is not the end point; in many cases it fails to solve interoperability problems. Many semantic standards are developed outside the formal standardisation organisations (such as NEN and ISO) but they do often have a difficult relationship with formal standards, made so by the potential absence of openness in these standards. At national level, we must often deal with national implementations of international standards, a complex relationship which calls for a strategy. Do any alterations we make apply internationally to the standard, or is it simply a question of adapting the international standard? For that aspect too, strategies have been devised.
 
 In the world of semantic standards, the Semantic Web / Linked Data concepts have been key developments for handling and recording the semantics of the data. These developments are based on a series of often W3C standards.
 
 **[Adoption: Stimulating the use of a Standard](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#stimuleren-van-het-gebruik-van-standaarden-activiteit-adoptie-erkenning)**
 
-The value of a standard is to an important degree formed by the number of users. After all: the more users, the easier it is to exchange data via the standard, within a given sector or group of organisations. With that in mind, many standardisation organisations are keen to accelerate the adoption of their standard(s). Various different tools are available for this purpose: communication (information, promotion, etc.), financial (implementation grants and subsidies, funding of pilot projects, offering implementation tools, etc.) and legal (enforcement, for example via ‘apply or explain’).  It is important to select the most appropriate tool. This depends on what is known as the likelihood of adoption in the network of organisations (collective business case) and individual organisations (business case for individual organisations).
+The value of a standard is to an important degree formed by the number of users. After all: the more users, the easier it is to exchange data via the standard, within a given sector or group of organisations. With that in mind, many standardisation organisations are keen to accelerate the adoption of their standard(s). Various different tools are available for this purpose: communication (information, promotion, etc.), financial (implementation grants and subsidies, funding of pilot projects, offering implementation tools, etc.) and legal (enforcement, for example via 'apply or explain').  It is important to select the most appropriate tool. This depends on what is known as the likelihood of adoption in the network of organisations (collective business case) and individual organisations (business case for individual organisations).
 
 **[Quality of a Standard](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#kwaliteitsbeleid-en-benchmarking)**
 

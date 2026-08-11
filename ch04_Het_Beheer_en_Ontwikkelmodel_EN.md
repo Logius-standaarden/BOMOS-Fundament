@@ -18,12 +18,12 @@ The model only describes those subjects that can be implemented via activities, 
 
 As a result of the situational dependence it is not possible to identify core subjects, but one thing is clear, namely that governance always has to be organised in order to make a decision-making process possible.
 
-Depending on the situation, the next step is to determine which subjects should be given priority. The figure shows the three traditional layers: strategy, tactical and operational. These are flanked by two support processes: communication and implementation support. 
+Depending on the situation, the next step is to determine which subjects should be given priority. The figure shows the three traditional layers: strategy, tactical and operational. These are flanked by two support processes: communication and implementation support.
 The model could suggest that these subjects operate in isolation, because no relationships between them are shown. However, the opposite is the case: many subjects are related - both within a main group and between the main groups.
 
 This makes harmonisation between the subjects essential. The model says nothing about the organisation form or its integration in a management organisation. In practice, multiple activities can be entrusted to a single organisation components or multiple organisation component can be involved in a single activity. The best practice organisation structure ([Part 2: The Elaboration](https://logius-standaarden.github.io/BOMOS-Verdieping)) discusses this in more detail.
 
-## The Subjects from the Model 
+## The Subjects from the Model
 The activities referred to can be interpreted as follows:
 
 **Strategy**: Course-setting activities related to the strategic (long) term:
@@ -62,11 +62,11 @@ The activities referred to can be interpreted as follows:
 
 ## Activities and Roles
 
-The various activities must be undertaken by different roles. The NEN standard 7522:2021 ‘Health informatics - Development and maintenance of standards and systems of standards’ which provides an overview of the roles relevant in the development and management of standards, is reproduced here in slightly altered form
+The various activities must be undertaken by different roles. The NEN standard 7522:2021 'Health informatics - Development and maintenance of standards and systems of standards' which provides an overview of the roles relevant in the development and management of standards, is reproduced here in slightly altered form
 
 **Owner**: person with final responsibility for the development and management of a standard. The owner determines the scope and objective of a standard, and determines the (underlying) principles employed in development and management.
 
-**Financier**: responsible for financing the development and management of standards. 
+**Financier**: responsible for financing the development and management of standards.
 
 **Authoriser**: approves a standard. Explanation: an authoriser can be a person, organisation or group of persons and organisations. The owner must appoint the authoriser. An authoriser often combines a representation of stakeholders, who as a person or organisation also have the role of user.
 
@@ -107,19 +107,19 @@ In this initial phase of a standard, the primary need is harmonious decision mak
 
 **2. Introduction phase of the standard**
 
-In this phase, a specific standard is selected to meet a particular need. This phase will be hallmarked by numerous changes. The management structure starts to become important. A deliberate and explicit choice can be made in terms of decision making, that the standard should be declared generally applicable or introduced via organic growth with gradual adoption. One example of a deliberate choice is the decision taken by government to impose a compulsory standard. Sectoral agreements or a decision by the Standardisation Forum to place a standard on the ‘Apply or explain’ list are also deliberate choices.
+In this phase, a specific standard is selected to meet a particular need. This phase will be hallmarked by numerous changes. The management structure starts to become important. A deliberate and explicit choice can be made in terms of decision making, that the standard should be declared generally applicable or introduced via organic growth with gradual adoption. One example of a deliberate choice is the decision taken by government to impose a compulsory standard. Sectoral agreements or a decision by the Standardisation Forum to place a standard on the 'Apply or explain' list are also deliberate choices.
 
 Also in the introduction phase, it remains important to have a good adoption plan. Reiterating the value and necessity of the standard also remain relevant. A new aspect in this phase is the monitoring of the adoption and publication of the standard. Whereas a (draft) version may not yet be available during the creation phase, there must a draft version available during the introduction phase.
 
 **3. Implementation / growth of the standard**
 
-During this phase, users deliberately opt to implement the standard. The management also takes account of the fact that not all users have a thorough knowledge of the standard. In this phase, management also means supporting and informing the users. Management terms such as ‘early majority’ apply to this phase. Your activities are focused on more professional adoption and professionalisation of the open management processes so that the upscaling of use by all parties remains in sync and the processes remain transparent. Registrations of users/customers/experts, etc. become increasingly important. 
+During this phase, users deliberately opt to implement the standard. The management also takes account of the fact that not all users have a thorough knowledge of the standard. In this phase, management also means supporting and informing the users. Management terms such as 'early majority' apply to this phase. Your activities are focused on more professional adoption and professionalisation of the open management processes so that the upscaling of use by all parties remains in sync and the processes remain transparent. Registrations of users/customers/experts, etc. become increasingly important.
 
-Organic adoption refers to a situation in which various (individual) parties decide to apply a standard. This phase will be hallmarked by numerous changes. The management structure becomes more important, as is adoption of the standard by the early adopters. All activities should be focused on these aspects. 
+Organic adoption refers to a situation in which various (individual) parties decide to apply a standard. This phase will be hallmarked by numerous changes. The management structure becomes more important, as is adoption of the standard by the early adopters. All activities should be focused on these aspects.
 
 **4. Full application / maturity of the standard**
 
-In this phase, the standard is generally accepted and implemented. Management in this phase is focused entirely on safeguarding the stability and quality of the standard. 
+In this phase, the standard is generally accepted and implemented. Management in this phase is focused entirely on safeguarding the stability and quality of the standard.
 
 It is important to implement quality management and to monitor the BOMOS activities and to consider the relationship with other (international) standards. These aspects can of course also be important during earlier phases, but as a rule, it is always the case for a mature standard.
 

@@ -16,8 +16,8 @@ Transaction standards (for business and other applications), vocabularies (lists
 
 * They are often a specific reflection of an international standard.
 * They are often intended for a specific, substantive problem:
- * For example ‘vertical’ information exchange for a specific sector: Geo-domain, Education, Healthcare, etc.
- * For example ‘horizontal’: information exchange for a specific function: Purchasing, Invoicing, etc.
+ * For example 'vertical' information exchange for a specific sector: Geo-domain, Education, Healthcare, etc.
+ * For example 'horizontal': information exchange for a specific function: Purchasing, Invoicing, etc.
 * They are often developed and managed in the domain (the sector) and not by formal standardisation organisations.
 * The heart of the standard is the semantics (meaning) and not the technical aspects.
 
@@ -38,7 +38,7 @@ The standard NL-LOM describes how metadata must be recorded in educational mater
 
 As a consequence, standards have a different set of users and a different set of challenges, such as harmonisation with communities and international standards. This does not mean that the discipline of semantic standardisation is unable to learn from other disciplines such as the software world. Models from those disciplines can be perfectly usable. In particular the BiSL framework for functional management is usable to a certain degree and was also considered in the creation of BOMOS (For more information about BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van Outvorst, Van Haren Publishing, 2005.).
 
-BOMOS was initially developed for semantic standards; this focus is still regularly reflected among others in [the best practices in part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). However, on the basis of user experiences, we have since also learned that where BOMOS is employed advisedly, it is also usable in the context of other standards (such as technical or organisational standards), provisions, frameworks or even other concepts such as the management of data, or software. User experiences of this kind, which may result in amended BOMOS versions for use in a specific context, can be published as BOMOS Supplementary Modules. 
+BOMOS was initially developed for semantic standards; this focus is still regularly reflected among others in [the best practices in part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). However, on the basis of user experiences, we have since also learned that where BOMOS is employed advisedly, it is also usable in the context of other standards (such as technical or organisational standards), provisions, frameworks or even other concepts such as the management of data, or software. User experiences of this kind, which may result in amended BOMOS versions for use in a specific context, can be published as BOMOS Supplementary Modules.
 
 ## Definitions
 
@@ -49,7 +49,7 @@ It is possible to distinguish between development and management. The management
 
 The development of standards relates to the development of a standard as a solution for a new functional domain. This can mean that on the basis of the development the existing standard is expanded, or that a new standard emerges.
 
-Management and development in its broadest sense, for a standard, also includes such subjects as adoption and certification. 
+Management and development in its broadest sense, for a standard, also includes such subjects as adoption and certification.
 
 **Management and Development Model**
 The Management and Development Model is a layered structure of subjects necessary for the development and management of an open standard, as reproduced in an activity diagram. It is the core of BOMOS.
@@ -57,8 +57,8 @@ The Management and Development Model is a layered structure of subjects necessar
 **Community**
 Each specific community or group in the electronic (government) field involved with the development and/or management of a specific (set of) standard(s), in response to an explicit common need. Because needs of this kind are often perceived both in the private and in the public domain, a community can be a form of public-private partnership.
 
-**Open standard**  
-There are many different opinions about the definition of an open standard. Above all because of the interests of different organisations, no successful definition has ever been produced. In BOMOS, we use a definition that was used in the initial period of the European Interoperability Framework, and which was adopted by the Dutch government. At a later stage adaptations were made, in particular more strict definitions, but the original definition is relatively the most open. What we understand by an ‘open standard’ is a standard that satisfies the following requirements:
+**Open standard**
+There are many different opinions about the definition of an open standard. Above all because of the interests of different organisations, no successful definition has ever been produced. In BOMOS, we use a definition that was used in the initial period of the European Interoperability Framework, and which was adopted by the Dutch government. At a later stage adaptations were made, in particular more strict definitions, but the original definition is relatively the most open. What we understand by an 'open standard' is a standard that satisfies the following requirements:
 1. The standard is approved and will be maintained by a not-for-profit organisation and further development is based on an open decision-making procedure accessible to all stakeholders (consensus or majority decision);
 2. The standard is published and there is free access to the specification document for the standard or the document can be obtained for a nominal charge. It must be possible for all parties to copy, to supply and to use the standard free of charge or for a nominal price;
 3. The intellectual property - in respect of any patents present - to (parts of) the standard is provided irrevocably on a royalty-free basis;
@@ -67,35 +67,35 @@ There are many different opinions about the definition of an open standard. Abov
 **Semantic interoperability**
 Means that the collaborating parties allocate the same meaning to the data exchange.
 
-**Semantic standards**  
+**Semantic standards**
 Are agreements about the meaning of data.
 
-**Working group**  
+**Working group**
 A group within the community with a demarcated sub activity with an unequivocally defined end result as its objective.
 
 For more information about interoperability and standards:
 
-Open Standard:  
+Open Standard:
 https://forumstandaardisatie.nl/open-standaarden
 
 Standardisation Handbook:
 https://en.wikipedia.org/wiki/Open_standard
 https://open-stand.org/
 
-European Interoperability Framework:  
+European Interoperability Framework:
 https://ec.europa.eu/isa2/eif_en
 
-BSI Guide to Standardization:  
+BSI Guide to Standardization:
 https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
 
-Standardisation Handbook:  
+Standardisation Handbook:
 https://en.wikipedia.org/wiki/Open_standard
 
-Standardisation Guide for researchers: 
+Standardisation Guide for researchers:
 https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/
 
 Compulsory open standards in the Netherlands:
 https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht/
 
-Netherlands Government Reference Architecture (NORA):  
+Netherlands Government Reference Architecture (NORA):
 https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/

@@ -26,14 +26,14 @@ There are a number of options:
 
 4. Tackling specific problems
 
- 	BOMOS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as: 
+ 	BOMOS can also be deployed to create a tailored approach to implement improvements on the basis of best practices and reference models for such issues as:
    * Quality: how can the quality of a standard be measured and improved?
    * Adoption: how can the adoption of a standard be accelerated? What tools can be employed for that purpose?
    * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
    * Validation and certification: how is it possible to test whether the implementations of a standard comply with the specifications imposed? What possibilities are available?
 
 <aside class="example" title="Geo-standaarden">
-In the Netherlands, Geonovum develops and manages the basic geostandards. The geostandards are included in the apply or explain list published by the Standardisation Forum. In 2014 we received the label excellent management, partly because we manage the geostandards in accordance with BOMOS. Geostandards ensure that we are able to exchange geoinformation in digital form and (re)use that information in a variety of software packages for a variety of purposes. There are generic standards which enable basic functionalities such as ‘search’ and ‘present’. There are also standards focused on the ability to meaningfully exchange data, often within a specific sector. The BOMOS system is appropriate for both the generic geostandards with a management plan and a change protocol and for specific domain standards. 
+In the Netherlands, Geonovum develops and manages the basic geostandards. The geostandards are included in the apply or explain list published by the Standardisation Forum. In 2014 we received the label excellent management, partly because we manage the geostandards in accordance with BOMOS. Geostandards ensure that we are able to exchange geoinformation in digital form and (re)use that information in a variety of software packages for a variety of purposes. There are generic standards which enable basic functionalities such as 'search' and 'present'. There are also standards focused on the ability to meaningfully exchange data, often within a specific sector. The BOMOS system is appropriate for both the generic geostandards with a management plan and a change protocol and for specific domain standards.
 </aside>
 
 <aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
@@ -48,7 +48,7 @@ BOMOS is extremely useful as a source of background information, for example for
 
 In the elaboration section, solutions are presented based on practical experience: where possible, examples are used to demonstrate the acceptance of the solution in practice, to describe the standardisation organisations that have experience with that process and to present the related recommendations and advice. In other words, valuable background information about practical situations.
 
-Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a ‘language’ that allows clear communication about the management of standards.
+Together, these two elements form the basis of BOMOS, and provide inspiring background information. Another example is the use of BOMOS as a tool for administrators and policymakers to help them identify exactly what openness of standards really means. BOMOS is also used as a 'language' that allows clear communication about the management of standards.
 
 
 ## BOMOS as a Mirror for the Current Management Process
@@ -61,4 +61,4 @@ For specific situations, it is possible to define requirements/assessments for e
 
 Moreover, even if the management organisation does operate in accordance with BOMOS, this does not automatically mean that the standard also complies with the criteria for the apply or explain list of standards published by the government. However, it is clearly preferable if the registered standards do operate in accordance with BOMOS, as well as focusing particular attention on the chapters relating to the development and management organisation, openness, the operational process and the financial structure.
 
-In linguistic terms, the word ‘Standard’ often refers to something which is jointly agreed on and laid down. In that context, we may conclude that BOMOS is a standard. A standard for (the development and management of) standards.
+In linguistic terms, the word 'Standard' often refers to something which is jointly agreed on and laid down. In that context, we may conclude that BOMOS is a standard. A standard for (the development and management of) standards.
