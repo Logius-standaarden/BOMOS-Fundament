@@ -1,6 +1,6 @@
 # The Management and Development Model: Design for Development and Management
 
-The [figure below](#fig-bomos-activitydiagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
+The [figure below](#fig-bomos-activity-diagram) shows the Management and Development Model: a layered structure of subjects necessary for the development and management of an open standard.
 
 The structure consists of a series of elements:
 
@@ -8,7 +8,7 @@ The structure consists of a series of elements:
 * Two support layers: implementation support and communication.
 * A series of activities that can be implemented in each layer.
 
-![BOMOS Activitydiagram](media/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activitydiagram")
+![BOMOS Activity diagram](media/BOMOS-15_BOMOS-activiteiten-blanco_EN.png "BOMOS Activity diagram")
 
 ## Necessary Structure for each Situation
 
@@ -72,7 +72,7 @@ The various activities must be undertaken by different roles. The NEN standard 7
 
 **Functional manager**: responsible for the process of development and management of standards within the frameworks of the agreements reached and the agreed governance. Explanation: the functional manager is responsible for the process of development and management of the content of standards. In this process, he works closely with experts, users, the technical manager and the distributor. The functional manager often has a direction-setting role. Results of the process are submitted to the authoriser.
 
-**Technical manager**: responsible for the technical management of standards. The technical manager is responsible for the structure and management of a technical environment necessary for maintaining the artefacts that form part of the standard. Explanation: The technical manager is responsible for the technical environment in which the artefacts under management are maintained. The technical environment consists of the set of IT resources (tools, hardware, networks, etc.) necessary for implementing functional management of the standard. The technical manager is responsible for the possible application of version management for the technical environment and the provision and maintenance of the technical environment, in consultation with the functional manager.
+**Technical manager**: responsible for the technical management of standards. The technical manager is responsible for the structure and management of a technical environment necessary for maintaining the artefacts that form part of the standard. Explanation: The technical manager is responsible for the technical environment in which the artefacts under management are maintained. The technical environment consists of the set of IT resources (tools, hardware, networks, etcetera.) necessary for implementing functional management of the standard. The technical manager is responsible for the possible application of version management for the technical environment and the provision and maintenance of the technical environment, in consultation with the functional manager.
 
 **Distributor**: responsible for distributing standards.
 
@@ -97,7 +97,7 @@ Earlier, we described in which situations BOMOS can be used, here we make the st
 
 The current life phase of a standard clearly impacts on the structure of the management. A standard still in the development phase imposes different requirements on management than a standard that has been broadly adopted and implemented. A sensible rule of thumb is to carry out a check (on the basis of the Management and Development Model) at each transition point, to determine whether your management structure is still compliant. Below is a description of the phases of the standard lifecycle, to enable you to determine the current phase of your standard.
 
-![Life phases of a standard. A linear progression goes from creation, through introduction and maturity, to phasing out. A loop goes from introduction and implementation to maturity and back againg](media/BOMOS-17_Adoptie-Tijd-blanco_EN.png "Life phases of a standard")
+![Life phases of a standard. A linear progression goes from creation, through introduction and maturity, to phasing out. A loop goes from introduction and implementation to maturity and back ageing](media/BOMOS-17_Adoptie-Tijd-blanco_EN.png "Life phases of a standard")
 
 **1. Creation / development**
 
@@ -113,7 +113,7 @@ Also in the introduction phase, it remains important to have a good adoption pla
 
 **3. Implementation / growth of the standard**
 
-During this phase, users deliberately opt to implement the standard. The management also takes account of the fact that not all users have a thorough knowledge of the standard. In this phase, management also means supporting and informing the users. Management terms such as 'early majority' apply to this phase. Your activities are focused on more professional adoption and professionalisation of the open management processes so that the upscaling of use by all parties remains in sync and the processes remain transparent. Registrations of users/customers/experts, etc. become increasingly important.
+During this phase, users deliberately opt to implement the standard. The management also takes account of the fact that not all users have a thorough knowledge of the standard. In this phase, management also means supporting and informing the users. Management terms such as 'early majority' apply to this phase. Your activities are focused on more professional adoption and professionalisation of the open management processes so that the upscaling of use by all parties remains in sync and the processes remain transparent. Registrations of users/customers/experts, etcetera. become increasingly important.
 
 Organic adoption refers to a situation in which various (individual) parties decide to apply a standard. This phase will be hallmarked by numerous changes. The management structure becomes more important, as is adoption of the standard by the early adopters. All activities should be focused on these aspects.
 

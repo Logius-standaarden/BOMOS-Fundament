@@ -24,8 +24,8 @@ Only time will show whether we have successfully replaced the earlier work with 
 6. 'How open a standard can be depends entirely on the structure of the development and management process.'
 7. 'A sustainable standard is a standard that is open and managed.'
 8. 'The worst thing about standards is that there are so many of them; it is crucial that they be reused (inspired by Professor Tanenbaum: “The nice thing about standards is that you have so many to choose from”.')
-9. 'The management of standards has a great deal in common with other _artifacts_ (framework agreements, data, apis, ...) which makes BOMOS also suitable for use in other contexts.'
-10. 'A standard is not good or bad, open or closed, etc.; there are many shades of grey, and always room for improvement.'
+9. 'The management of standards has a great deal in common with other _artifacts_ (framework agreements, data, APIs, ...) which makes BOMOS also suitable for use in other contexts.'
+10. 'A standard is not good or bad, open or closed, etcetera.; there are many shades of grey, and always room for improvement.'
 11. 'Without standards there would have been no pyramids (standards are as old as humanity itself).'
 12. 'Standards, employed in architecture, form the basis for interoperability.'
 13. 'The essence of a standardisation process is cooperation; that makes standardisation a cultural phenomenon.'
@@ -82,7 +82,7 @@ In addition [BOMOS in part 2](https://gitdocumentatie.logius.nl/publicatie/bomos
 Together Part 1 and Part 2 form the basis for BOMOS.
 On top of this basic structure, the community has produced a number of BOMOS expansions which can be useful in deploying BOMOS in concrete situations, some of which may involve a slightly different context. We refer to these as the BOMOS Supplementary Modules or a Body of Knowledge, which will remain dynamic over time.
 
-When we talk about BOMOS, what we are actually referring to is the basis as described in Part 1 and [Part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). Although the supplementary modules are clearly linked to BOMOS, they have their own governance, which can result in their being given their own name, their own target group, their own management system, etc. The [BOMOS management process](#the-management-and-development-model-design-for-development-and-management) also describes the requirements that are imposed before something can be added as a BOMOS supplementary module.
+When we talk about BOMOS, what we are actually referring to is the basis as described in Part 1 and [Part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). Although the supplementary modules are clearly linked to BOMOS, they have their own governance, which can result in their being given their own name, their own target group, their own management system, etcetera. The [BOMOS management process](#the-management-and-development-model-design-for-development-and-management) also describes the requirements that are imposed before something can be added as a BOMOS supplementary module.
 
  The first two supplementary modules are:
 -	[Linked Data & Ontologies](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/): the specific use of Linked Data for semantic standards.
