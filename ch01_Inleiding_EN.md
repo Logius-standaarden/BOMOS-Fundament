@@ -15,9 +15,6 @@ At the end of 2018, Logius organised a session to discuss the use of BOMOS; an i
 
 Only time will show whether we have successfully replaced the earlier work with this version, or whether we simply fell into the same old trap.
 
-Erwin Folmer & Gül Işik & Edwin Wisse
-March 2022
-
 ## The 13 BOMOS 'Commandments'
 1. 'An unmanaged standard is not a standard!'
 2. 'It is never too early to start looking into possibilities for managing the standard.'
@@ -88,7 +85,7 @@ On top of this basic structure, the community has produced a number of BOMOS exp
 When we talk about BOMOS, what we are actually referring to is the basis as described in Part 1 and [Part 2](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/). Although the supplementary modules are clearly linked to BOMOS, they have their own governance, which can result in their being given their own name, their own target group, their own management system, etc. The [BOMOS management process](#the-management-and-development-model-design-for-development-and-management) also describes the requirements that are imposed before something can be added as a BOMOS supplementary module.
 
  The first two supplementary modules are:
--	[Linked Data & Ontologies](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/): the specific use of Linked Data for sematic standards.
+-	[Linked Data & Ontologies](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/): the specific use of Linked Data for semantic standards.
 -	Structure for [BOMOS for the management of Trust Frameworks](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/): the use of BOMOS in the specific situation governing trust frameworks.
 
 ## Reading Guide

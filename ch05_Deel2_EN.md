@@ -17,7 +17,7 @@ These subjects are discussed in detail in Part 2 - The Elaboration:
 
 The activities from the Management and Development Model are carried out in an organisation structure, which often consists of an implementing organisation that receives orders from the governing body. The implementing organisation works with working groups to fulfil the orders. As well as working groups, separate groups of suppliers and/or advisory bodies can be established. The management and development activities can be entrusted to an internal organisation, but for specific tasks, other organisations such as formal standardisation organisations, knowledge institutions or sectoral organisations can be called in. There are different possible legal forms for the internal management organisation, the most common of which is the foundation.
 
-**[Financially: Costst and Benefits](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-kosten-en-de-opbrengsten-activiteit-financien)**
+**[Financially: Costs and Benefits](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#de-kosten-en-de-opbrengsten-activiteit-financien)**
 
 Few figures are available about the revenue and costs of standardisation. Nevertheless, we do know that standards deliver added economic value. The advantages include network effects, preventing vendor lock-ins and lower transaction costs.
 

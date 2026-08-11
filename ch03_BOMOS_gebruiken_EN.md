@@ -32,11 +32,11 @@ There are a number of options:
    * Financing: how can the financial model of a management organisation be improved, for example if funding is declining, or wishes change?
    * Validation and certification: how is it possible to test whether the implementations of a standard comply with the specifications imposed? What possibilities are available?
 
-<aside class="example" title="Geo-standaarden">
+<aside class="example" title="Geostandards">
 In the Netherlands, Geonovum develops and manages the basic geostandards. The geostandards are included in the apply or explain list published by the Standardisation Forum. In 2014 we received the label excellent management, partly because we manage the geostandards in accordance with BOMOS. Geostandards ensure that we are able to exchange geoinformation in digital form and (re)use that information in a variety of software packages for a variety of purposes. There are generic standards which enable basic functionalities such as 'search' and 'present'. There are also standards focused on the ability to meaningfully exchange data, often within a specific sector. The BOMOS system is appropriate for both the generic geostandards with a management plan and a change protocol and for specific domain standards.
 </aside>
 
-<aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
+<aside class="example" title="Thesaurus and Ontology for Government Information">
 TOOI (Thesaurus and Ontology for Government Information) is a model for the information published by all organisations within the Dutch government. Using the TOOI model, it is possible to make information coherent and findable, across the boundaries of individual organisations and information systems.
 
 The TOOI management plan describes how the specifications for TOOI are managed. It encompasses both the management organisation and the underlying rules and regulations. The TOOI management plan was established according to the principles of BOMOS. The structure based on the 5 themes from BOMOS (Strategy, Tactical, Operational, Implementation Support and Communication) are described in detail on the TOOI (Dutch) [website](https://standaarden.overheid.nl/tooi/beheerplan).

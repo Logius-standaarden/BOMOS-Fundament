@@ -39,4 +39,20 @@ loadRespecWithConfiguration({
   specStatus: "WV",
   specType: "HR",
   spellcheck: false,
+  localBiblio: {
+    "Automotive-interoperability": {
+      authors: ["Smita B. Brunnermeier", "Sheila A. Martin"],
+      href: "https://doi.org/10.1108/13598540210425821",
+      date: "May 1, 2002",
+      publisher: "Emerald Publishing",
+      title: "Interoperability Cost Analysis of the U.S. A ability Cost Analysis of the U.S. Automotive Supply Chain",
+    },
+    "BISL": {
+      authors: ["R. Donatz", "F. van Outvorst", "R. van der Pols"],
+      href: "https://metadata.isbn.nl/979829/bisl.html",
+      date: "March 1, 2005",
+      publisher: "Van Haren Publishing",
+      title: "BISL - Een framework voor functioneel beheer en informatiemanagement",
+    }
+  },
 });
