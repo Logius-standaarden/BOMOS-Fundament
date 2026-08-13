@@ -24,7 +24,7 @@ Only time will show whether we have successfully replaced the earlier work with 
 6. 'How open a standard can be depends entirely on the structure of the development and management process.'
 7. 'A sustainable standard is a standard that is open and managed.'
 8. 'The worst thing about standards is that there are so many of them; it is crucial that they be reused (inspired by Professor Tanenbaum: “The nice thing about standards is that you have so many to choose from”.')
-9. 'The management of standards has a great deal in common with other _artifacts_ (framework agreements, data, APIs, ...) which makes BOMOS also suitable for use in other contexts.'
+9. 'The management of standards has a great deal in common with other _artefacts_ (framework agreements, data, APIs, ...) which makes BOMOS also suitable for use in other contexts.'
 10. 'A standard is not good or bad, open or closed, etcetera.; there are many shades of grey, and always room for improvement.'
 11. 'Without standards there would have been no pyramids (standards are as old as humanity itself).'
 12. 'Standards, employed in architecture, form the basis for interoperability.'
@@ -73,7 +73,7 @@ To safeguard any further development, and with a view to the interests of all us
 BOMOS consists of:
 * BOMOS Part 1: Foundation (this document)
 * BOMOS Part 2: [Elaboration](https://gitdocumentatie.logius.nl/publicatie/bomos/verdieping/en/)
-* BOMOS Supplementary modules: [Linked Data](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/) en [Trust Frameworks](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/)
+* BOMOS Supplementary modules: [Linked Data](https://gitdocumentatie.logius.nl/publicatie/bomos/linkeddata/en/) and [Trust Frameworks](https://gitdocumentatie.logius.nl/publicatie/bomos/stelsels/en/)
 
 The heart of BOMOS is the 'Foundation'. This consists of a basic description of the Management and Development Model and a further elaboration based on literature and experiences gained in practice.  In essence, the Management and Development Model is an activity diagram which also offers a definition of the roles relevant in the process of managing and developing standards.
 

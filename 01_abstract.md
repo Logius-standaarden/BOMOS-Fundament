@@ -1,5 +1,5 @@
 BOMOS is the abbreviation of Dutch name "Beheer en OntwikkelModel voor Open Standaarden".
-In English this means **Management and Development Model for Open Standards**_
+In English this means **Management and Development Model for Open Standards**.
 We will use BOMOS as a noun in the English version rather than introducing a new acronym.
 
 BOMOS is an assistance tool of and for the world of standardisation.
