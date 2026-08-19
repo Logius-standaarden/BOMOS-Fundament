@@ -17,7 +17,7 @@ heeft belang bij het nastreven van interoperabiliteit, maar heeft nog
 een extra reden ondermeer vanuit maatschappelijk oogpunt. Denk aan de
 consequenties bij een ramp wanneer de verschillende
 hulpdienstorganisaties niet interoperabel met elkaar zouden
-zijn. Daarnaast doen zich bij thema’s als het elektronisch
+zijn. Daarnaast doen zich bij thema's als het elektronisch
 patiëntendossier en de problematiek rond risicojongeren ook
 interoperabiliteitsvraagstukken voor.
 
@@ -47,8 +47,8 @@ standaarden. Andere kenmerken van semantische standaarden zijn:
 
 * Het zijn vaak een specifieke invulling van een internationale standaard.
 * Ze zijn vaak voor een specifiek inhoudelijk probleem:
-  * Bijv. ‘verticaal’: informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
-  * Bijv. ‘horizontaal’ informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
+  * Bijv. 'verticaal': informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
+  * Bijv. 'horizontaal' informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
 * Ze worden vaak ontwikkeld en beheerd in het domein (de sector), en niet door formele standaardisatieorganisaties.
 * De kern van de standaard is de semantiek (de betekenis), niet de techniek.
 
@@ -74,17 +74,17 @@ overheidscontext (G2G, G2B en/of G2C-context), maar in de praktijk zal
 dit document evengoed van toepassing zijn buiten de overheidscontext.
 
 <aside class="example" title="Gegevenswoordenboek Stedelijk Water">
-Het Gegevenswoordenboek Stedelijk Water (GWSW) is een open standaard voor 
-het eenduidig vastleggen, uitwisselen en delen van gegevens in het stedelijk 
-waterbeheer. Het GWSW is een semantische standaard. Het specificeert de vaste 
-gegevens over objecten, maar ook het netwerk, maatregelen (aanleg, vervanging, 
-reparatie, renovatie) en processen zoals inspectie, capaciteits- en 
-afvoerberekeningen. Voor het uitwisselen van data en informatie is het 
-essentieel dat alle partijen met dezelfde systematiek en definities werken 
-en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin 
-voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen 
-datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het 
-gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer. 
+Het Gegevenswoordenboek Stedelijk Water (GWSW) is een open standaard voor
+het eenduidig vastleggen, uitwisselen en delen van gegevens in het stedelijk
+waterbeheer. Het GWSW is een semantische standaard. Het specificeert de vaste
+gegevens over objecten, maar ook het netwerk, maatregelen (aanleg, vervanging,
+reparatie, renovatie) en processen zoals inspectie, capaciteits- en
+afvoerberekeningen. Voor het uitwisselen van data en informatie is het
+essentieel dat alle partijen met dezelfde systematiek en definities werken
+en dezelfde (computer)taal spreken. Het GWSW is die gezamenlijke taal, waarin
+voor toepassingen minimale datasets en kwaliteitseisen vastliggen waartegen
+datasets getoetst kunnen worden. Het GWSW geeft verbeteringen in het
+gegevensbeheer en -uitwisseling en daarmee in de basis aan het rioleringsbeheer.
 Via de GWSW-standaard is het voor gemeenten en waterschappen ook eenvoudig om actuele rioleringsdata via PDOK open te publiceren.
 </aside>
 
@@ -102,7 +102,7 @@ standaard en software.
 De standaard NL-LOM beschrijft op welke
 manier metadata moet worden vastgelegd bij educatief materiaal. Een
 voorziening dat gebruik maakt van NL-LOM is Edurep, een zoekmachine
-die op basis van metadata educatief materiaal vindbaar maakt. 
+die op basis van metadata educatief materiaal vindbaar maakt.
 ([NL-LOM](https://www.forumstandaardisatie.nl/standaard/nl-lom);
 [Edurep](https://www.kennisnet.nl/edurep/))
 </aside>
@@ -168,15 +168,15 @@ expliciete gezamenlijke behoefte. Omdat dergelijke behoeften vaak
 zowel in het private als in het publieke domein worden gevoeld, kan
 een community een publiek-private samenwerkingsvorm zijn.
 
-**Open standaard**  
+**Open standaard**
 Er zijn vele meningen over de definitie van een open standaard, vooral
 vanwege belangen van verschillende organisaties is het nooit gelukt om
 dit goed te definiëren. In BOMOS hanteren we een definitie die in de
 start periode van het European Interoperability Framework werd
 gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later
 zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de
-oorspronkelijke definitie is relatief het meest open.  Onder een ‘open
-standaard’ verstaan we een standaard die voldoet aan de volgende
+oorspronkelijke definitie is relatief het meest open.  Onder een 'open
+standaard' verstaan we een standaard die voldoet aan de volgende
 eisen:
 1. De standaard is goedgekeurd en zal worden gehandhaafd door een
    not-for-profit organisatie, en de lopende ontwikkeling gebeurt op
@@ -196,16 +196,16 @@ eisen:
 Betekent dat samenwerkende partijen aan gegevens, die uitgewisseld
 worden, dezelfde betekenis toekennen.
 
-**Semantische standaarden**  
+**Semantische standaarden**
 Zijn afspraken over de betekenis van gegevens.
 
-**Werkgroep**  
+**Werkgroep**
 Een groep binnen de community met een afgebakende deelactiviteit met
 een eenduidig gedefinieerd eindresultaat als doel.
 
 Voor meer informatie over interoperabiliteit en standaarden:
 
-Open Standaard:  
+Open Standaard:
 https://forumstandaardisatie.nl/open-standaarden
 
 Standardisation Handbook:
@@ -214,13 +214,13 @@ https://en.wikipedia.org/wiki/Open_standard
 
 https://open-stand.org/
 
-European Interoperability Framework:  
+European Interoperability Framework:
 https://ec.europa.eu/isa2/eif_en
 
-BSI Guide to Standardization:  
+BSI Guide to Standardization:
 https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-standards-made/The-BSI-Guide-to-Standardization/
 
-Standardisation Handbook:  
+Standardisation Handbook:
 https://en.wikipedia.org/wiki/Open_standard
 
 Handreiking Standardisatie voor onderzoekers:
@@ -229,5 +229,5 @@ https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e
 Verplichte open standaarden in Nederland:
 https://www.forumstandaardisatie.nl/open-standaarden/lijst/verplicht/
 
-Nederlandse Overheids Referentie Architectuur (NORA):  
+Nederlandse Overheids Referentie Architectuur (NORA):
 https://www.digitaleoverheid.nl/dossiers/nederlandse-overheid-referentie-architectuur-nora/

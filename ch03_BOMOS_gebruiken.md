@@ -52,31 +52,31 @@ Er zijn een aantal mogelijkheden:
 
 4. Aanpak van specifieke problemen
 
-   Vaak zijn er specifieke problemen. BOMOS kan ook voor maatwerk worden ingezet om op basis van best practices en referentiemodellen verbeteringen door te voeren in zaken als:  
+   Vaak zijn er specifieke problemen. BOMOS kan ook voor maatwerk worden ingezet om op basis van best practices en referentiemodellen verbeteringen door te voeren in zaken als:
    * Kwaliteit: hoe kan de kwaliteit van een standaard gemeten en verbeterd worden?
    * Adoptie: hoe kan de adoptie van een standaard worden versneld? Welke middelen kunnen daarvoor worden ingezet?
    * Financiën: hoe kan het financiële model van een beheerorganisatie worden verbeterd, bijvoorbeeld bij teruglopende financiering of veranderde wensen?
    * Validatie en certificering: hoe kan worden getoetst dat implementaties van een standaard voldoen aan de gestelde specificaties? Welke mogelijkheden zijn er?
 
 <aside class="example" title="Geo-standaarden">
-In Nederland ontwikkelt en beheert Geonovum de basis geo-standaarden. 
-De geo-standaarden zijn opgenomen in de pas-toe-of-leg-uit-lijst van het 
-Forum Standaardisatie, waarvoor wij in 2014 het predicaat uitstekend beheer 
-ontvingen, mede omdat wij de geo-standaarden beheren conform 
-BOMOS. Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen 
-uitwisselen en (her-) gebruiken in verschillende softwarepakketten en 
-voor verschillende doeleinden. Er zijn generieke standaarden die 
-basisfunctionaliteiten als 'zoeken' en 'presenteren' mogelijk maken. 
-Daarnaast zijn er standaarden die zich richten op het betekenisvol kunnen 
-uitwisselen van gegevens, vaak binnen een bepaalde sector. De systematiek 
-van BOMOS passen toe voor zowel de generieke geo-standaarden met een 
+In Nederland ontwikkelt en beheert Geonovum de basis geo-standaarden.
+De geo-standaarden zijn opgenomen in de pas-toe-of-leg-uit-lijst van het
+Forum Standaardisatie, waarvoor wij in 2014 het predicaat uitstekend beheer
+ontvingen, mede omdat wij de geo-standaarden beheren conform
+BOMOS. Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen
+uitwisselen en (her-) gebruiken in verschillende softwarepakketten en
+voor verschillende doeleinden. Er zijn generieke standaarden die
+basisfunctionaliteiten als 'zoeken' en 'presenteren' mogelijk maken.
+Daarnaast zijn er standaarden die zich richten op het betekenisvol kunnen
+uitwisselen van gegevens, vaak binnen een bepaalde sector. De systematiek
+van BOMOS passen toe voor zowel de generieke geo-standaarden met een
 beheerplan en wijzigingsprotocol als voor de specifieke domeinstandaarden.  
 </aside>
 
 <aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
 TOOI (Thesaurus en Ontologie voor OverheidsInformatie) is een model van de informatie die gepubliceerd wordt door alle organisaties binnen de Nederlandse overheid. Met behulp van het TOOI-model kan die informatie in samenhang vindbaar gemaakt worden over organisaties en informatiesystemen heen.
 
-Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema’s uit BOMOS (Strategie, Tactiek, Operationeel, Implementatie Ondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
+Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema's uit BOMOS (Strategie, Tactiek, Operationeel, Implementatie Ondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
 </aside>
 
 ## BOMOS als achtergrondinformatie ter inspiratie
