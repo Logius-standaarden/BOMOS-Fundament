@@ -17,7 +17,7 @@ heeft belang bij het nastreven van interoperabiliteit, maar heeft nog
 een extra reden ondermeer vanuit maatschappelijk oogpunt. Denk aan de
 consequenties bij een ramp wanneer de verschillende
 hulpdienstorganisaties niet interoperabel met elkaar zouden
-zijn. Daarnaast doen zich bij thema’s als het elektronisch
+zijn. Daarnaast doen zich bij thema's als het elektronisch
 patiëntendossier en de problematiek rond risicojongeren ook
 interoperabiliteitsvraagstukken voor.
 
@@ -47,8 +47,8 @@ standaarden. Andere kenmerken van semantische standaarden zijn:
 
 * Het zijn vaak specifieke invullingen van een internationale standaard.
 * Ze zijn vaak voor een specifiek inhoudelijk probleem:
-  * Bijv. ‘verticaal’: informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
-  * Bijv. ‘horizontaal’ informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
+  * Bijv. 'verticaal': informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
+  * Bijv. 'horizontaal' informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
 * Ze worden vaak ontwikkeld en beheerd in het domein (de sector), en niet door formele standaardisatieorganisaties.
 * De kern van de standaard is de semantiek (de betekenis), niet de techniek.
 
@@ -175,8 +175,8 @@ dit goed te definiëren. In BOMOS hanteren we een definitie die in de
 startperiode van het European Interoperability Framework werd
 gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later
 zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de
-oorspronkelijke definitie is relatief het meest open. Onder een ‘open
-standaard’ verstaan we een standaard die voldoet aan de volgende
+oorspronkelijke definitie is relatief het meest open. Onder een 'open
+standaard' verstaan we een standaard die voldoet aan de volgende
 eisen:
 1. De standaard is goedgekeurd en zal worden gehandhaafd door een
    not-for-profit organisatie, en de lopende ontwikkeling gebeurt op

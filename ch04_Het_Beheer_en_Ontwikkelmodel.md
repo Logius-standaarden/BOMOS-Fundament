@@ -18,7 +18,7 @@ De structuur bestaat uit een aantal elementen:
 De invulling van de ontwikkel- en beheeronderwerpen zijn situationeel
 afhankelijk; dit wil zeggen dat verschillende situaties kunnen leiden
 tot een andere invulling voor een optimaal resultaat. Voor alle
-onderwerpen geldt dat deze in een ‘minimum’ en ‘maximum’ scenario
+onderwerpen geldt dat deze in een 'minimum' en 'maximum' scenario
 kunnen worden uitgevoerd of wellicht niet relevant zijn voor een
 bepaalde organisatie. Het is dus zeker niet zo dat elk onderwerp moet
 worden geïmplementeerd. In tegendeel, teveel nadruk op formalisatie
@@ -33,7 +33,7 @@ relevant worden eventuele voor- en nadelen van een specifieke
 invulling van een onderwerp of activiteit gegeven.
 
 Kernonderwerpen zijn door de situationele afhankelijkheid ook
-onmogelijk aan te geven, maar het moge duidelijk zijn dat ‘governance’
+onmogelijk aan te geven, maar het moge duidelijk zijn dat 'governance'
 altijd georganiseerd moet zijn om besluitvorming te kunnen laten
 plaatsvinden.
 
@@ -133,7 +133,7 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   artefacten die onderdeel zijn van de standaard te
   onderhouden. Toelichting: De technisch beheerder is verantwoordelijk
   voor de technische omgeving waarin de artefacten, die in beheer
-  zijn, worden onderhouden. Zo’n technische omgeving zal bestaan uit
+  zijn, worden onderhouden. Zo'n technische omgeving zal bestaan uit
   het geheel aan ICT-middelen (tools, hardware, netwerken, e.d.) die
   noodzakelijk zijn om het functioneel beheer uit te kunnen voeren op
   de standaard. Onder de verantwoordelijkheid van de technisch
@@ -239,7 +239,7 @@ algemeen geldend te verklaren of door organische groei waarbij de
 adoptie geleidelijk plaatsvindt. Een voorbeeld van bewuste keuze is
 besluitvorming door de overheid om een standaard verplicht te
 stellen. Ook sectorafspraken of een besluit van het Forum
-Standaardisatie om een standaard op de ‘Pas toe of leg uit’-lijst te
+Standaardisatie om een standaard op de 'Pas toe of leg uit'-lijst te
 plaatsen, vallen hieronder.
 
 In de introductiefase is het nog steeds belangrijk om een goed
@@ -255,7 +255,7 @@ In deze fase kiezen gebruikers bewust voor de implementatie van de
 standaard. In het beheer wordt ook rekening gehouden met het feit dat
 niet alle gebruikers beschikken over een volwaardig kennisniveau van
 de standaard. Beheer betekent in deze fase ook de ondersteuning en het
-informeren van de gebruikers. Marketingtermen als ‘early majority’
+informeren van de gebruikers. Marketingtermen als 'early majority'
 zijn in deze fase van toepassing. Uw activiteiten zijn gericht op meer
 professionele adoptie en professionalisatie van de open
 beheerprocessen, zodat bij opschaling van het gebruik alle partijen
@@ -265,8 +265,8 @@ van gebruikers/ afnemers/ experts etc. worden steeds belangrijker.
 Van organische adoptie is sprake als diverse (individuele) partijen
 besluiten een standaard te gaan toepassen. Tijdens deze fase zullen
 veel wijzigingen aan de orde zijn. De inrichting voor beheer wordt
-belangrijk, net als de adoptie van de standaard bij de ‘early
-adopters’ van belang is. Uw activiteiten zullen hierop gericht moeten zijn.
+belangrijk, net als de adoptie van de standaard bij de 'early
+adopters' van belang is. Uw activiteiten zullen hierop gericht moeten zijn.
 
 **4. Volwaardige toepassing / volwassenheid van de standaard**
 
