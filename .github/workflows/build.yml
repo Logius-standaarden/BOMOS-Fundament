@@ -5,17 +5,41 @@ on:
   push:
     branches:
       - main
-      - en
+      - develop
 jobs:
   build:
     name: Build
     uses: Logius-standaarden/Automatisering/.github/workflows/build.yml@main
-  check:
+    with:
+      workflow_input_file_names: '["index.html", "index_EN.html"]'
+  update-cache:
     needs: build
+    name: Update cache
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Restore cache for `index.html`
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/static
+          key: ${{ github.run_id }}-index.html
+      - name: Restore cache for `index_EN.html`
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/static
+          key: ${{ github.run_id }}-index_EN.html
+      - name: Welke bestanden zijn er?
+        run: ls ~/static
+      - name: Save cache for both
+        uses: actions/cache/save@v4
+        with:
+          path: ~/static
+          key: ${{ github.run_id }}
+  check:
+    needs: update-cache
     name: Check
     uses: Logius-standaarden/Automatisering/.github/workflows/check.yml@main
   publish:
-    needs: build
+    needs: update-cache
     name: Publish (Logius)
     uses: Logius-standaarden/Automatisering/.github/workflows/publish.yml@main
     secrets: inherit
