@@ -34,7 +34,7 @@ maar hopen we toch echt op een ander resultaat: 1 BOMOS als startpunt
 voor iedereen.
 
 Eind 2018 organiseerde Logius een sessie rond het gebruik van BOMOS;
-een inspirerende sessie met zo’n 40 deelnemers, die zo’n 30
+een inspirerende sessie met zo'n 40 deelnemers, die zo'n 30
 verschillende organisaties representeerde die allen BOMOS (in meer of
 mindere mate) gebruikten. Als wens kwam naar voren om deze nieuwe
 versie te maken….maar ja, wie gaat dat dan doen? Wij staken de hand

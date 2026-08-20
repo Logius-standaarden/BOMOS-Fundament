@@ -9,7 +9,7 @@ Daarbij zijn verschillende vraagstukken te herkennen, zoals:
 Bijvoorbeeld over:
 
 * Adoptie: hoe stimuleer je dat?
-* Open: Ik hoor over ‘openheid’, maar wat betekent dat?
+* Open: Ik hoor over 'openheid', maar wat betekent dat?
 * Business case: Wat levert het uiteindelijk op?
 * Financiering: Wat kost het nou? En wat zijn goede inkomstenbronnen?  
 * De kwaliteit van de standaard, als die leidt tot problemen of ontevredenheid.
@@ -108,7 +108,7 @@ standaardisatieorganisaties willen daarom de adoptie van hun standaard
 gebruiken: communicatief (voorlichting, promotie, etc.), financieel
 (implementatiesubsidies, financiering van voorbeeldprojecten, bieden
 van implementatietools, etc.) en juridisch (afdwingen, bijvoorbeeld
-via ‘pas toe of leg uit’). Het is van belang om het juiste middel te
+via 'pas toe of leg uit'). Het is van belang om het juiste middel te
 kiezen. Dit is afhankelijk van de zogenaamde adoptiekans in het
 netwerk van organisaties (collectieve business case) en voor
 individuele organisaties (business case voor individuele
