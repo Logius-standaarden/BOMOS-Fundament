@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - en
 jobs:
   build:
     name: Build
@@ -12,7 +13,7 @@ jobs:
   check:
     needs: build
     name: Check
-    uses: Logius-standaarden/Automatisering/.github/workflows/check.yml@main    
+    uses: Logius-standaarden/Automatisering/.github/workflows/check.yml@main
   publish:
     needs: build
     name: Publish (Logius)
