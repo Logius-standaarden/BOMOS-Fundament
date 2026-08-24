@@ -36,5 +36,6 @@ loadRespecWithConfiguration({
   publishVersion: "3.0.2",
   shortName: "fundament",
   specStatus: "WV",
-  specType: "HR"
+  specType: "HR",
+  spellcheck: false,
 });

@@ -11,7 +11,7 @@ jobs:
     name: Build
     uses: Logius-standaarden/Automatisering/.github/workflows/build.yml@main
     with:
-      workflow_input_file_names: '["index.html", "index_EN.html"]'
+      workflow_input_file_names: '["index.html", "index_en.html"]'
   update-cache:
     needs: build
     name: Update cache
@@ -22,11 +22,11 @@ jobs:
         with:
           path: ~/static
           key: ${{ github.run_id }}-index.html
-      - name: Restore cache for `index_EN.html`
+      - name: Restore cache for `index_en.html`
         uses: actions/cache/restore@v4
         with:
           path: ~/static
-          key: ${{ github.run_id }}-index_EN.html
+          key: ${{ github.run_id }}-index_en.html
       - name: Welke bestanden zijn er?
         run: ls ~/static
       - name: Save cache for both
