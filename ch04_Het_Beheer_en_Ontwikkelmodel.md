@@ -69,7 +69,7 @@ Onder de genoemde activiteiten verstaan we het volgende:
 
 **Tactiek**: Activiteiten die op middellang termijn voor stabiliteit zorgen:
 
-* Adoptie & erkenning: Activiteiten die te maken hebben met de certificiering, verplichtstelling of promotie van de standaard.
+* Adoptie & erkenning: Activiteiten die te maken hebben met de certificering, verplichtstelling of promotie van de standaard.
 * Architectuur: Opbouw van de standaard en de aangrenzende processen en technieken.
 * Community: Beheer en ondersteuning van gremia en stakeholders.
 * Kwaliteitsbeleid benchmarking: ontwikkeling van beleid dat toeziet op de kwaliteit van implementaties van de standaard.
@@ -84,8 +84,8 @@ Onder de genoemde activiteiten verstaan we het volgende:
 * Documentatie: verzorgen van passende neerslag van de resultaten van het primaire beheerproces. Niet alleen de beschikbaarheid van de specificaties, maar bijvoorbeeld ook de mogelijkheid bieden tot een historisch overzicht van verzoeken tot wijzigingen (maintenance requests) en de actuele status daarvan.
 
 **Implementatie-ondersteuning**, ondersteunende activiteiten gericht op het bevorderen van implementaties van de standaard, waaronder:
-* Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatiebijeenkomst totaan een (online) cursus.
-* Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een frequently asked questionslijst opstellen en bijhouden kan ook een helpdeskactiviteit zijn.
+* Opleiding: Het bieden van opleidingsmogelijkheden aan verschillende gebruikersgroepen variërend van een informatiebijeenkomst tot aan een (online) cursus.
+* Helpdesk: Het bieden van ondersteuning aan verschillende gebruikersgroepen, bijvoorbeeld telefonisch of per e-mail volgens een service level agreement (bijv. beantwoording van vragen binnen 24 uur). Een lijst met veelgestelde vragen opstellen en bijhouden kan ook een helpdeskactiviteit zijn.
 * Module-ontwikkeling: (Stimuleren van) de ontwikkeling van breed te verspreiden softwaremodules die de standaard implementeren. Dit kan door het stimuleren van de markt om software te ontwikkelen, of, als de markt niet beweegt, zelf software te ontwikkelen en te verspreiden om de markt in beweging te krijgen.
 * Pilot: Proeven met de implementatie van de specificaties. Bij sommige standaardisatieorganisaties is het verplicht dat er 1 of meerdere pilots zijn geweest voordat de standaard officieel vrijgegeven wordt.
 * Validatie & Certificatie: Het bieden van mogelijkheden om de correctheid van de implementaties te testen (validatie). Daaraan kan een officieel traject verbonden worden dat leidt tot certificatie van een organisatie of product. Ook verplicht stellen van het doorlopen van validatie en certificatietrajecten behoort tot de mogelijkheden. Module-ontwikkeling en Certificatie zijn riskante activiteiten, waarmee er actief ingegrepen wordt in de markt. De uitvoering daarvan dient zorgvuldig te gebeuren en zoveel mogelijk buiten de eigen organisatie.
@@ -158,8 +158,8 @@ standaarden", en is hier in licht aangepaste versie overgenomen.
   van deze gebruikers zijn leveranciers van componenten (vaak
   applicaties), of gebruikers van deze applicaties (indirect).
 
-Van bovenstaande rollen kunnen de financier-rol, de expert-rol, de
-gebruikers-rol en de eindgebruikers-rol meervoudig worden ingevuld:
+Van bovenstaande rollen kunnen de financier, de expert, de
+gebruikers en de eindgebruikers rollen meervoudig worden ingevuld:
 meer dan één persoon of organisatie kan de rol van financier, expert,
 gebruiker of eindgebruiker vervullen. Meervoudigheid betekent hier ook
 dat de stakeholders die deze rollen invullen een ander belang of
@@ -257,10 +257,10 @@ niet alle gebruikers beschikken over een volwaardig kennisniveau van
 de standaard. Beheer betekent in deze fase ook de ondersteuning en het
 informeren van de gebruikers. Marketingtermen als 'early majority'
 zijn in deze fase van toepassing. Uw activiteiten zijn gericht op meer
-professionele adoptie en professionalisatie van de open
+professionele adoptie en professionalisering van de open
 beheerprocessen, zodat bij opschaling van het gebruik alle partijen
 aangehaakt blijven en de processen transparant verlopen. Registraties
-van gebruikers/ afnemers/ experts etc. worden steeds belangrijker.
+van gebruikers/afnemers/experts etc. worden steeds belangrijker.
 
 Van organische adoptie is sprake als diverse (individuele) partijen
 besluiten een standaard te gaan toepassen. Tijdens deze fase zullen

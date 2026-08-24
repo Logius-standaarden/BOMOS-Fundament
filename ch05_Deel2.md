@@ -23,7 +23,7 @@ De activiteiten uit het Beheer- en Ontwikkelmodel worden uitgevoerd in
 een organisatiestructuur, welke vaak bestaat uit een
 uitvoeringsorganisatie die opdrachten ontvangt vanuit het bestuur. De
 uitvoeringsorganisatie werkt met werkgroepen om de opdrachten in te
-vullen. Naast de werkgroepen kunnen nog aparte leveranciers- en/of
+vullen. Naast de werkgroepen kunnen nog aparte overleggen met leveranciers en/of
 adviesorganen worden opgericht. De beheer- en ontwikkelactiviteiten
 kunnen belegd worden bij een eigen organisatie, maar voor specifieke
 taken kan ook een beroep worden gedaan op andere organisaties zoals
@@ -74,7 +74,7 @@ inzetten.
 
 Semantische standaarden zijn uitermate complex door de relaties met
 andere standaarden. Om interoperabiliteit te behalen is allereerst een
-combinatie nodig van technische, syntax- en semantische
+combinatie nodig van technische, syntax en semantische
 standaarden. Semantische standaarden zijn te herkennen in zogenaamde
 horizontale en verticale (domein)standaarden. Daarnaast is er een
 onderscheid tussen de internationale standaarden, en de nationale

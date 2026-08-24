@@ -37,7 +37,7 @@ Eind 2018 organiseerde Logius een sessie rond het gebruik van BOMOS;
 een inspirerende sessie met zo'n 40 deelnemers, die zo'n 30
 verschillende organisaties representeerde die allen BOMOS (in meer of
 mindere mate) gebruikten. Als wens kwam naar voren om deze nieuwe
-versie te maken….maar ja, wie gaat dat dan doen? Wij staken de hand
+versie te maken…. Maar ja, wie gaat dat dan doen? Wij staken de hand
 op, en zijn aan de slag gegaan, met als doel niet om veel aan BOMOS te
 veranderen, maar om deze ene integraal nieuwe versie te maken, die al
 het andere vervangt, en daarnaast een toets op actualiteit heeft
@@ -46,9 +46,6 @@ gehad; immers de standaardisatiewereld heeft niet stilgestaan.
 De tijd zal het leren of wij wel succesvol het eerdere werk hebben
 vervangen met deze versie, of dat wij ook gewoon in de valkuil zijn
 getrapt.
-
-Erwin Folmer & Gül Işik & Edwin Wisse
-Maart 2022
 
 ## De 13 BOMOS "geboden"
 
@@ -64,14 +61,14 @@ Maart 2022
     inrichting van ontwikkel- en beheerproces.”
 7. “Een duurzame standaard wil zeggen open en beheerd.”
 8. “Het lelijke van standaarden is dat er al zoveel zijn; hergebruik
-    is cruciaal (geïnspireerd door Professor Tanenbaum:"The nice thing
-    about standards is that you have so many to choose from".”)
+    is cruciaal <span class="remove-for-spellcheck">(geïnspireerd door Professor Tanenbaum: "The nice thing
+    about standards is that you have so many to choose from".”)</span>
 9. “Het beheren van standaarden kent veel overeenkomsten met andere
     _artefacten_ (stelselafspraken, data, api's, ...) waardoor BOMOS
     ook bruikbaar is in andere contexten.”
 10. “Een standaard is niet goed of slecht, open of gesloten, etc.;
     er zijn vele tinten grijs, en altijd verbeterpunten.”
-11. “Zonder standaarden waren er geen pyramides (standaarden zijn al
+11. “Zonder standaarden waren er geen piramides (standaarden zijn al
     zo oud als de mensheid)”
 12. “Standaarden, toegepast in architectuur, vormen de basis van
     interoperabiliteit.”
@@ -107,7 +104,7 @@ opstellen van het Beheer- en OntwikkelModel voor Open Standaarden
 voor het beheer. Sindsdien wordt BOMOS in de praktijk gebruikt, en is
 er bij de gebruikers behoefte ontstaan om meer kennis en ervaringen te
 delen rond het beheer van standaarden.  Andere vraagstukken, zoals het
-verbeteren van interoperaliteit met standaarden, de transparantie en
+verbeteren van interoperabiliteit met standaarden, de transparantie en
 beheersbaarheid van een standaard zijn toegevoegd. En ook wordt BOMOS
 gebruikt als gemeenschappelijke taal in de standaardisatiewereld.
 
@@ -215,7 +212,7 @@ iets opgenomen wordt als BOMOS aanvullende module.
 
 ## Leeswijzer
 
-Bent u vanuit een beleidsmakende of besturende rol alleen op
+Bent u vanuit een beleidsmakers of besturende rol alleen op
 hoofdniveau geïnteresseerd, dan biedt het fundament (deel 1) voldoende
 achtergrond en context. Bent u zelf actief in
 standaardisatiecommunities dan kunt u naadloos doorgaan met het lezen
