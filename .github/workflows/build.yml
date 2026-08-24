@@ -37,7 +37,7 @@ jobs:
   check:
     needs: update-cache
     name: Check
-    uses: Logius-standaarden/Automatisering/.github/workflows/check.yml@main
+    uses: Logius-standaarden/Automatisering/.github/workflows/check.yml@sta-engelse-standaard-toe
   publish:
     needs: update-cache
     name: Publish (Logius)
