@@ -33,7 +33,7 @@ Ter afsluiting van deel 1, drie concrete tips:
 
 1. Beschrijf de invulling van het takenpakket op basis van het BOMOS activiteitenmodel. (BOMOS Compliant)
 2. Creëer continuïteit van ontwikkeling en beheer van een standaard door:
-   1. Het zorgdragen voor een stabiel/structureel financieringsmodel.
+   1. Het zorg dragen voor een stabiel/structureel financieringsmodel.
    2. Het beleggen van kerntaken bij een structurele not-for-profit organisatie.
 3. Zie openheid als een middel om de kwaliteit te verhogen, en adoptie te vereenvoudigen: gebruik [de 10 punten van Krechmer](https://logius-standaarden.github.io/BOMOS-Verdieping/index.html#krechmer-s-open-standaarden-model-10-requirements) voor het zoeken naar verbeteringen in openheid.
 

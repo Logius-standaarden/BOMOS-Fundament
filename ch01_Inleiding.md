@@ -110,7 +110,7 @@ gebruikt als gemeenschappelijke taal in de standaardisatiewereld.
 
 ## Doelgroep
 
-Met BOMOS worden standaardisatiecommunities en hun opdrachtgevers
+Met BOMOS worden standaardisatie communities en hun opdrachtgevers
 ondersteund en geïnspireerd bij het structureel vormgeven van het
 beheer en verdere ontwikkelingen van standaarden. Op basis van
 praktische inzichten wordt deze doelgroep bedient met eenvoudige en
@@ -215,7 +215,7 @@ iets opgenomen wordt als BOMOS aanvullende module.
 Bent u vanuit een beleidsmakers of besturende rol alleen op
 hoofdniveau geïnteresseerd, dan biedt het fundament (deel 1) voldoende
 achtergrond en context. Bent u zelf actief in
-standaardisatiecommunities dan kunt u naadloos doorgaan met het lezen
+standaardisatie communities dan kunt u naadloos doorgaan met het lezen
 van deel 2: De Verdieping met best practices, waarin meer achtergrond
 en praktische tips rond standaardisatie zijn opgenomen.
 
