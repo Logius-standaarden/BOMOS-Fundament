@@ -9,7 +9,7 @@ Daarbij zijn verschillende vraagstukken te herkennen, zoals:
 Bijvoorbeeld over:
 
 * Adoptie: hoe stimuleer je dat?
-* Open: Ik hoor over ‘openheid’, maar wat betekent dat?
+* Open: Ik hoor over 'openheid', maar wat betekent dat?
 * Business case: Wat levert het uiteindelijk op?
 * Financiering: Wat kost het nou? En wat zijn goede inkomstenbronnen?  
 * De kwaliteit van de standaard, als die leidt tot problemen of ontevredenheid.
@@ -23,7 +23,7 @@ De activiteiten uit het Beheer- en Ontwikkelmodel worden uitgevoerd in
 een organisatiestructuur, welke vaak bestaat uit een
 uitvoeringsorganisatie die opdrachten ontvangt vanuit het bestuur. De
 uitvoeringsorganisatie werkt met werkgroepen om de opdrachten in te
-vullen. Naast de werkgroepen kunnen nog aparte leveranciers- en/of
+vullen. Naast de werkgroepen kunnen nog aparte overleggen met leveranciers en/of
 adviesorganen worden opgericht. De beheer- en ontwikkelactiviteiten
 kunnen belegd worden bij een eigen organisatie, maar voor specifieke
 taken kan ook een beroep worden gedaan op andere organisaties zoals
@@ -74,7 +74,7 @@ inzetten.
 
 Semantische standaarden zijn uitermate complex door de relaties met
 andere standaarden. Om interoperabiliteit te behalen is allereerst een
-combinatie nodig van technische, syntax- en semantische
+combinatie nodig van technische, syntax en semantische
 standaarden. Semantische standaarden zijn te herkennen in zogenaamde
 horizontale en verticale (domein)standaarden. Daarnaast is er een
 onderscheid tussen de internationale standaarden, en de nationale
@@ -108,7 +108,7 @@ standaardisatieorganisaties willen daarom de adoptie van hun standaard
 gebruiken: communicatief (voorlichting, promotie, etc.), financieel
 (implementatiesubsidies, financiering van voorbeeldprojecten, bieden
 van implementatietools, etc.) en juridisch (afdwingen, bijvoorbeeld
-via ‘pas toe of leg uit’). Het is van belang om het juiste middel te
+via 'pas toe of leg uit'). Het is van belang om het juiste middel te
 kiezen. Dit is afhankelijk van de zogenaamde adoptiekans in het
 netwerk van organisaties (collectieve business case) en voor
 individuele organisaties (business case voor individuele

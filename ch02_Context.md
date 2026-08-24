@@ -10,14 +10,13 @@ alleen kostbaar, maar kan ook leiden tot langere doorlooptijden, zoals
 verschillende onderzoeken laten zien. Zo worden de kosten van gebrek
 aan interoperabiliteit in de automobielindustrie in de Verenigde
 Staten geschat op 1 miljard dollar, en een twee maanden langere
-ontwerptijd dan strikt noodzakelijk (Zie: Brunnermeier, S.B. &
-S.A. Martin (2002). Interoperability costs in the US automotive supply
-chain. Supply Chain Management 7(2), pp. 71-82.). Ook de overheid
+ontwerptijd dan strikt noodzakelijk [[Automotive-interoperability]]
+(Supply Chain Management 7(2), pp. 71-82.). Ook de overheid
 heeft belang bij het nastreven van interoperabiliteit, maar heeft nog
-een extra reden ondermeer vanuit maatschappelijk oogpunt. Denk aan de
+een extra reden onder meer vanuit maatschappelijk oogpunt. Denk aan de
 consequenties bij een ramp wanneer de verschillende
 hulpdienstorganisaties niet interoperabel met elkaar zouden
-zijn. Daarnaast doen zich bij thema’s als het elektronisch
+zijn. Daarnaast doen zich bij thema's als het elektronisch
 patiëntendossier en de problematiek rond risicojongeren ook
 interoperabiliteitsvraagstukken voor.
 
@@ -30,25 +29,25 @@ als leidraad gehanteerd.  Hierin wordt onderscheid gemaakt tussen
 technische en semantische interoperabiliteit, waarmee ook een
 onderscheid te maken is tussen technische en semantische standaarden.
 De technische (infrastructureel) georiënteerde standaarden kunnen
-veelal één-op-één overgenomen worden van internationale consortia
+veelal een-op-een overgenomen worden van internationale consortia
 zoals W3C, UN/CEFACT, ETSI, ISO, CEN en IETF.
 
 Standaarden van semantische aard vereisen vaak een regionaal profiel
-zodat rekening kan worden gehouden met specifieke implemenatieeisen.
+zodat rekening kan worden gehouden met specifieke implemenatie-eisen.
 Zo zijn er Nederlandse gebruikersgroepen (communities) actief voor het
-ontwikkelen van nationale profielen op internationale standarden.
+ontwikkelen van nationale profielen op internationale standaarden.
 In de context van Nederlandse wetgeving en/of Nederlandse specifieke
-bedrijfs(overheids)-processen is het namelijk noodzakelijk om
+bedrijfs(overheids)processen is het namelijk noodzakelijk om
 internationale standaarden toe te spitsen op de Nederlandse situatie.
 
-(Bedrijfs)Transactie standaarden, vocabulaires (waardelijsten) of
+(Bedrijfs-)Transactie standaarden, vocabulaires (waardelijsten) of
 dossiers (bv. patiëntendossier) zijn ook voorbeelden van semantische
 standaarden. Andere kenmerken van semantische standaarden zijn:
 
 * Het zijn vaak specifieke invullingen van een internationale standaard.
 * Ze zijn vaak voor een specifiek inhoudelijk probleem:
-  * Bijv. ‘verticaal’: informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
-  * Bijv. ‘horizontaal’ informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
+  * Bijv. 'verticaal': informatie-uitwisseling voor een bepaalde sector: Geo-domein, Onderwijs, Zorg, etc.
+  * Bijv. 'horizontaal' informatie-uitwisseling voor een bepaalde functie: Inkoop, Facturatie, etc.
 * Ze worden vaak ontwikkeld en beheerd in het domein (de sector), en niet door formele standaardisatieorganisaties.
 * De kern van de standaard is de semantiek (de betekenis), niet de techniek.
 
@@ -56,7 +55,7 @@ Een semantische standaard staat nooit op zichzelf en heeft vaak
 meerdere relaties met andere internationale standaarden, waaronder ook
 technische standaarden. Vaak zien we ook een gelaagdheid binnen de
 semantische standaard: De internationale semantische standaard die de
-basissemantiek standaardiseert voor een bepaald probleemdomein en
+basis semantiek standaardiseert voor een bepaald probleemdomein en
 ruimte biedt om in een specifieke context (zoals een land) nog extra
 afspraken te standaardiseren. Deze extra afspraken bovenop de
 internationale standaarden worden soms een toepassingsprofiel genoemd,
@@ -113,10 +112,7 @@ betekent niet dat de semantische standaardisatiediscipline niet kan
 leren van andere disciplines, zoals de software-wereld. Modellen uit
 die disciplines kunnen bruikbaar zijn. Met name het BiSL-raamwerk voor
 functioneel beheer is in enige mate bruikbaar, en deze is dan ook
-meegenomen in de totstandkoming van BOMOS (Voor meer informatie over
-BiSL: Best Practice - BiSL – Een framework voor Functioneel Beheer en
-Informatiemanagement , Remko van der Pols, Ralph Donatz, Frank van
-Outvorst, Van Haren Publishing, 2005.).
+meegenomen in de totstandkoming van BOMOS [[BISL]].
 
 BOMOS is initieel ontwikkeld voor semantische standaarden; deze focus
 is nog regelmatig terug te vinden in onder meer [de best practices in
@@ -175,8 +171,8 @@ dit goed te definiëren. In BOMOS hanteren we een definitie die in de
 startperiode van het European Interoperability Framework werd
 gehanteerd en ook door de Nederlandse overheid werd overgenomen. Later
 zijn aanpassingen, en met name afzwakkingen geïntroduceerd, maar de
-oorspronkelijke definitie is relatief het meest open. Onder een ‘open
-standaard’ verstaan we een standaard die voldoet aan de volgende
+oorspronkelijke definitie is relatief het meest open. Onder een 'open
+standaard' verstaan we een standaard die voldoet aan de volgende
 eisen:
 1. De standaard is goedgekeurd en zal worden gehandhaafd door een
    not-for-profit organisatie, en de lopende ontwikkeling gebeurt op
@@ -223,7 +219,7 @@ https://www.bsigroup.com/en-GB/standards/Information-about-standards/how-are-sta
 Standardisation Handbook:  
 https://en.wikipedia.org/wiki/Open_standard
 
-Handreiking Standardisatie voor onderzoekers:
+Handreiking Standaardisatie voor onderzoekers:
 https://op.europa.eu/en/publication-detail/-/publication/db289e47-140b-11eb-b57e-01aa75ed71a1/
 
 Verplichte open standaarden in Nederland:

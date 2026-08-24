@@ -60,7 +60,7 @@ Er zijn een aantal mogelijkheden:
 
 <aside class="example" title="Geo-standaarden">
 In Nederland ontwikkelt en beheert Geonovum de basis geo-standaarden. 
-De geo-standaarden zijn opgenomen in de pas-toe-of-leg-uit-lijst van het 
+De geo-standaarden zijn opgenomen in de 'Pas toe of leg uit'-lijst van het
 Forum Standaardisatie, waarvoor wij in 2014 het predicaat uitstekend beheer 
 ontvingen, mede omdat wij de geo-standaarden beheren conform 
 BOMOS. Geo-standaarden zorgen ervoor dat we geo-informatie digitaal kunnen 
@@ -76,7 +76,7 @@ beheerplan en wijzigingsprotocol als voor de specifieke domeinstandaarden.  
 <aside class="example" title="De Thesaurus en Ontologie voor OverheidsInformatie">
 TOOI (Thesaurus en Ontologie voor OverheidsInformatie) is een model van de informatie die gepubliceerd wordt door alle organisaties binnen de Nederlandse overheid. Met behulp van het TOOI-model kan die informatie in samenhang vindbaar gemaakt worden over organisaties en informatiesystemen heen.
 
-Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema’s uit BOMOS (Strategie, Tactiek, Operationeel, Implementatieondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
+Het TOOI-beheerplan beschrijft hoe de specificaties van TOOI worden beheerd. Het omvat zowel de beheerorganisatie als het huishoudelijk reglement. Het beheerplan TOOI is opgezet volgens de principes uit BOMOS. De invulling van de 5 thema's uit BOMOS (Strategie, Tactiek, Operationeel, Implementatieondersteuning en Communicatie) zijn uitgebreid beschreven op de [website](https://standaarden.overheid.nl/tooi/beheerplan).
 </aside>
 
 ## BOMOS als achtergrondinformatie ter inspiratie

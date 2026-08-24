@@ -3,6 +3,6 @@ import { baseConfig } from "./base-config.mjs";
 
 loadRespecWithConfiguration({
   ...baseConfig,
-  shortName: "fundament",
+  shortName: "fundament/en",
   spellcheck: false,
 });
